@@ -1,0 +1,25 @@
+{
+  "name": "africa-waste-observatory",
+  "version": "1.0.0",
+  "description": "Production-ready academic website on Africa-focused solid waste management",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite preview"
+  },
+  "keywords": [
+    "africa",
+    "waste-management",
+    "solid-waste",
+    "academic",
+    "research",
+    "sustainability"
+  ],
+  "author": "",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

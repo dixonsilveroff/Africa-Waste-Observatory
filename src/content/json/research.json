@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Circular Economy Approaches in African Waste Management: A Systematic Review",
+    "authors": ["Dr. Amina Okafor", "Prof. John Mensah", "Dr. Sarah Kimani"],
+    "year": 2024,
+    "abstract": "This systematic review examines circular economy principles applied to waste management across African cities. The study analyzes 150 case studies from 25 countries, identifying successful practices in waste reduction, reuse, and recycling that contribute to sustainable development.",
+    "topics": ["recycling", "policy", "circular-economy"],
+    "countries": ["Nigeria", "Ghana", "Kenya", "South Africa"],
+    "url": "#",
+    "featured": true,
+    "doi": "10.1234/awo.2024.001"
+  },
+  {
+    "id": 2,
+    "title": "Plastic Waste Management in Coastal Communities: Case Studies from East Africa",
+    "authors": ["Dr. Mohamed Hassan", "Dr. Grace Njeri"],
+    "year": 2024,
+    "abstract": "An in-depth analysis of plastic waste management practices in coastal communities across Kenya, Tanzania, and Mozambique. The research highlights innovative community-led initiatives and policy interventions that have reduced marine plastic pollution.",
+    "topics": ["recycling", "social"],
+    "countries": ["Kenya", "Tanzania", "Mozambique"],
+    "url": "#",
+    "featured": true,
+    "doi": "10.1234/awo.2024.002"
+  },
+  {
+    "id": 3,
+    "title": "Economic Impact of Waste-to-Energy Technologies in Sub-Saharan Africa",
+    "authors": ["Prof. Kwame Asante", "Dr. Fatima Diallo"],
+    "year": 2023,
+    "abstract": "This study evaluates the economic viability and social impacts of waste-to-energy technologies implemented in urban areas across Sub-Saharan Africa. Findings indicate significant potential for job creation and energy generation while addressing waste management challenges.",
+    "topics": ["technology", "policy"],
+    "countries": ["Ghana", "Senegal", "Ethiopia"],
+    "url": "#",
+    "featured": true,
+    "doi": "10.1234/awo.2023.015"
+  },
+  {
+    "id": 4,
+    "title": "Gender Dynamics in Informal Waste Collection: Perspectives from West Africa",
+    "authors": ["Dr. Aisha Bello", "Dr. Jean-Paul Kouassi"],
+    "year": 2023,
+    "abstract": "An ethnographic study exploring gender roles and economic opportunities in informal waste collection sectors across Nigeria, Côte d'Ivoire, and Burkina Faso.",
+    "topics": ["social", "policy"],
+    "countries": ["Nigeria", "Côte d'Ivoire", "Burkina Faso"],
+    "url": "#",
+    "featured": false,
+    "doi": "10.1234/awo.2023.022"
+  },
+  {
+    "id": 5,
+    "title": "Digital Technologies for Waste Collection Optimization in African Megacities",
+    "authors": ["Dr. Tunde Adeyemi", "Prof. Nadia El-Sayed"],
+    "year": 2024,
+    "abstract": "Analysis of IoT and AI-powered solutions for optimizing waste collection routes and schedules in Lagos, Cairo, and Kinshasa.",
+    "topics": ["technology"],
+    "countries": ["Nigeria", "Egypt", "DRC"],
+    "url": "#",
+    "featured": false,
+    "doi": "10.1234/awo.2024.008"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "National Waste Generation Data 2020-2024",
+    "description": "Comprehensive dataset covering waste generation rates across 54 African countries, including urban and rural breakdowns, waste composition analysis, and temporal trends.",
+    "format": "CSV, JSON",
+    "size": "25 MB",
+    "lastUpdated": "2024-11",
+    "downloadUrl": "#",
+    "license": "CC BY 4.0"
+  },
+  {
+    "title": "Recycling Facilities Database",
+    "description": "Geospatial database of recycling and waste processing facilities across Africa, including capacity, materials processed, and operational status.",
+    "format": "GeoJSON, Shapefile",
+    "size": "8 MB",
+    "lastUpdated": "2024-10",
+    "downloadUrl": "#",
+    "license": "CC BY 4.0"
+  },
+  {
+    "title": "Waste Management Policy Repository",
+    "description": "Compilation of national and municipal waste management policies, regulations, and strategic documents from African nations.",
+    "format": "PDF, Text",
+    "size": "120 MB",
+    "lastUpdated": "2024-09",
+    "downloadUrl": "#",
+    "license": "Open Access"
+  },
+  {
+    "title": "Plastic Waste Import-Export Statistics",
+    "description": "Annual statistics on plastic waste imports and exports for African countries, tracking transboundary waste movements.",
+    "format": "Excel, CSV",
+    "size": "5 MB",
+    "lastUpdated": "2024-08",
+    "downloadUrl": "#",
+    "license": "CC BY 4.0"
+  }
+]

@@ -1,0 +1,121 @@
+/* ========================================
+   Forms
+   ======================================== */
+
+.form-group {
+  margin-bottom: var(--spacing-lg);
+}
+
+label {
+  display: block;
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text);
+}
+
+label [aria-label="required"] {
+  color: var(--color-error);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="search"],
+input[type="number"],
+input[type="date"],
+textarea,
+select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-base);
+  background-color: var(--color-background);
+  transition: border-color var(--transition-fast);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(45, 106, 79, 0.1);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--color-text-lighter);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* Select Dropdown */
+select {
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%234a4a4a' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 12px;
+  padding-right: 2.5rem;
+  appearance: none;
+}
+
+/* Filters */
+.filters {
+  display: flex;
+  gap: var(--spacing-lg);
+  flex-wrap: wrap;
+  margin-bottom: var(--spacing-xl);
+  padding: var(--spacing-lg);
+  background-color: var(--color-background-alt);
+  border-radius: var(--radius-md);
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  min-width: 200px;
+}
+
+.filter-select {
+  width: auto;
+}
+
+/* Form Status Messages */
+#form-status {
+  margin-top: var(--spacing-md);
+  padding: var(--spacing-md);
+  border-radius: var(--radius-md);
+  display: none;
+}
+
+#form-status.success {
+  display: block;
+  background-color: #d1f4e0;
+  color: #1b6646;
+  border: 1px solid var(--color-success);
+}
+
+#form-status.error {
+  display: block;
+  background-color: #ffe5e7;
+  color: #7a0c15;
+  border: 1px solid var(--color-error);
+}
+
+/* Accessible Form Validation */
+input:invalid,
+textarea:invalid,
+select:invalid {
+  border-color: var(--color-border);
+}
+
+input:invalid:not(:placeholder-shown),
+textarea:invalid:not(:placeholder-shown) {
+  border-color: var(--color-error);
+}

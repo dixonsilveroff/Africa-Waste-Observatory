@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Waste Management Best Practices Guide",
+    "description": "Comprehensive guide covering best practices for municipal solid waste management in African contexts, including case studies and implementation frameworks.",
+    "type": "guide",
+    "url": "#",
+    "format": "PDF"
+  },
+  {
+    "title": "Community Recycling Starter Kit",
+    "description": "Step-by-step guide for establishing community-based recycling programs, including templates, checklists, and resource lists.",
+    "type": "guide",
+    "url": "#",
+    "format": "PDF"
+  },
+  {
+    "title": "Waste Composition Calculator",
+    "description": "Interactive tool for calculating waste composition percentages and estimating recycling potential based on local data inputs.",
+    "type": "tool",
+    "url": "#",
+    "format": "Web App"
+  },
+  {
+    "title": "Collection Route Optimizer",
+    "description": "GIS-based tool for optimizing waste collection routes to improve efficiency and reduce operational costs.",
+    "type": "tool",
+    "url": "#",
+    "format": "Web App"
+  },
+  {
+    "title": "UN Environment Programme - Waste Management",
+    "description": "Global resources and reports on waste management from UNEP, including Africa-specific analyses.",
+    "type": "external",
+    "url": "https://www.unep.org",
+    "organization": "UNEP"
+  },
+  {
+    "title": "African Union Development Agency - Environment",
+    "description": "Information on African Union initiatives and programs related to environmental protection and waste management.",
+    "type": "external",
+    "url": "https://au.int",
+    "organization": "African Union"
+  },
+  {
+    "title": "Global Alliance for Incinerator Alternatives",
+    "description": "Resources on zero waste strategies and alternatives to incineration for waste management.",
+    "type": "external",
+    "url": "https://www.no-burn.org",
+    "organization": "GAIA"
+  }
+]
