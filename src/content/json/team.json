@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Dr. Amina Okafor",
+    "role": "Director & Senior Research Fellow",
+    "bio": "Dr. Okafor specializes in circular economy and sustainable waste management systems with over 15 years of experience across African contexts.",
+    "photo": "/images/team/placeholder.jpg",
+    "email": "a.okafor@africa-waste-observatory.org"
+  },
+  {
+    "name": "Prof. John Mensah",
+    "role": "Lead Researcher - West Africa",
+    "bio": "Professor Mensah focuses on policy analysis and institutional frameworks for waste management in West African nations.",
+    "photo": "/images/team/placeholder.jpg",
+    "email": "j.mensah@africa-waste-observatory.org"
+  },
+  {
+    "name": "Dr. Sarah Kimani",
+    "role": "Data Science Lead",
+    "bio": "Dr. Kimani leads the data collection and analysis efforts, developing innovative methodologies for waste management metrics.",
+    "photo": "/images/team/placeholder.jpg",
+    "email": "s.kimani@africa-waste-observatory.org"
+  },
+  {
+    "name": "Dr. Mohamed Hassan",
+    "role": "Senior Researcher - East Africa",
+    "bio": "Dr. Hassan's research focuses on coastal and marine waste management with expertise in community-based approaches.",
+    "photo": "/images/team/placeholder.jpg",
+    "email": "m.hassan@africa-waste-observatory.org"
+  }
+]

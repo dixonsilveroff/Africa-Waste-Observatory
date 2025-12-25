@@ -1,0 +1,92 @@
+/* ========================================
+   Home Page
+   ======================================== */
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 100%);
+  color: #ffffff;
+  padding: var(--spacing-3xl) 0;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h2 {
+  color: #ffffff;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin-bottom: var(--spacing-lg);
+}
+
+.hero-description {
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-loose);
+  margin-bottom: var(--spacing-xl);
+  opacity: 0.95;
+}
+
+.hero-actions {
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* CTA Section */
+.cta-section {
+  background-color: var(--color-background-alt);
+  text-align: center;
+}
+
+.cta-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.cta-section h2 {
+  margin-bottom: var(--spacing-md);
+}
+
+.cta-section p {
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--spacing-xl);
+  color: var(--color-text-light);
+}
+
+/* Stats Section */
+.stats-section {
+  background-color: var(--color-background);
+}
+
+.stats-section h2 {
+  text-align: center;
+  margin-bottom: var(--spacing-2xl);
+}
+
+/* Featured Section */
+.featured-section {
+  background-color: var(--color-background-alt);
+}
+
+.featured-section h2 {
+  text-align: center;
+  margin-bottom: var(--spacing-2xl);
+}
+
+.section-footer {
+  text-align: center;
+  margin-top: var(--spacing-2xl);
+}
+
+/* Intro Section */
+.intro-section {
+  background-color: var(--color-background);
+}
+
+.intro-content {
+  max-width: 900px;
+  margin: 0 auto;
+}

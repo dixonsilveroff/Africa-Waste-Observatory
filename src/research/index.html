@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Research publications, studies, and academic papers on solid waste management in Africa.">
+  <title>Research - Africa Waste Observatory</title>
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-content">
+        <div class="site-branding">
+          <h1 class="site-title">
+            <a href="/" aria-label="Africa Waste Observatory Home">Africa Waste Observatory</a>
+          </h1>
+          <p class="site-tagline">Advancing Solid Waste Management Research in Africa</p>
+        </div>
+        
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger"></span>
+        </button>
+        
+        <nav class="main-navigation" role="navigation" aria-label="Main navigation">
+          <ul class="nav-menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/research/" aria-current="page">Research</a></li>
+            <li><a href="/data/">Data</a></li>
+            <li><a href="/resources/">Resources</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  
+  <main id="main-content" role="main">
+    <div class="container">
+      <header class="page-header">
+        <h1>Research Publications</h1>
+        <p class="page-description">Explore our collection of research papers, studies, and academic publications on solid waste management in Africa.</p>
+      </header>
+      
+      <section class="content-section">
+        <div class="filters" role="search" aria-label="Filter research">
+          <div class="filter-group">
+            <label for="topic-filter">Topic:</label>
+            <select id="topic-filter" class="filter-select">
+              <option value="all">All Topics</option>
+              <option value="recycling">Recycling</option>
+              <option value="policy">Policy</option>
+              <option value="technology">Technology</option>
+              <option value="social">Social Impact</option>
+            </select>
+          </div>
+          
+          <div class="filter-group">
+            <label for="country-filter">Country:</label>
+            <select id="country-filter" class="filter-select">
+              <option value="all">All Countries</option>
+            </select>
+          </div>
+          
+          <div class="filter-group">
+            <label for="year-filter">Year:</label>
+            <select id="year-filter" class="filter-select">
+              <option value="all">All Years</option>
+            </select>
+          </div>
+        </div>
+        
+        <div id="research-list" class="research-list">
+          <!-- Research items loaded from JSON -->
+        </div>
+      </section>
+    </div>
+  </main>
+  
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h3>Africa Waste Observatory</h3>
+          <p>Advancing research and knowledge on solid waste management in Africa.</p>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="/about/">About</a></li>
+            <li><a href="/research/">Research</a></li>
+            <li><a href="/data/">Data</a></li>
+            <li><a href="/resources/">Resources</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Legal</h3>
+          <ul class="footer-links">
+            <li><a href="/privacy/">Privacy Policy</a></li>
+            <li><a href="/terms/">Terms of Use</a></li>
+            <li><a href="https://github.com/dixonsilveroff/Africa-Waste-Observatory">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Africa Waste Observatory. Licensed under <a href="/LICENSE">GPL-3.0</a>.</p>
+      </div>
+    </div>
+  </footer>
+  
+  <script type="module" src="/scripts/research.js"></script>
+</body>
+</html>

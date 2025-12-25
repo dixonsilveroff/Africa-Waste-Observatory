@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Data and statistics on solid waste management across Africa. Interactive visualizations and datasets.">
+  <title>Data - Africa Waste Observatory</title>
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-content">
+        <div class="site-branding">
+          <h1 class="site-title">
+            <a href="/" aria-label="Africa Waste Observatory Home">Africa Waste Observatory</a>
+          </h1>
+          <p class="site-tagline">Advancing Solid Waste Management Research in Africa</p>
+        </div>
+        
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger"></span>
+        </button>
+        
+        <nav class="main-navigation" role="navigation" aria-label="Main navigation">
+          <ul class="nav-menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/research/">Research</a></li>
+            <li><a href="/data/" aria-current="page">Data</a></li>
+            <li><a href="/resources/">Resources</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  
+  <main id="main-content" role="main">
+    <div class="container">
+      <header class="page-header">
+        <h1>Data & Statistics</h1>
+        <p class="page-description">Access comprehensive data and statistics on solid waste management across Africa.</p>
+      </header>
+      
+      <section class="content-section" aria-labelledby="overview-heading">
+        <h2 id="overview-heading">Data Overview</h2>
+        <div id="data-overview" class="data-overview">
+          <!-- Data overview loaded from JSON -->
+        </div>
+      </section>
+      
+      <section class="content-section" aria-labelledby="datasets-heading">
+        <h2 id="datasets-heading">Available Datasets</h2>
+        <div id="datasets-list" class="datasets-list">
+          <!-- Datasets loaded from JSON -->
+        </div>
+      </section>
+      
+      <section class="content-section" aria-labelledby="visualization-heading">
+        <h2 id="visualization-heading">Key Visualizations</h2>
+        <div id="data-visualizations" class="visualizations-grid">
+          <!-- Visualizations placeholder -->
+          <div class="viz-placeholder">
+            <p>Data visualizations will be displayed here. Connect your preferred charting library (Chart.js, D3.js, etc.) for interactive charts.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h3>Africa Waste Observatory</h3>
+          <p>Advancing research and knowledge on solid waste management in Africa.</p>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="/about/">About</a></li>
+            <li><a href="/research/">Research</a></li>
+            <li><a href="/data/">Data</a></li>
+            <li><a href="/resources/">Resources</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Legal</h3>
+          <ul class="footer-links">
+            <li><a href="/privacy/">Privacy Policy</a></li>
+            <li><a href="/terms/">Terms of Use</a></li>
+            <li><a href="https://github.com/dixonsilveroff/Africa-Waste-Observatory">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Africa Waste Observatory. Licensed under <a href="/LICENSE">GPL-3.0</a>.</p>
+      </div>
+    </div>
+  </footer>
+  
+  <script type="module" src="/scripts/data.js"></script>
+</body>
+</html>
