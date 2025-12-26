@@ -1,6 +1,6 @@
 # Africa Waste Observatory
 
-A production-ready, static-first, content-heavy academic website focused on solid waste management research and data across Africa.
+A production-ready, static-first, content-heavy academic website focused on waste management research and data across Africa.
 
 ## 🌍 Overview
 

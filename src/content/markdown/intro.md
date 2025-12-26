@@ -1,6 +1,6 @@
 # Welcome to the Africa Waste Observatory
 
-The Africa Waste Observatory is a comprehensive platform dedicated to advancing research, knowledge, and practice in solid waste management across the African continent.
+The Africa Waste Observatory is a comprehensive platform dedicated to advancing research, knowledge, and practice in waste management across the African continent.
 
 ## Our Mission
 
@@ -17,7 +17,7 @@ The Observatory serves as a central hub for:
 
 ## Why It Matters
 
-Effective solid waste management is crucial for:
+Effective waste management is crucial for:
 
 - Public health and environmental protection
 - Economic development and job creation

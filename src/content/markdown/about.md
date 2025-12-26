@@ -6,7 +6,7 @@ To become the leading platform for waste management research and knowledge excha
 
 ## Our Mission
 
-The Africa Waste Observatory aims to advance solid waste management practices through:
+The Africa Waste Observatory aims to advance waste management practices through:
 
 - Comprehensive research and data collection
 - Knowledge dissemination and capacity building
@@ -23,7 +23,7 @@ We employ a multi-faceted approach to address waste management challenges:
 
 ### Research Excellence
 
-We conduct and publish rigorous academic research on all aspects of solid waste management, from collection and sorting to treatment and disposal.
+We conduct and publish rigorous academic research on all aspects of waste management, from collection and sorting to treatment and disposal.
 
 ### Data-Driven Insights
 
