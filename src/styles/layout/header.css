@@ -52,12 +52,21 @@
   width: 2.5rem;
   height: 2.5rem;
   padding: 0.5rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
   border-radius: var(--radius-sm);
   transition: background-color var(--transition-fast);
+  z-index: calc(var(--z-sticky) + 1);
 }
 
 .mobile-menu-toggle:hover {
   background-color: var(--color-background-alt);
+}
+
+.mobile-menu-toggle:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
 }
 
 .mobile-menu-toggle .hamburger {
@@ -136,8 +145,17 @@
 
 /* Mobile Navigation */
 @media (max-width: 768px) {
+  .header-content {
+    position: relative;
+  }
+
+  .site-tagline {
+    display: none;
+  }
+  
   .mobile-menu-toggle {
     display: block;
+    order: 2;
   }
   
   .main-navigation {
@@ -148,22 +166,64 @@
     background-color: var(--color-background);
     border-bottom: 1px solid var(--color-border);
     box-shadow: var(--shadow-md);
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height var(--transition-base);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity var(--transition-base), 
+                transform var(--transition-base),
+                visibility var(--transition-base);
   }
   
   .main-navigation.active {
-    max-height: 500px;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
   }
   
   .nav-menu {
     flex-direction: column;
     align-items: stretch;
-    padding: var(--spacing-md) 0;
+    gap: 0;
+    padding: var(--spacing-sm) 0;
+  }
+  
+  .nav-menu li {
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .nav-menu li:last-child {
+    border-bottom: none;
   }
   
   .nav-menu a {
+    display: block;
     padding: var(--spacing-md) var(--spacing-lg);
+    border-radius: 0;
+  }
+
+  .nav-menu a:hover {
+    background-color: var(--color-primary);
+    color: #ffffff;
+  }
+
+  .nav-menu a[aria-current="page"] {
+    background-color: var(--color-background-alt);
+    border-left: 4px solid var(--color-primary);
+  }
+}
+
+/* Tablet adjustments */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .nav-menu {
+    gap: var(--spacing-md);
+  }
+
+  .nav-menu a {
+    padding: var(--spacing-sm);
+    font-size: var(--font-size-sm);
+  }
+
+  .site-tagline {
+    font-size: 0.75rem;
   }
 }
