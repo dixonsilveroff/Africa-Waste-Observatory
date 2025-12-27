@@ -2,9 +2,9 @@
 // About Page Script
 // ========================================
 
-import { initNavigation } from './modules/navigation.js';
-import { loadMarkdown } from './modules/content-loader.js';
-import { loadTeam } from './modules/data-loader.js';
+import { initNavigation } from '/src/scripts/modules/navigation.js';
+import { loadMarkdown } from '/src/scripts/modules/content-loader.js';
+import { loadTeam } from '/src/scripts/modules/data-loader.js';
 
 async function init() {
   try {
@@ -13,7 +13,7 @@ async function init() {
     // Load about content
     const aboutElement = document.getElementById('about-content');
     if (aboutElement) {
-      await loadMarkdown('/content/markdown/about.md', aboutElement);
+      await loadMarkdown('/src/content/markdown/about.md', aboutElement);
     }
     
     // Load team

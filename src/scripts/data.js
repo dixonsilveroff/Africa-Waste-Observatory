@@ -2,8 +2,8 @@
 // Data Page Script
 // ========================================
 
-import { initNavigation } from './modules/navigation.js';
-import { loadDatasets } from './modules/data-loader.js';
+import { initNavigation } from '/src/scripts/modules/navigation.js';
+import { loadDatasets } from '/src/scripts/modules/data-loader.js';
 
 async function init() {
   try {

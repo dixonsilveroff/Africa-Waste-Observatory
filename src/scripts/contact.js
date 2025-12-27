@@ -2,7 +2,7 @@
 // Contact Page Script
 // ========================================
 
-import { initNavigation } from './modules/navigation.js';
+import { initNavigation } from '/src/scripts/modules/navigation.js';
 
 /**
  * Handle contact form submission

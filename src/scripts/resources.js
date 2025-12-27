@@ -2,8 +2,8 @@
 // Resources Page Script
 // ========================================
 
-import { initNavigation } from './modules/navigation.js';
-import { loadResources } from './modules/data-loader.js';
+import { initNavigation } from '/src/scripts/modules/navigation.js';
+import { loadResources } from '/src/scripts/modules/data-loader.js';
 
 async function init() {
   try {

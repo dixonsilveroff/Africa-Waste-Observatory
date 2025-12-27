@@ -29,7 +29,7 @@ async function fetchJSON(url) {
  */
 export async function loadStats(targetElement) {
   try {
-    const stats = await fetchJSON('/content/json/stats.json');
+    const stats = await fetchJSON('/src/content/json/stats.json');
     
     const statsHTML = stats.map(stat => `
       <div class="card stat-card">
@@ -51,7 +51,7 @@ export async function loadStats(targetElement) {
  */
 export async function loadFeaturedResearch(targetElement) {
   try {
-    const research = await fetchJSON('/content/json/research.json');
+    const research = await fetchJSON('/src/content/json/research.json');
     const featured = research.filter(item => item.featured).slice(0, 3);
     
     const researchHTML = featured.map(item => `
@@ -85,7 +85,7 @@ export async function loadFeaturedResearch(targetElement) {
  */
 export async function loadResearch(targetElement, filters = {}) {
   try {
-    const research = await fetchJSON('/content/json/research.json');
+    const research = await fetchJSON('/src/content/json/research.json');
     
     // Apply filters
     let filteredResearch = research;
@@ -141,7 +141,7 @@ export async function loadResearch(targetElement, filters = {}) {
  */
 export async function loadTeam(targetElement) {
   try {
-    const team = await fetchJSON('/content/json/team.json');
+    const team = await fetchJSON('/src/content/json/team.json');
     
     const teamHTML = team.map(member => `
       <div class="card team-card">
@@ -165,7 +165,7 @@ export async function loadTeam(targetElement) {
  */
 export async function loadDatasets(targetElement) {
   try {
-    const datasets = await fetchJSON('/content/json/datasets.json');
+    const datasets = await fetchJSON('/src/content/json/datasets.json');
     
     const datasetsHTML = datasets.map(dataset => `
       <div class="dataset-item">
@@ -193,7 +193,7 @@ export async function loadDatasets(targetElement) {
  */
 export async function loadResources(targetElement, type = 'all') {
   try {
-    const resources = await fetchJSON('/content/json/resources.json');
+    const resources = await fetchJSON('/src/content/json/resources.json');
     
     const filteredResources = type === 'all' 
       ? resources 

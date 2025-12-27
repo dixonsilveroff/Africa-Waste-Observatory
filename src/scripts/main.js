@@ -2,9 +2,9 @@
 // Main JavaScript Module
 // ========================================
 
-import { initNavigation } from './modules/navigation.js';
-import { loadMarkdown } from './modules/content-loader.js';
-import { loadStats, loadFeaturedResearch } from './modules/data-loader.js';
+import { initNavigation } from '/src/scripts/modules/navigation.js';
+import { loadMarkdown } from '/src/scripts/modules/content-loader.js';
+import { loadStats, loadFeaturedResearch } from '/src/scripts/modules/data-loader.js';
 
 /**
  * Initialize the application
@@ -31,7 +31,7 @@ async function loadHomeContent() {
     // Load introduction content from markdown
     const introElement = document.getElementById('intro-content');
     if (introElement) {
-      await loadMarkdown('/content/markdown/intro.md', introElement);
+      await loadMarkdown('/src/content/markdown/intro.md', introElement);
     }
     
     // Load statistics
