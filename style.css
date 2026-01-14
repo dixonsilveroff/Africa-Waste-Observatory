@@ -130,6 +130,73 @@ nav a:hover {
 .hero {
     padding: 5rem 2rem;
     background-color: var(--white);
+    position: relative;
+    overflow: hidden;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Carousel Background Styles */
+.carousel-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.carousel-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+    z-index: 1;
+}
+
+.carousel-slide.carousel-active {
+    opacity: 0.4;
+    z-index: 2;
+}
+
+/* Carousel Controls */
+.carousel-controls {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.75rem;
+    z-index: 10;
+}
+
+.carousel-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0;
+}
+
+.carousel-dot.carousel-active {
+    background-color: var(--white);
+    transform: scale(1.2);
+}
+
+.carousel-dot:hover {
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .hero-container {
@@ -139,6 +206,17 @@ nav a:hover {
     text-align: center;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 5;
+    padding: 2rem;
+}
+
+.hero-content {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
 }
 
 .hero-content h1 {

@@ -29,6 +29,14 @@
 
     <!-- Hero Section -->
     <section class="hero" id="home">
+        <!-- Carousel Background -->
+        <div class="carousel-background">
+            <div class="carousel-slide carousel-active" style="background-image: url('./assets/images/carousel/img%20(1).webp');"></div>
+            <div class="carousel-slide" style="background-image: url('./assets/images/carousel/img%20(2).webp');"></div>
+            <div class="carousel-slide" style="background-image: url('./assets/images/carousel/img%20(3).webp');"></div>
+            <div class="carousel-slide" style="background-image: url('./assets/images/carousel/img%20(4).webp');"></div>
+        </div>
+
         <div class="hero-container">
             <div class="hero-content">
                 <h1>Advancing Sustainable Waste Management in Africa</h1>
@@ -38,6 +46,14 @@
                     <button class="btn btn-secondary">Partner With Us</button>
                 </div>
             </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <div class="carousel-controls">
+            <button class="carousel-dot carousel-active" data-slide="0"></button>
+            <button class="carousel-dot" data-slide="1"></button>
+            <button class="carousel-dot" data-slide="2"></button>
+            <button class="carousel-dot" data-slide="3"></button>
         </div>
 
         <!-- Stats Section -->
@@ -178,5 +194,43 @@
             <p>&copy; 2026 Africa Waste Observatory. All rights reserved.</p>
         </div>
     </footer>
+
+    <script>
+        // Carousel functionality
+        const carousel = {
+            currentSlide: 0,
+            slides: document.querySelectorAll('.carousel-slide'),
+            dots: document.querySelectorAll('.carousel-dot'),
+            
+            init() {
+                // Add click listeners to dots
+                this.dots.forEach(dot => {
+                    dot.addEventListener('click', (e) => {
+                        this.currentSlide = parseInt(e.target.dataset.slide);
+                        this.updateCarousel();
+                    });
+                });
+                
+                // Auto-rotate carousel every 5 seconds
+                setInterval(() => {
+                    this.currentSlide = (this.currentSlide + 1) % this.slides.length;
+                    this.updateCarousel();
+                }, 5000);
+            },
+            
+            updateCarousel() {
+                // Remove active class from all slides and dots
+                this.slides.forEach(slide => slide.classList.remove('carousel-active'));
+                this.dots.forEach(dot => dot.classList.remove('carousel-active'));
+                
+                // Add active class to current slide and dot
+                this.slides[this.currentSlide].classList.add('carousel-active');
+                this.dots[this.currentSlide].classList.add('carousel-active');
+            }
+        };
+        
+        // Initialize carousel when DOM is ready
+        document.addEventListener('DOMContentLoaded', () => carousel.init());
+    </script>
 </body>
 </html>
