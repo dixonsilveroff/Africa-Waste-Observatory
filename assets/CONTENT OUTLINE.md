@@ -4,7 +4,7 @@
 
 ### **Africa Waste Observatory (AWO)**
 
-**Tracking, Managing, and Transforming Solid, Liquid, and Gaseous Waste Across Africa**
+**Tracking, Managing, and Transforming Waste Across Africa**
 
 A continental data and knowledge platform supporting sustainable waste management, circular economy development, and evidence-based policy and investment decisions across African countries.
 
@@ -30,7 +30,7 @@ The Africa Waste Observatory (AWO) serves as a central hub for consolidated cont
 
 The Africa Waste Observatory provides:
 
-* Standardized continental data on solid, liquid, and gaseous waste.  
+* Standardized continental data on solid, liquid, gaseous and other kinds of waste.  
 * Interactive dashboards for policy formulation, investment planning, and monitoring.  
 * Country profiles detailing generation, treatment, recycling, and emissions.  
 * Policy-relevant analysis and practical, scalable solutions.
