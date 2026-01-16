@@ -174,25 +174,30 @@ nav a:hover {
         left: 0;
         right: 0;
         background-color: var(--white);
-        flex-direction: column;
-        gap: 0;
+        flex-direction: column !important;
+        gap: 0 !important;
+        align-items: stretch !important;
         padding: 0;
         border-bottom: 1px solid var(--neutral-light);
         max-height: 0;
         overflow: hidden;
-        transition: max-height 0.3s ease;
-        display: flex;
+        transition: max-height 0.3s ease, opacity 0.3s ease;
+        opacity: 0;
+        visibility: hidden;
     }
 
     nav.active {
         max-height: 500px;
         padding: 1rem 0;
+        opacity: 1;
+        visibility: visible;
     }
 
     nav a {
         padding: 1rem 2rem;
         display: block;
         border-bottom: 1px solid var(--neutral-light);
+        text-align: center;
     }
 
     nav a:hover {
