@@ -18,14 +18,14 @@
                 <span></span>
             </button>
             <nav id="nav-menu">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#data">Data</a>
-                <a href="#research">Research</a>
-                <a href="#resources">Resources</a>
-                <select class="language-selector">
-                    <option>English</option>
-                    <option>Français</option>
+                <a href="#home" data-i18n="nav.home">Home</a>
+                <a href="#about" data-i18n="nav.about">About</a>
+                <a href="#data" data-i18n="nav.data">Data</a>
+                <a href="#research" data-i18n="nav.research">Research</a>
+                <a href="#resources" data-i18n="nav.resources">Resources</a>
+                <select class="language-selector" id="language-selector">
+                    <option value="en">English</option>
+                    <option value="fr">Français</option>
                 </select>
             </nav>
         </div>
@@ -43,11 +43,11 @@
 
         <div class="hero-container">
             <div class="hero-content">
-                <h1>Advancing Sustainable Waste Management in Africa</h1>
-                <p>The Africa Waste Observatory provides critical data and insights to support evidence-based policy-making, resource optimization, and environmental protection across the continent. Join us in building a greener future.</p>
+                <h1 data-i18n="hero.title">Advancing Sustainable Waste Management in Africa</h1>
+                <p data-i18n="hero.description">The Africa Waste Observatory provides critical data and insights to support evidence-based policy-making, resource optimization, and environmental protection across the continent. Join us in building a greener future.</p>
                 <div class="hero-buttons">
-                    <button class="btn btn-primary">Explore Observatory</button>
-                    <button class="btn btn-secondary">Partner With Us</button>
+                    <button class="btn btn-primary" data-i18n="hero.explore">Explore Observatory</button>
+                    <button class="btn btn-secondary" data-i18n="hero.partner">Partner With Us</button>
                 </div>
             </div>
         </div>
@@ -66,28 +66,28 @@
     <section class="core-objectives">
         <div class="core-objectives-container">
             <div class="section-title">
-                <h2>Our Core Objectives</h2>
+                <h2 data-i18n="objectives.title">Our Core Objectives</h2>
             </div>
             <div class="objectives-grid">
                 <div class="objective-card">
                     <div class="objective-icon">📊</div>
-                    <h4>Data Collection & Harmonization</h4>
-                    <p>Standardize waste data across Africa for coherent analysis.</p>
+                    <h4 data-i18n="objectives.data.title">Data Collection & Harmonization</h4>
+                    <p data-i18n="objectives.data.desc">Standardize waste data across Africa for coherent analysis.</p>
                 </div>
                 <div class="objective-card">
                     <div class="objective-icon">🎯</div>
-                    <h4>Policy Development Support</h4>
-                    <p>Provide evidence based insights to inform waste policy formulation.</p>
+                    <h4 data-i18n="objectives.policy.title">Policy Development Support</h4>
+                    <p data-i18n="objectives.policy.desc">Provide evidence based insights to inform waste policy formulation.</p>
                 </div>
                 <div class="objective-card">
                     <div class="objective-icon">⚗️</div>
-                    <h4>Innovation & Best Practices</h4>
-                    <p>Showcase and promote cutting-edge waste management solutions.</p>
+                    <h4 data-i18n="objectives.innovation.title">Innovation & Best Practices</h4>
+                    <p data-i18n="objectives.innovation.desc">Showcase and promote cutting-edge waste management solutions.</p>
                 </div>
                 <div class="objective-card">
                     <div class="objective-icon">🌱</div>
-                    <h4>Capacity Building & Training</h4>
-                    <p>Empower local communities with tools for sustainable practices.</p>
+                    <h4 data-i18n="objectives.capacity.title">Capacity Building & Training</h4>
+                    <p data-i18n="objectives.capacity.desc">Empower local communities with tools for sustainable practices.</p>
                 </div>
             </div>
         </div>
@@ -97,28 +97,28 @@
     <section class="explore">
         <div class="explore-container">
             <div class="section-title">
-                <h2>Explore the Observatory</h2>
+                <h2 data-i18n="explore.title">Explore the Observatory</h2>
             </div>
             <div class="explore-grid">
                 <div class="explore-card">
                     <div class="explore-icon">🌐</div>
-                    <h4>Country Profiles</h4>
-                    <p>Access country-specific waste profiles and statistics.</p>
+                    <h4 data-i18n="explore.countries.title">Country Profiles</h4>
+                    <p data-i18n="explore.countries.desc">Access country-specific waste profiles and statistics.</p>
                 </div>
                 <div class="explore-card">
                     <div class="explore-icon">♻️</div>
-                    <h4>Waste Streams</h4>
-                    <p>Analyze detailed data on various types of waste materials.</p>
+                    <h4 data-i18n="explore.streams.title">Waste Streams</h4>
+                    <p data-i18n="explore.streams.desc">Analyze detailed data on various types of waste materials.</p>
                 </div>
                 <div class="explore-card">
                     <div class="explore-icon">🔧</div>
-                    <h4>Technologies</h4>
-                    <p>Discover innovative waste processing and recycling technologies.</p>
+                    <h4 data-i18n="explore.tech.title">Technologies</h4>
+                    <p data-i18n="explore.tech.desc">Discover innovative waste processing and recycling technologies.</p>
                 </div>
                 <div class="explore-card">
                     <div class="explore-icon">📋</div>
-                    <h4>Policies</h4>
-                    <p>Review existing waste management policies and regulations.</p>
+                    <h4 data-i18n="explore.policies.title">Policies</h4>
+                    <p data-i18n="explore.policies.desc">Review existing waste management policies and regulations.</p>
                 </div>
             </div>
         </div>
@@ -128,32 +128,32 @@
     <section class="featured-insights">
         <div class="featured-insights-container">
             <div class="section-title">
-                <h2>Featured Insights & Highlights</h2>
+                <h2 data-i18n="insights.title">Featured Insights & Highlights</h2>
             </div>
             <div class="insights-grid">
                 <div class="insight-card">
-                    <h4>Significant reduction in plastic waste in coastal regions due to new initiatives.</h4>
+                    <h4 data-i18n="insights.plastic.title">Significant reduction in plastic waste in coastal regions due to new initiatives.</h4>
                     <div class="insight-stat">15%</div>
-                    <p class="caption">Plastic Waste Reduced</p>
-                    <div class="insight-source">Source: Environmental Agency Report</div>
+                    <p class="caption" data-i18n="insights.plastic.label">Plastic Waste Reduced</p>
+                    <div class="insight-source" data-i18n="insights.plastic.source">Source: Environmental Agency Report</div>
                 </div>
                 <div class="insight-card">
-                    <h4>Increase in recycling infrastructure investments across West Africa.</h4>
+                    <h4 data-i18n="insights.investment.title">Increase in recycling infrastructure investments across West Africa.</h4>
                     <div class="insight-stat">21%</div>
-                    <p class="caption">Investment Growth</p>
-                    <div class="insight-source">Source: African Development Bank</div>
+                    <p class="caption" data-i18n="insights.investment.label">Investment Growth</p>
+                    <div class="insight-source" data-i18n="insights.investment.source">Source: African Development Bank</div>
                 </div>
                 <div class="insight-card">
-                    <h4>New policy framework adopted by 10 nations for circular economy principles.</h4>
+                    <h4 data-i18n="insights.policy.title">New policy framework adopted by 10 nations for circular economy principles.</h4>
                     <div class="insight-stat">10</div>
-                    <p class="caption">Policy Adoption</p>
-                    <div class="insight-source">Source: UN Environment Programme</div>
+                    <p class="caption" data-i18n="insights.policy.label">Policy Adoption</p>
+                    <div class="insight-source" data-i18n="insights.policy.source">Source: UN Environment Programme</div>
                 </div>
                 <div class="insight-card">
-                    <h4>Successful implementation of organic composting programs in urban centers.</h4>
+                    <h4 data-i18n="insights.composting.title">Successful implementation of organic composting programs in urban centers.</h4>
                     <div class="insight-stat">15%</div>
-                    <p class="caption">Organic Waste Diverted</p>
-                    <div class="insight-source">Source: Local Municipality Data</div>
+                    <p class="caption" data-i18n="insights.composting.label">Organic Waste Diverted</p>
+                    <div class="insight-source" data-i18n="insights.composting.source">Source: Local Municipality Data</div>
                 </div>
             </div>
         </div>
@@ -163,14 +163,14 @@
     <footer>
         <div class="footer-container">
             <div class="footer-section">
-                <h4>References</h4>
+                <h4 data-i18n="footer.references">References</h4>
                 <ul>
-                    <li><a href="#documentation">Data Sources</a></li>
-                    <li><a href="#privacy">Privacy Policy</a></li>
+                    <li><a href="#documentation" data-i18n="footer.dataSources">Data Sources</a></li>
+                    <li><a href="#privacy" data-i18n="footer.privacy">Privacy Policy</a></li>
                 </ul>
             </div>
             <div class="footer-section">
-                <h4>Contact</h4>
+                <h4 data-i18n="footer.contact">Contact</h4>
                 <ul>
                     <li><a href="mailto:africawasteobservatory@gmail.com">Email: africawasteobservatory@gmail.com</a></li>
                     <li><a href="#address">Ikwo, Nigeria</a></li>
@@ -178,11 +178,212 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 Africa Waste Observatory. All rights reserved.</p>
+            <p data-i18n="footer.copyright">&copy; 2026 Africa Waste Observatory. All rights reserved.</p>
         </div>
     </footer>
 
     <script>
+        // Translation data
+        const translations = {
+            en: {
+                nav: {
+                    home: "Home",
+                    about: "About",
+                    data: "Data",
+                    research: "Research",
+                    resources: "Resources"
+                },
+                hero: {
+                    title: "Advancing Sustainable Waste Management in Africa",
+                    description: "The Africa Waste Observatory provides critical data and insights to support evidence-based policy-making, resource optimization, and environmental protection across the continent. Join us in building a greener future.",
+                    explore: "Explore Observatory",
+                    partner: "Partner With Us"
+                },
+                objectives: {
+                    title: "Our Core Objectives",
+                    data: {
+                        title: "Data Collection & Harmonization",
+                        desc: "Standardize waste data across Africa for coherent analysis."
+                    },
+                    policy: {
+                        title: "Policy Development Support",
+                        desc: "Provide evidence based insights to inform waste policy formulation."
+                    },
+                    innovation: {
+                        title: "Innovation & Best Practices",
+                        desc: "Showcase and promote cutting-edge waste management solutions."
+                    },
+                    capacity: {
+                        title: "Capacity Building & Training",
+                        desc: "Empower local communities with tools for sustainable practices."
+                    }
+                },
+                explore: {
+                    title: "Explore the Observatory",
+                    countries: {
+                        title: "Country Profiles",
+                        desc: "Access country-specific waste profiles and statistics."
+                    },
+                    streams: {
+                        title: "Waste Streams",
+                        desc: "Analyze detailed data on various types of waste materials."
+                    },
+                    tech: {
+                        title: "Technologies",
+                        desc: "Discover innovative waste processing and recycling technologies."
+                    },
+                    policies: {
+                        title: "Policies",
+                        desc: "Review existing waste management policies and regulations."
+                    }
+                },
+                insights: {
+                    title: "Featured Insights & Highlights",
+                    plastic: {
+                        title: "Significant reduction in plastic waste in coastal regions due to new initiatives.",
+                        label: "Plastic Waste Reduced",
+                        source: "Source: Environmental Agency Report"
+                    },
+                    investment: {
+                        title: "Increase in recycling infrastructure investments across West Africa.",
+                        label: "Investment Growth",
+                        source: "Source: African Development Bank"
+                    },
+                    policy: {
+                        title: "New policy framework adopted by 10 nations for circular economy principles.",
+                        label: "Policy Adoption",
+                        source: "Source: UN Environment Programme"
+                    },
+                    composting: {
+                        title: "Successful implementation of organic composting programs in urban centers.",
+                        label: "Organic Waste Diverted",
+                        source: "Source: Local Municipality Data"
+                    }
+                },
+                footer: {
+                    references: "References",
+                    dataSources: "Data Sources",
+                    privacy: "Privacy Policy",
+                    contact: "Contact",
+                    copyright: "© 2026 Africa Waste Observatory. All rights reserved."
+                }
+            },
+            fr: {
+                nav: {
+                    home: "Accueil",
+                    about: "À propos",
+                    data: "Données",
+                    research: "Recherche",
+                    resources: "Ressources"
+                },
+                hero: {
+                    title: "Promouvoir la Gestion Durable des Déchets en Afrique",
+                    description: "L'Observatoire Africain des Déchets fournit des données et des analyses essentielles pour soutenir l'élaboration de politiques fondées sur des preuves, l'optimisation des ressources et la protection de l'environnement à travers le continent. Rejoignez-nous pour construire un avenir plus vert.",
+                    explore: "Explorer l'Observatoire",
+                    partner: "Devenez Partenaire"
+                },
+                objectives: {
+                    title: "Nos Objectifs Principaux",
+                    data: {
+                        title: "Collecte et Harmonisation des Données",
+                        desc: "Standardiser les données sur les déchets en Afrique pour une analyse cohérente."
+                    },
+                    policy: {
+                        title: "Soutien au Développement des Politiques",
+                        desc: "Fournir des informations fondées sur des preuves pour éclairer la formulation des politiques de gestion des déchets."
+                    },
+                    innovation: {
+                        title: "Innovation et Meilleures Pratiques",
+                        desc: "Présenter et promouvoir des solutions de pointe en gestion des déchets."
+                    },
+                    capacity: {
+                        title: "Renforcement des Capacités et Formation",
+                        desc: "Donner aux communautés locales les outils pour des pratiques durables."
+                    }
+                },
+                explore: {
+                    title: "Explorer l'Observatoire",
+                    countries: {
+                        title: "Profils des Pays",
+                        desc: "Accéder aux profils et statistiques des déchets spécifiques à chaque pays."
+                    },
+                    streams: {
+                        title: "Flux de Déchets",
+                        desc: "Analyser des données détaillées sur divers types de matériaux de déchets."
+                    },
+                    tech: {
+                        title: "Technologies",
+                        desc: "Découvrir des technologies innovantes de traitement et de recyclage des déchets."
+                    },
+                    policies: {
+                        title: "Politiques",
+                        desc: "Examiner les politiques et réglementations existantes en matière de gestion des déchets."
+                    }
+                },
+                insights: {
+                    title: "Informations et Faits Saillants",
+                    plastic: {
+                        title: "Réduction significative des déchets plastiques dans les régions côtières grâce à de nouvelles initiatives.",
+                        label: "Déchets Plastiques Réduits",
+                        source: "Source: Rapport de l'Agence Environnementale"
+                    },
+                    investment: {
+                        title: "Augmentation des investissements dans les infrastructures de recyclage en Afrique de l'Ouest.",
+                        label: "Croissance des Investissements",
+                        source: "Source: Banque Africaine de Développement"
+                    },
+                    policy: {
+                        title: "Nouveau cadre politique adopté par 10 nations pour les principes de l'économie circulaire.",
+                        label: "Adoption de Politiques",
+                        source: "Source: Programme des Nations Unies pour l'Environnement"
+                    },
+                    composting: {
+                        title: "Mise en œuvre réussie de programmes de compostage organique dans les centres urbains.",
+                        label: "Déchets Organiques Détournés",
+                        source: "Source: Données Municipales Locales"
+                    }
+                },
+                footer: {
+                    references: "Références",
+                    dataSources: "Sources de Données",
+                    privacy: "Politique de Confidentialité",
+                    contact: "Contact",
+                    copyright: "© 2026 Observatoire Africain des Déchets. Tous droits réservés."
+                }
+            }
+        };
+
+        // Language switching functionality
+        function setLanguage(lang) {
+            const elements = document.querySelectorAll('[data-i18n]');
+            elements.forEach(element => {
+                const keys = element.getAttribute('data-i18n').split('.');
+                let translation = translations[lang];
+                
+                keys.forEach(key => {
+                    translation = translation[key];
+                });
+                
+                if (translation) {
+                    element.textContent = translation;
+                }
+            });
+            
+            // Save language preference
+            localStorage.setItem('selectedLanguage', lang);
+        }
+
+        // Initialize language selector
+        const languageSelector = document.getElementById('language-selector');
+        const savedLanguage = localStorage.getItem('selectedLanguage') || 'en';
+        
+        languageSelector.value = savedLanguage;
+        setLanguage(savedLanguage);
+        
+        languageSelector.addEventListener('change', (e) => {
+            setLanguage(e.target.value);
+        });
+
         // Mobile menu toggle
         const hamburger = document.getElementById('hamburger');
         const navMenu = document.getElementById('nav-menu');
