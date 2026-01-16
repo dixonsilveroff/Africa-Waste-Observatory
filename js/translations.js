@@ -102,14 +102,6 @@ const translations = {
             pollution: "Reduced Environmental Pollution",
             circular: "Accelerated Circular Economy Transition"
         },
-        partners: {
-            title: "Who We Work With",
-            governments: "National & Local Governments",
-            finance: "Development Finance Institutions",
-            ngos: "NGOs & Civil Society Organisations",
-            research: "Research Institutes & Universities",
-            private: "Private Waste & Recycling Companies"
-        },
         insights: {
             title: "Featured Insights & Highlights",
             plastic: {
@@ -242,14 +234,6 @@ const translations = {
             recycling: "Augmentation du Recyclage et de la Récupération des Ressources",
             pollution: "Réduction de la Pollution Environnementale",
             circular: "Accélération de la Transition vers l'Économie Circulaire"
-        },
-        partners: {
-            title: "Nos Partenaires",
-            governments: "Gouvernements Nationaux et Locaux",
-            finance: "Institutions de Financement du Développement",
-            ngos: "ONG et Organisations de la Société Civile",
-            research: "Instituts de Recherche et Universités",
-            private: "Entreprises Privées de Gestion des Déchets et de Recyclage"
         },
         insights: {
             title: "Informations et Faits Saillants",
