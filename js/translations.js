@@ -9,7 +9,8 @@ const translations = {
             resources: "Resources"
         },
         hero: {
-            title: "Advancing Sustainable Waste Management in Africa",
+            title: "The Africa Waste Observatory",
+            subtitle: "Advancing Sustainable Waste Management in Africa",
             description: "The Africa Waste Observatory provides critical data and insights to support evidence-based policy-making, resource optimization, and environmental protection across the continent. Join us in building a greener future.",
             explore: "Explore Observatory",
             partner: "Partner With Us"
@@ -142,7 +143,8 @@ const translations = {
             resources: "Ressources"
         },
         hero: {
-            title: "Promouvoir la Gestion Durable des Déchets en Afrique",
+            title: "L'Observatoire Africain des Déchets",
+            subtitle: "Promouvoir la Gestion Durable des Déchets en Afrique",
             description: "L'Observatoire Africain des Déchets fournit des données et des analyses essentielles pour soutenir l'élaboration de politiques fondées sur des preuves, l'optimisation des ressources et la protection de l'environnement à travers le continent. Rejoignez-nous pour construire un avenir plus vert.",
             explore: "Explorer l'Observatoire",
             partner: "Devenez Partenaire"
