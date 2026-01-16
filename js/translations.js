@@ -11,12 +11,9 @@ const translations = {
         hero: {
             title: "The Africa Waste Observatory",
             subtitle: "Advancing Sustainable Waste Management in Africa",
-            description: "The Africa Waste Observatory provides critical data and insights to support evidence-based policy-making, resource optimization, and environmental protection across the continent. Join us in building a greener future.",
+            description: "Africa faces a rapidly escalating waste challenge driven by urbanization, population growth, economic development, and changing consumption patterns. Waste types now span solid, liquid, and gaseous streams, each posing complex environmental, public health, and socioeconomic risks. Without accurate, harmonized data, governments, investors, researchers, and communities are unable to plan, finance, and implement effective waste and pollution management systems. The Africa Waste Observatory (AWO) serves as a central hub for consolidated continental waste data, performance indicators, and transformative strategies to drive a cleaner, healthier, and circular Africa.",
             explore: "Explore Observatory",
             partner: "Partner With Us"
-        },
-        introduction: {
-            text: "Africa faces a rapidly escalating waste challenge driven by urbanization, population growth, economic development, and changing consumption patterns. Waste types now span solid, liquid, and gaseous streams, each posing complex environmental, public health, and socioeconomic risks. Without accurate, harmonized data, governments, investors, researchers, and communities are unable to plan, finance, and implement effective waste and pollution management systems. The Africa Waste Observatory (AWO) serves as a central hub for consolidated continental waste data, performance indicators, and transformative strategies to drive a cleaner, healthier, and circular Africa."
         },
         challenge: {
             title: "The Waste Challenge in Africa",
@@ -145,12 +142,9 @@ const translations = {
         hero: {
             title: "L'Observatoire Africain des Déchets",
             subtitle: "Promouvoir la Gestion Durable des Déchets en Afrique",
-            description: "L'Observatoire Africain des Déchets fournit des données et des analyses essentielles pour soutenir l'élaboration de politiques fondées sur des preuves, l'optimisation des ressources et la protection de l'environnement à travers le continent. Rejoignez-nous pour construire un avenir plus vert.",
+            description: "L'Afrique est confrontée à un défi croissant en matière de déchets, alimenté par l'urbanisation, la croissance démographique, le développement économique et l'évolution des modes de consommation. Les types de déchets englobent désormais les flux solides, liquides et gazeux, chacun posant des risques environnementaux, de santé publique et socio-économiques complexes. Sans données précises et harmonisées, les gouvernements, les investisseurs, les chercheurs et les communautés ne peuvent planifier, financer et mettre en œuvre des systèmes efficaces de gestion des déchets et de la pollution. L'Observatoire Africain des Déchets (OAD) sert de pôle central pour les données continentales consolidées sur les déchets, les indicateurs de performance et les stratégies transformatrices visant à promouvoir une Afrique plus propre, plus saine et circulaire.",
             explore: "Explorer l'Observatoire",
             partner: "Devenez Partenaire"
-        },
-        introduction: {
-            text: "L'Afrique est confrontée à un défi croissant en matière de déchets, alimenté par l'urbanisation, la croissance démographique, le développement économique et l'évolution des modes de consommation. Les types de déchets englobent désormais les flux solides, liquides et gazeux, chacun posant des risques environnementaux, de santé publique et socio-économiques complexes. Sans données précises et harmonisées, les gouvernements, les investisseurs, les chercheurs et les communautés ne peuvent planifier, financer et mettre en œuvre des systèmes efficaces de gestion des déchets et de la pollution. L'Observatoire Africain des Déchets (OAD) sert de pôle central pour les données continentales consolidées sur les déchets, les indicateurs de performance et les stratégies transformatrices visant à promouvoir une Afrique plus propre, plus saine et circulaire."
         },
         challenge: {
             title: "Le Défi des Déchets en Afrique",
