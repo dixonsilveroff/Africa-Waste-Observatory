@@ -14,6 +14,25 @@ const translations = {
             explore: "Explore Observatory",
             partner: "Partner With Us"
         },
+        introduction: {
+            text: "Africa faces a rapidly escalating waste challenge driven by urbanization, population growth, economic development, and changing consumption patterns. Waste types now span solid, liquid, and gaseous streams, each posing complex environmental, public health, and socioeconomic risks. Without accurate, harmonized data, governments, investors, researchers, and communities are unable to plan, finance, and implement effective waste and pollution management systems. The Africa Waste Observatory (AWO) serves as a central hub for consolidated continental waste data, performance indicators, and transformative strategies to drive a cleaner, healthier, and circular Africa."
+        },
+        challenge: {
+            title: "The Waste Challenge in Africa",
+            coverage: "Low waste collection and treatment coverage, especially in informal, peri-urban, and rural areas.",
+            dumping: "Widespread open dumping, open burning, and untreated liquid discharge.",
+            enforcement: "Weak enforcement of waste, water, and emissions regulations.",
+            recycling: "Limited recycling, wastewater treatment, and gaseous emissions controls.",
+            data: "Severe lack of accurate, comparable waste and emissions data continent-wide."
+        },
+        solution: {
+            title: "Our Solution",
+            subtitle: "The Africa Waste Observatory provides:",
+            item1: "Standardized continental data on solid, liquid, gaseous and other kinds of waste.",
+            item2: "Interactive dashboards for policy formulation, investment planning, and monitoring.",
+            item3: "Country profiles detailing generation, treatment, recycling, and emissions.",
+            item4: "Policy-relevant analysis and practical, scalable solutions."
+        },
         objectives: {
             title: "Our Core Objectives",
             data: {
@@ -31,6 +50,29 @@ const translations = {
             capacity: {
                 title: "Capacity Building & Training",
                 desc: "Empower local communities with tools for sustainable practices."
+            }
+        },
+        deliver: {
+            title: "What We Deliver",
+            item1: {
+                title: "Country-Level Waste Profiles",
+                desc: "Covering all waste streams"
+            },
+            item2: {
+                title: "Waste Generation Data",
+                desc: "Comprehensive treatment and generation statistics"
+            },
+            item3: {
+                title: "Performance Indicators",
+                desc: "Collection coverage and efficiency metrics"
+            },
+            item4: {
+                title: "Policy Briefs",
+                desc: "Benchmarking and best-practice sharing"
+            },
+            item5: {
+                title: "Tailored Recommendations",
+                desc: "For governments, cities, and stakeholders"
             }
         },
         explore: {
@@ -51,6 +93,22 @@ const translations = {
                 title: "Policies",
                 desc: "Review existing waste management policies and regulations."
             }
+        },
+        impact: {
+            title: "Impact Goals",
+            cities: "Cleaner Cities & Communities",
+            health: "Improved Public Health Outcomes",
+            recycling: "Increased Recycling & Resource Recovery",
+            pollution: "Reduced Environmental Pollution",
+            circular: "Accelerated Circular Economy Transition"
+        },
+        partners: {
+            title: "Who We Work With",
+            governments: "National & Local Governments",
+            finance: "Development Finance Institutions",
+            ngos: "NGOs & Civil Society Organisations",
+            research: "Research Institutes & Universities",
+            private: "Private Waste & Recycling Companies"
         },
         insights: {
             title: "Featured Insights & Highlights",
@@ -97,6 +155,25 @@ const translations = {
             explore: "Explorer l'Observatoire",
             partner: "Devenez Partenaire"
         },
+        introduction: {
+            text: "L'Afrique est confrontée à un défi croissant en matière de déchets, alimenté par l'urbanisation, la croissance démographique, le développement économique et l'évolution des modes de consommation. Les types de déchets englobent désormais les flux solides, liquides et gazeux, chacun posant des risques environnementaux, de santé publique et socio-économiques complexes. Sans données précises et harmonisées, les gouvernements, les investisseurs, les chercheurs et les communautés ne peuvent planifier, financer et mettre en œuvre des systèmes efficaces de gestion des déchets et de la pollution. L'Observatoire Africain des Déchets (OAD) sert de pôle central pour les données continentales consolidées sur les déchets, les indicateurs de performance et les stratégies transformatrices visant à promouvoir une Afrique plus propre, plus saine et circulaire."
+        },
+        challenge: {
+            title: "Le Défi des Déchets en Afrique",
+            coverage: "Faible couverture de collecte et de traitement des déchets, en particulier dans les zones informelles, périurbaines et rurales.",
+            dumping: "Décharges sauvages généralisées, incinération à ciel ouvert et déversement de liquides non traités.",
+            enforcement: "Faible application des réglementations sur les déchets, l'eau et les émissions.",
+            recycling: "Recyclage limité, traitement des eaux usées et contrôle des émissions gazeuses.",
+            data: "Manque sévère de données précises et comparables sur les déchets et les émissions à l'échelle continentale."
+        },
+        solution: {
+            title: "Notre Solution",
+            subtitle: "L'Observatoire Africain des Déchets fournit :",
+            item1: "Des données continentales standardisées sur les déchets solides, liquides, gazeux et autres types de déchets.",
+            item2: "Des tableaux de bord interactifs pour la formulation de politiques, la planification des investissements et le suivi.",
+            item3: "Des profils pays détaillant la génération, le traitement, le recyclage et les émissions.",
+            item4: "Des analyses pertinentes pour les politiques et des solutions pratiques et évolutives."
+        },
         objectives: {
             title: "Nos Objectifs Principaux",
             data: {
@@ -114,6 +191,29 @@ const translations = {
             capacity: {
                 title: "Renforcement des Capacités et Formation",
                 desc: "Donner aux communautés locales les outils pour des pratiques durables."
+            }
+        },
+        deliver: {
+            title: "Ce Que Nous Offrons",
+            item1: {
+                title: "Profils des Déchets au Niveau des Pays",
+                desc: "Couvrant tous les flux de déchets"
+            },
+            item2: {
+                title: "Données sur la Génération de Déchets",
+                desc: "Statistiques complètes sur le traitement et la génération"
+            },
+            item3: {
+                title: "Indicateurs de Performance",
+                desc: "Couverture de collecte et mesures d'efficacité"
+            },
+            item4: {
+                title: "Notes de Politique",
+                desc: "Benchmarking et partage des meilleures pratiques"
+            },
+            item5: {
+                title: "Recommandations Personnalisées",
+                desc: "Pour les gouvernements, les villes et les parties prenantes"
             }
         },
         explore: {
@@ -134,6 +234,22 @@ const translations = {
                 title: "Politiques",
                 desc: "Examiner les politiques et réglementations existantes en matière de gestion des déchets."
             }
+        },
+        impact: {
+            title: "Objectifs d'Impact",
+            cities: "Villes et Communautés Plus Propres",
+            health: "Amélioration des Résultats de Santé Publique",
+            recycling: "Augmentation du Recyclage et de la Récupération des Ressources",
+            pollution: "Réduction de la Pollution Environnementale",
+            circular: "Accélération de la Transition vers l'Économie Circulaire"
+        },
+        partners: {
+            title: "Nos Partenaires",
+            governments: "Gouvernements Nationaux et Locaux",
+            finance: "Institutions de Financement du Développement",
+            ngos: "ONG et Organisations de la Société Civile",
+            research: "Instituts de Recherche et Universités",
+            private: "Entreprises Privées de Gestion des Déchets et de Recyclage"
         },
         insights: {
             title: "Informations et Faits Saillants",
