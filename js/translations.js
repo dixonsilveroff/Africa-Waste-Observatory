@@ -18,7 +18,6 @@ const translations = {
         challenge: {
             title: "The Waste Challenge in Africa",
             coverage: "Low waste collection and treatment coverage, especially in informal, peri-urban, and rural areas.",
-            dumping: "Widespread open dumping, open burning, and untreated liquid discharge.",
             enforcement: "Weak enforcement of waste, water, and emissions regulations.",
             recycling: "Limited recycling, wastewater treatment, and gaseous emissions controls.",
             data: "Severe lack of accurate, comparable waste and emissions data continent-wide."
@@ -149,7 +148,6 @@ const translations = {
         challenge: {
             title: "Le Défi des Déchets en Afrique",
             coverage: "Faible couverture de collecte et de traitement des déchets, en particulier dans les zones informelles, périurbaines et rurales.",
-            dumping: "Décharges sauvages généralisées, incinération à ciel ouvert et déversement de liquides non traités.",
             enforcement: "Faible application des réglementations sur les déchets, l'eau et les émissions.",
             recycling: "Recyclage limité, traitement des eaux usées et contrôle des émissions gazeuses.",
             data: "Manque sévère de données précises et comparables sur les déchets et les émissions à l'échelle continentale."
