@@ -38,7 +38,7 @@ const footerTemplate = `
             <h4 data-i18n="footer.contact">Contact</h4>
             <ul>
                 <li><a href="mailto:africawasteobservatory@gmail.com">Email: africawasteobservatory@gmail.com</a></li>
-                <li><a href="#address">Ikwo, Nigeria</a></li>
+                <li><a href="#address">Alex Ekwueme Federal University, Ndufu-Alike, Ikwo, Nigeria</a></li>
             </ul>
         </div>
     </div>
