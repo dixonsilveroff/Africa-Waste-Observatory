@@ -9,10 +9,12 @@ const headerTemplate = `
             <span></span>
         </button>
         <nav id="nav-menu">
-            <a href="../about" data-i18n="nav.about">About</a>
-            <a href="data.html" data-i18n="nav.data">Data</a>
-            <a href="research.html" data-i18n="nav.research">Research</a>
-            <a href="resources.html" data-i18n="nav.resources">Resources</a>
+            <a href="./about/" data-i18n="nav.about">About</a>
+            <a href="./country-profiles/" data-i18n="nav.countries">Country Profiles</a>
+            <a href="./waste-streams/" data-i18n="nav.streams">Waste Streams</a>
+            <a href="./innovations/" data-i18n="nav.innovations">Innovations</a>
+            <a href="./policies/" data-i18n="nav.policies">Policies</a>
+            <a href="./references/" data-i18n="nav.references">References</a>
             <select class="language-selector" id="language-selector">
                 <option value="en">English</option>
                 <option value="fr">Français</option>
@@ -29,8 +31,8 @@ const footerTemplate = `
         <div class="footer-section">
             <h4 data-i18n="footer.references">References</h4>
             <ul>
-                <li><a href="#documentation" data-i18n="footer.dataSources">Data Sources</a></li>
-                <li><a href="#privacy" data-i18n="footer.privacy">Privacy Policy</a></li>
+                <li><a href="../references" data-i18n="footer.dataSources">Data Sources</a></li>
+                <li><a href="../privacy.html" data-i18n="footer.privacy">Privacy Policy</a></li>
             </ul>
         </div>
         <div class="footer-section">

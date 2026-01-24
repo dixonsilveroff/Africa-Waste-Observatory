@@ -3,9 +3,11 @@ const translations = {
     en: {
         nav: {
             about: "About",
-            data: "Data",
-            research: "Research",
-            resources: "Resources"
+            countries: "Country Profiles",
+            streams: "Waste Streams",
+            innovations: "Innovations",
+            policies: "Policies",
+            references: "References"
         },
         hero: {
             title: "The Africa Waste Observatory",
@@ -132,9 +134,11 @@ const translations = {
     fr: {
         nav: {
             about: "À propos",
-            data: "Données",
-            research: "Recherche",
-            resources: "Ressources"
+            countries: "Profils des Pays",
+            streams: "Flux de Déchets",
+            innovations: "Innovations",
+            policies: "Politiques",
+            references: "Références"
         },
         hero: {
             title: "L'Observatoire Africain des Déchets",
