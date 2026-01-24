@@ -2,7 +2,6 @@
 const translations = {
     en: {
         nav: {
-            home: "Home",
             about: "About",
             data: "Data",
             research: "Research",
@@ -132,7 +131,6 @@ const translations = {
     },
     fr: {
         nav: {
-            home: "Accueil",
             about: "À propos",
             data: "Données",
             research: "Recherche",

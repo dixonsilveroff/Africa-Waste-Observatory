@@ -9,8 +9,7 @@ const headerTemplate = `
             <span></span>
         </button>
         <nav id="nav-menu">
-            <a href="index.html#home" data-i18n="nav.home">Home</a>
-            <a href="about.html" data-i18n="nav.about">About</a>
+            <a href="../about" data-i18n="nav.about">About</a>
             <a href="data.html" data-i18n="nav.data">Data</a>
             <a href="research.html" data-i18n="nav.research">Research</a>
             <a href="resources.html" data-i18n="nav.resources">Resources</a>
