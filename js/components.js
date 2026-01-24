@@ -1,20 +1,30 @@
+// Detect if we're in a subdirectory
+const isSubdirectory = window.location.pathname.includes('/about/') || 
+                       window.location.pathname.includes('/country-profiles/') || 
+                       window.location.pathname.includes('/waste-streams/') || 
+                       window.location.pathname.includes('/innovations/') || 
+                       window.location.pathname.includes('/policies/') || 
+                       window.location.pathname.includes('/references/');
+
+const pathPrefix = isSubdirectory ? '../' : './';
+
 // Header Component Template
 const headerTemplate = `
 <header>
     <div class="header-container">
-        <a href="index.html" class="logo"><img src="./assets/images/logo.png" alt="Africa Waste Observatory" width="100px"></a>
+        <a href="${pathPrefix}index.html" class="logo"><img src="${pathPrefix}assets/images/logo.png" alt="Africa Waste Observatory" width="100px"></a>
         <button class="hamburger" id="hamburger">
             <span></span>
             <span></span>
             <span></span>
         </button>
         <nav id="nav-menu">
-            <a href="./about/" data-i18n="nav.about">About</a>
-            <a href="./country-profiles/" data-i18n="nav.countries">Country Profiles</a>
-            <a href="./waste-streams/" data-i18n="nav.streams">Waste Streams</a>
-            <a href="./innovations/" data-i18n="nav.innovations">Innovations</a>
-            <a href="./policies/" data-i18n="nav.policies">Policies</a>
-            <a href="./references/" data-i18n="nav.references">References</a>
+            <a href="${pathPrefix}about/" data-i18n="nav.about">About</a>
+            <a href="${pathPrefix}country-profiles/" data-i18n="nav.countries">Country Profiles</a>
+            <a href="${pathPrefix}waste-streams/" data-i18n="nav.streams">Waste Streams</a>
+            <a href="${pathPrefix}innovations/" data-i18n="nav.innovations">Innovations</a>
+            <a href="${pathPrefix}policies/" data-i18n="nav.policies">Policies</a>
+            <a href="${pathPrefix}references/" data-i18n="nav.references">References</a>
             <select class="language-selector" id="language-selector">
                 <option value="en">English</option>
                 <option value="fr">Français</option>
@@ -31,8 +41,8 @@ const footerTemplate = `
         <div class="footer-section">
             <h4 data-i18n="footer.references">References</h4>
             <ul>
-                <li><a href="../references" data-i18n="footer.dataSources">Data Sources</a></li>
-                <li><a href="../privacy.html" data-i18n="footer.privacy">Privacy Policy</a></li>
+                <li><a href="${pathPrefix}references/" data-i18n="footer.dataSources">Data Sources</a></li>
+                <li><a href="${pathPrefix}privacy.html" data-i18n="footer.privacy">Privacy Policy</a></li>
             </ul>
         </div>
         <div class="footer-section">
