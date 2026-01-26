@@ -1033,9 +1033,15 @@ footer {
 
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin-top: 2rem;
+}
+
+.team-card:first-child {
+    grid-column: 1 / -1;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .team-card {
