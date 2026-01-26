@@ -71,19 +71,19 @@ const translations = {
         team: {
             title: "Meet Our Dedicated Team",
             member1: {
-                name: "Dr. Aisha Mohamed",
-                role: "Executive Director",
-                bio: "Dr. Mohamed is a leading expert in environmental policy with over 20 years of experience in sustainable development. Her passion for data-driven decision-making drives the Observatory's strategic initiatives and research agenda."
+                name: "Engr. Prof. Chukwunonye Ezeah",
+                role: "Coordinator",
+                bio: "[Blank]"
             },
             member2: {
-                name: "Mr. Kwame Nkrumah",
-                role: "Head of Data & Analytics",
-                bio: "Kwame specializes in the collection, analysis, and visualization of waste data. His expertise in geographical information systems and data science is crucial to the Observatory's data-driven insights."
+                name: "Victor I. Nwafor",
+                role: "Project Manager",
+                bio: "[Blank]"
             },
             member3: {
-                name: "Ms. Zara Diallo",
-                role: "Community Engagement Lead",
-                bio: "Zara works directly with local communities, NGOs, and stakeholders to implement sustainable waste practices. Her on-the-ground approach ensures our research translates into real-world impact."
+                name: "Nnama Chika",
+                role: "Assistant Project Manager",
+                bio: "[Blank]"
             }
         }
     },
@@ -158,19 +158,19 @@ const translations = {
         team: {
             title: "Rencontrez Notre Équipe Dévouée",
             member1: {
-                name: "Dr. Aisha Mohamed",
-                role: "Directrice Exécutive",
-                bio: "Le Dr Mohamed est une experte de premier plan en politique environnementale avec plus de 20 ans d'expérience en développement durable. Sa passion pour la prise de décision fondée sur les données guide les initiatives stratégiques et le programme de recherche de l'Observatoire."
+                name: "Ing. Prof. Chukwunonye Ezeah",
+                role: "Coordinateur",
+                bio: "[Vide]"
             },
             member2: {
-                name: "M. Kwame Nkrumah",
-                role: "Chef des Données et Analyses",
-                bio: "Kwame se spécialise dans la collecte, l'analyse et la visualisation des données sur les déchets. Son expertise en systèmes d'information géographique et en science des données est cruciale pour les informations basées sur les données de l'Observatoire."
+                name: "Victor I. Nwafor",
+                role: "Chef de Projet",
+                bio: "[Vide]"
             },
             member3: {
-                name: "Mme Zara Diallo",
-                role: "Responsable de l'Engagement Communautaire",
-                bio: "Zara travaille directement avec les communautés locales, les ONG et les parties prenantes pour mettre en œuvre des pratiques durables de gestion des déchets. Son approche de terrain garantit que notre recherche se traduit par un impact concret."
+                name: "Nnama Chika",
+                role: "Chef de Projet Adjoint",
+                bio: "[Vide]"
             }
         }
     }
