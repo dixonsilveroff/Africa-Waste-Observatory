@@ -84,6 +84,11 @@ const translations = {
                 name: "Nnama Chika",
                 role: "Assistant Project Manager",
                 bio: "[Blank]"
+            },
+            member4: {
+                name: "Faculty of Engineering and Technology",
+                role: "Collaborative Team",
+                bio: "10 team leads and over 400 students"
             }
         }
     },
@@ -171,6 +176,11 @@ const translations = {
                 name: "Nnama Chika",
                 role: "Chef de Projet Adjoint",
                 bio: "[Vide]"
+            },
+            member4: {
+                name: "Faculté d'Ingénierie et de Technologie",
+                role: "Équipe Collaborative",
+                bio: "10 chefs d'équipe et plus de 400 étudiants"
             }
         }
     }
