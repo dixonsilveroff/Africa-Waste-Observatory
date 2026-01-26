@@ -1,4 +1,4 @@
-const year = new Date().getFullYear
+const year = new Date().getFullYear();
 // Detect if we're in a subdirectory
 const isSubdirectory = window.location.pathname.includes('/about/') || 
                        window.location.pathname.includes('/country-profiles/') || 
@@ -102,4 +102,3 @@ function initializeHeader() {
 
 // Run immediately when script loads
 renderComponents();
-console.log(`${year}`);
