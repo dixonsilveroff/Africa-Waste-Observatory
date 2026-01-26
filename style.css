@@ -1056,17 +1056,10 @@ footer {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    object-fit: cover;
     background-color: #999;
     margin: 0 auto 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.team-avatar::before {
-    content: "👤";
-    font-size: 3rem;
-    color: var(--white);
+    display: block;
 }
 
 .team-card h3 {
