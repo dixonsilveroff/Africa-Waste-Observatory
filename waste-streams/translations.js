@@ -74,7 +74,10 @@ function initializeLanguage() {
     const savedLanguage = localStorage.getItem('selectedLanguage') || 'en';
     
     languageSelector.value = savedLanguage;
-    setLanguage(savedLanguage);
+    // Only apply translations if user has explicitly changed from default
+    if (savedLanguage !== 'en') {
+        setLanguage(savedLanguage);
+    }
     
     languageSelector.addEventListener('change', (e) => {
         setLanguage(e.target.value);
