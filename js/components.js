@@ -1,3 +1,4 @@
+const year = new Date().getFullYear
 // Detect if we're in a subdirectory
 const isSubdirectory = window.location.pathname.includes('/about/') || 
                        window.location.pathname.includes('/country-profiles/') || 
@@ -49,12 +50,12 @@ const footerTemplate = `
             <h4 data-i18n="footer.contact">Contact</h4>
             <ul>
                 <li><a href="mailto:africawasteobservatory@gmail.com">Email: africawasteobservatory@gmail.com</a></li>
-                <li><a href="#address">Alex Ekwueme Federal University, Ndufu-Alike, Ikwo, Nigeria</a></li>
+                <li><a href="https://funai.edu.ng" target=_blank>Alex Ekwueme Federal University, Ndufu-Alike, Ikwo, Nigeria</a></li>
             </ul>
         </div>
     </div>
     <div class="footer-bottom">
-        <p data-i18n="footer.copyright">&copy; 2026 Africa Waste Observatory. All rights reserved.</p>
+        <p data-i18n="footer.copyright">&copy; ${year} Africa Waste Observatory. All rights reserved.</p>
     </div>
 </footer>
 `;
@@ -101,3 +102,4 @@ function initializeHeader() {
 
 // Run immediately when script loads
 renderComponents();
+console.log(`${year}`);
