@@ -13,9 +13,157 @@
 
     <!-- Page Content -->
     <main>
-        <section class="your-section">
-            <h1 data-i18n="yourSection.title">Your Title</h1>
-            <p data-i18n="yourSection.description">Your description</p>
+        <!-- Country Profile Header -->
+        <section class="country-profile-header">
+            <div class="container">
+                <h1 data-i18n="header.title">Country Profile</h1>
+                <select id="country-selector" class="country-dropdown">
+                    <option value="south-africa" data-i18n="countries.southAfrica">South Africa</option>
+                    <option value="egypt" data-i18n="countries.egypt">Egypt</option>
+                    <option value="nigeria" data-i18n="countries.nigeria">Nigeria</option>
+                    <option value="kenya" data-i18n="countries.kenya">Kenya</option>
+                </select>
+            </div>
+        </section>
+
+        <!-- Overview Section -->
+        <section class="overview-section">
+            <div class="container">
+                <h2 data-i18n="overview.title">Overview</h2>
+                <div class="overview-grid">
+                    <div class="overview-card">
+                        <div class="card-icon">👥</div>
+                        <h4 data-i18n="overview.population">Population</h4>
+                        <p class="stat-value" data-country="population">60.4M</p>
+                    </div>
+                    <div class="overview-card">
+                        <div class="card-icon">📏</div>
+                        <h4 data-i18n="overview.landArea">Land Area</h4>
+                        <p class="stat-value" data-country="landArea">1.22M km²</p>
+                    </div>
+                    <div class="overview-card">
+                        <div class="card-icon">🗑️</div>
+                        <h4 data-i18n="overview.totalWaste">Total Waste Generated (2022)</h4>
+                        <p class="stat-value" data-country="totalWaste">54.2M tons</p>
+                    </div>
+                    <div class="overview-card">
+                        <div class="card-icon">⚖️</div>
+                        <h4 data-i18n="overview.wastePerCapita">Waste Per Capita (2022)</h4>
+                        <p class="stat-value" data-country="wastePerCapita">0.9 kg/day</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Waste Indicators -->
+        <section class="indicators-section">
+            <div class="container">
+                <h2 data-i18n="indicators.title">Key Waste Indicators</h2>
+                <div class="indicators-grid">
+                    <div class="indicator-card">
+                        <h4 data-i18n="indicators.recyclingRate.title">Recycling Rate</h4>
+                        <p class="indicator-value" data-country="recyclingRate">11%</p>
+                        <p class="indicator-desc" data-i18n="indicators.recyclingRate.desc">Percentage of total waste recycled.</p>
+                        <div class="mini-chart">📈</div>
+                    </div>
+                    <div class="indicator-card">
+                        <h4 data-i18n="indicators.landfillRate.title">Landfill Rate</h4>
+                        <p class="indicator-value" data-country="landfillRate">89%</p>
+                        <p class="indicator-desc" data-i18n="indicators.landfillRate.desc">Percentage of total waste sent to landfills.</p>
+                        <div class="mini-chart">📉</div>
+                    </div>
+                    <div class="indicator-card">
+                        <h4 data-i18n="indicators.compostingRate.title">Composting Rate</h4>
+                        <p class="indicator-value" data-country="compostingRate">0.5%</p>
+                        <p class="indicator-desc" data-i18n="indicators.compostingRate.desc">Percentage of organic waste composted.</p>
+                        <div class="mini-chart">🌱</div>
+                    </div>
+                    <div class="indicator-card">
+                        <h4 data-i18n="indicators.collectionCoverage.title">Formal Collection Coverage</h4>
+                        <p class="indicator-value" data-country="collectionCoverage">75%</p>
+                        <p class="indicator-desc" data-i18n="indicators.collectionCoverage.desc">Households with access to formal waste collection.</p>
+                        <div class="mini-chart">🚛</div>
+                    </div>
+                    <div class="indicator-card">
+                        <h4 data-i18n="indicators.informalSector.title">Informal Sector Participation</h4>
+                        <p class="indicator-value" data-country="informalSector">300K+ people</p>
+                        <p class="indicator-desc" data-i18n="indicators.informalSector.desc">Number of informal waste pickers contributing to recycling.</p>
+                        <div class="mini-chart">👷</div>
+                    </div>
+                    <div class="indicator-card">
+                        <h4 data-i18n="indicators.wasteToEnergy.title">Waste-to-Energy Plants</h4>
+                        <p class="indicator-value" data-country="wasteToEnergy">2 facilities</p>
+                        <p class="indicator-desc" data-i18n="indicators.wasteToEnergy.desc">Operational waste-to-energy facilities in the country.</p>
+                        <div class="mini-chart">⚡</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Waste Data Visualizations -->
+        <section class="visualizations-section">
+            <div class="container">
+                <h2 data-i18n="visualizations.title">Waste Data Visualizations</h2>
+                <div class="viz-grid">
+                    <div class="viz-card">
+                        <h3 data-i18n="visualizations.trends.title">Waste Generation Trends (Million Tons)</h3>
+                        <p data-i18n="visualizations.trends.subtitle">Total waste generated per year</p>
+                        <div class="chart-placeholder">
+                            <div class="line-chart">📊 Chart visualization placeholder</div>
+                        </div>
+                    </div>
+                    <div class="viz-card">
+                        <h3 data-i18n="visualizations.composition.title">Waste Composition Breakdown</h3>
+                        <p data-i18n="visualizations.composition.subtitle">Percentage of different waste types</p>
+                        <div class="chart-placeholder">
+                            <div class="pie-chart">🥧 Chart visualization placeholder</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="viz-card-full">
+                    <h3 data-i18n="visualizations.treatment.title">Waste Treatment Methods</h3>
+                    <p data-i18n="visualizations.treatment.subtitle">Distribution of waste treatment methods</p>
+                    <div class="chart-placeholder">
+                        <div class="bar-chart">📊 Chart visualization placeholder</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Reports & Resources -->
+        <section class="resources-section">
+            <div class="container">
+                <h2 data-i18n="resources.title">Related Reports & Resources</h2>
+                <div class="resources-grid">
+                    <div class="resource-card">
+                        <div class="resource-badge" data-i18n="resources.report1.badge">Policy Report</div>
+                        <h3 data-country="report1Title">National Waste Management Strategy 2022</h3>
+                        <p data-country="report1Desc">A comprehensive policy document outlining the strategic approach to waste management in South Africa.</p>
+                        <div class="resource-meta">
+                            <span data-country="report1Date">Published: Jan 2022</span>
+                            <a href="#" class="resource-link" data-i18n="resources.viewReport">View Report →</a>
+                        </div>
+                    </div>
+                    <div class="resource-card">
+                        <div class="resource-badge" data-i18n="resources.report2.badge">Data Report</div>
+                        <h3 data-country="report2Title">State of Waste Report 2020</h3>
+                        <p data-country="report2Desc">Annual report detailing waste generation, composition, and management practices.</p>
+                        <div class="resource-meta">
+                            <span data-country="report2Date">Published: Mar 2021</span>
+                            <a href="#" class="resource-link" data-i18n="resources.viewReport">View Report →</a>
+                        </div>
+                    </div>
+                    <div class="resource-card">
+                        <div class="resource-badge" data-i18n="resources.report3.badge">Case Study</div>
+                        <h3 data-country="report3Title">Plastic Waste Recycling Initiative</h3>
+                        <p data-country="report3Desc">Overview of national efforts to boost plastic recycling rates.</p>
+                        <div class="resource-meta">
+                            <span data-country="report3Date">Published: Aug 2023</span>
+                            <a href="#" class="resource-link" data-i18n="resources.viewReport">View Report →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
