@@ -480,7 +480,7 @@ function renderReferenceCategory(containerId, references) {
                 <p class="reference-meta">${ref.description}</p>
                 <div class="reference-footer">
                     <span class="reference-countries">${ref.countries.join(', ')}</span>
-                    ${ref.downloadLink ? `<a href="#" class="reference-link">${ref.downloadLink}</a>` : ''}
+                    ${ref.downloadLink ? `<a href="${ref.downloadLink}" target="_blank" rel="noopener noreferrer" class="reference-link">DOWNLOAD DATA</a>` : ''}
                 </div>
             `;
         } else if (type === 'academic') {
@@ -492,7 +492,7 @@ function renderReferenceCategory(containerId, references) {
                 <p class="reference-author">${ref.author} (${ref.year}). <em>${ref.journal}</em></p>
                 <div class="reference-footer">
                     <span class="reference-countries">${ref.countries.join(', ')}</span>
-                    ${ref.link ? `<a href="#" class="reference-link">${ref.link}</a>` : ''}
+                    ${ref.link ? `<a href="${ref.link}" target="_blank" rel="noopener noreferrer" class="reference-link">VIEW SOURCE</a>` : ''}
                 </div>
             `;
         } else {
@@ -505,8 +505,9 @@ function renderReferenceCategory(containerId, references) {
                 <p class="reference-author">${ref.author}. (${ref.year}). <em>${ref.title}</em>. ${ref.location}</p>
                 <div class="reference-footer">
                     <span class="reference-countries">${ref.countries.join(', ')}</span>
-                    ${ref.link ? `<a href="#" class="reference-link">${ref.link}</a>` : ''}
+                    ${ref.link ? `<a href="${ref.link}" target="_blank" rel="noopener noreferrer" class="reference-link">VIEW DOCUMENT</a>` : ''}
                     ${ref.accessed ? `<span class="reference-accessed">[ACCESSED: ${ref.accessed}]</span>` : ''}
+                </div>
                 </div>
             `;
         }
