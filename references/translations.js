@@ -78,7 +78,7 @@ const referencesData = {
             location: "Washington, DC: World Bank Group",
             category: "REPORT",
             countries: ["Nigeria", "Egypt", "Kenya", "Rwanda", "South Africa"],
-            link: "DOI / URL",
+            link: "[INSERT-WORLD-BANK-URL: documents.worldbank.org]",
             accessed: "2024-05-12"
         },
         {
@@ -88,7 +88,7 @@ const referencesData = {
             location: "Nairobi: United Nations Environment Programme",
             category: "REPORT",
             countries: ["Nigeria", "Kenya"],
-            link: "DOI / URL",
+            link: "[INSERT-UNEP-URL: wedocs.unep.org]",
             accessed: ""
         },
         {
@@ -98,7 +98,7 @@ const referencesData = {
             location: "Nigeria",
             category: "REPORT",
             countries: ["Nigeria"],
-            link: "",
+            link: "[INSERT-NIGERIA-GOV-URL: environment.gov.ng]",
             accessed: ""
         },
         {
@@ -108,7 +108,7 @@ const referencesData = {
             location: "Nigeria",
             category: "REPORT",
             countries: ["Nigeria"],
-            link: "",
+            link: "[INSERT-UNIDO-URL: unido.org]",
             accessed: ""
         },
         {
@@ -118,7 +118,7 @@ const referencesData = {
             location: "Nigeria",
             category: "REPORT",
             countries: ["Nigeria"],
-            link: "",
+            link: "[INSERT-NIGERIA-LAW-URL: climatechange.gov.ng or nasrda.gov.ng]",
             accessed: ""
         },
         {
@@ -128,7 +128,7 @@ const referencesData = {
             location: "Egypt",
             category: "REPORT",
             countries: ["Egypt"],
-            link: "",
+            link: "[INSERT-EGYPT-GOV-URL: eeaa.gov.eg]",
             accessed: ""
         },
         {
@@ -138,7 +138,7 @@ const referencesData = {
             location: "Egypt",
             category: "REPORT",
             countries: ["Egypt"],
-            link: "",
+            link: "[INSERT-EGYPT-LAW-URL: eeaa.gov.eg or manshurat.org]",
             accessed: ""
         },
         {
@@ -148,7 +148,7 @@ const referencesData = {
             location: "Egypt",
             category: "REPORT",
             countries: ["Egypt"],
-            link: "",
+            link: "[INSERT-WORLD-BANK-URL: projects.worldbank.org]",
             accessed: ""
         },
         {
@@ -158,7 +158,7 @@ const referencesData = {
             location: "Egypt",
             category: "REPORT",
             countries: ["Egypt"],
-            link: "",
+            link: "[INSERT-EGYPT-GOV-URL: eeaa.gov.eg]",
             accessed: ""
         },
         {
@@ -168,7 +168,7 @@ const referencesData = {
             location: "Egypt",
             category: "REPORT",
             countries: ["Egypt"],
-            link: "",
+            link: "[INSERT-EGYPT-PROJECT-URL: eeaa.gov.eg]",
             accessed: ""
         },
         {
@@ -178,7 +178,7 @@ const referencesData = {
             location: "Mediterranean Region",
             category: "REPORT",
             countries: ["Egypt"],
-            link: "",
+            link: "[INSERT-UNEP-URL: wedocs.unep.org]",
             accessed: ""
         },
         {
@@ -188,7 +188,7 @@ const referencesData = {
             location: "Kenya",
             category: "REPORT",
             countries: ["Kenya"],
-            link: "",
+            link: "[INSERT-KENYA-LAW-URL: kenyalaw.org]",
             accessed: ""
         },
         {
@@ -198,7 +198,7 @@ const referencesData = {
             location: "Kenya",
             category: "REPORT",
             countries: ["Kenya"],
-            link: "",
+            link: "[INSERT-WORLD-BANK-URL: documents.worldbank.org]",
             accessed: ""
         },
         {
@@ -208,7 +208,7 @@ const referencesData = {
             location: "East Africa",
             category: "REPORT",
             countries: ["Kenya"],
-            link: "",
+            link: "[INSERT-UNEP-URL: wedocs.unep.org]",
             accessed: ""
         },
         {
@@ -218,7 +218,7 @@ const referencesData = {
             location: "Kenya",
             category: "REPORT",
             countries: ["Kenya"],
-            link: "",
+            link: "[INSERT-KENYA-GOV-URL: environment.go.ke]",
             accessed: ""
         },
         {
@@ -228,7 +228,7 @@ const referencesData = {
             location: "Kenya",
             category: "REPORT",
             countries: ["Kenya"],
-            link: "",
+            link: "[INSERT-KENYA-NCA-URL: nca.go.ke]",
             accessed: ""
         },
         {
@@ -238,7 +238,7 @@ const referencesData = {
             location: "Rwanda",
             category: "REPORT",
             countries: ["Rwanda"],
-            link: "",
+            link: "[INSERT-RWANDA-GOV-URL: rema.gov.rw]",
             accessed: ""
         },
         {
@@ -248,7 +248,7 @@ const referencesData = {
             location: "Rwanda",
             category: "REPORT",
             countries: ["Rwanda"],
-            link: "",
+            link: "[INSERT-RWANDA-GOV-URL: minecofin.gov.rw]",
             accessed: ""
         },
         {
@@ -258,7 +258,7 @@ const referencesData = {
             location: "Rwanda",
             category: "REPORT",
             countries: ["Rwanda"],
-            link: "",
+            link: "[INSERT-WORLD-BANK-URL: documents.worldbank.org]",
             accessed: ""
         },
         {
@@ -268,7 +268,7 @@ const referencesData = {
             location: "Rwanda",
             category: "REPORT",
             countries: ["Rwanda"],
-            link: "",
+            link: "[INSERT-UNEP-URL: wedocs.unep.org]",
             accessed: ""
         },
         {
@@ -278,7 +278,7 @@ const referencesData = {
             location: "South Africa",
             category: "REPORT",
             countries: ["South Africa"],
-            link: "",
+            link: "[INSERT-SA-GOV-URL: dffe.gov.za or gov.za]",
             accessed: ""
         },
         {
@@ -288,7 +288,7 @@ const referencesData = {
             location: "South Africa",
             category: "REPORT",
             countries: ["South Africa"],
-            link: "",
+            link: "[INSERT-SA-GOV-URL: dffe.gov.za]",
             accessed: ""
         },
         {
@@ -298,7 +298,7 @@ const referencesData = {
             location: "South Africa",
             category: "REPORT",
             countries: ["South Africa"],
-            link: "",
+            link: "[INSERT-WORLD-BANK-URL: documents.worldbank.org]",
             accessed: ""
         },
         {
@@ -308,7 +308,7 @@ const referencesData = {
             location: "South Africa",
             category: "REPORT",
             countries: ["South Africa"],
-            link: "",
+            link: "[INSERT-OECD-URL: oecd.org]",
             accessed: ""
         },
         {
@@ -318,7 +318,7 @@ const referencesData = {
             location: "Africa",
             category: "REPORT",
             countries: ["South Africa"],
-            link: "",
+            link: "[INSERT-UNEP-URL: wedocs.unep.org or unep.org]",
             accessed: ""
         }
     ],
@@ -330,7 +330,7 @@ const referencesData = {
             journal: "Journal of Environmental Planning and Management, 57(2), 221-235",
             category: "PEER-REVIEWED",
             countries: ["Nigeria", "Kenya", "South Africa"],
-            link: "EXTERNAL SOURCE",
+            link: "[INSERT-DOI: doi.org or tandfonline.com]",
             accessed: ""
         },
         {
@@ -340,7 +340,7 @@ const referencesData = {
             journal: "Yale Center for Environmental Law & Policy",
             category: "PEER-REVIEWED",
             countries: ["Nigeria"],
-            link: "",
+            link: "[INSERT-YALE-URL: epi.yale.edu]",
             accessed: ""
         }
     ],
@@ -352,7 +352,7 @@ const referencesData = {
             description: "Provider: AFDB Statistics Department | Format: CSV / XLSX",
             category: "DATASET",
             countries: ["All"],
-            downloadLink: "DOWNLOAD DATA",
+            downloadLink: "[INSERT-AFDB-DATA-URL: afdb.org/statistics]",
             accessed: ""
         },
         {
@@ -362,7 +362,7 @@ const referencesData = {
             description: "National statistical data on environment and urbanization",
             category: "DATASET",
             countries: ["Nigeria"],
-            downloadLink: "",
+            downloadLink: "[INSERT-NBS-URL: nigerianstat.gov.ng]",
             accessed: ""
         },
         {
@@ -372,7 +372,7 @@ const referencesData = {
             description: "Comprehensive e-waste generation statistics",
             category: "DATASET",
             countries: ["Egypt", "Kenya"],
-            downloadLink: "",
+            downloadLink: "[INSERT-ITU-URL: itu.int/ewaste or globalewaste.org]",
             accessed: ""
         },
         {
@@ -382,7 +382,7 @@ const referencesData = {
             description: "National statistical data on waste and environment",
             category: "DATASET",
             countries: ["Kenya"],
-            downloadLink: "",
+            downloadLink: "[INSERT-KNBS-URL: knbs.or.ke]",
             accessed: ""
         },
         {
@@ -392,7 +392,7 @@ const referencesData = {
             description: "Municipal waste data for Kigali",
             category: "DATASET",
             countries: ["Rwanda"],
-            downloadLink: "",
+            downloadLink: "[INSERT-KIGALI-URL: kigalicity.gov.rw]",
             accessed: ""
         },
         {
@@ -402,7 +402,7 @@ const referencesData = {
             description: "Comprehensive national waste data system",
             category: "DATASET",
             countries: ["South Africa"],
-            downloadLink: "",
+            downloadLink: "[INSERT-SAWIS-URL: sawis.dffe.gov.za]",
             accessed: ""
         }
     ]
