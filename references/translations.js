@@ -27,6 +27,7 @@ const translations = {
             placeholder: "SEARCH: Filter by Author, Country, or Document Type..."
         },
         categories: {
+            all: "ALL REFERENCES & DATA SOURCES",
             institutional: "01 / INSTITUTIONAL & REGIONAL REPORTS",
             academic: "02 / ACADEMIC & PEER-REVIEWED PAPERS",
             datasets: "03 / DATASETS & RAW STATISTICS"
@@ -59,6 +60,7 @@ const translations = {
             placeholder: "RECHERCHER : Filtrer par auteur, pays ou type de document..."
         },
         categories: {
+            all: "TOUTES LES RÉFÉRENCES ET SOURCES DE DONNÉES",
             institutional: "01 / RAPPORTS INSTITUTIONNELS ET RÉGIONAUX",
             academic: "02 / ARTICLES ACADÉMIQUES ET ÉVALUÉS PAR DES PAIRS",
             datasets: "03 / ENSEMBLES DE DONNÉES ET STATISTIQUES BRUTES"
@@ -446,9 +448,13 @@ function initializeLanguage() {
 
 // Render references by category
 function renderReferences() {
-    renderReferenceCategory('institutional', referencesData.institutional);
-    renderReferenceCategory('academic', referencesData.academic);
-    renderReferenceCategory('datasets', referencesData.datasets);
+    // Combine all references into one array
+    const allReferences = [
+        ...referencesData.institutional,
+        ...referencesData.academic,
+        ...referencesData.datasets
+    ];
+    renderReferenceCategory('all', allReferences);
 }
 
 function renderReferenceCategory(containerId, references) {
@@ -458,13 +464,14 @@ function renderReferenceCategory(containerId, references) {
     container.innerHTML = '';
     
     references.forEach((ref, index) => {
+        const type = ref.provider ? 'datasets' : (ref.journal ? 'academic' : 'institutional');
         const refCard = document.createElement('div');
         refCard.className = 'reference-card';
         refCard.dataset.countries = ref.countries.join(',');
         refCard.dataset.category = ref.category;
         refCard.dataset.searchText = `${ref.title} ${ref.author || ref.provider || ''} ${ref.countries.join(' ')}`.toLowerCase();
 
-        if (containerId === 'datasets') {
+        if (type === 'datasets') {
             refCard.innerHTML = `
                 <div class="reference-header">
                     <h3 class="reference-title">${ref.title}</h3>
@@ -476,7 +483,7 @@ function renderReferenceCategory(containerId, references) {
                     ${ref.downloadLink ? `<a href="#" class="reference-link">${ref.downloadLink}</a>` : ''}
                 </div>
             `;
-        } else if (containerId === 'academic') {
+        } else if (type === 'academic') {
             refCard.innerHTML = `
                 <div class="reference-header">
                     <h3 class="reference-title">${ref.title}</h3>
