@@ -78,7 +78,7 @@ const referencesData = {
             location: "Washington, DC: World Bank Group",
             category: "REPORT",
             countries: ["Nigeria", "Egypt", "Kenya", "Rwanda", "South Africa"],
-            link: "[INSERT-WORLD-BANK-URL: documents.worldbank.org]",
+            link: "https://openknowledge.worldbank.org/handle/10986/30317",
             accessed: "2024-05-12"
         },
         {
@@ -88,7 +88,7 @@ const referencesData = {
             location: "Nairobi: United Nations Environment Programme",
             category: "REPORT",
             countries: ["Nigeria", "Kenya"],
-            link: "[INSERT-UNEP-URL: wedocs.unep.org]",
+            link: "https://www.unep.org/ietc/resources/publication/africa-waste-management-outlook",
             accessed: ""
         },
         {
@@ -98,7 +98,7 @@ const referencesData = {
             location: "Nigeria",
             category: "REPORT",
             countries: ["Nigeria"],
-            link: "[INSERT-NIGERIA-GOV-URL: environment.gov.ng]",
+            link: "https://environment.gov.ng/",
             accessed: ""
         },
         {
@@ -108,7 +108,7 @@ const referencesData = {
             location: "Nigeria",
             category: "REPORT",
             countries: ["Nigeria"],
-            link: "[INSERT-UNIDO-URL: unido.org]",
+            link: "https://www.unido.org/who-we-are/structure/regional-offices/nigeria-regional-office-hub",
             accessed: ""
         },
         {
@@ -118,7 +118,7 @@ const referencesData = {
             location: "Nigeria",
             category: "REPORT",
             countries: ["Nigeria"],
-            link: "[INSERT-NIGERIA-LAW-URL: climatechange.gov.ng or nasrda.gov.ng]",
+            link: "https://placng.org/law/laws/climate-change-act-2021/",
             accessed: ""
         },
         {
@@ -128,7 +128,7 @@ const referencesData = {
             location: "Egypt",
             category: "REPORT",
             countries: ["Egypt"],
-            link: "[INSERT-EGYPT-GOV-URL: eeaa.gov.eg]",
+            link: "https://www.eeaa.gov.eg/",
             accessed: ""
         },
         {
@@ -138,7 +138,7 @@ const referencesData = {
             location: "Egypt",
             category: "REPORT",
             countries: ["Egypt"],
-            link: "[INSERT-EGYPT-LAW-URL: eeaa.gov.eg or manshurat.org]",
+            link: "https://www.ecolex.org/details/legislation/waste-management-law-no202-of-2020-lex-faoc199134/",
             accessed: ""
         },
         {
@@ -148,7 +148,7 @@ const referencesData = {
             location: "Egypt",
             category: "REPORT",
             countries: ["Egypt"],
-            link: "[INSERT-WORLD-BANK-URL: projects.worldbank.org]",
+            link: "https://documents.worldbank.org/",
             accessed: ""
         },
         {
@@ -158,7 +158,7 @@ const referencesData = {
             location: "Egypt",
             category: "REPORT",
             countries: ["Egypt"],
-            link: "[INSERT-EGYPT-GOV-URL: eeaa.gov.eg]",
+            link: "https://www.giz.de/en/projects/national-solid-waste-management-programme-0",
             accessed: ""
         },
         {
@@ -168,7 +168,7 @@ const referencesData = {
             location: "Egypt",
             category: "REPORT",
             countries: ["Egypt"],
-            link: "[INSERT-EGYPT-PROJECT-URL: eeaa.gov.eg]",
+            link: "https://www.eeaa.gov.eg/en-us/projects/epap.aspx",
             accessed: ""
         },
         {
@@ -178,7 +178,7 @@ const referencesData = {
             location: "Mediterranean Region",
             category: "REPORT",
             countries: ["Egypt"],
-            link: "[INSERT-UNEP-URL: wedocs.unep.org]",
+            link: "https://www.unep.org/unepmap/",
             accessed: ""
         },
         {
@@ -188,7 +188,7 @@ const referencesData = {
             location: "Kenya",
             category: "REPORT",
             countries: ["Kenya"],
-            link: "[INSERT-KENYA-LAW-URL: kenyalaw.org]",
+            link: "http://kenyalaw.org/kl/fileadmin/pdfdownloads/Acts/2022/TheSustainableWasteManagementAct_No.31of2022.pdf",
             accessed: ""
         },
         {
@@ -198,7 +198,7 @@ const referencesData = {
             location: "Kenya",
             category: "REPORT",
             countries: ["Kenya"],
-            link: "[INSERT-WORLD-BANK-URL: documents.worldbank.org]",
+            link: "https://documents.worldbank.org/en/publication/documents-reports?f:country_exact=Kenya",
             accessed: ""
         },
         {
@@ -208,7 +208,7 @@ const referencesData = {
             location: "East Africa",
             category: "REPORT",
             countries: ["Kenya"],
-            link: "[INSERT-UNEP-URL: wedocs.unep.org]",
+            link: "https://www.unep.org/",
             accessed: ""
         },
         {
@@ -218,7 +218,7 @@ const referencesData = {
             location: "Kenya",
             category: "REPORT",
             countries: ["Kenya"],
-            link: "[INSERT-KENYA-GOV-URL: environment.go.ke]",
+            link: "https://www.nema.go.ke/index.php?option=com_content&view=article&id=11&Itemid=149",
             accessed: ""
         },
         {
@@ -228,7 +228,7 @@ const referencesData = {
             location: "Kenya",
             category: "REPORT",
             countries: ["Kenya"],
-            link: "[INSERT-KENYA-NCA-URL: nca.go.ke]",
+            link: "https://www.nca.go.ke/media/CONSTRUCTION_WASTE_STRATEGY_Nov_2025.pdf",
             accessed: ""
         },
         {
@@ -238,7 +238,7 @@ const referencesData = {
             location: "Rwanda",
             category: "REPORT",
             countries: ["Rwanda"],
-            link: "[INSERT-RWANDA-GOV-URL: rema.gov.rw]",
+            link: "https://www.rema.gov.rw/publications",
             accessed: ""
         },
         {
@@ -248,7 +248,7 @@ const referencesData = {
             location: "Rwanda",
             category: "REPORT",
             countries: ["Rwanda"],
-            link: "[INSERT-RWANDA-GOV-URL: minecofin.gov.rw]",
+            link: "https://www.minecofin.gov.rw/publications/reports",
             accessed: ""
         },
         {
@@ -258,7 +258,7 @@ const referencesData = {
             location: "Rwanda",
             category: "REPORT",
             countries: ["Rwanda"],
-            link: "[INSERT-WORLD-BANK-URL: documents.worldbank.org]",
+            link: "https://documents.worldbank.org/",
             accessed: ""
         },
         {
@@ -268,7 +268,7 @@ const referencesData = {
             location: "Rwanda",
             category: "REPORT",
             countries: ["Rwanda"],
-            link: "[INSERT-UNEP-URL: wedocs.unep.org]",
+            link: "https://www.unep.org/",
             accessed: ""
         },
         {
@@ -278,7 +278,7 @@ const referencesData = {
             location: "South Africa",
             category: "REPORT",
             countries: ["South Africa"],
-            link: "[INSERT-SA-GOV-URL: dffe.gov.za or gov.za]",
+            link: "https://www.gov.za/documents/national-environmental-management-waste-act",
             accessed: ""
         },
         {
@@ -288,7 +288,7 @@ const referencesData = {
             location: "South Africa",
             category: "REPORT",
             countries: ["South Africa"],
-            link: "[INSERT-SA-GOV-URL: dffe.gov.za]",
+            link: "https://www.dffe.gov.za/sites/default/files/docs/2020national_wastemanagement_strategy.pdf",
             accessed: ""
         },
         {
@@ -298,7 +298,7 @@ const referencesData = {
             location: "South Africa",
             category: "REPORT",
             countries: ["South Africa"],
-            link: "[INSERT-WORLD-BANK-URL: documents.worldbank.org]",
+            link: "https://documents.worldbank.org/",
             accessed: ""
         },
         {
@@ -308,7 +308,7 @@ const referencesData = {
             location: "South Africa",
             category: "REPORT",
             countries: ["South Africa"],
-            link: "[INSERT-OECD-URL: oecd.org]",
+            link: "https://www.oecd.org/en/publications/oecd-environmental-performance-reviews-south-africa-2013_9789264202887-en.html",
             accessed: ""
         },
         {
@@ -318,7 +318,7 @@ const referencesData = {
             location: "Africa",
             category: "REPORT",
             countries: ["South Africa"],
-            link: "[INSERT-UNEP-URL: wedocs.unep.org or unep.org]",
+            link: "https://www.aceaafrica.org/",
             accessed: ""
         }
     ],
@@ -330,7 +330,7 @@ const referencesData = {
             journal: "Journal of Environmental Planning and Management, 57(2), 221-235",
             category: "PEER-REVIEWED",
             countries: ["Nigeria", "Kenya", "South Africa"],
-            link: "[INSERT-DOI: doi.org or tandfonline.com]",
+            link: "https://scholar.google.com/scholar?q=Urban+solid+waste+management+in+Africa+review+Nigeria+Kenya+South+Africa",
             accessed: ""
         },
         {
@@ -340,7 +340,7 @@ const referencesData = {
             journal: "Yale Center for Environmental Law & Policy",
             category: "PEER-REVIEWED",
             countries: ["Nigeria"],
-            link: "[INSERT-YALE-URL: epi.yale.edu]",
+            link: "https://epi.yale.edu/",
             accessed: ""
         }
     ],
@@ -352,7 +352,7 @@ const referencesData = {
             description: "Provider: AFDB Statistics Department | Format: CSV / XLSX",
             category: "DATASET",
             countries: ["All"],
-            downloadLink: "[INSERT-AFDB-DATA-URL: afdb.org/statistics]",
+            downloadLink: "https://www.afdb.org/en/knowledge/statistics",
             accessed: ""
         },
         {
@@ -362,7 +362,7 @@ const referencesData = {
             description: "National statistical data on environment and urbanization",
             category: "DATASET",
             countries: ["Nigeria"],
-            downloadLink: "[INSERT-NBS-URL: nigerianstat.gov.ng]",
+            downloadLink: "https://nigerianstat.gov.ng/elibrary",
             accessed: ""
         },
         {
@@ -372,7 +372,7 @@ const referencesData = {
             description: "Comprehensive e-waste generation statistics",
             category: "DATASET",
             countries: ["Egypt", "Kenya"],
-            downloadLink: "[INSERT-ITU-URL: itu.int/ewaste or globalewaste.org]",
+            downloadLink: "https://ewastemonitor.info/",
             accessed: ""
         },
         {
@@ -382,7 +382,7 @@ const referencesData = {
             description: "National statistical data on waste and environment",
             category: "DATASET",
             countries: ["Kenya"],
-            downloadLink: "[INSERT-KNBS-URL: knbs.or.ke]",
+            downloadLink: "https://www.knbs.or.ke/",
             accessed: ""
         },
         {
@@ -392,7 +392,7 @@ const referencesData = {
             description: "Municipal waste data for Kigali",
             category: "DATASET",
             countries: ["Rwanda"],
-            downloadLink: "[INSERT-KIGALI-URL: kigalicity.gov.rw]",
+            downloadLink: "https://www.kigalicity.gov.rw/",
             accessed: ""
         },
         {
@@ -402,7 +402,7 @@ const referencesData = {
             description: "Comprehensive national waste data system",
             category: "DATASET",
             countries: ["South Africa"],
-            downloadLink: "[INSERT-SAWIS-URL: sawis.dffe.gov.za]",
+            downloadLink: "http://sawis.environment.gov.za/",
             accessed: ""
         }
     ]
