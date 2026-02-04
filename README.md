@@ -1,1 +1,0 @@
-The Africa Waste Observatory 
