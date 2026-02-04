@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>References & Data - Africa Waste Observatory</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Page Content -->
+    <main>
+        <!-- References Header Section -->
+        <section class="references-header">
+            <div class="container">
+                <h1 data-i18n="header.title">REFERENCES & DATA SOURCES</h1>
+                <div class="header-content">
+                    <div class="intro-statement">
+                        <p data-i18n="header.intro">[INTRO: Statement on data credibility. This observatory prioritizes peer-reviewed evidence and official national statistics. All data presented is cross-referenced with the sources listed below to ensure a high standard of transparency and accountability in waste management reporting across the African continent.]</p>
+                    </div>
+                    <div class="data-integrity-note">
+                        <h3 data-i18n="header.integrityTitle">DATA INTEGRITY NOTE</h3>
+                        <p data-i18n="header.updateFrequency">[Update Frequency: Bi-annual audit.]</p>
+                        <p data-i18n="header.limitations">[Limitations: Variability in informal sector data and differences in national reporting definitions for "waste."]</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Search Section -->
+        <section class="search-section">
+            <div class="container">
+                <div class="search-box">
+                    <input type="text" id="reference-search" placeholder="[SEARCH: Filter by Author, Country, or Document Type...]" data-i18n-placeholder="search.placeholder">
+                    <button class="search-button">🔍</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- All References -->
+        <section class="reference-category">
+            <div class="container">
+                <h2 data-i18n="categories.all">ALL REFERENCES & DATA SOURCES</h2>
+                <div id="all-refs" class="references-list">
+                    <!-- References will be dynamically inserted -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Required Scripts -->
+    <script src="../js/components.js"></script>
+    <script src="./translations.js"></script>
+</body>
+</html>
