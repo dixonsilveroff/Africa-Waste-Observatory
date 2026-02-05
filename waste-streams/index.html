@@ -13,10 +13,102 @@
 
     <!-- Page Content -->
     <main>
-        <section class="your-section">
-            <h1 data-i18n="yourSection.title">Your Title</h1>
-            <p data-i18n="yourSection.description">Your description</p>
+        <!-- Hero Section -->
+        <section class="waste-streams-hero">
+            <div class="container">
+                <h1 data-i18n="hero.title">Africa's Waste Streams Uncovered</h1>
+                <p class="hero-description" data-i18n="hero.description">
+                    Explore comprehensive data and insights on various waste categories across the African 
+                    continent. Understand the challenges, opportunities, and sustainable practices for a 
+                    cleaner future.
+                </p>
+            </div>
         </section>
+
+        <!-- Key Waste Categories Section -->
+        <section class="waste-categories-section">
+            <div class="container">
+                <h2 data-i18n="categories.title">Key Waste Categories</h2>
+                
+                <div class="waste-categories-grid">
+                    <div class="waste-category-card" data-stream="plastics">
+                        <div class="category-icon">♻️</div>
+                        <h3 data-i18n="categories.plastics.title">Plastics</h3>
+                        <p data-i18n="categories.plastics.description">
+                            Addressing the global challenge of plastic pollution, from single-use items to 
+                            manufacturing.
+                        </p>
+                        <button class="btn-secondary" data-stream="plastics">
+                            <span data-i18n="categories.viewDetails">View Details</span>
+                        </button>
+                    </div>
+
+                    <div class="waste-category-card" data-stream="organics">
+                        <div class="category-icon">🍃</div>
+                        <h3 data-i18n="categories.organics.title">Organics</h3>
+                        <p data-i18n="categories.organics.description">
+                            Managing organic waste through composting, anaerobic digestion, and 
+                            sustainable agricultural practices.
+                        </p>
+                        <button class="btn-secondary" data-stream="organics">
+                            <span data-i18n="categories.viewDetails">View Details</span>
+                        </button>
+                    </div>
+
+                    <div class="waste-category-card" data-stream="metals">
+                        <div class="category-icon">🔩</div>
+                        <h3 data-i18n="categories.metals.title">Metals</h3>
+                        <p data-i18n="categories.metals.description">
+                            Recycling ferrous and non-ferrous metals to conserve resources and reduce 
+                            environmental impact.
+                        </p>
+                        <button class="btn-secondary" data-stream="metals">
+                            <span data-i18n="categories.viewDetails">View Details</span>
+                        </button>
+                    </div>
+
+                    <div class="waste-category-card" data-stream="glass">
+                        <div class="category-icon">🥤</div>
+                        <h3 data-i18n="categories.glass.title">Glass</h3>
+                        <p data-i18n="categories.glass.description">
+                            Promoting glass recycling and reuse to minimize landfill waste and energy 
+                            consumption.
+                        </p>
+                        <button class="btn-secondary" data-stream="glass">
+                            <span data-i18n="categories.viewDetails">View Details</span>
+                        </button>
+                    </div>
+
+                    <div class="waste-category-card" data-stream="ewaste">
+                        <div class="category-icon">📱</div>
+                        <h3 data-i18n="categories.ewaste.title">E-Waste</h3>
+                        <p data-i18n="categories.ewaste.description">
+                            Tackling the complex issue of electronic waste, its hazardous components, and 
+                            recovery strategies.
+                        </p>
+                        <button class="btn-secondary" data-stream="ewaste">
+                            <span data-i18n="categories.viewDetails">View Details</span>
+                        </button>
+                    </div>
+
+                    <div class="waste-category-card" data-stream="hazardous">
+                        <div class="category-icon">⚠️</div>
+                        <h3 data-i18n="categories.hazardous.title">Hazardous Waste</h3>
+                        <p data-i18n="categories.hazardous.description">
+                            Safe management and disposal of hazardous materials to protect public health 
+                            and the environment.
+                        </p>
+                        <button class="btn-secondary" data-stream="hazardous">
+                            <span data-i18n="categories.viewDetails">View Details</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detailed Insights Section (Dynamic Content) -->
+        <div id="detailed-insights"></div>
+
     </main>
 
     <!-- Footer Placeholder -->
