@@ -566,7 +566,7 @@ function renderDetailedInsights(streamType) {
     container.innerHTML = `
         <section class="detailed-insights-section">
             <div class="container">
-                <button class="back-button" onclick="clearDetailedInsights()">
+                <button type="button" class="back-button" onclick="clearDetailedInsights()">
                     <span data-i18n="insights.backToCategories">← Back to All Categories</span>
                 </button>
 
