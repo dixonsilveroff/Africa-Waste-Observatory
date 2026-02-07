@@ -730,7 +730,7 @@ function renderChart(chartData) {
 
     // Draw legend
     ctx.textAlign = 'left';
-    const legendY = height - 5;
+    const legendY = height - padding.bottom + 10;
     
     ctx.fillStyle = '#64748B';
     ctx.fillRect(width / 2 - 150, legendY, 15, 15);
