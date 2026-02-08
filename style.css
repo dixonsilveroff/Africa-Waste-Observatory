@@ -2084,4 +2084,153 @@ footer {
     .casestudy-card {
         padding: 1.5rem;
     }
+
+    .innovations-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .innovation-card {
+        padding: 1.5rem;
+    }
+}
+
+/* =========================
+   Innovations Page Styles
+   ========================= */
+
+.innovations-header {
+    padding: 3rem 2rem 2rem;
+    background-color: var(--white);
+    border-bottom: 2px solid var(--neutral-light);
+}
+
+.innovations-header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.innovations-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin: 0 0 1rem 0;
+}
+
+.innovations-header p {
+    font-size: 1.1rem;
+    color: var(--text-dark);
+    opacity: 0.8;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.innovations-header .country-dropdown {
+    display: inline-block;
+}
+
+/* Innovations Sections */
+.smart-tech-section,
+.recycling-section,
+.wte-section,
+.community-section,
+.circular-section,
+.impact-section {
+    padding: 3rem 2rem;
+}
+
+.smart-tech-section {
+    background-color: var(--white);
+}
+
+.recycling-section {
+    background-color: var(--background-light);
+}
+
+.wte-section {
+    background-color: var(--white);
+}
+
+.community-section {
+    background-color: var(--background-light);
+}
+
+.circular-section {
+    background-color: var(--white);
+}
+
+.impact-section {
+    background-color: var(--background-light);
+}
+
+/* Innovations Grid */
+.innovations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+/* Innovation Card */
+.innovation-card {
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 12px;
+    border-left: 4px solid var(--primary-green);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recycling-section .innovation-card,
+.community-section .innovation-card {
+    background-color: var(--white);
+}
+
+.innovation-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.innovation-card h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--secondary-blue);
+    margin: 0 0 1rem 0;
+}
+
+.innovation-card p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text-dark);
+    margin: 0;
+}
+
+/* Impact List */
+.impact-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.impact-list li {
+    padding: 1.25rem 1.5rem;
+    background-color: var(--white);
+    border-left: 4px solid var(--accent-yellow);
+    border-radius: 8px;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: var(--text-dark);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.impact-list li::before {
+    content: "✓";
+    color: var(--primary-green);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 0.75rem;
 }
