@@ -88,7 +88,10 @@ const translations = {
             established: "Established",
             scope: "Scope",
             timeline: "Timeline",
-            members: "Members"
+            members: "Members",
+            status: "Status",
+            lastUpdate: "Last Update",
+            totalEntries: "Total Entries"
         },
         links: {
             official: "Official Text",
@@ -158,6 +161,59 @@ const translations = {
         },
         disclaimer: {
             text: "Protocole de Référence : Tous les documents répertoriés dans cet observatoire sont vérifiés par rapport aux publications officielles de la gazette. Les citations suivent la convention [Organisation/Auteur, Année] pour cohérence avec les normes de rapport de l'Observatoire Africain des Déchets."
+        },
+        policies: {
+            basel: {
+                title: "Convention de Bâle sur le Contrôle des Mouvements Transfrontaliers de Déchets Dangereux",
+                coverage: "COUVERTURE MONDIALE",
+                description: "Traite des mouvements transfrontaliers de déchets dangereux et de leur élimination, y compris les amendements sur les déchets plastiques adoptés en 2019."
+            },
+            bamako: {
+                title: "Convention de Bamako sur les Déchets Dangereux en Afrique",
+                coverage: "RÉGIONAL (AXÉE SUR L'AFRIQUE)",
+                description: "Interdit l'importation de déchets dangereux en Afrique et réglemente le mouvement transfrontalier et la gestion des déchets dangereux produits sur le continent."
+            },
+            stockholm: {
+                title: "Convention de Stockholm sur les Polluants Organiques Persistants",
+                coverage: "COUVERTURE MONDIALE",
+                description: "Traite des polluants organiques persistants (POP) y compris ceux trouvés dans les flux de déchets tels que les pesticides, les produits chimiques industriels et les sous-produits non intentionnels."
+            },
+            acea: {
+                title: "Alliance Africaine pour l'Économie Circulaire (ACEA)",
+                coverage: "ALLIANCE CONTINENTALE",
+                description: "Plateforme multi-acteurs promouvant les principes de l'économie circulaire en Afrique. Les membres fondateurs incluent l'Union Africaine, le Forum Économique Mondial, la Banque Africaine de Développement, la Banque Mondiale et l'Afrique du Sud (2022)."
+            },
+            agenda2063: {
+                title: "Agenda 2063 de l'Union Africaine",
+                coverage: "CADRE CONTINENTAL",
+                description: "Cadre stratégique de l'Afrique pour la transformation socio-économique, incluant les objectifs de durabilité environnementale et la gestion des déchets dans le cadre de l'Aspiration 1 (Afrique prospère basée sur la croissance inclusive et le développement durable)."
+            },
+            eac: {
+                title: "Protocole de la Communauté d'Afrique de l'Est (CAE) sur l'Environnement et les Ressources Naturelles",
+                coverage: "RÉGIONAL (AFRIQUE DE L'EST)",
+                description: "Harmonise les politiques de gestion environnementale entre les États partenaires de la CAE (Kenya, Tanzanie, Ouganda, Rwanda, Burundi, Soudan du Sud, RDC), y compris les normes de gestion des déchets et le mouvement transfrontalier des déchets."
+            },
+            ecowas: {
+                title: "Politique Environnementale de la CEDEAO",
+                coverage: "RÉGIONAL (AFRIQUE DE L'OUEST)",
+                description: "Cadre de politique environnementale de la Communauté Économique des États de l'Afrique de l'Ouest traitant de la gestion des déchets, du contrôle de la pollution et de la protection de l'environnement dans 15 nations ouest-africaines dont le Nigeria."
+            }
+        },
+        meta: {
+            adopted: "Adopté",
+            effectiveDate: "En vigueur",
+            parties: "Parties",
+            established: "Établi",
+            scope: "Portée",
+            timeline: "Calendrier",
+            members: "Membres",
+            status: "Statut",
+            lastUpdate: "Dernière Mise à Jour",
+            totalEntries: "Entrées Totales"
+        },
+        links: {
+            official: "Texte Officiel",
+            signatories: "Liste des Signataires"
         }
     }
 };
@@ -352,6 +408,196 @@ const nationalPolicies = [
     }
 ];
 
+// French national policies data
+const nationalPoliciesFr = [
+    {
+        country: "Afrique du Sud",
+        countryCode: "ZA",
+        policies: [
+            {
+                name: "Loi sur la Gestion Environnementale Nationale : Déchets (NEMWA)",
+                effectiveDate: "2008",
+                keyProvisions: "Cadre complet de gestion des déchets, classification des déchets, exigences de licence, hiérarchie de gestion des déchets",
+                link: "https://www.dffe.gov.za"
+            },
+            {
+                name: "Réglementations sur la Responsabilité Élargie des Producteurs (REP)",
+                effectiveDate: "2021 (Mai)",
+                keyProvisions: "REP obligatoire pour les déchets électroniques, le papier, les emballages et les plastiques. Les producteurs doivent s'inscrire auprès des Organisations de Responsabilité des Producteurs",
+                link: "https://www.dffe.gov.za"
+            },
+            {
+                name: "Projet de Stratégie Nationale de Gestion des Déchets (NWMS) 2026",
+                effectiveDate: "2026 (Projet)",
+                keyProvisions: "Objectifs de nouvelle génération pour le détournement des déchets, intégration de l'économie circulaire, prestation de services équitable comblant l'écart de service de 37%",
+                link: "https://www.dffe.gov.za"
+            },
+            {
+                name: "Contributions Déterminées au Niveau National (CDN) 2025 - Cadre de Transition Juste",
+                effectiveDate: "2025",
+                keyProvisions: "Intègre les récupérateurs informels via des incitations 'paiement au kilo', programmes de santé, objectifs de réduction du méthane",
+                link: "https://unfccc.int"
+            }
+        ]
+    },
+    {
+        country: "Nigeria",
+        countryCode: "NG",
+        policies: [
+            {
+                name: "Loi sur l'Agence Nationale de Réglementation et d'Application des Normes Environnementales (NESREA)",
+                effectiveDate: "2007",
+                keyProvisions: "Établit NESREA comme principal organisme d'application des normes environnementales et de la réglementation des déchets",
+                link: "https://www.nesrea.gov.ng"
+            },
+            {
+                name: "Loi sur le Changement Climatique",
+                effectiveDate: "2021",
+                keyProvisions: "Objectif de zéro émission nette d'ici 2060, cadre d'action climatique incluant la valorisation énergétique des déchets et le captage du méthane",
+                link: "https://climatechange.gov.ng"
+            },
+            {
+                name: "Politique Nationale de Gestion des Déchets Plastiques (NPPWM)",
+                effectiveDate: "2020",
+                keyProvisions: "Cadre d'économie circulaire pour les déchets plastiques, promeut la REP, initiatives de valorisation des déchets",
+                link: "https://www.fmenv.gov.ng"
+            },
+            {
+                name: "Directives Nationales de Mise en Œuvre pour la Gestion des Déchets Plastiques",
+                effectiveDate: "2024",
+                keyProvisions: "Développées avec l'ONUDI et le Japon, fournissent des directives opérationnelles pour la mise en œuvre du NPPWM, schémas REP",
+                link: "https://www.unido.org"
+            },
+            {
+                name: "Interdiction du Plastique à Usage Unique de l'État de Lagos",
+                effectiveDate: "2025 (1er Juillet)",
+                keyProvisions: "Interdit le polystyrène, les pailles, couverts et assiettes à usage unique. Les contrevenants risquent la fermeture de leur entreprise. Traite la crise des 13 000 tonnes/jour de déchets de Lagos",
+                link: "https://lagosstate.gov.ng"
+            },
+            {
+                name: "Politique Gaz-à-partir-des-Déchets",
+                effectiveDate: "2022",
+                keyProvisions: "Captage du méthane et initiatives de valorisation énergétique des déchets, récupération du gaz de décharge, production de biogaz",
+                link: "https://www.fmenv.gov.ng"
+            }
+        ]
+    },
+    {
+        country: "Kenya",
+        countryCode: "KE",
+        policies: [
+            {
+                name: "Loi sur la Gestion Durable des Déchets",
+                effectiveDate: "2022",
+                keyProvisions: "Fournit l'épine dorsale juridique pour les transitions vers l'économie circulaire, impose la conformité REP, le tri des déchets, les Installations de Récupération des Matériaux (IRM)",
+                link: "https://www.nema.go.ke"
+            },
+            {
+                name: "Réglementations sur la Responsabilité Élargie des Producteurs (REP)",
+                effectiveDate: "2020 (Mis à jour 2024)",
+                keyProvisions: "Les producteurs responsables de la gestion en fin de vie des produits, inscription obligatoire, systèmes de reprise pour les emballages et l'électronique",
+                link: "https://www.nema.go.ke"
+            },
+            {
+                name: "Réglementations sur la Gestion Durable des Déchets",
+                effectiveDate: "2024",
+                keyProvisions: "Directives de mise en œuvre au niveau des comtés, 'chambres de refus' désignées, services de collecte séparée, exigences de licence",
+                link: "https://www.nema.go.ke"
+            },
+            {
+                name: "Politique Nationale de Gestion de l'Assainissement",
+                effectiveDate: "2024",
+                keyProvisions: "Approche intégrée de l'assainissement et de la gestion des déchets solides, vise une couverture de 100% d'ici 2030",
+                link: "https://www.health.go.ke"
+            },
+            {
+                name: "Autorité Nationale de Construction - Stratégie des Déchets de Construction et Démolition",
+                effectiveDate: "2025-2030",
+                keyProvisions: "Exigences de traitement des déchets de C&D, objectifs de récupération des matériaux, pratiques de construction circulaire",
+                link: "https://www.nca.go.ke"
+            }
+        ]
+    },
+    {
+        country: "Égypte",
+        countryCode: "EG",
+        policies: [
+            {
+                name: "Loi sur la Réglementation de la Gestion des Déchets (Loi n° 202 de 2020)",
+                effectiveDate: "2020",
+                keyProvisions: "Met fin à des décennies de réglementation fragmentée. Établit le Principe Pollueur-Payeur, cadre de licence, système de classification des déchets",
+                link: "https://www.eeaa.gov.eg"
+            },
+            {
+                name: "Règlements d'Exécution de la Loi n° 202",
+                effectiveDate: "2022",
+                keyProvisions: "Directives opérationnelles pour les licences des secteurs public et privé, normes des installations de déchets, protocoles de surveillance",
+                link: "https://www.eeaa.gov.eg"
+            },
+            {
+                name: "Décret du Premier Ministre n° 662 de 2025 - Mise en Œuvre de la REP",
+                effectiveDate: "2025",
+                keyProvisions: "Met en œuvre la REP pour les plastiques et l'électronique, établit des frais sur les sacs plastiques, exigences d'inscription des producteurs",
+                link: "https://www.eeaa.gov.eg"
+            },
+            {
+                name: "Programme National de Gestion des Déchets Solides (PNGDS)",
+                effectiveDate: "2015 (En cours)",
+                keyProvisions: "Refonte institutionnelle, promeut le tri des déchets, les IRM, le compostage, les marchés de recyclage formels. Vise à augmenter le taux de recyclage de 37% (2024) à 60% d'ici 2027",
+                link: "https://www.worldbank.org/en/country/egypt"
+            },
+            {
+                name: "Restrictions sur le Plastique à Usage Unique",
+                effectiveDate: "2023 (Progressif)",
+                keyProvisions: "Restrictions sur les plastiques à usage unique avec des incitations fiscales vertes pour les alternatives",
+                link: "https://www.eeaa.gov.eg"
+            }
+        ]
+    },
+    {
+        country: "Rwanda",
+        countryCode: "RW",
+        policies: [
+            {
+                name: "Loi n° 48/2018 Régissant l'Environnement",
+                effectiveDate: "2018",
+                keyProvisions: "Cadre complet de protection de l'environnement incluant les dispositions de gestion des déchets, évaluations d'impact environnemental",
+                link: "https://www.rema.gov.rw"
+            },
+            {
+                name: "Stratégie Intégrée de Gestion des Déchets Solides",
+                effectiveDate: "2022",
+                keyProvisions: "Cadre national pour la gestion durable des déchets aligné sur les principes de l'économie circulaire, vise des villes zéro déchet d'ici 2035",
+                link: "https://www.rema.gov.rw"
+            },
+            {
+                name: "Stratégie Nationale de Transformation (NST2)",
+                effectiveDate: "2024-2029",
+                keyProvisions: "Stratégie de transformation économique incluant les objectifs d'économie circulaire, modernisation de la gestion des déchets, création d'emplois verts",
+                link: "https://www.minecofin.gov.rw"
+            },
+            {
+                name: "Plan d'Action National pour l'Économie Circulaire",
+                effectiveDate: "2023",
+                keyProvisions: "Transforme Kigali en ville zéro déchet d'ici 2035, conformité REP à 100% d'ici 2030, mise en œuvre des 10 principes circulaires",
+                link: "https://www.rema.gov.rw"
+            },
+            {
+                name: "Interdiction des Sacs Plastiques",
+                effectiveDate: "2008",
+                keyProvisions: "Interdiction pionnière des sacs plastiques en Afrique, application stricte, réduction de la composition des déchets plastiques à 3,7% du flux total",
+                link: "https://www.rema.gov.rw"
+            },
+            {
+                name: "Réglementations REP pour les Déchets Électroniques",
+                effectiveDate: "2020 (Objectifs progressifs jusqu'en 2030)",
+                keyProvisions: "Conformité REP 30% (2024) → 50% (2026) → 70% (2028) → 100% (2030). Gère ~2 500 producteurs d'électronique via l'Organisation de Responsabilité des Producteurs",
+                link: "https://www.rura.rw"
+            }
+        ]
+    }
+];
+
 // Language switching functionality
 function setLanguage(lang) {
     const elements = document.querySelectorAll('[data-i18n]');
@@ -380,9 +626,12 @@ function loadNationalPolicies() {
     const tableBody = document.getElementById('policy-table-body');
     if (!tableBody) return;
     
+    const savedLanguage = localStorage.getItem('selectedLanguage') || 'en';
+    const policiesData = savedLanguage === 'fr' ? nationalPoliciesFr : nationalPolicies;
+    
     tableBody.innerHTML = '';
     
-    nationalPolicies.forEach(countryData => {
+    policiesData.forEach(countryData => {
         countryData.policies.forEach((policy, index) => {
             const row = document.createElement('tr');
             
@@ -419,7 +668,7 @@ function loadNationalPolicies() {
     });
     
     // Update total entries count
-    const totalPolicies = nationalPolicies.reduce((sum, country) => sum + country.policies.length, 0);
+    const totalPolicies = policiesData.reduce((sum, country) => sum + country.policies.length, 0);
     const totalEntriesElement = document.getElementById('total-entries');
     if (totalEntriesElement) {
         totalEntriesElement.textContent = totalPolicies + 7; // Add international/regional policies
