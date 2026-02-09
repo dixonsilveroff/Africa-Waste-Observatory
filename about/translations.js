@@ -71,9 +71,9 @@ const translations = {
         team: {
             title: "Meet Our Dedicated Team",
             member1: {
-                name: "Engr. Prof. Chukwunonye Ezeah",
+                name: "Dr. Chukwunonye Ezeah",
                 role: "Coordinator",
-                bio: "[Blank]"
+                bio: "Dr. Chukwunonye Ezeah is a Reader in Civil Engineering at Alex Ekwueme Federal University, Ndufu-Alike, with a PhD in Environmental Engineering (University of Wolverhampton, UK). His research focuses on sustainable urban environments, especially waste management technologies and best-practice strategies—directly supporting the Waste Observatory's mission. He is a COREN-registered engineer, Chartered Environmentalist, and a member of NSE and ASCE."
             },
             member2: {
                 name: "Victor I. Nwafor",
@@ -163,9 +163,9 @@ const translations = {
         team: {
             title: "Rencontrez Notre Équipe Dévouée",
             member1: {
-                name: "Ing. Prof. Chukwunonye Ezeah",
+                name: "Dr. Chukwunonye Ezeah",
                 role: "Coordinateur",
-                bio: "[Vide]"
+                bio: "Dr. Chukwunonye Ezeah est Maître de Conférences en Génie Civil à l'Université Fédérale Alex Ekwueme, Ndufu-Alike, titulaire d'un doctorat en Génie de l'Environnement (Université de Wolverhampton, Royaume-Uni). Ses recherches portent sur les environnements urbains durables, en particulier les technologies de gestion des déchets et les stratégies de bonnes pratiques, soutenant directement la mission de l'Observatoire des Déchets. Il est ingénieur enregistré COREN, Environnementaliste Agréé, et membre de la NSE et de l'ASCE."
             },
             member2: {
                 name: "Victor I. Nwafor",
