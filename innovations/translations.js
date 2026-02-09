@@ -114,6 +114,14 @@ const countryData = {
                 description: "South Africa has Africa's most advanced EPR frameworks, particularly for e-waste and polymers. The new 2025 National E-Waste Policy establishes take-back schemes for electronics, while polymer recovery programs recently diverted over 430,000 tonnes of plastic from landfills."
             },
             {
+                title: "Africa Circular Economy Alliance (ACEA) Founding Member",
+                description: "South Africa co-founded the Africa Circular Economy Alliance (ACEA) in 2022 alongside the African Union, World Economic Forum, African Development Bank, and World Bank. As a founding member, South Africa shapes continental circular economy policy, investment frameworks, and knowledge sharing. This leadership position enables the country to influence regional waste management transitions and attract green economy investments."
+            },
+            {
+                title: "Draft National Waste Management Strategy (NWMS) 2026",
+                description: "Released for public comment in 2026, this next-generation strategy outlines ambitious targets for waste diversion, circular economy integration, and equitable service delivery. The draft NWMS addresses the critical challenge that 37% of South African households (9.8 million people) lack access to refuse removal services, particularly in rural and informal settlements. The strategy emphasizes closing service gaps while strengthening recycling infrastructure and EPR enforcement."
+            },
+            {
                 title: "Separation-at-Source Initiatives",
                 description: "Government-backed programs encourage households and businesses to segregate waste at the point of generation. This reduces contamination, improves recycling efficiency, and supports decentralized organic waste processing to reduce methane emissions."
             }
@@ -121,6 +129,8 @@ const countryData = {
         impact: [
             "Over 430,000 tonnes of plastics recovered annually through EPR schemes",
             "30% reduction in waste collection costs through smart routing",
+            "Founding member of Africa Circular Economy Alliance (ACEA) in 2022, shaping continental policy",
+            "Draft NWMS 2026 addresses 37% household service gap (9.8 million people without refuse removal)",
             "First national policy integrating informal waste pickers into climate commitments (2025 NDC)",
             "Significant progress toward methane reduction targets via landfill gas capture",
             "Expansion of decentralized organic waste systems to divert biodegradables from landfills"
@@ -131,7 +141,7 @@ const countryData = {
         smartTech: [
             {
                 title: "Pneumatic Waste Collection – Konza Technopolis",
-                description: "Africa's first underground pneumatic waste collection network eliminates the need for waste trucks by using vacuum tubes to transport waste to central sorting facilities. This innovative system reduces traffic congestion, lowers emissions, and ensures hygienic, odor-free waste management in urban areas. The system showcases Kenya's vision for smart city development."
+                description: "Africa's first underground pneumatic waste collection network, operational since 2025 with a $9 million investment. The system features 15 kilometers of underground pipes and 50 intake points with 40 tons/day processing capacity. Users deposit waste into intake points, and it's automatically transported via vacuum tubes to central sorting facilities. This innovative system eliminates the need for waste trucks, reduces traffic congestion, lowers emissions, and ensures hygienic, odor-free waste management in urban areas. The system showcases Kenya's vision for smart city development and positions the country as a regional leader in advanced urban infrastructure."
             }
         ],
         recycling: [
@@ -149,6 +159,10 @@ const countryData = {
             }
         ],
         wasteToEnergy: [
+            {
+                title: "Dandora 45 MW Waste-to-Energy Plant",
+                description: "A landmark 45 MW Waste-to-Energy facility officially commissioned by President William Ruto on February 8, 2026. This plant aims to transform the notorious Dandora dumpsite, East Africa's largest and most hazardous landfill, into a clean energy generation hub. The facility will process thousands of tons of waste daily while generating clean electricity for Nairobi's grid, representing a major shift in Kenya's waste management paradigm from dumping to energy recovery."
+            },
             {
                 title: "Kakamega Waste-to-Energy Plant",
                 description: "Currently under construction, this facility will incinerate solid waste to generate approximately 10 MW of electricity, enough to power thousands of homes. The project represents Kenya's push toward sustainable waste disposal while contributing to renewable energy targets and reducing reliance on landfills like the hazardous Dandora dumpsite."
@@ -175,12 +189,13 @@ const countryData = {
             }
         ],
         impact: [
-            "Africa's first pneumatic waste collection network operational (Konza Technopolis)",
+            "Africa's first pneumatic waste collection network operational (Konza Technopolis, $9M investment, 15km pipes, 40 tons/day capacity)",
+            "45 MW Dandora Waste-to-Energy plant commissioned by President Ruto (Feb 8, 2026)",
             "Targeting 50% waste collection coverage nationwide (up from 30%) by 2027",
-            "Major diversion of water hyacinth waste into commercial packaging",
+            "Major diversion of water hyacinth waste into commercial packaging via HyaPak",
             "Planned 10 MW waste-to-energy capacity from Kakamega plant",
-            "Progressive closure of Dandora dumpsite and transition to engineered landfills",
-            "Establishment of textile take-back hubs to combat 'mitumba' waste crisis"
+            "Progressive closure of Dandora dumpsite and transition to engineered landfills with WtE",
+            "Establishment of textile take-back hubs to combat 'mitumba' waste crisis (22.5M kg/year imports)"
         ]
     },
     "egypt": {
@@ -202,6 +217,10 @@ const countryData = {
             }
         ],
         wasteToEnergy: [
+            {
+                title: "Zero Carbon Green Planet (ZCGP) Plant – Sharm El-Sheikh",
+                description: "A groundbreaking waste valorization facility processing 400 tonnes/day of non-recyclable waste to produce high-value products including graphene and hydrogen. Set to be completed in 2027, this plant represents Egypt's transition from conventional waste-to-energy incineration to advanced material recovery. By extracting valuable compounds from waste streams, the ZCGP plant positions Egypt as a regional leader in waste-based circular manufacturing and green chemistry."
+            },
             {
                 title: "Integrated Solid Waste Management Sector (ISWMS)",
                 description: "Large-scale Public-Private Partnerships (PPPs) are establishing waste-to-energy plants and engineered sanitary landfills to replace legacy dumpsites. These facilities will convert municipal solid waste into electricity and heat, supporting Egypt's renewable energy targets under Vision 2030."
@@ -228,12 +247,13 @@ const countryData = {
             }
         ],
         impact: [
-            "Up to 80% waste recovery achieved by Zabbaleen informal system",
-            "65+ composting facilities modernized to process organic waste",
+            "Zabbaleen processes 11,000 tons/day with up to 80% waste recovery rate",
+            "Recycling rate progression: 37% (2024) targeting 60% by 2027",
+            "ZCGP plant in Sharm El-Sheikh (400 tonnes/day, graphene & hydrogen production, 2027 completion)",
+            "65+ composting facilities modernized to process organic waste (50-60% of total)",
             "Successful closure of major legacy dumpsites (e.g., Al-Salam)",
-            "Pilot waste-to-energy plants under construction via PPP models",
-            "Electricity-bill-linked fees piloted to expand collection to underserved rural areas",
-            "Advanced materials (graphene, hydrogen) production from waste streams underway"
+            "Waste Management City initiative modernizing infrastructure while integrating informal sector",
+            "Electricity-bill-linked fees piloted to expand collection to underserved rural areas (from 35%)"
         ]
     },
     "nigeria": {
@@ -261,7 +281,7 @@ const countryData = {
         wasteToEnergy: [
             {
                 title: "Phoenix Edison Waste-to-Energy Facility",
-                description: "A USD 116 million investment in waste-to-energy infrastructure, this facility will process municipal solid waste to generate electricity. The project aligns with Nigeria's Climate Change Act (2021) and Gas-to-Waste Policy (2022), targeting methane capture and renewable energy generation from waste streams."
+                description: "A landmark USD 116 million investment representing the largest private sector infrastructure project in Nigeria's waste management sector. This facility will process 500 tons of waste daily, generate 12 MW of electricity, and create 1,144 jobs. Expected to be operational by 2027, the project aligns with Nigeria's Climate Change Act (2021) and Gas-to-Waste Policy (2022), targeting methane capture and renewable energy generation from waste streams while addressing Lagos's massive waste challenge."
             }
         ],
         community: [
@@ -280,16 +300,18 @@ const countryData = {
                 description: "Nigeria is rolling out EPR schemes for packaging, plastics, and electronics. Producers are required to finance take-back and recycling systems, shifting responsibility upstream and incentivizing sustainable product design."
             },
             {
-                title: "Single-Use Plastic Ban Enforcement (2025)",
-                description: "The January 2025 ban on single-use plastic bags, straws, and styrofoam marks a turning point for Nigeria's plastic reduction strategy. Enforcement is being backed by awareness campaigns, alternative product promotion, and penalties for non-compliance."
+                title: "Lagos State Single-Use Plastic Ban (July 2025)",
+                description: "The July 1, 2025 ban on styrofoam, single-use plastic straws, cutlery, and plates marks a turning point for Nigeria's plastic reduction strategy. This landmark policy addresses Lagos's contribution as one of the world's most plastics-polluted urban areas, where 13,000 tons/day of waste is generated with 60% uncollected. Offenders risk business shutdown. Enforcement is being backed by awareness campaigns, alternative product promotion, and strict penalties for non-compliance."
             }
         ],
         impact: [
             "Wecyclers has diverted over 5,000 tonnes of waste from landfills",
             "Salubata has repurposed thousands of kilograms of plastic into footwear",
-            "USD 116M Phoenix Edison WtE facility expected to process 1,000+ tonnes daily",
-            "Expansion of MRFs targeting 60% uncollected waste stream",
-            "Enforcement of single-use plastic ban reducing plastic leakage by significant margins",
+            "USD 116M Phoenix Edison WtE facility (500 tons/day capacity, 12 MW, 1,144 jobs) operational by 2027",
+            "Lagos State plastic ban (July 1, 2025) targets styrofoam, straws, cutlery, plates",
+            "Expansion of MRFs targeting Lagos's 60% uncollected waste stream (7,800 tons/day)",
+            "National roadmap 2025-2040 launched with World Bank to achieve integrated waste management",
+            "Informal sector recognized as handling 59.3% of national waste disposal",
             "Points-based systems engaging tens of thousands of low-income households in recycling"
         ]
     },
