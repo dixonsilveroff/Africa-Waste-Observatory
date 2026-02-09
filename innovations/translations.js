@@ -24,7 +24,8 @@ const translations = {
             southAfrica: "South Africa",
             kenya: "Kenya",
             egypt: "Egypt",
-            nigeria: "Nigeria"
+            nigeria: "Nigeria",
+            rwanda: "Rwanda"
         },
         sections: {
             overview: "Innovation Overview",
@@ -60,7 +61,8 @@ const translations = {
             southAfrica: "Afrique du Sud",
             kenya: "Kenya",
             egypt: "Égypte",
-            nigeria: "Nigéria"
+            nigeria: "Nigéria",
+            rwanda: "Rwanda"
         },
         sections: {
             overview: "Aperçu des Innovations",
@@ -289,6 +291,92 @@ const countryData = {
             "Expansion of MRFs targeting 60% uncollected waste stream",
             "Enforcement of single-use plastic ban reducing plastic leakage by significant margins",
             "Points-based systems engaging tens of thousands of low-income households in recycling"
+        ]
+    },
+    "rwanda": {
+        overviewText: "Rwanda has established itself as Africa's green innovation champion, pioneering groundbreaking waste management solutions that serve as a model for the continent. From banning plastic bags in 2008 to developing the homegrown SHINE Model for circular waste management, Rwanda combines strong political will with practical innovation. The country's approach integrates cutting-edge e-waste recycling, plastic-to-infrastructure projects, and community-driven circular economy initiatives—all supported by a comprehensive National Circular Economy Action Plan targeting zero-waste cities by 2035.",
+        smartTech: [
+            {
+                title: "SHINE Model for Sustainable Waste Management",
+                description: "Developed in 2024-2025 by GIZ in partnership with Rwanda's Ministry of Environment, the SHINE Model is a locally-developed, cost-efficient solid waste management framework grounded in life-cycle thinking and full-cost accounting. Successfully piloted in Bugesera, Rwamagana, and Muhanga, the model emphasizes household-level source separation (organics, recyclables, residuals), integrated logistics solutions tailored to local terrain and infrastructure, and behavior change communication. The SHINE Model fully aligns with Rwanda's Integrated Solid Waste Management Strategy and National Circular Economy Action Plan, positioning Rwanda as a regional leader in circular waste systems."
+            },
+            {
+                title: "Digital E-Waste Tracking and Management Systems",
+                description: "Rwanda has implemented data-driven e-waste management systems in partnership with the International Telecommunication Union (ITU) and Saudi Arabia's Communications, Space, and Technology Commission (CST). These digital platforms track e-waste flows from generation to recycling, ensuring compliance with Extended Producer Responsibility (EPR) regulations. The system manages approximately 2,500 electronics producers (importers and distributors) and supports the Producer Responsibility Organization (PRO) established under the Business Research Council."
+            }
+        ],
+        recycling: [
+            {
+                title: "Enviroserve Rwanda Green Park",
+                description: "Rwanda's state-of-the-art e-waste dismantling and recycling facility—the second of its kind in Africa—has trained 70 young Rwandans in electronics repair, maintenance, and recycling. The facility has created 413 green jobs with expansion expected as nationwide collection points become fully operational. Enviroserve provides e-waste collection services not only in Rwanda but also in Uganda, the Democratic Republic of Congo, and Burundi. The facility offers data-wiping services, refurbishment, and responsible dismantling, ensuring hazardous materials like heavy metals are safely processed."
+            },
+            {
+                title: "Plastic Roads Infrastructure",
+                description: "Kigali's streets feature innovative roads constructed with recycled plastic, offering a durable, cost-effective alternative to traditional asphalt. These plastic roads address Rwanda's plastic waste challenge while providing weather-resistant, long-lasting infrastructure. The technology repurposes thousands of tonnes of plastic waste that would otherwise end up in landfills or the environment."
+            },
+            {
+                title: "Quality Composting from Source-Separated Organics",
+                description: "Rwanda has established local composting facilities that convert source-separated organic waste (75% of Rwanda's 1.5 million tonnes of annual waste) into high-quality compost meeting RSB standards. These facilities, particularly the pilot in Bugesera District, use nature-based bio-cycles and continuous laboratory quality control. The compost supports Rwanda's agricultural sector, which employs over 70% of the population and contributes 33% to GDP."
+            },
+            {
+                title: "Rwanda BioSolutions",
+                description: "This social enterprise transforms waste into affordable, high-quality compost using a blend of rabbit manure, household waste, and local dumpsite materials. By accelerating decomposition with microorganisms, they produce compost in a fraction of the usual time. This provides farmers with an affordable alternative to inorganic fertilizers, improving yields while supporting soil health. The initiative includes 2 permanent staff, 4 part-time staff, and 30 casual workers."
+            }
+        ],
+        wasteToEnergy: [
+            {
+                title: "Biogas from Organic Waste",
+                description: "Rwanda is developing biogas technology for municipal solid waste management in Kigali and other urban centers. Given that three-quarters of Rwanda's waste is biodegradable, biogas technology offers significant potential for renewable energy generation while reducing methane emissions from open dumping. These projects align with Rwanda's Vision 2050 goal of achieving net-zero carbon secondary cities."
+            }
+        ],
+        community: [
+            {
+                title: "Gikondo Wetland Transformation",
+                description: "The Gikondo wetland in Kigali, once heavily polluted by plastic waste, is being transformed into a recreational area similar to the Nyandungu Eco-tourism Park. The government actively engaged youth in removing plastic waste from the wetland, turning an environmental challenge into an opportunity for community involvement and job creation. This project demonstrates Rwanda's commitment to restoring degraded ecosystems while creating green employment."
+            },
+            {
+                title: "Plastic Waste Management Fund",
+                description: "Established in 2021 in partnership with the Private Sector Federation, this fund has collected nearly 1,500 tonnes of plastic waste from approximately 24 drop-off points across Rwanda. The program has created 1,300 green jobs, demonstrating the potential for environmental initiatives to drive economic growth and employment. Collected plastics are diverted from landfills to recycling facilities and road construction projects."
+            },
+            {
+                title: "Community Behavior Change Programs",
+                description: "Rwanda's waste management strategy emphasizes Information, Education, and Communication (IEC) activities to promote household waste sorting. Communities that successfully sort waste receive incentives through lower waste management fees. The approach includes sharing success stories, social norming, and making sorting simple and accessible through clear instructions and tools. Political will and local government buy-in ensure long-term sustainability and community trust."
+            },
+            {
+                title: "Nationwide E-Waste Collection Campaign",
+                description: "Launched by the Ministry of ICT and Innovation, Ministry of Environment, and RURA in partnership with UNEP and ITU, this campaign raises awareness about proper e-waste management and encourages Rwandans to return old electronics to dedicated collection points across the country. The campaign includes training for general waste collection companies to separate e-waste and deliver it to certified recycling facilities."
+            }
+        ],
+        circular: [
+            {
+                title: "National Circular Economy Action Plan and Roadmap",
+                description: "Launched to position circular economy at the core of Rwanda's economic decision-making by 2035, this comprehensive plan ensures resource retention, waste elimination, and sustainable production. The roadmap addresses waste management, sustainable agriculture, green manufacturing, and circular business models. It aligns with Vision 2050's goals of achieving high-income status and net-zero carbon cities while sustaining a diverse, inclusive green economy."
+            },
+            {
+                title: "Extended Producer Responsibility (EPR) System",
+                description: "Rwanda has established comprehensive EPR guidelines for plastics and electronics with phased targets from 2022-2030. The Business Research Council, housed under the Private Sector Federation, serves as Rwanda's Producer Responsibility Organization (PRO), mobilizing approximately 2,500 producers (importers and distributors) of electronics. The EPR system targets 30% collection by 2024, 50% by 2026, 70% by 2028, and 100% by 2030. It includes penalties for non-compliance and incentives for waste sorting."
+            },
+            {
+                title: "Plastic Ban and Global Leadership",
+                description: "Rwanda banned plastic bags in 2008, becoming one of the first African countries to take decisive action against plastic pollution. In 2024, Rwanda and Peru jointly submitted a proposal at U.N. talks in Ottawa to reduce global plastic production by 40% by 2040, demonstrating Rwanda's leadership in international environmental policy and commitment to protecting human health and the environment."
+            },
+            {
+                title: "Integrated Solid Waste Management Strategy",
+                description: "Rwanda's national strategy emphasizes minimizing waste and promoting resource recovery through prevention, source separation, and targeted organic waste management. The strategy ensures access to waste services by improving collection, logistics, and behavior change while protecting public health and working toward a zero-waste, circular economy through stronger regulations and private sector innovation."
+            }
+        ],
+        impact: [
+            "Successfully piloted SHINE Model in 3 satellite cities (Bugesera, Rwamagana, Muhanga)",
+            "413 green jobs created at Enviroserve e-waste facility, with expansion ongoing",
+            "1,500 tonnes of plastic waste collected through Plastic Waste Management Fund",
+            "1,300 green jobs created through plastic waste collection programs",
+            "70 young Rwandans trained in e-waste repair, maintenance, and recycling",
+            "E-waste recycling services extended to Uganda, DRC, and Burundi",
+            "Gikondo wetland transformation creating recreational space and community jobs",
+            "EPR system managing ~2,500 electronics producers with phased compliance targets",
+            "Innovative plastic roads providing durable, cost-effective infrastructure in Kigali",
+            "Global leadership: Co-proposed 40% reduction in plastic production by 2040 at U.N. talks",
+            "National Circular Economy Action Plan positioning Rwanda for net-zero cities by 2035"
         ]
     }
 };
