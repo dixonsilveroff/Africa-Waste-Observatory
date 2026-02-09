@@ -570,6 +570,126 @@ const referencesData = {
             countries: ["South Africa"],
             link: "https://www.aceaafrica.org/",
             accessed: ""
+        },
+        {
+            title: "Draft National Waste Management Strategy 2026",
+            author: "Department of Forestry, Fisheries and the Environment (DFFE), South Africa",
+            year: "2025 (December)",
+            location: "South Africa",
+            category: "POLICY",
+            countries: ["South Africa"],
+            link: "https://www.dffe.gov.za",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and Their Disposal",
+            author: "United Nations Environment Programme",
+            year: "1989 (Amended 2019)",
+            location: "Global",
+            category: "TREATY",
+            countries: ["All"],
+            link: "https://www.basel.int/",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Bamako Convention on the Ban of the Import into Africa and the Control of Transboundary Movement and Management of Hazardous Wastes within Africa",
+            author: "African Union",
+            year: "1991",
+            location: "Africa",
+            category: "TREATY",
+            countries: ["Africa-wide"],
+            link: "https://au.int/en/treaties/bamako-convention",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Lagos State Single-Use Plastic Ban Policy",
+            author: "Lagos State Government",
+            year: "2025",
+            location: "Lagos, Nigeria",
+            category: "POLICY",
+            countries: ["Nigeria"],
+            link: "https://lagosstate.gov.ng",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Sustainable Waste Management Act",
+            author: "National Environment Management Authority (NEMA), Kenya",
+            year: "2022",
+            location: "Kenya",
+            category: "POLICY",
+            countries: ["Kenya"],
+            link: "https://www.nema.go.ke",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Prime Ministerial Decree No. 662 of 2025 - EPR Implementation",
+            author: "Government of Egypt",
+            year: "2025",
+            location: "Egypt",
+            category: "POLICY",
+            countries: ["Egypt"],
+            link: "https://www.eeaa.gov.eg",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Rwanda Integrated Solid Waste Management Strategy 2022",
+            author: "Rwanda Environment Management Authority (REMA)",
+            year: "2022",
+            location: "Rwanda",
+            category: "POLICY",
+            countries: ["Rwanda"],
+            link: "https://www.rema.gov.rw",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "National Circular Economy Action Plan",
+            author: "Rwanda Environment Management Authority (REMA)",
+            year: "2023",
+            location: "Rwanda",
+            category: "POLICY",
+            countries: ["Rwanda"],
+            link: "https://www.rema.gov.rw",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Africa Circular Economy Alliance (ACEA) Framework",
+            author: "African Union, World Economic Forum, African Development Bank, World Bank",
+            year: "2022",
+            location: "Africa",
+            category: "FRAMEWORK",
+            countries: ["South Africa", "Africa-wide"],
+            link: "https://www.aceaafrica.org/",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "African Union Agenda 2063 - Environmental Sustainability Goals",
+            author: "African Union Commission",
+            year: "2015",
+            location: "Africa",
+            category: "FRAMEWORK",
+            countries: ["Africa-wide"],
+            link: "https://au.int/agenda2063",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "East African Community Protocol on Environment and Natural Resources Management",
+            author: "East African Community (EAC)",
+            year: "2006",
+            location: "East Africa",
+            category: "PROTOCOL",
+            countries: ["Kenya", "Rwanda", "Tanzania", "Uganda", "Burundi", "South Sudan", "DRC"],
+            link: "https://www.eac.int",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "ECOWAS Policy on Environment",
+            author: "Economic Community of West African States (ECOWAS)",
+            year: "2008",
+            location: "West Africa",
+            category: "POLICY",
+            countries: ["Nigeria"],
+            link: "https://www.ecowas.int",
+            accessed: "2026-02-09"
         }
     ],
     academic: [
