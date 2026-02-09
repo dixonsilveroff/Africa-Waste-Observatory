@@ -272,6 +272,106 @@ const referencesData = {
             accessed: ""
         },
         {
+            title: "The SHINE Model - Sustainable Cost-Efficient Waste Management",
+            author: "GIZ (Deutsche Gesellschaft für Internationale Zusammenarbeit)",
+            year: "2025",
+            location: "Rwanda",
+            category: "REPORT",
+            countries: ["Rwanda"],
+            link: "https://www.giz.de/en/downloads/giz2025-en-SHINE-model.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Innovative Waste Management in Rwanda",
+            author: "The Borgen Project",
+            year: "2024",
+            location: "Rwanda",
+            category: "REPORT",
+            countries: ["Rwanda"],
+            link: "https://borgenproject.org/waste-management-in-rwanda/",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Actively Engaging Rwanda's Private Sector in E-Waste Management",
+            author: "International Telecommunication Union (ITU)",
+            year: "2025",
+            location: "Rwanda",
+            category: "REPORT",
+            countries: ["Rwanda"],
+            link: "https://www.itu.int/itu-d/sites/digital-impact-unlocked/actively-engaging-rwandas-private-sector-in-e-waste-management/",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Rwanda Launches Campaign to Boost E-Waste Collection and Recycling",
+            author: "Ministry of ICT and Innovation (MINICT), Rwanda",
+            year: "2024",
+            location: "Rwanda",
+            category: "REPORT",
+            countries: ["Rwanda"],
+            link: "https://www.minict.gov.rw/news-detail/rwanda-launches-campaign-to-boost-e-waste-collection-and-recycling",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Rwanda Launches National Circular Economy Action Plan and Roadmap",
+            author: "Ministry of Environment, Rwanda",
+            year: "2024",
+            location: "Rwanda",
+            category: "REPORT",
+            countries: ["Rwanda"],
+            link: "https://www.environment.gov.rw/news-detail/rwanda-launches-national-circular-economy-action-plan-and-roadmap",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Rwanda Setting Example for Electronic Waste Recycling",
+            author: "Enhanced Integrated Framework (EIF)",
+            year: "2023",
+            location: "Rwanda",
+            category: "REPORT",
+            countries: ["Rwanda"],
+            link: "https://trade4devnews.enhancedif.org/en/impact-story/rwanda-setting-example-electronic-waste-recycling",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Promoting a Sustainable Waste and Circular Economy in Rwanda",
+            author: "GIZ Rwanda",
+            year: "2024",
+            location: "Rwanda",
+            category: "REPORT",
+            countries: ["Rwanda"],
+            link: "https://www.giz.de/en/projects/supporting-sustainable-waste-and-circular-economy-rwanda",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "EPR Guidelines for Rwanda",
+            author: "Manufacturing Africa",
+            year: "2025",
+            location: "Rwanda",
+            category: "REPORT",
+            countries: ["Rwanda"],
+            link: "https://manufacturingafrica.org/wp-content/uploads/2025/10/Rwanda-EPR-final-report.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Championing Rwanda's Circular Food System: Meet the Second Cohort",
+            author: "World Resources Institute (WRI)",
+            year: "2025",
+            location: "Rwanda",
+            category: "REPORT",
+            countries: ["Rwanda"],
+            link: "https://www.wri.org/update/championing-rwandas-circular-food-system-meet-second-cohort-entrepreneurs-leading-change",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Africa's Innovations In Waste Management",
+            author: "African Leadership Magazine",
+            year: "2024",
+            location: "Multiple African Countries",
+            category: "REPORT",
+            countries: ["Rwanda", "Kenya", "Nigeria", "South Africa"],
+            link: "https://www.africanleadershipmagazine.co.uk/africas-innovations-in-waste-management/",
+            accessed: "2026-02-09"
+        },
+        {
             title: "National Environmental Management: Waste Act",
             author: "Department of Forestry, Fisheries and the Environment (DFFE)",
             year: "2008",
@@ -342,6 +442,36 @@ const referencesData = {
             countries: ["Nigeria"],
             link: "https://epi.yale.edu/",
             accessed: ""
+        },
+        {
+            title: "Towards zero-waste cities: Leveraging circular economy strategies for municipal solid waste management and pollution mitigation in East Africa – A systematic review",
+            author: "Multiple Authors",
+            year: "2026",
+            journal: "Next Sustainability, Volume 7, June 2026, 100228",
+            category: "PEER-REVIEWED",
+            countries: ["Kenya", "Rwanda", "Uganda", "Tanzania", "Ethiopia"],
+            link: "https://www.sciencedirect.com/science/article/pii/S294982362500131X",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "The Contribution of E-Waste Recycling in Promoting Green Growth: A Case of Enviroserve Rwanda Green Park",
+            author: "Iraguha, A., & Uwimpuhwe, D.",
+            year: "2025",
+            journal: "International Journal of Advances in Engineering and Management (IJAEM), Volume 7, Issue 03, pp: 902-909",
+            category: "PEER-REVIEWED",
+            countries: ["Rwanda"],
+            link: "https://ijaem.net/issue_dcp/The%20Contribution%20of%20E%20Waste%20Recycling%20in%20Promoting%20Green%20Growth.%20A%20Case%20of%20Enviroserve%20Rwanda%20Green%20Park.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Assessing Waste Management Services in Kigali",
+            author: "Rajashekar et al.",
+            year: "2019",
+            journal: "International Growth Centre (IGC) Policy Paper",
+            category: "PEER-REVIEWED",
+            countries: ["Rwanda"],
+            link: "https://www.theigc.org/sites/default/files/2019/11/Rajashekar-et-al-2019-paper.pdf",
+            accessed: "2026-02-09"
         }
     ],
     datasets: [
