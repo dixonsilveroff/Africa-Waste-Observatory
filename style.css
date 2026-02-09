@@ -1208,7 +1208,7 @@ footer {
 .overview-text {
     font-size: 1.1rem;
     line-height: 1.8;
-    color: var(--white);
+    color: var(--text-dark);
     max-width: 900px;
 }
 
