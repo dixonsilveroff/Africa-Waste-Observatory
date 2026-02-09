@@ -402,6 +402,156 @@ const referencesData = {
             accessed: ""
         },
         {
+            title: "Draft National Waste Management Strategy 2026",
+            author: "Department of Forestry, Fisheries and the Environment (DFFE)",
+            year: "2025",
+            location: "South Africa",
+            category: "REPORT",
+            countries: ["South Africa"],
+            link: "https://www.gov.za/sites/default/files/gcis_document/202512/53894gon6972.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Advancing Circular Economy in South Africa",
+            author: "CSIR (Council for Scientific and Industrial Research)",
+            year: "2024",
+            location: "South Africa",
+            category: "REPORT",
+            countries: ["South Africa"],
+            link: "https://www.csir.co.za/sites/default/files/Documents/WB-CSIR_CE_FINAL%20REPORT_SINGLEPAGES_v6_LR.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Circular Economy in South Africa: Opportunities for Reusable Packaging Systems",
+            author: "GIZ & ICLEI Africa",
+            year: "2024",
+            location: "South Africa",
+            category: "REPORT",
+            countries: ["South Africa"],
+            link: "https://www.giz.de/de/downloads/iclei2024-en-south-africa-reusable-packaging-systems.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Trade and the Circular Economy: Plastics Action in South Africa",
+            author: "World Economic Forum",
+            year: "2024",
+            location: "South Africa",
+            category: "REPORT",
+            countries: ["South Africa"],
+            link: "https://www3.weforum.org/docs/WEF_GPAP_South_Africa_Trade_Study_2024.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Improving Solid Waste and Plastics Management in Lagos State: A Way Forward",
+            author: "World Bank",
+            year: "2024",
+            location: "Nigeria",
+            category: "REPORT",
+            countries: ["Nigeria"],
+            link: "https://documents1.worldbank.org/curated/en/099101824172020522/pdf/P1761781eb744507f184b01f525451f4014.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Wanted: Blueprint For Nigeria's Waste Management Crisis",
+            author: "CAPPA Africa (Corporate Accountability and Public Participation Africa)",
+            year: "2025",
+            location: "Nigeria",
+            category: "REPORT",
+            countries: ["Nigeria"],
+            link: "https://cappaafrica.org/2025/05/07/wanted-blueprint-for-nigerias-waste-management-crisis/",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Solid Waste Management in Nigeria: National Report",
+            author: "NESREA (National Environmental Standards and Regulations Enforcement Agency)",
+            year: "2025",
+            location: "Nigeria",
+            category: "REPORT",
+            countries: ["Nigeria"],
+            link: "https://nesrea.gov.ng/wp-content/uploads/2025/10/Full-draft-Report-Solid-Waste-Management-Edited-15102025-Revised_compressed.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Formalizing the Informal Waste Picker Economy for Inclusive Growth",
+            author: "INCLUDE Platform",
+            year: "2025",
+            location: "Nigeria",
+            category: "REPORT",
+            countries: ["Nigeria"],
+            link: "https://includeplatform.net/wp-content/uploads/2025/02/FINAL-INCLUDE-REPORT-2024-1.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Konza Technopolis Pneumatic Waste Collection System Project",
+            author: "Envac Group",
+            year: "2025",
+            location: "Kenya",
+            category: "REPORT",
+            countries: ["Kenya"],
+            link: "https://www.envacgroup.com/projects/konza-africa/",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Nairobi Waste-to-Energy Power Plant Initiative Review",
+            author: "ENVACO (Environmental Advocacy Coalition)",
+            year: "2024",
+            location: "Kenya",
+            category: "REPORT",
+            countries: ["Kenya"],
+            link: "https://envaco.org/a-review-of-nairobis-waste-to-energy-power-plant-initiative-2024-in-ruai/",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Wastepickers at the Dandora Dumpsite: Socio-economic Study",
+            author: "Danish Environmental Protection Agency & SSC Kenya-Denmark",
+            year: "2025",
+            location: "Kenya",
+            category: "REPORT",
+            countries: ["Kenya"],
+            link: "https://eng.mst.dk/media/zlba3iep/ssc-report-wastepickers-at-the-dandora-dumpsite-may-2025.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Egypt Accelerates Recycling and Waste Management Reforms",
+            author: "CIO Bulletin",
+            year: "2025",
+            location: "Egypt",
+            category: "REPORT",
+            countries: ["Egypt"],
+            link: "https://ciobulletin.com/recycling-and-waste-management/egypt-accelerates-recycling-and-waste-management",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Final Report Egypt - Sustainable Recycling Industries",
+            author: "SRI (Sustainable Recycling Industries)",
+            year: "2025",
+            location: "Egypt",
+            category: "REPORT",
+            countries: ["Egypt"],
+            link: "https://www.sustainable-recycling.org/wp-content/uploads/2025/10/250627_SRI_Final_reporting_Egypt_FINAL.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Egypt Plastic Recycling Market Report 2025-2030",
+            author: "TechSci Research",
+            year: "2024",
+            location: "Egypt",
+            category: "REPORT",
+            countries: ["Egypt"],
+            link: "https://www.techsciresearch.com/report/egypt-plastic-recycling-market/15445.html",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Waste Management in the Middle East and North Africa",
+            author: "World Bank",
+            year: "2025",
+            location: "MENA Region",
+            category: "REPORT",
+            countries: ["Egypt", "Algeria", "Morocco", "Tunisia", "Lebanon", "Jordan"],
+            link: "https://documents1.worldbank.org/curated/en/099012226144066731/pdf/P501760-3b7d1207-e3ae-4d74-b42b-62a4630738ec.pdf",
+            accessed: "2026-02-09"
+        },
+        {
             title: "Extended Producer Responsibility (EPR) Reviews",
             author: "OECD",
             year: "2023",
