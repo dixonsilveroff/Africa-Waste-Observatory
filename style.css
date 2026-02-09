@@ -72,13 +72,16 @@ p {
 }
 
 /* Header & Navigation */
+#header-placeholder {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
 header {
     background-color: var(--white);
     padding: .25rem 0;
     border-bottom: 1px solid var(--neutral-light);
-    position: sticky;
-    top: 0;
-    z-index: 100;
 }
 
 .header-container {
