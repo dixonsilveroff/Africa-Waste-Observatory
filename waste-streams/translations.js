@@ -780,6 +780,9 @@ const wasteStreamDataFr = {
     }
 };
 
+// Track currently displayed stream
+let currentStreamType = null;
+
 // Language switching functionality
 function setLanguage(lang) {
     const elements = document.querySelectorAll('[data-i18n]');
@@ -798,6 +801,11 @@ function setLanguage(lang) {
     
     // Save language preference
     localStorage.setItem('selectedLanguage', lang);
+    
+    // Re-render detailed insights if currently displayed
+    if (currentStreamType) {
+        renderDetailedInsights(currentStreamType);
+    }
 }
 
 // Initialize language functionality
@@ -909,6 +917,9 @@ function renderDetailedInsights(streamType) {
         </section>
     `;
 
+    // Track current stream type
+    currentStreamType = streamType;
+
     // Scroll to insights
     container.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
@@ -917,6 +928,9 @@ function renderDetailedInsights(streamType) {
 function clearDetailedInsights() {
     const container = document.getElementById('detailed-insights');
     container.innerHTML = '';
+    
+    // Reset current stream type
+    currentStreamType = null;
     
     // Scroll back to categories
     document.querySelector('.waste-categories-section').scrollIntoView({ 
