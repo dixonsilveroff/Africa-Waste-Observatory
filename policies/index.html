@@ -13,6 +13,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Policies & Regulations - Africa Waste Observatory</title>
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
 </head>
@@ -21,10 +22,208 @@
     <div id="header-placeholder"></div>
 
     <!-- Page Content -->
-    <main>
-        <section class="your-section">
-            <h1 data-i18n="yourSection.title">Your Title</h1>
-            <p data-i18n="yourSection.description">Your description</p>
+    <main class="policies-page">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="registry-metadata">
+                    <p><strong data-i18n="meta.status">Status:</strong> Draft 0.4</p>
+                    <p><strong data-i18n="meta.lastUpdate">Last Update:</strong> February 9, 2026</p>
+                    <p><strong data-i18n="meta.totalEntries">Total Entries:</strong> <span id="total-entries">142</span></p>
+                </div>
+                <h1 data-i18n="header.title">POLICIES & REGULATORY FRAMEWORKS</h1>
+                <p class="overview-text" data-i18n="header.overview">
+                    A centralized registry of legislative documents governing solid waste in Africa. This index covers the hierarchy of legal authority from international treaties to national acts and municipal bylaws, facilitating evidence-based policy comparison and compliance tracking.
+                </p>
+            </div>
+        </section>
+
+        <!-- Navigation & Filters -->
+        <section class="navigation-section">
+            <div class="container">
+                <div class="jump-navigation">
+                    <h3 data-i18n="navigation.jumpTitle">JUMP TO SECTION</h3>
+                    <ul>
+                        <li><a href="#international" data-i18n="navigation.international">I. International Agreements</a></li>
+                        <li><a href="#regional" data-i18n="navigation.regional">II. Regional Frameworks</a></li>
+                        <li><a href="#national" data-i18n="navigation.national">III. National Policies</a></li>
+                    </ul>
+                </div>
+
+                <div class="filter-section">
+                    <h3 data-i18n="filters.title">FILTER BY AUTHORITY</h3>
+                    <div class="filter-checkboxes">
+                        <label>
+                            <input type="checkbox" id="filter-au" checked>
+                            <span data-i18n="filters.au">African Union (AU)</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" id="filter-regional" checked>
+                            <span data-i18n="filters.regional">ECOWAS / EAC / SADC</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" id="filter-national" checked>
+                            <span data-i18n="filters.national">National Sovereignty</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- International Agreements -->
+        <section id="international" class="policy-section">
+            <div class="container">
+                <h2 data-i18n="sections.international.title">I. INTERNATIONAL AGREEMENTS</h2>
+                
+                <div class="policy-card" data-authority="international">
+                    <div class="policy-header">
+                        <h3 data-i18n="policies.basel.title">Basel Convention on the Control of Transboundary Movements of Hazardous Wastes</h3>
+                        <span class="coverage-badge" data-i18n="policies.basel.coverage">GLOBAL COVERAGE</span>
+                    </div>
+                    <p class="policy-description" data-i18n="policies.basel.description">
+                        Addresses the transboundary movements of hazardous wastes and their disposal, including plastic waste amendments adopted in 2019.
+                    </p>
+                    <div class="policy-meta">
+                        <span><strong data-i18n="meta.adopted">Adopted:</strong> 1989</span>
+                        <span><strong data-i18n="meta.effectiveDate">Effective:</strong> 1992</span>
+                        <span><strong data-i18n="meta.parties">Parties:</strong> 191 countries</span>
+                    </div>
+                    <div class="policy-links">
+                        <a href="https://www.basel.int/" target="_blank" data-i18n="links.official">Official Text</a>
+                        <a href="https://www.basel.int/Countries/StatusofRatifications/PartiesSignatories/tabid/4499/Default.aspx" target="_blank" data-i18n="links.signatories">Signatory List</a>
+                    </div>
+                </div>
+
+                <div class="policy-card" data-authority="international">
+                    <div class="policy-header">
+                        <h3 data-i18n="policies.bamako.title">Bamako Convention on Hazardous Wastes within Africa</h3>
+                        <span class="coverage-badge regional" data-i18n="policies.bamako.coverage">REGIONAL (AFRICA FOCUSED)</span>
+                    </div>
+                    <p class="policy-description" data-i18n="policies.bamako.description">
+                        Prohibits the import of hazardous waste into Africa and regulates the transboundary movement and management of hazardous wastes produced within the continent.
+                    </p>
+                    <div class="policy-meta">
+                        <span><strong data-i18n="meta.adopted">Adopted:</strong> 1991</span>
+                        <span><strong data-i18n="meta.effectiveDate">Effective:</strong> 1998</span>
+                        <span><strong data-i18n="meta.parties">Parties:</strong> 30 African Union member states</span>
+                    </div>
+                    <div class="policy-links">
+                        <a href="https://au.int/en/treaties/bamako-convention-ban-import-africa-and-control-transboundary-movement-and-management" target="_blank" data-i18n="links.official">Official Text</a>
+                    </div>
+                </div>
+
+                <div class="policy-card" data-authority="international">
+                    <div class="policy-header">
+                        <h3 data-i18n="policies.stockholm.title">Stockholm Convention on Persistent Organic Pollutants</h3>
+                        <span class="coverage-badge" data-i18n="policies.stockholm.coverage">GLOBAL COVERAGE</span>
+                    </div>
+                    <p class="policy-description" data-i18n="policies.stockholm.description">
+                        Addresses persistent organic pollutants (POPs) including those found in waste streams such as pesticides, industrial chemicals, and unintentional by-products.
+                    </p>
+                    <div class="policy-meta">
+                        <span><strong data-i18n="meta.adopted">Adopted:</strong> 2001</span>
+                        <span><strong data-i18n="meta.effectiveDate">Effective:</strong> 2004</span>
+                        <span><strong data-i18n="meta.parties">Parties:</strong> 185 countries</span>
+                    </div>
+                    <div class="policy-links">
+                        <a href="http://www.pops.int/" target="_blank" data-i18n="links.official">Official Text</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Regional Frameworks -->
+        <section id="regional" class="policy-section">
+            <div class="container">
+                <h2 data-i18n="sections.regional.title">II. REGIONAL FRAMEWORKS</h2>
+
+                <div class="policy-card" data-authority="regional">
+                    <div class="policy-header">
+                        <h3 data-i18n="policies.acea.title">Africa Circular Economy Alliance (ACEA)</h3>
+                        <span class="coverage-badge regional" data-i18n="policies.acea.coverage">CONTINENTAL ALLIANCE</span>
+                    </div>
+                    <p class="policy-description" data-i18n="policies.acea.description">
+                        Multi-stakeholder platform advancing circular economy principles across Africa. Founding members include the African Union, World Economic Forum, African Development Bank, World Bank, and South Africa (2022).
+                    </p>
+                    <div class="policy-meta">
+                        <span><strong data-i18n="meta.established">Established:</strong> 2017 (Relaunched 2022)</span>
+                        <span><strong data-i18n="meta.scope">Scope:</strong> Continental policy harmonization</span>
+                    </div>
+                </div>
+
+                <div class="policy-card" data-authority="regional">
+                    <div class="policy-header">
+                        <h3 data-i18n="policies.agenda2063.title">African Union Agenda 2063</h3>
+                        <span class="coverage-badge regional" data-i18n="policies.agenda2063.coverage">CONTINENTAL FRAMEWORK</span>
+                    </div>
+                    <p class="policy-description" data-i18n="policies.agenda2063.description">
+                        Africa's strategic framework for socio-economic transformation, including environmental sustainability goals and waste management as part of Aspiration 1 (Prosperous Africa based on inclusive growth and sustainable development).
+                    </p>
+                    <div class="policy-meta">
+                        <span><strong data-i18n="meta.adopted">Adopted:</strong> 2015</span>
+                        <span><strong data-i18n="meta.timeline">Timeline:</strong> 2013-2063</span>
+                    </div>
+                </div>
+
+                <div class="policy-card" data-authority="regional">
+                    <div class="policy-header">
+                        <h3 data-i18n="policies.eac.title">East African Community (EAC) Protocol on Environment and Natural Resources</h3>
+                        <span class="coverage-badge regional" data-i18n="policies.eac.coverage">REGIONAL (EAST AFRICA)</span>
+                    </div>
+                    <p class="policy-description" data-i18n="policies.eac.description">
+                        Harmonizes environmental management policies among EAC partner states (Kenya, Tanzania, Uganda, Rwanda, Burundi, South Sudan, DRC), including waste management standards and transboundary waste movement.
+                    </p>
+                    <div class="policy-meta">
+                        <span><strong data-i18n="meta.effectiveDate">Effective:</strong> 2006</span>
+                        <span><strong data-i18n="meta.members">Members:</strong> 7 partner states</span>
+                    </div>
+                </div>
+
+                <div class="policy-card" data-authority="regional">
+                    <div class="policy-header">
+                        <h3 data-i18n="policies.ecowas.title">ECOWAS Policy on Environment</h3>
+                        <span class="coverage-badge regional" data-i18n="policies.ecowas.coverage">REGIONAL (WEST AFRICA)</span>
+                    </div>
+                    <p class="policy-description" data-i18n="policies.ecowas.description">
+                        Economic Community of West African States environmental policy framework addressing waste management, pollution control, and environmental protection across 15 West African nations including Nigeria.
+                    </p>
+                    <div class="policy-meta">
+                        <span><strong data-i18n="meta.adopted">Adopted:</strong> 2008</span>
+                        <span><strong data-i18n="meta.members">Members:</strong> 15 West African states</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- National Policies -->
+        <section id="national" class="policy-section">
+            <div class="container">
+                <h2 data-i18n="sections.national.title">III. NATIONAL POLICY REGISTRY</h2>
+                <p class="section-note" data-i18n="sections.national.note">
+                    The following table presents primary waste management legislation for featured countries. Click the traceability icon to view the official gazette or legislative source.
+                </p>
+
+                <div class="policy-table-container">
+                    <table class="policy-table" id="national-policy-table">
+                        <thead>
+                            <tr>
+                                <th data-i18n="table.country">Country</th>
+                                <th data-i18n="table.regulation">Primary Regulation / Act</th>
+                                <th data-i18n="table.effectiveDate">Effective Date</th>
+                                <th data-i18n="table.keyProvisions">Key Provisions</th>
+                                <th data-i18n="table.traceability">Traceability</th>
+                            </tr>
+                        </thead>
+                        <tbody id="policy-table-body">
+                            <!-- Populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <p class="disclaimer" data-i18n="disclaimer.text">
+                    <strong>Reference Protocol:</strong> All documents listed in this observatory are verified against original gazette publications. Citations follow the [Organization/Author, Year] convention for consistency with the Africa Waste Observatory reporting standards.
+                </p>
+            </div>
         </section>
     </main>
 
@@ -34,5 +233,24 @@
     <!-- Required Scripts -->
     <script src="../js/components.js"></script>
     <script src="./translations.js"></script>
+    <script>
+        // Filter functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterCheckboxes = document.querySelectorAll('.filter-checkboxes input[type="checkbox"]');
+            
+            filterCheckboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', filterPolicies);
+            });
+        });
+
+        function filterPolicies() {
+            const filterAU = document.getElementById('filter-au').checked;
+            const filterRegional = document.getElementById('filter-regional').checked;
+            const filterNational = document.getElementById('filter-national').checked;
+            
+            // Apply filters (simplified - can be expanded)
+            console.log('Filters applied:', { filterAU, filterRegional, filterNational });
+        }
+    </script>
 </body>
 </html>

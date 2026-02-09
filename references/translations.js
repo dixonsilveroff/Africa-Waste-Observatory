@@ -272,6 +272,106 @@ const referencesData = {
             accessed: ""
         },
         {
+            title: "The SHINE Model - Sustainable Cost-Efficient Waste Management",
+            author: "GIZ (Deutsche Gesellschaft für Internationale Zusammenarbeit)",
+            year: "2025",
+            location: "Rwanda",
+            category: "REPORT",
+            countries: ["Rwanda"],
+            link: "https://www.giz.de/en/downloads/giz2025-en-SHINE-model.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Innovative Waste Management in Rwanda",
+            author: "The Borgen Project",
+            year: "2024",
+            location: "Rwanda",
+            category: "REPORT",
+            countries: ["Rwanda"],
+            link: "https://borgenproject.org/waste-management-in-rwanda/",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Actively Engaging Rwanda's Private Sector in E-Waste Management",
+            author: "International Telecommunication Union (ITU)",
+            year: "2025",
+            location: "Rwanda",
+            category: "REPORT",
+            countries: ["Rwanda"],
+            link: "https://www.itu.int/itu-d/sites/digital-impact-unlocked/actively-engaging-rwandas-private-sector-in-e-waste-management/",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Rwanda Launches Campaign to Boost E-Waste Collection and Recycling",
+            author: "Ministry of ICT and Innovation (MINICT), Rwanda",
+            year: "2024",
+            location: "Rwanda",
+            category: "REPORT",
+            countries: ["Rwanda"],
+            link: "https://www.minict.gov.rw/news-detail/rwanda-launches-campaign-to-boost-e-waste-collection-and-recycling",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Rwanda Launches National Circular Economy Action Plan and Roadmap",
+            author: "Ministry of Environment, Rwanda",
+            year: "2024",
+            location: "Rwanda",
+            category: "REPORT",
+            countries: ["Rwanda"],
+            link: "https://www.environment.gov.rw/news-detail/rwanda-launches-national-circular-economy-action-plan-and-roadmap",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Rwanda Setting Example for Electronic Waste Recycling",
+            author: "Enhanced Integrated Framework (EIF)",
+            year: "2023",
+            location: "Rwanda",
+            category: "REPORT",
+            countries: ["Rwanda"],
+            link: "https://trade4devnews.enhancedif.org/en/impact-story/rwanda-setting-example-electronic-waste-recycling",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Promoting a Sustainable Waste and Circular Economy in Rwanda",
+            author: "GIZ Rwanda",
+            year: "2024",
+            location: "Rwanda",
+            category: "REPORT",
+            countries: ["Rwanda"],
+            link: "https://www.giz.de/en/projects/supporting-sustainable-waste-and-circular-economy-rwanda",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "EPR Guidelines for Rwanda",
+            author: "Manufacturing Africa",
+            year: "2025",
+            location: "Rwanda",
+            category: "REPORT",
+            countries: ["Rwanda"],
+            link: "https://manufacturingafrica.org/wp-content/uploads/2025/10/Rwanda-EPR-final-report.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Championing Rwanda's Circular Food System: Meet the Second Cohort",
+            author: "World Resources Institute (WRI)",
+            year: "2025",
+            location: "Rwanda",
+            category: "REPORT",
+            countries: ["Rwanda"],
+            link: "https://www.wri.org/update/championing-rwandas-circular-food-system-meet-second-cohort-entrepreneurs-leading-change",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Africa's Innovations In Waste Management",
+            author: "African Leadership Magazine",
+            year: "2024",
+            location: "Multiple African Countries",
+            category: "REPORT",
+            countries: ["Rwanda", "Kenya", "Nigeria", "South Africa"],
+            link: "https://www.africanleadershipmagazine.co.uk/africas-innovations-in-waste-management/",
+            accessed: "2026-02-09"
+        },
+        {
             title: "National Environmental Management: Waste Act",
             author: "Department of Forestry, Fisheries and the Environment (DFFE)",
             year: "2008",
@@ -302,6 +402,156 @@ const referencesData = {
             accessed: ""
         },
         {
+            title: "Draft National Waste Management Strategy 2026",
+            author: "Department of Forestry, Fisheries and the Environment (DFFE)",
+            year: "2025",
+            location: "South Africa",
+            category: "REPORT",
+            countries: ["South Africa"],
+            link: "https://www.gov.za/sites/default/files/gcis_document/202512/53894gon6972.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Advancing Circular Economy in South Africa",
+            author: "CSIR (Council for Scientific and Industrial Research)",
+            year: "2024",
+            location: "South Africa",
+            category: "REPORT",
+            countries: ["South Africa"],
+            link: "https://www.csir.co.za/sites/default/files/Documents/WB-CSIR_CE_FINAL%20REPORT_SINGLEPAGES_v6_LR.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Circular Economy in South Africa: Opportunities for Reusable Packaging Systems",
+            author: "GIZ & ICLEI Africa",
+            year: "2024",
+            location: "South Africa",
+            category: "REPORT",
+            countries: ["South Africa"],
+            link: "https://www.giz.de/de/downloads/iclei2024-en-south-africa-reusable-packaging-systems.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Trade and the Circular Economy: Plastics Action in South Africa",
+            author: "World Economic Forum",
+            year: "2024",
+            location: "South Africa",
+            category: "REPORT",
+            countries: ["South Africa"],
+            link: "https://www3.weforum.org/docs/WEF_GPAP_South_Africa_Trade_Study_2024.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Improving Solid Waste and Plastics Management in Lagos State: A Way Forward",
+            author: "World Bank",
+            year: "2024",
+            location: "Nigeria",
+            category: "REPORT",
+            countries: ["Nigeria"],
+            link: "https://documents1.worldbank.org/curated/en/099101824172020522/pdf/P1761781eb744507f184b01f525451f4014.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Wanted: Blueprint For Nigeria's Waste Management Crisis",
+            author: "CAPPA Africa (Corporate Accountability and Public Participation Africa)",
+            year: "2025",
+            location: "Nigeria",
+            category: "REPORT",
+            countries: ["Nigeria"],
+            link: "https://cappaafrica.org/2025/05/07/wanted-blueprint-for-nigerias-waste-management-crisis/",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Solid Waste Management in Nigeria: National Report",
+            author: "NESREA (National Environmental Standards and Regulations Enforcement Agency)",
+            year: "2025",
+            location: "Nigeria",
+            category: "REPORT",
+            countries: ["Nigeria"],
+            link: "https://nesrea.gov.ng/wp-content/uploads/2025/10/Full-draft-Report-Solid-Waste-Management-Edited-15102025-Revised_compressed.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Formalizing the Informal Waste Picker Economy for Inclusive Growth",
+            author: "INCLUDE Platform",
+            year: "2025",
+            location: "Nigeria",
+            category: "REPORT",
+            countries: ["Nigeria"],
+            link: "https://includeplatform.net/wp-content/uploads/2025/02/FINAL-INCLUDE-REPORT-2024-1.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Konza Technopolis Pneumatic Waste Collection System Project",
+            author: "Envac Group",
+            year: "2025",
+            location: "Kenya",
+            category: "REPORT",
+            countries: ["Kenya"],
+            link: "https://www.envacgroup.com/projects/konza-africa/",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Nairobi Waste-to-Energy Power Plant Initiative Review",
+            author: "ENVACO (Environmental Advocacy Coalition)",
+            year: "2024",
+            location: "Kenya",
+            category: "REPORT",
+            countries: ["Kenya"],
+            link: "https://envaco.org/a-review-of-nairobis-waste-to-energy-power-plant-initiative-2024-in-ruai/",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Wastepickers at the Dandora Dumpsite: Socio-economic Study",
+            author: "Danish Environmental Protection Agency & SSC Kenya-Denmark",
+            year: "2025",
+            location: "Kenya",
+            category: "REPORT",
+            countries: ["Kenya"],
+            link: "https://eng.mst.dk/media/zlba3iep/ssc-report-wastepickers-at-the-dandora-dumpsite-may-2025.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Egypt Accelerates Recycling and Waste Management Reforms",
+            author: "CIO Bulletin",
+            year: "2025",
+            location: "Egypt",
+            category: "REPORT",
+            countries: ["Egypt"],
+            link: "https://ciobulletin.com/recycling-and-waste-management/egypt-accelerates-recycling-and-waste-management",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Final Report Egypt - Sustainable Recycling Industries",
+            author: "SRI (Sustainable Recycling Industries)",
+            year: "2025",
+            location: "Egypt",
+            category: "REPORT",
+            countries: ["Egypt"],
+            link: "https://www.sustainable-recycling.org/wp-content/uploads/2025/10/250627_SRI_Final_reporting_Egypt_FINAL.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Egypt Plastic Recycling Market Report 2025-2030",
+            author: "TechSci Research",
+            year: "2024",
+            location: "Egypt",
+            category: "REPORT",
+            countries: ["Egypt"],
+            link: "https://www.techsciresearch.com/report/egypt-plastic-recycling-market/15445.html",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Waste Management in the Middle East and North Africa",
+            author: "World Bank",
+            year: "2025",
+            location: "MENA Region",
+            category: "REPORT",
+            countries: ["Egypt", "Algeria", "Morocco", "Tunisia", "Lebanon", "Jordan"],
+            link: "https://documents1.worldbank.org/curated/en/099012226144066731/pdf/P501760-3b7d1207-e3ae-4d74-b42b-62a4630738ec.pdf",
+            accessed: "2026-02-09"
+        },
+        {
             title: "Extended Producer Responsibility (EPR) Reviews",
             author: "OECD",
             year: "2023",
@@ -320,6 +570,126 @@ const referencesData = {
             countries: ["South Africa"],
             link: "https://www.aceaafrica.org/",
             accessed: ""
+        },
+        {
+            title: "Draft National Waste Management Strategy 2026",
+            author: "Department of Forestry, Fisheries and the Environment (DFFE), South Africa",
+            year: "2025 (December)",
+            location: "South Africa",
+            category: "POLICY",
+            countries: ["South Africa"],
+            link: "https://www.dffe.gov.za",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and Their Disposal",
+            author: "United Nations Environment Programme",
+            year: "1989 (Amended 2019)",
+            location: "Global",
+            category: "TREATY",
+            countries: ["All"],
+            link: "https://www.basel.int/",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Bamako Convention on the Ban of the Import into Africa and the Control of Transboundary Movement and Management of Hazardous Wastes within Africa",
+            author: "African Union",
+            year: "1991",
+            location: "Africa",
+            category: "TREATY",
+            countries: ["Africa-wide"],
+            link: "https://au.int/en/treaties/bamako-convention",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Lagos State Single-Use Plastic Ban Policy",
+            author: "Lagos State Government",
+            year: "2025",
+            location: "Lagos, Nigeria",
+            category: "POLICY",
+            countries: ["Nigeria"],
+            link: "https://lagosstate.gov.ng",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Sustainable Waste Management Act",
+            author: "National Environment Management Authority (NEMA), Kenya",
+            year: "2022",
+            location: "Kenya",
+            category: "POLICY",
+            countries: ["Kenya"],
+            link: "https://www.nema.go.ke",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Prime Ministerial Decree No. 662 of 2025 - EPR Implementation",
+            author: "Government of Egypt",
+            year: "2025",
+            location: "Egypt",
+            category: "POLICY",
+            countries: ["Egypt"],
+            link: "https://www.eeaa.gov.eg",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Rwanda Integrated Solid Waste Management Strategy 2022",
+            author: "Rwanda Environment Management Authority (REMA)",
+            year: "2022",
+            location: "Rwanda",
+            category: "POLICY",
+            countries: ["Rwanda"],
+            link: "https://www.rema.gov.rw",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "National Circular Economy Action Plan",
+            author: "Rwanda Environment Management Authority (REMA)",
+            year: "2023",
+            location: "Rwanda",
+            category: "POLICY",
+            countries: ["Rwanda"],
+            link: "https://www.rema.gov.rw",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Africa Circular Economy Alliance (ACEA) Framework",
+            author: "African Union, World Economic Forum, African Development Bank, World Bank",
+            year: "2022",
+            location: "Africa",
+            category: "FRAMEWORK",
+            countries: ["South Africa", "Africa-wide"],
+            link: "https://www.aceaafrica.org/",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "African Union Agenda 2063 - Environmental Sustainability Goals",
+            author: "African Union Commission",
+            year: "2015",
+            location: "Africa",
+            category: "FRAMEWORK",
+            countries: ["Africa-wide"],
+            link: "https://au.int/agenda2063",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "East African Community Protocol on Environment and Natural Resources Management",
+            author: "East African Community (EAC)",
+            year: "2006",
+            location: "East Africa",
+            category: "PROTOCOL",
+            countries: ["Kenya", "Rwanda", "Tanzania", "Uganda", "Burundi", "South Sudan", "DRC"],
+            link: "https://www.eac.int",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "ECOWAS Policy on Environment",
+            author: "Economic Community of West African States (ECOWAS)",
+            year: "2008",
+            location: "West Africa",
+            category: "POLICY",
+            countries: ["Nigeria"],
+            link: "https://www.ecowas.int",
+            accessed: "2026-02-09"
         }
     ],
     academic: [
@@ -342,6 +712,36 @@ const referencesData = {
             countries: ["Nigeria"],
             link: "https://epi.yale.edu/",
             accessed: ""
+        },
+        {
+            title: "Towards zero-waste cities: Leveraging circular economy strategies for municipal solid waste management and pollution mitigation in East Africa – A systematic review",
+            author: "Multiple Authors",
+            year: "2026",
+            journal: "Next Sustainability, Volume 7, June 2026, 100228",
+            category: "PEER-REVIEWED",
+            countries: ["Kenya", "Rwanda", "Uganda", "Tanzania", "Ethiopia"],
+            link: "https://www.sciencedirect.com/science/article/pii/S294982362500131X",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "The Contribution of E-Waste Recycling in Promoting Green Growth: A Case of Enviroserve Rwanda Green Park",
+            author: "Iraguha, A., & Uwimpuhwe, D.",
+            year: "2025",
+            journal: "International Journal of Advances in Engineering and Management (IJAEM), Volume 7, Issue 03, pp: 902-909",
+            category: "PEER-REVIEWED",
+            countries: ["Rwanda"],
+            link: "https://ijaem.net/issue_dcp/The%20Contribution%20of%20E%20Waste%20Recycling%20in%20Promoting%20Green%20Growth.%20A%20Case%20of%20Enviroserve%20Rwanda%20Green%20Park.pdf",
+            accessed: "2026-02-09"
+        },
+        {
+            title: "Assessing Waste Management Services in Kigali",
+            author: "Rajashekar et al.",
+            year: "2019",
+            journal: "International Growth Centre (IGC) Policy Paper",
+            category: "PEER-REVIEWED",
+            countries: ["Rwanda"],
+            link: "https://www.theigc.org/sites/default/files/2019/11/Rajashekar-et-al-2019-paper.pdf",
+            accessed: "2026-02-09"
         }
     ],
     datasets: [
