@@ -2239,35 +2239,41 @@ footer {
    =================================== */
 
 .policies-page .hero-section {
-    background: linear-gradient(135deg, var(--primary-green) 0%, #155c3a 100%);
-    color: var(--white);
-    padding: 4rem 0;
+    background: var(--white);
+    color: var(--text-dark);
+    padding: 3rem 0 2rem;
+    border-bottom: 2px solid var(--neutral-light);
 }
 
 .policies-page .registry-metadata {
-    background: rgba(255, 255, 255, 0.1);
+    background: var(--background-light);
     padding: 1rem 1.5rem;
     border-radius: 8px;
     margin-bottom: 2rem;
     display: flex;
     gap: 2rem;
     font-size: 0.9rem;
+    border: 1px solid var(--neutral-light);
 }
 
 .policies-page .registry-metadata p {
     margin: 0;
+    color: var(--text-dark);
 }
 
 .policies-page .hero-section h1 {
-    color: var(--white);
+    color: var(--text-dark);
     margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
 .policies-page .overview-text {
     font-size: 1.1rem;
     line-height: 1.8;
     max-width: 900px;
-    opacity: 0.95;
+    color: var(--text-dark);
+    opacity: 0.8;
 }
 
 .policies-page .navigation-section {
@@ -2526,7 +2532,7 @@ footer {
 /* Responsive Design for Policies Page */
 @media (max-width: 768px) {
     .policies-page .hero-section {
-        padding: 3rem 0;
+        padding: 2rem 0;
     }
 
     .policies-page .hero-section h1 {

@@ -17,7 +17,7 @@ const translations = {
             copyright: "© 2026 Africa Waste Observatory. All rights reserved."
         },
         header: {
-            title: "POLICIES & REGULATORY FRAMEWORKS",
+            title: "Policies & Regulatory Frameworks",
             overview: "A centralized registry of legislative documents governing solid waste in Africa. This index covers the hierarchy of legal authority from international treaties to national acts and municipal bylaws, facilitating evidence-based policy comparison and compliance tracking."
         },
         navigation: {
@@ -122,7 +122,7 @@ const translations = {
             copyright: "© 2026 Observatoire Africain des Déchets. Tous droits réservés."
         },
         header: {
-            title: "POLITIQUES ET CADRES RÉGLEMENTAIRES",
+            title: "Politiques et Cadres Réglementaires",
             overview: "Un registre centralisé des documents législatifs régissant les déchets solides en Afrique. Cet index couvre la hiérarchie de l'autorité juridique, des traités internationaux aux lois nationales et aux règlements municipaux, facilitant la comparaison des politiques et le suivi de la conformité."
         },
         navigation: {
