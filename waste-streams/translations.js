@@ -132,13 +132,6 @@ const wasteStreamData = {
                 sublabel: "Marine & soil pollution"
             }
         },
-        chartData: {
-            title: "Monthly Plastic Waste Trends",
-            subtitle: "Generation and recycling volumes over the past six months (in Metric Tons)",
-            months: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
-            generation: [15, 13, 16, 14, 17, 16],
-            recycled: [2, 1.5, 2.2, 1.8, 2.5, 2.3]
-        },
         policySection: {
             title: "Policy & Regulatory Landscape",
             content: `African nations are increasingly adopting stringent policies to combat plastic waste, including bans on 
@@ -201,13 +194,6 @@ const wasteStreamData = {
                 sublabel: "When improperly managed"
             }
         },
-        chartData: {
-            title: "Organic Waste Generation Trends",
-            subtitle: "Monthly generation across key African cities (in Metric Tons)",
-            months: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
-            generation: [45, 48, 52, 50, 55, 54],
-            recycled: [2, 2.2, 2.5, 2.3, 2.8, 2.7]
-        },
         policySection: {
             title: "Policy & Regulatory Landscape",
             content: `Organic waste management policies across Africa are evolving, with increasing focus on composting, 
@@ -269,13 +255,6 @@ const wasteStreamData = {
                 sublabel: "Lead, mercury exposure"
             }
         },
-        chartData: {
-            title: "E-Waste Growth Trends",
-            subtitle: "Monthly e-waste collection volumes (in Metric Tons)",
-            months: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
-            generation: [4.5, 4.8, 5.2, 5.0, 5.5, 5.8],
-            recycled: [0.7, 0.8, 0.9, 0.85, 1.0, 1.1]
-        },
         policySection: {
             title: "Policy & Regulatory Landscape",
             content: `E-waste management policies in Africa are rapidly developing in response to growing volumes and health 
@@ -335,13 +314,6 @@ const wasteStreamData = {
                 value: "Critical",
                 sublabel: "Health & ecosystem"
             }
-        },
-        chartData: {
-            title: "Hazardous Waste Management Trends",
-            subtitle: "Quarterly hazardous waste volumes (in Metric Tons)",
-            months: ["Q1", "Q2", "Q3", "Q4", "Q1", "Q2"],
-            generation: [8, 8.5, 9, 8.8, 9.2, 9.5],
-            recycled: [2, 2.2, 2.5, 2.3, 2.6, 2.8]
         },
         policySection: {
             title: "Policy & Regulatory Landscape",
@@ -403,13 +375,6 @@ const wasteStreamData = {
                 value: "High",
                 sublabel: "Economic incentive"
             }
-        },
-        chartData: {
-            title: "Metal Recovery Trends",
-            subtitle: "Monthly metal waste collection and recycling (in Metric Tons)",
-            months: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
-            generation: [3.5, 3.8, 4.0, 3.9, 4.2, 4.3],
-            recycled: [1.8, 2.0, 2.2, 2.1, 2.4, 2.5]
         },
         policySection: {
             title: "Policy & Regulatory Landscape",
@@ -473,13 +438,6 @@ const wasteStreamData = {
                 sublabel: "No quality loss"
             }
         },
-        chartData: {
-            title: "Glass Recycling Trends",
-            subtitle: "Monthly glass waste collection volumes (in Metric Tons)",
-            months: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
-            generation: [2.5, 2.7, 2.9, 2.8, 3.0, 3.1],
-            recycled: [0.5, 0.6, 0.7, 0.65, 0.75, 0.8]
-        },
         policySection: {
             title: "Policy & Regulatory Landscape",
             content: `Glass waste management policies in Africa are less developed compared to plastics and metals. South Africa 
@@ -515,6 +473,309 @@ const wasteStreamData = {
             "Support for glass manufacturing using recycled cullet",
             "Integration with EPR schemes",
             "Alternative uses for crushed glass (construction, filtration)"
+        ]
+    }
+};
+
+// French translations for waste stream detailed data
+const wasteStreamDataFr = {
+    plastics: {
+        title: "Aperçu Détaillé : Déchets Plastiques",
+        statistics: {
+            annualGeneration: {
+                label: "Génération Annuelle",
+                value: "17 Millions de Tonnes",
+                sublabel: "Afrique (2024)"
+            },
+            recyclingRate: {
+                label: "Taux de Recyclage (Moy.)",
+                value: "12%",
+                sublabel: "Moyenne continentale"
+            },
+            majorSource: {
+                label: "Source Principale",
+                value: "Emballages",
+                sublabel: "Plastiques à usage unique"
+            },
+            environmentalImpact: {
+                label: "Impact Environnemental",
+                value: "Élevé",
+                sublabel: "Pollution marine et du sol"
+            }
+        },
+        policySection: {
+            title: "Paysage Politique et Réglementaire",
+            content: `Les nations africaines adoptent de plus en plus des politiques strictes pour lutter contre les déchets plastiques, notamment des interdictions de plastiques à usage unique et des programmes de Responsabilité Élargie des Producteurs (REP). Des pays comme le Rwanda et le Kenya sont leaders avec des interdictions complètes des sacs plastiques, tandis que l'Afrique du Sud et l'Égypte s'efforcent d'harmoniser les normes de gestion des déchets et de faciliter les initiatives de recyclage transfrontalières. Cependant, la mise en œuvre et l'application restent des défis majeurs. Les investissements dans les modèles d'économie circulaire et les campagnes de sensibilisation du public sont cruciaux pour favoriser le changement de comportement et promouvoir une économie plastique durable.`
+        },
+        caseStudy: {
+            title: "Étude de Cas : L'interdiction du Plastique au Rwanda",
+            content: `Le Rwanda a été un pionnier en Afrique avec son interdiction complète des sacs plastiques et des plastiques à usage unique, mise en œuvre il y a plus d'une décennie. Cette politique audacieuse a conduit à des villes nettement plus propres et à une réduction de la pollution plastique dans les cours d'eau et les écosystèmes du pays, démontrant l'impact positif d'une forte volonté politique et de l'engagement communautaire. Bien que des défis persistent dans la gestion d'autres formes de déchets plastiques, le succès du Rwanda sert de modèle puissant pour d'autres nations aspirant à la durabilité environnementale.`
+        },
+        overview: `Les déchets plastiques représentent l'un des défis environnementaux les plus pressants en Afrique. Provenant principalement des emballages, bouteilles, sacs d'achat et plastiques à usage unique, ce flux de déchets a atteint des niveaux critiques. Les déchets plastiques mondiaux ont atteint environ 220 millions de tonnes en 2024, l'Afrique connaissant une croissance rapide en raison de l'urbanisation et des changements dans les modes de consommation. Malgré les interdictions dans des pays comme le Kenya, les déchets plastiques continuent d'augmenter, tandis que l'Égypte et le Nigeria luttent avec l'application des lois.`,
+        challenges: [
+            "Non-biodégradabilité - les plastiques persistent dans l'environnement pendant des centaines d'années",
+            "Faible valeur marchande de certains types de plastiques réduit la viabilité du recyclage",
+            "Les plastiques mélangés et contaminés rendent le tri et le traitement difficiles",
+            "Application faible des interdictions et réglementations sur le plastique",
+            "Infrastructure et installations de recyclage limitées"
+        ],
+        solutions: [
+            "Programmes de Responsabilité Élargie des Producteurs (REP)",
+            "Programmes de rachat de plastique et systèmes de consigne",
+            "Technologies de recyclage chimique (plastique en carburant)",
+            "Conception pour la recyclabilité et réduction des emballages plastiques",
+            "Campagnes de sensibilisation du public sur la réduction du plastique",
+            "Investissement dans l'infrastructure de recyclage formel"
+        ]
+    },
+    organics: {
+        title: "Aperçu Détaillé : Déchets Organiques",
+        statistics: {
+            annualGeneration: {
+                label: "Composition",
+                value: "58%",
+                sublabel: "Des déchets totaux d'Afrique"
+            },
+            recyclingRate: {
+                label: "Taux de Compostage",
+                value: "<5%",
+                sublabel: "Compostage formel"
+            },
+            majorSource: {
+                label: "Sources Principales",
+                value: "Alimentation et Agriculture",
+                sublabel: "Ménages et marchés"
+            },
+            environmentalImpact: {
+                label: "Potentiel de Méthane",
+                value: "Très Élevé",
+                sublabel: "Mal géré"
+            }
+        },
+        policySection: {
+            title: "Paysage Politique et Réglementaire",
+            content: `Les politiques de gestion des déchets organiques en Afrique évoluent, avec un accent croissant sur le compostage, la digestion anaérobie et la production de biogaz. La Stratégie Nationale de Gestion des Déchets de l'Afrique du Sud priorise la diversion des déchets organiques des décharges, tandis que la Loi sur la Gestion Durable des Déchets du Kenya impose la séparation à la source. Cependant, la mise en œuvre reste limitée en raison des lacunes en infrastructure et du manque de sensibilisation du public. L'Égypte et le Nigeria explorent des partenariats public-privé pour développer des installations de compostage et des usines de biogaz.`
+        },
+        caseStudy: {
+            title: "Étude de Cas : Compostage Communautaire en Afrique du Sud",
+            content: `Plusieurs municipalités sud-africaines ont mis en œuvre avec succès des programmes de compostage communautaire qui détournent les déchets organiques des décharges tout en créant des emplois et en produisant des amendements de sol précieux. Ces programmes démontrent comment la gestion décentralisée des déchets peut relever plusieurs défis simultanément - réduire les émissions de méthane, améliorer la qualité du sol et offrir des opportunités économiques aux communautés locales.`
+        },
+        overview: `Les déchets organiques, y compris les restes alimentaires, résidus agricoles, déchets de jardin et matériaux biodégradables, représentent environ 58% du flux total de déchets d'Afrique. Cela représente l'opportunité de plus grande valeur pour l'amélioration de la gestion des déchets. Une mauvaise gestion conduit à des émissions de méthane, des odeurs et des vecteurs de maladies. La teneur élevée en humidité rend l'incinération inefficace, et les déchets organiques sont souvent mélangés avec du plastique et des métaux, compliquant les efforts de gestion.`,
+        challenges: [
+            "Teneur élevée en humidité réduit l'efficacité de la récupération d'énergie",
+            "Manque d'installations de compostage et de digestion anaérobie",
+            "La collecte mixte contamine les matières organiques",
+            "Marché limité pour les produits de compost",
+            "Variations saisonnières des volumes de génération",
+            "Émissions de méthane provenant de l'élimination inappropriée"
+        ],
+        solutions: [
+            "Programmes de compostage au niveau des ménages et des communautés",
+            "Digestion anaérobie pour la production de biogaz",
+            "Initiatives de séparation à la source",
+            "Développement du marché pour les produits de compost",
+            "Intégration avec les programmes d'agriculture urbaine",
+            "Traitement décentralisé pour réduire les coûts de transport"
+        ]
+    },
+    ewaste: {
+        title: "Aperçu Détaillé : Déchets Électroniques",
+        statistics: {
+            annualGeneration: {
+                label: "Déchets Électroniques Mondiaux",
+                value: "62 Millions de Tonnes",
+                sublabel: "2022 (Croissance 5x plus rapide)"
+            },
+            recyclingRate: {
+                label: "Recyclage Formel",
+                value: "<20%",
+                sublabel: "Moyenne africaine"
+            },
+            majorSource: {
+                label: "Sources Principales",
+                value: "Électronique",
+                sublabel: "Téléphones, ordinateurs, TV"
+            },
+            environmentalImpact: {
+                label: "Niveau de Toxicité",
+                value: "Extrême",
+                sublabel: "Exposition au plomb et mercure"
+            }
+        },
+        policySection: {
+            title: "Paysage Politique et Réglementaire",
+            content: `Les politiques de gestion des déchets électroniques en Afrique se développent rapidement en réponse aux volumes croissants et aux préoccupations sanitaires. Plusieurs pays ont mis en œuvre ou développent des programmes de Responsabilité Élargie des Producteurs (REP) pour l'électronique. L'Afrique du Sud est leader avec son Plan National de Gestion des Déchets Électroniques, tandis que le Rwanda et le Kenya établissent des systèmes formels de collecte et de recyclage. Cependant, l'application des contrôles à l'importation et la réglementation du secteur informel restent difficiles à travers le continent.`
+        },
+        caseStudy: {
+            title: "Étude de Cas : Le Hub des Déchets Électroniques du Nigeria",
+            content: `Le Nigeria, en particulier Lagos, est devenu un hub majeur de traitement des déchets électroniques en Afrique de l'Ouest. Bien que le recyclage informel fournisse des moyens de subsistance à des milliers de personnes, il expose également les travailleurs à des substances toxiques par des pratiques de démantèlement dangereuses. Les initiatives récentes du gouvernement et des ONG visent à formaliser le secteur, fournir des équipements de protection et établir des installations de recyclage certifiées qui peuvent récupérer en toute sécurité les matériaux précieux tout en protégeant la santé des travailleurs.`
+        },
+        overview: `Les déchets électroniques comprennent les appareils électroniques mis au rebut tels que les téléphones, ordinateurs, téléviseurs et batteries, contenant souvent des substances dangereuses comme le plomb, le mercure et des produits chimiques toxiques. Les déchets électroniques mondiaux ont atteint 62 millions de tonnes en 2022, croissant cinq fois plus vite que la capacité de recyclage formel. L'Afrique fait face à des défis importants avec le démantèlement informel exposant les travailleurs à des fumées toxiques et à la contamination environnementale.`,
+        challenges: [
+            "Manque d'installations et d'infrastructure de recyclage formelles",
+            "Traitement informel utilisant des méthodes dangereuses et la combustion",
+            "Application faible des contrôles à l'importation sur l'électronique usagée",
+            "Composition matérielle complexe nécessitant un équipement spécialisé",
+            "Risques sanitaires liés à l'exposition aux substances toxiques",
+            "Conscience limitée des méthodes d'élimination appropriées"
+        ],
+        solutions: [
+            "Programmes formels de reprise et centres de collecte",
+            "Usines de recyclage certifiées avec mesures de sécurité appropriées",
+            "Campagnes de sensibilisation du public sur l'élimination sûre",
+            "Application des réglementations de la Convention de Bâle",
+            "Programmes de formation pour les travailleurs du secteur informel",
+            "Programmes de Responsabilité Élargie des Producteurs (REP)"
+        ]
+    },
+    hazardous: {
+        title: "Aperçu Détaillé : Déchets Dangereux et Industriels",
+        statistics: {
+            annualGeneration: {
+                label: "Déchets Industriels",
+                value: "Variable",
+                sublabel: "Très spécifique au pays"
+            },
+            recyclingRate: {
+                label: "Traitement Approprié",
+                value: "<30%",
+                sublabel: "Estimé continental"
+            },
+            majorSource: {
+                label: "Sources Principales",
+                value: "Industrie",
+                sublabel: "Fabrication et mines"
+            },
+            environmentalImpact: {
+                label: "Niveau de Risque",
+                value: "Critique",
+                sublabel: "Santé et écosystème"
+            }
+        },
+        policySection: {
+            title: "Paysage Politique et Réglementaire",
+            content: `La gestion des déchets dangereux en Afrique fait face à des défis réglementaires importants. Bien que la plupart des pays aient adopté une législation sur les déchets dangereux alignée sur la Convention de Bâle, la capacité d'application et de surveillance reste limitée. L'Afrique du Sud possède le cadre le plus développé avec des décharges et des installations de traitement de déchets dangereux dédiées. L'Égypte, le Nigeria et le Kenya renforcent leurs cadres réglementaires, mais les lacunes en infrastructure et le dumping illégal persistent. La coopération régionale sur les mouvements transfrontaliers et le renforcement des capacités s'intensifie.`
+        },
+        caseStudy: {
+            title: "Étude de Cas : Gestion des Déchets Médicaux au Rwanda",
+            content: `Le Rwanda a mis en œuvre un système complet de gestion des déchets médicaux qui sert de modèle pour la région. Le pays a établi des incinérateurs centralisés et des installations de traitement, une ségrégation obligatoire dans les établissements de santé et un système de suivi robuste. Cette approche systématique a considérablement réduit les risques environnementaux et sanitaires associés aux déchets médicaux, démontrant l'importance d'une infrastructure dédiée et de protocoles clairs pour la gestion des déchets dangereux.`
+        },
+        overview: `Les déchets dangereux et industriels comprennent les produits chimiques industriels, les déchets médicaux, les résidus miniers et les sous-produits toxiques. Ces flux de déchets posent des risques environnementaux et sanitaires graves lorsqu'ils sont mal gérés. À travers l'Afrique, les déchets dangereux sont souvent mélangés avec les déchets municipaux, les installations de traitement sont inadéquates et le dumping illégal est courant. Les systèmes de surveillance limités et l'application faible exacerbent les défis.`,
+        challenges: [
+            "Systèmes de surveillance et d'élimination inadéquats",
+            "Dumping illégal et stockage inapproprié",
+            "Infrastructure de traitement spécialisée limitée",
+            "Mélange de déchets dangereux avec les déchets municipaux",
+            "Coût élevé du traitement et de l'élimination appropriés",
+            "Capacité technique et expertise limitées"
+        ],
+        solutions: [
+            "Décharges de déchets dangereux dédiées avec revêtement approprié",
+            "Installations d'incinération avec contrôle des émissions",
+            "Surveillance réglementaire stricte et application",
+            "Ségrégation à la source pour les déchets médicaux et industriels",
+            "Formation pour les manipulateurs de déchets et les régulateurs",
+            "Coopération régionale sur les mouvements transfrontaliers"
+        ]
+    },
+    metals: {
+        title: "Aperçu Détaillé : Déchets Métalliques",
+        statistics: {
+            annualGeneration: {
+                label: "Contenu Métallique",
+                value: "3-5%",
+                sublabel: "Des déchets municipaux"
+            },
+            recyclingRate: {
+                label: "Taux de Récupération",
+                value: "45-60%",
+                sublabel: "Informel et formel"
+            },
+            majorSource: {
+                label: "Sources Principales",
+                value: "Canettes et Ferraille",
+                sublabel: "Construction, véhicules"
+            },
+            environmentalImpact: {
+                label: "Valeur de Récupération",
+                value: "Élevée",
+                sublabel: "Incitation économique"
+            }
+        },
+        policySection: {
+            title: "Paysage Politique et Réglementaire",
+            content: `Le recyclage des métaux en Afrique est principalement motivé par des incitations économiques plutôt que par des mandats politiques. Les métaux ferreux et non ferreux ont de bons prix sur le marché, conduisant à des taux de récupération informelle relativement élevés. L'Afrique du Sud possède l'industrie de ferraille la plus développée avec une infrastructure de recyclage formelle et des marchés d'exportation. D'autres pays développent des politiques pour formaliser le secteur, améliorer la sécurité des travailleurs et prévenir les exportations illégales. Le secteur informel joue un rôle crucial mais fait face à des défis liés à la volatilité des prix et au manque de protection réglementaire.`
+        },
+        caseStudy: {
+            title: "Étude de Cas : L'industrie de la Ferraille au Kenya",
+            content: `Le secteur de la ferraille du Kenya démontre à la fois les opportunités et les défis de la gestion des déchets métalliques. Un secteur informel florissant collecte et traite les déchets métalliques, créant des emplois et réduisant la charge des décharges. Cependant, les préoccupations concernant le vol d'infrastructure (lignes ferroviaires, câbles électriques) et les conditions de travail dangereuses ont incité l'intervention du gouvernement. Les nouvelles réglementations visent à formaliser le secteur, établir des chantiers de ferraille autorisés et mettre en œuvre des systèmes de traçabilité tout en préservant les moyens de subsistance et les avantages environnementaux.`
+        },
+        overview: `Les déchets métalliques comprennent les métaux ferreux (fer et acier) et non ferreux (aluminium, cuivre, laiton) provenant de diverses sources, notamment les emballages (canettes), les débris de construction, les véhicules et les appareils électroménagers. Les métaux représentent 3 à 5% des déchets municipaux mais ont une valeur de recyclage élevée. Le secteur informel africain collecte et recycle activement les métaux en raison des bons prix du marché, atteignant des taux de récupération de 45 à 60% dans certaines régions.`,
+        challenges: [
+            "Volatilité des prix affecte l'économie de la collecte",
+            "Contamination avec d'autres matériaux",
+            "Préoccupations de sécurité dans le recyclage informel",
+            "Vol d'infrastructure pour la valeur de la ferraille",
+            "Capacité de traitement formel limitée",
+            "Exportation de matériaux précieux sans valeur ajoutée locale"
+        ],
+        solutions: [
+            "Formalisation du secteur de la ferraille",
+            "Centres de collecte et de traitement autorisés",
+            "Formation et équipement de sécurité des travailleurs",
+            "Systèmes de traçabilité pour prévenir le vol",
+            "Valeur ajoutée avant l'exportation",
+            "Intégration avec les programmes de Responsabilité Élargie des Producteurs"
+        ]
+    },
+    glass: {
+        title: "Aperçu Détaillé : Déchets de Verre",
+        statistics: {
+            annualGeneration: {
+                label: "Contenu en Verre",
+                value: "2-4%",
+                sublabel: "Des déchets municipaux"
+            },
+            recyclingRate: {
+                label: "Taux de Récupération",
+                value: "15-25%",
+                sublabel: "Varie selon les pays"
+            },
+            majorSource: {
+                label: "Sources Principales",
+                value: "Bouteilles",
+                sublabel: "Contenants de boissons"
+            },
+            environmentalImpact: {
+                label: "Recyclabilité",
+                value: "Infinie",
+                sublabel: "Sans perte de qualité"
+            }
+        },
+        policySection: {
+            title: "Paysage Politique et Réglementaire",
+            content: `Les politiques de gestion des déchets de verre en Afrique sont moins développées par rapport aux plastiques et aux métaux. L'Afrique du Sud a des programmes de consigne pour les bouteilles de boissons qui encouragent les retours et le recyclage. Le Kenya et le Rwanda explorent des systèmes similaires. L'accent politique principal est sur l'intégration du verre dans des programmes plus larges de Responsabilité Élargie des Producteurs (REP) et la promotion de contenants en verre réutilisables plutôt que des alternatives à usage unique. Les défis incluent la logistique de collecte, les problèmes de contamination et la capacité limitée de fabrication de verre pour l'utilisation de verre recyclé.`
+        },
+        caseStudy: {
+            title: "Étude de Cas : L'industrie du Recyclage du Verre en Afrique du Sud",
+            content: `L'Afrique du Sud a établi une industrie de recyclage du verre réussie avec plusieurs usines de fabrication de verre qui utilisent le calcin recyclé (verre broyé) comme matière première. La Glass Recycling Company, une initiative menée par l'industrie, a atteint des taux de recyclage dépassant 40% pour certains types de verre. Le système de consigne sur les bouteilles de boissons stimule des taux de retour élevés. Ce modèle démontre comment le leadership de l'industrie combiné à des incitations économiques peut créer des systèmes de recyclage viables même pour des matériaux de valeur relativement faible.`
+        },
+        overview: `Les déchets de verre se composent principalement de bouteilles de boissons, de contenants alimentaires et d'autres matériaux d'emballage. Bien que le verre soit recyclable à 100% sans perte de qualité, les taux de recyclage en Afrique restent relativement faibles (15-25%) en raison des défis de collecte, de la contamination et de l'infrastructure de traitement limitée. Le verre représente 2 à 4% des déchets municipaux en poids mais occupe un espace important dans les décharges.`,
+        challenges: [
+            "Poids et coûts de transport",
+            "Contamination avec d'autres matériaux",
+            "Exigences de séparation des couleurs",
+            "Capacité de fabrication de verre limitée pour utiliser le verre recyclé",
+            "Concurrence des alternatives plastiques",
+            "Bris pendant la collecte et la manipulation"
+        ],
+        solutions: [
+            "Systèmes de consigne pour les contenants de boissons",
+            "Promotion de contenants en verre réutilisables",
+            "Systèmes de collecte triés par couleur",
+            "Soutien à la fabrication de verre utilisant du calcin recyclé",
+            "Intégration avec les programmes REP",
+            "Utilisations alternatives pour le verre broyé (construction, filtration)"
         ]
     }
 };
@@ -558,16 +819,27 @@ function initializeLanguage() {
 
 // Render detailed insights for a specific waste stream
 function renderDetailedInsights(streamType) {
-    const data = wasteStreamData[streamType];
+    const savedLanguage = localStorage.getItem('selectedLanguage') || 'en';
+    const dataSource = savedLanguage === 'fr' ? wasteStreamDataFr : wasteStreamData;
+    const data = dataSource[streamType];
     if (!data) return;
 
     const container = document.getElementById('detailed-insights');
+    
+    const currentTranslations = translations[savedLanguage];
+    const backText = currentTranslations.insights.backToCategories;
+    const statsTitle = savedLanguage === 'fr' ? 'Statistiques Clés' : 'Key Statistics';
+    const statsSubtitle = savedLanguage === 'fr' 
+        ? `Aperçu de la génération et de la gestion des déchets de ${streamType} en Afrique.`
+        : `Snapshot of ${streamType} waste generation and management in Africa.`;
+    const challengesTitle = savedLanguage === 'fr' ? 'Défis Clés' : 'Key Challenges';
+    const solutionsTitle = savedLanguage === 'fr' ? 'Solutions Durables' : 'Sustainable Solutions';
     
     container.innerHTML = `
         <section class="detailed-insights-section">
             <div class="container">
                 <button type="button" class="back-button" onclick="clearDetailedInsights()">
-                    <span data-i18n="insights.backToCategories">← Back to All Categories</span>
+                    ${backText}
                 </button>
 
                 <h2 class="insights-title">${data.title}</h2>
@@ -579,8 +851,8 @@ function renderDetailedInsights(streamType) {
 
                 <!-- Statistics -->
                 <div class="statistics-section">
-                    <h3>Key Statistics</h3>
-                    <p class="statistics-subtitle">Snapshot of ${streamType} waste generation and management in Africa.</p>
+                    <h3>${statsTitle}</h3>
+                    <p class="statistics-subtitle">${statsSubtitle}</p>
                     
                     <div class="statistics-grid">
                         <div class="stat-card">
@@ -606,25 +878,16 @@ function renderDetailedInsights(streamType) {
                     </div>
                 </div>
 
-                <!-- Chart -->
-                <div class="chart-section">
-                    <h3>${data.chartData.title}</h3>
-                    <p class="chart-subtitle">${data.chartData.subtitle}</p>
-                    <div class="chart-container">
-                        <canvas id="waste-chart"></canvas>
-                    </div>
-                </div>
-
                 <!-- Challenges and Solutions -->
                 <div class="challenges-solutions-grid">
                     <div class="challenges-card">
-                        <h3>Key Challenges</h3>
+                        <h3>${challengesTitle}</h3>
                         <ul class="challenges-list">
                             ${data.challenges.map(challenge => `<li>${challenge}</li>`).join('')}
                         </ul>
                     </div>
                     <div class="solutions-card">
-                        <h3>Sustainable Solutions</h3>
+                        <h3>${solutionsTitle}</h3>
                         <ul class="solutions-list">
                             ${data.solutions.map(solution => `<li>${solution}</li>`).join('')}
                         </ul>
@@ -646,17 +909,8 @@ function renderDetailedInsights(streamType) {
         </section>
     `;
 
-    // Render chart
-    renderChart(data.chartData);
-
     // Scroll to insights
     container.scrollIntoView({ behavior: 'smooth', block: 'start' });
-
-    // Re-apply language if not English
-    const savedLanguage = localStorage.getItem('selectedLanguage') || 'en';
-    if (savedLanguage !== 'en') {
-        setLanguage(savedLanguage);
-    }
 }
 
 // Clear detailed insights
@@ -669,78 +923,6 @@ function clearDetailedInsights() {
         behavior: 'smooth', 
         block: 'start' 
     });
-}
-
-// Render chart using Canvas
-function renderChart(chartData) {
-    const canvas = document.getElementById('waste-chart');
-    if (!canvas) return;
-    
-    const ctx = canvas.getContext('2d');
-    const width = canvas.parentElement.clientWidth;
-    const height = 300;
-    canvas.width = width;
-    canvas.height = height;
-
-    const padding = { top: 20, right: 20, bottom: 50, left: 50 };
-    const chartWidth = width - padding.left - padding.right;
-    const chartHeight = height - padding.top - padding.bottom;
-
-    // Find max value
-    const maxValue = Math.max(...chartData.generation, ...chartData.recycled);
-    const yScale = chartHeight / (maxValue * 1.1);
-
-    // Draw grid lines
-    ctx.strokeStyle = '#E2E8F0';
-    ctx.lineWidth = 1;
-    for (let i = 0; i <= 5; i++) {
-        const y = padding.top + (chartHeight / 5) * i;
-        ctx.beginPath();
-        ctx.moveTo(padding.left, y);
-        ctx.lineTo(padding.left + chartWidth, y);
-        ctx.stroke();
-    }
-
-    // Draw bars
-    const barWidth = chartWidth / (chartData.months.length * 3);
-    const barSpacing = barWidth / 2;
-
-    chartData.months.forEach((month, index) => {
-        const x = padding.left + (index * (barWidth * 3));
-        
-        // Generation bar (darker)
-        const genHeight = chartData.generation[index] * yScale;
-        ctx.fillStyle = '#64748B';
-        ctx.fillRect(x, padding.top + chartHeight - genHeight, barWidth, genHeight);
-        
-        // Recycled bar (lighter)
-        const recHeight = chartData.recycled[index] * yScale;
-        ctx.fillStyle = '#CBD5E1';
-        ctx.fillRect(x + barWidth + barSpacing, padding.top + chartHeight - recHeight, barWidth, recHeight);
-    });
-
-    // Draw x-axis labels
-    ctx.fillStyle = '#475569';
-    ctx.font = '12px Inter';
-    ctx.textAlign = 'center';
-    chartData.months.forEach((month, index) => {
-        const x = padding.left + (index * (barWidth * 3)) + barWidth * 1.5;
-        ctx.fillText(month, x, height - 20);
-    });
-
-    // Draw legend
-    ctx.textAlign = 'left';
-    const legendY = height - padding.bottom + 10;
-    
-    ctx.fillStyle = '#64748B';
-    ctx.fillRect(width / 2 - 150, legendY, 15, 15);
-    ctx.fillStyle = '#475569';
-    ctx.fillText('Total Generation (MT)', width / 2 - 130, legendY + 12);
-    
-    ctx.fillStyle = '#CBD5E1';
-    ctx.fillRect(width / 2 + 20, legendY, 15, 15);
-    ctx.fillStyle = '#475569';
-    ctx.fillText('Recycled (MT)', width / 2 + 40, legendY + 12);
 }
 
 // Initialize category buttons
