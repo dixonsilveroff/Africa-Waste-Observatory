@@ -2340,25 +2340,6 @@ footer {
     cursor: pointer;
 }
 
-.policies-page .export-btn {
-    background: var(--secondary-blue);
-    color: var(--white);
-    border: none;
-    padding: 1rem 2rem;
-    border-radius: 6px;
-    font-weight: 600;
-    font-size: 0.9rem;
-    letter-spacing: 0.05em;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.policies-page .export-btn:hover {
-    background: #0052a3;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
-}
-
 .policies-page .policy-section {
     padding: 4rem 0;
 }

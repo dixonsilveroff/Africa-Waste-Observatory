@@ -32,9 +32,6 @@ const translations = {
             regional: "ECOWAS / EAC / SADC",
             national: "National Sovereignty"
         },
-        export: {
-            button: "EXPORT REGISTRY (PDF)"
-        },
         sections: {
             international: {
                 title: "I. INTERNATIONAL AGREEMENTS"
@@ -139,9 +136,6 @@ const translations = {
             au: "Union Africaine (UA)",
             regional: "CEDEAO / CAE / SADC",
             national: "Souveraineté Nationale"
-        },
-        export: {
-            button: "EXPORTER LE REGISTRE (PDF)"
         },
         sections: {
             international: {

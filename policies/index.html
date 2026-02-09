@@ -67,10 +67,6 @@
                         </label>
                     </div>
                 </div>
-
-                <button class="export-btn" onclick="exportPolicyRegistry()" data-i18n="export.button">
-                    EXPORT REGISTRY (PDF)
-                </button>
             </div>
         </section>
 
@@ -238,12 +234,6 @@
     <script src="../js/components.js"></script>
     <script src="./translations.js"></script>
     <script>
-        // Export functionality
-        function exportPolicyRegistry() {
-            alert('PDF export functionality - Integration with document generation service required');
-            // TODO: Implement PDF generation
-        }
-
         // Filter functionality
         document.addEventListener('DOMContentLoaded', function() {
             const filterCheckboxes = document.querySelectorAll('.filter-checkboxes input[type="checkbox"]');
