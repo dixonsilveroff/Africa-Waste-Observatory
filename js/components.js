@@ -50,7 +50,7 @@ const footerTemplate = `
             <h4 data-i18n="footer.contact">Contact</h4>
             <ul>
                 <li><a href="mailto:africawasteobservatory@gmail.com">Email: africawasteobservatory@gmail.com</a></li>
-                <li><a href="https://funai.edu.ng" target=_blank>Alex Ekwueme Federal University, Ndufu-Alike, Ikwo, Nigeria</a></li>
+                <li><a href="https://funai.edu.ng/sp/faculty/s/faculty-of-engineering-and-technology" target=_blank>Faculty of Engineering and Technology,<br>Alex Ekwueme Federal University, Ndufu-Alike, Ikwo, Nigeria</a></li>
             </ul>
         </div>
     </div>
