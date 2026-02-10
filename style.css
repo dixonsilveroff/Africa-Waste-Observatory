@@ -1435,8 +1435,8 @@ footer {
 
 .search-button {
     padding: 1rem 1.5rem;
-    background-color: var(--primary-green);
-    color: var(--white);
+    /* background-color: var(--primary-green); */
+    color: var(--text-dark);
     border: none;
     font-size: 1.25rem;
     cursor: pointer;
