@@ -102,3 +102,8 @@ function initializeHeader() {
 
 // Run immediately when script loads
 renderComponents();
+
+// Initialize Lucide icons (replaces <i data-lucide="..."> with inline SVGs)
+if (typeof lucide !== 'undefined') {
+    lucide.createIcons();
+}

@@ -660,7 +660,7 @@ function loadNationalPolicies() {
             
             // Traceability link
             const linkCell = document.createElement('td');
-            linkCell.innerHTML = `<a href="${policy.link}" target="_blank" class="trace-link">🔗</a>`;
+            linkCell.innerHTML = `<a href="${policy.link}" target="_blank" class="trace-link"><i data-lucide="external-link"></i></a>`;
             row.appendChild(linkCell);
             
             tableBody.appendChild(row);
@@ -673,16 +673,21 @@ function loadNationalPolicies() {
     if (totalEntriesElement) {
         totalEntriesElement.textContent = totalPolicies + 7; // Add international/regional policies
     }
+
+    // Re-initialize Lucide icons for dynamically injected content
+    if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+    }
 }
 
 // Helper function to get country flag emoji
 function getCountryFlag(countryCode) {
     const flags = {
-        'ZA': '🇿🇦',
-        'NG': '🇳🇬',
-        'KE': '🇰🇪',
-        'EG': '🇪🇬',
-        'RW': '🇷🇼'
+        'ZA': '<img src="../assets/images/flags/za.svg" class="flag-icon" alt="South Africa">',
+        'NG': '<img src="../assets/images/flags/ng.svg" class="flag-icon" alt="Nigeria">',
+        'KE': '<img src="../assets/images/flags/ke.svg" class="flag-icon" alt="Kenya">',
+        'EG': '<img src="../assets/images/flags/eg.svg" class="flag-icon" alt="Egypt">',
+        'RW': '<img src="../assets/images/flags/rw.svg" class="flag-icon" alt="Rwanda">'
     };
     return flags[countryCode] || '';
 }
