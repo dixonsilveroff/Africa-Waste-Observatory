@@ -460,8 +460,10 @@ nav a:hover {
 }
 
 .challenge-icon {
-    font-size: 2rem;
+    width: 32px;
+    height: 32px;
     flex-shrink: 0;
+    color: var(--primary-green);
 }
 
 .challenge-item p {
@@ -557,8 +559,10 @@ nav a:hover {
 }
 
 .deliver-icon {
-    font-size: 3rem;
+    width: 48px;
+    height: 48px;
     margin-bottom: 1rem;
+    color: var(--primary-green);
 }
 
 .deliver-item h4 {
@@ -609,8 +613,10 @@ nav a:hover {
 }
 
 .impact-icon {
-    font-size: 3rem;
+    width: 48px;
+    height: 48px;
     margin-bottom: 1rem;
+    color: var(--primary-green);
 }
 
 .impact-item h4 {
@@ -655,7 +661,12 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
+    color: var(--primary-green);
+}
+
+.objective-icon svg {
+    width: 28px;
+    height: 28px;
 }
 
 .objective-card h4 {
@@ -709,7 +720,12 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
+    color: var(--primary-green);
+}
+
+.explore-icon svg {
+    width: 28px;
+    height: 28px;
 }
 
 .explore-card h4 {
@@ -1425,6 +1441,14 @@ footer {
     font-size: 1.25rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-button svg {
+    width: 20px;
+    height: 20px;
 }
 
 .search-button:hover {
@@ -1739,8 +1763,10 @@ footer {
 }
 
 .category-icon {
-    font-size: 3.5rem;
+    width: 56px;
+    height: 56px;
     margin-bottom: 1.5rem;
+    color: var(--primary-green);
 }
 
 .waste-category-card h3 {
@@ -1927,10 +1953,19 @@ footer {
 }
 
 .challenges-list li::before {
-    content: "⚠️";
+    content: "";
     position: absolute;
     left: 0;
     top: 0.75rem;
+    width: 18px;
+    height: 18px;
+    background-color: var(--accent-yellow);
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3'/%3E%3Cpath d='M12 9v4'/%3E%3Cpath d='M12 17h.01'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3'/%3E%3Cpath d='M12 9v4'/%3E%3Cpath d='M12 17h.01'/%3E%3C/svg%3E");
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
 }
 
 .solutions-list li::before {
@@ -2467,16 +2502,25 @@ footer {
     background: var(--background-light);
 }
 
-.policies-page .policy-table .flag-emoji {
-    font-size: 1.2rem;
+.policies-page .policy-table .flag-emoji,
+.policies-page .policy-table .flag-icon {
+    width: 1.4rem;
+    height: auto;
     margin-left: 0.5rem;
+    vertical-align: middle;
 }
 
 .policies-page .policy-table .trace-link {
-    font-size: 1.2rem;
+    color: var(--primary-green);
     text-decoration: none;
     transition: transform 0.2s ease;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+}
+
+.policies-page .policy-table .trace-link svg {
+    width: 18px;
+    height: 18px;
 }
 
 .policies-page .policy-table .trace-link:hover {
