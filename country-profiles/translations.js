@@ -442,6 +442,366 @@ const countryData = {
     }
 };
 
+// French country-specific data
+const countryDataFr = {
+    "nigeria": {
+        overviewText: "Le Nigéria est la nation la plus peuplée d'Afrique (plus de 200 millions d'habitants) et l'une des économies à l'urbanisation la plus rapide du continent, générant environ 32 millions de tonnes métriques de déchets solides par an — un chiffre qui devrait atteindre 107 millions de tonnes d'ici 2050. Cette expansion démographique et urbaine rapide a placé le pays au centre du défi de la gestion des déchets en Afrique, notamment à Lagos, où 13 000 tonnes de déchets sont générées quotidiennement, dont 60 % restent non collectées. Le secteur informel des déchets gère 59,3 % de l'élimination nationale des déchets, employant des millions de travailleurs connus sous le nom de Baban Bola et Omo Gbonla, mais ces travailleurs essentiels restent largement non reconnus et non protégés. Les développements récents marquants incluent l'interdiction des plastiques à usage unique dans l'État de Lagos (1er juillet 2025), l'usine de valorisation énergétique Phoenix Edison d'un montant de 116 millions de dollars destinée à traiter 500 tonnes par jour et à créer 1 144 emplois, ainsi qu'une feuille de route nationale complète (2025-2040) élaborée avec la Banque mondiale. Alors que les modes de consommation évoluent et que les villes s'étendent au-delà des infrastructures existantes, la gestion des déchets est devenue un enjeu crucial reliant protection de l'environnement, santé publique et développement économique — tout en présentant des opportunités significatives pour la croissance de l'économie circulaire et la création d'emplois.",
+        snapshot: [
+            { label: "Population", value: "Plus de 200 millions" },
+            { label: "Population Urbaine Projetée (2040)", value: "199 millions" },
+            { label: "Production Quotidienne de Déchets à Lagos", value: "13 000 tonnes/jour (60 % non collectées)" },
+            { label: "Taux de Collecte National", value: "20-30 % (Secteur informel : 59,3 %)" },
+            { label: "Déchets Projetés d'ici 2050", value: "107 millions de tonnes/an" },
+            { label: "Indice de Performance Environnementale (2024)", value: "Classé 140e (contre 162e en 2022)" }
+        ],
+        wasteGeneration: `<p>Le Nigéria génère environ <strong>32 millions de tonnes métriques</strong> de déchets solides par an, les zones urbaines contribuant pour environ <strong>27,3 millions de tonnes</strong> par an. Ce chiffre devrait atteindre <strong>107 millions de tonnes d'ici 2050</strong>.</p>
+        <p><strong>Production par habitant :</strong> 0,51 kg/jour</p>
+        <p><strong>Données spécifiques à Lagos (2024-2026) :</strong></p>
+        <ul>
+            <li><strong>13 000 tonnes/jour</strong> générées (5,5 millions de tonnes par an)</li>
+            <li><strong>60 % restent non collectées</strong></li>
+            <li>Seulement <strong>13 % recyclées</strong></li>
+            <li>Lagos a contribué à <strong>870 000 tonnes</strong> de déchets plastiques mondiaux en 2024</li>
+            <li><strong>34 kg de plastique/personne/an</strong> s'infiltrant dans les systèmes hydriques</li>
+        </ul>
+        <p><strong>Flux de déchets dominants :</strong></p>
+        <ul>
+            <li>Déchets organiques</li>
+            <li>Plastiques (1,5 million de tonnes/an au niveau national, taux de recyclage inférieur à 10 %)</li>
+            <li>Textiles</li>
+            <li>Déchets électroniques</li>
+        </ul>
+        <p>Les déchets plastiques sont une préoccupation majeure, faisant du plastique une priorité environnementale nationale reconnue par l'interdiction du plastique de Lagos en 2025.</p>`,
+        wasteCollection: `<p>L'efficacité de la collecte des déchets reste faible, avec une moyenne de <strong>20 à 30 % au niveau national</strong> et atteignant <strong>41 % dans les zones urbaines optimisées</strong>. Cet écart a conduit à l'émergence d'un vaste écosystème informel de déchets qui gère <strong>59,3 % de l'élimination nationale des déchets</strong>.</p>
+        <p>Les ramasseurs informels de déchets, connus localement sous les noms de <strong>Baban Bola</strong> (Nord) et <strong>Omo Gbonla</strong> (Sud-Ouest), sont l'épine dorsale des activités de recyclage, particulièrement à Lagos et Abuja. Ces travailleurs collectent, trient et vendent des matériaux recyclables, contribuant de manière significative à la récupération de valeur et aux connaissances du secteur. Des études récentes (2024-2025) révèlent qu'environ <strong>40 millions de micro, petites et moyennes entreprises (MPME)</strong> opèrent au Nigéria, dont 89,4 % dans l'économie informelle.</p>
+        <p>Cependant, ils font face à l'exclusion sociale, aux risques de santé et à une reconnaissance juridique limitée, soulignant le besoin de politiques de formalisation structurées telles que celles pilotées par des partenariats comme <strong>Taka Taka</strong>, qui vise à atteindre un taux de recyclage de 90 % tout en créant des emplois pour les femmes et les jeunes dans les communautés défavorisées.</p>`,
+        treatment: `<p>Le Nigéria dépend fortement des décharges à ciel ouvert et de l'incinération non contrôlée, représentant <strong>80 à 90 %</strong> des pratiques d'élimination des déchets.</p>
+        <p><strong>Les impacts environnementaux et sanitaires comprennent :</strong></p>
+        <ul>
+            <li>Contamination des eaux souterraines par les lixiviats</li>
+            <li>Augmentation de l'incidence des maladies hydriques (choléra, typhoïde)</li>
+            <li>Pollution atmosphérique due aux émissions toxiques et au carbone noir</li>
+            <li>Fuite de plastique marin affectant les écosystèmes côtiers</li>
+            <li>Les déchets plastiques des villes côtières contribuent significativement à la pollution marine régionale et à l'accumulation de microplastiques dans les chaînes alimentaires</li>
+        </ul>`,
+        policy: `<p>Le Nigéria a accéléré les réformes politiques ces dernières années pour relever les défis des déchets et du climat.</p>
+        <p><strong>Les instruments clés comprennent :</strong></p>
+        <ul>
+            <li><strong>Loi sur le Changement Climatique (2021) :</strong> Objectif de zéro émission nette d'ici 2060</li>
+            <li><strong>Politique Nationale sur la Gestion des Déchets Plastiques (NPPWM) :</strong> Cadre d'économie circulaire</li>
+            <li><strong>Directives Nationales de Mise en Œuvre pour les Déchets Plastiques (2024) :</strong> Élaborées avec l'ONUDI et le Japon</li>
+            <li><strong>Interdiction des Plastiques à Usage Unique de l'État de Lagos (1er juillet 2025) :</strong> Interdit le polystyrène, les pailles, les couverts et les assiettes. Les contrevenants risquent la fermeture de leur entreprise.</li>
+            <li><strong>Politique de Gaz à partir de Déchets (2022) :</strong> Captage du méthane et initiatives de valorisation énergétique</li>
+            <li><strong>Loi NESREA (2007) :</strong> Principale agence d'application des normes environnementales</li>
+        </ul>
+        <p><strong>Feuille de Route Nationale (2025-2040) en collaboration avec la Banque mondiale :</strong></p>
+        <ul>
+            <li><strong>2025 Gains Rapides :</strong> Lancement du Fonds National d'Innovation du Secteur des Déchets Solides, renforcement du tri à la source</li>
+            <li><strong>2027 Court terme :</strong> Amélioration des infrastructures de collecte et création de Centres de Récupération de Matériaux (CRM)</li>
+            <li><strong>2030 Moyen terme :</strong> Installations spécialisées de déchets dangereux dans les villes clés</li>
+            <li><strong>2040 Long terme :</strong> Système de gestion intégrée et durable des déchets</li>
+        </ul>
+        <p>Ces politiques visent à réduire les dommages environnementaux tout en libérant la valeur économique des flux de déchets. La prise de décision basée sur les données a renforcé la volonté politique d'application.</p>`,
+        challenges: [
+            "Faible capacité d'application",
+            "Infrastructure limitée de traitement des déchets",
+            "Corruption et contraintes de ressources",
+            "Faibles taux de recyclage",
+            "Risques de santé et de sécurité pour les travailleurs informels",
+            "Malgré des politiques bien conçues, la mise en œuvre reste le plus grand obstacle du Nigéria"
+        ],
+        opportunities: `<p>Le secteur des déchets du Nigéria présente un fort potentiel de transformation grâce à :</p>
+        <ul>
+            <li>L'intégration formelle des travailleurs informels des déchets</li>
+            <li>L'expansion des régimes de Responsabilité Élargie des Producteurs (REP)</li>
+            <li>L'investissement dans les technologies de gaz à partir de déchets et de recyclage</li>
+            <li>La création d'emplois par les industries de l'économie circulaire</li>
+            <li><strong>Investissement Majeur en Infrastructure (2025-2027) :</strong> Phoenix Edison Ltd. construit une <strong>usine de valorisation énergétique de 116 millions de dollars</strong> qui traitera <strong>500 tonnes de déchets par jour</strong>, générera <strong>12 MW d'électricité</strong> et créera <strong>1 144 emplois</strong>.</li>
+        </ul>
+        <p>Avec un soutien institutionnel adéquat et la participation du secteur privé, les déchets pourraient évoluer d'un fardeau environnemental vers un moteur de croissance économique inclusive.</p>`,
+        primarySources: [
+            "Banque Mondiale – What a Waste 2.0 : Un Aperçu Mondial de la Gestion des Déchets Solides",
+            "Bureau National des Statistiques du Nigéria (NBS) – Données Environnementales et d'Urbanisation",
+            "Ministère Fédéral de l'Environnement (Nigéria) – Politiques Nationales sur les Déchets et le Plastique",
+            "Programme des Nations Unies pour l'Environnement (PNUE) – Perspectives Africaines des Déchets",
+            "Indice de Performance Environnementale (IPE), Université Yale (2022, 2024)",
+            "ONUDI et Gouvernement du Japon – Directives Nationales de Mise en Œuvre pour la Gestion des Déchets Plastiques (2024)",
+            "Loi sur le Changement Climatique du Nigéria (2021)"
+        ],
+        supportingInstitutions: [
+            "Autorité de Gestion des Déchets de Lagos (LAWMA)",
+            "Conseil de Protection de l'Environnement d'Abuja (AEPB)"
+        ]
+    },
+    "egypt": {
+        overviewText: "L'Égypte a positionné la gestion des déchets comme un pilier stratégique de sa transition économique verte dans le cadre de la Vision Égypte 2030, générant environ 100 millions de tonnes de déchets totaux par an (dont 22-28 millions de tonnes de déchets solides municipaux). Plutôt que de considérer les déchets comme un simple enjeu sanitaire, le pays les intègre dans la réforme industrielle nationale, la diversification énergétique et la croissance menée par le secteur privé. Le système de déchets de l'Égypte est uniquement défini par la communauté informelle de recyclage Zabbaleen, mondialement reconnue, au Caire, qui traite 11 000 tonnes par jour avec un taux de récupération extraordinaire de 80 % — servant de colonne vertébrale de la chaîne d'approvisionnement nationale en recyclage. Le pays connaît une transformation ambitieuse : les taux de recyclage passent de 37 % en 2024 vers un objectif de 60 % d'ici 2027, tandis que l'usine révolutionnaire Zero Carbon Green Planet (ZCGP) à Charm el-Cheikh — dont l'achèvement est prévu pour 2027 — traitera 400 tonnes de déchets par jour pour produire des produits à haute valeur ajoutée, notamment du graphène et de l'hydrogène. Ce passage de l'incinération conventionnelle à la valorisation avancée des matériaux positionne l'Égypte comme un leader régional dans la fabrication circulaire. Le Programme National de Gestion des Déchets Solides (NSWMP) formalise les travailleurs informels, ferme les décharges héritées comme Al-Salam, et étend la collecte rurale au-delà de la couverture de 35 % grâce à des mécanismes de financement innovants tels que les frais de gestion des déchets liés aux factures d'électricité.",
+        snapshot: [
+            { label: "Population", value: "Plus de 110 millions" },
+            { label: "Traitement Quotidien des Zabbaleen", value: "11 000 tonnes/jour (taux de récupération de 80 %)" },
+            { label: "Taux de Recyclage 2024", value: "37 % (Objectif : 60 % d'ici 2027)" },
+            { label: "Principal Pôle Urbain", value: "Région du Grand Caire" },
+            { label: "Axe de Développement", value: "Économie verte et infrastructure circulaire" }
+        ],
+        wasteGeneration: `<p>L'Égypte génère environ <strong>100 millions de tonnes</strong> de déchets totaux par an, incluant les déchets municipaux, agricoles et industriels.</p>
+        <ul>
+            <li><strong>Déchets Solides Municipaux (DSM) :</strong> 22-28 millions de tonnes/an</li>
+            <li><strong>Concentration Urbaine :</strong> 40 % dans le Grand Caire</li>
+        </ul>
+        <p><strong>Composition des Déchets :</strong></p>
+        <ul>
+            <li>Déchets organiques : 50-60 %</li>
+            <li>Plastiques : 10-15 %</li>
+            <li>Papier et carton : 10-25 %</li>
+        </ul>
+        <p>L'Égypte est le plus grand générateur de déchets électroniques en Afrique, contribuant à plus de <strong>20 % des déchets électroniques du continent</strong>.</p>`,
+        wasteCollection: `<p>Le système de déchets de l'Égypte est défini par un réseau informel très efficace, notamment la <strong>communauté Zabbaleen</strong> au Caire.</p>
+        <ul>
+            <li>Collecte jusqu'à <strong>60 %</strong> des déchets du Caire</li>
+            <li>Traite <strong>11 000 tonnes/jour</strong> (données 2024-2026)</li>
+            <li>Atteint des taux de récupération de <strong>80 %</strong> grâce au tri manuel</li>
+            <li>Constitue la colonne vertébrale de la chaîne d'approvisionnement nationale en recyclage</li>
+        </ul>
+        <p>La collecte rurale reste faible (aussi basse que 35 %), incitant le gouvernement à intégrer formellement les travailleurs informels par le Programme National de Gestion des Déchets Solides (NSWMP). L'initiative <strong>Waste Management City</strong> vise à moderniser les infrastructures tout en maintenant le rôle crucial des Zabbaleen dans l'économie circulaire.</p>`,
+        treatment: `<p>L'Égypte effectue une transition depuis les décharges à ciel ouvert vers des infrastructures modernes :</p>
+        <ul>
+            <li>Décharges sanitaires et stations de transfert établies</li>
+            <li>Fermeture des décharges héritées (ex. : Al-Salam)</li>
+            <li><strong>Objectif de Valorisation Énergétique :</strong> 1,5 million de tonnes par an</li>
+            <li><strong>Progression du Taux de Recyclage :</strong> 37 % en 2024, objectif de <strong>60 % d'ici 2027</strong></li>
+        </ul>
+        <p><strong>Projet d'Infrastructure Majeur (2024-2027) :</strong> L'<strong>usine Zero Carbon Green Planet (ZCGP) à Charm el-Cheikh</strong> traitera <strong>400 tonnes/jour</strong> de déchets non recyclables, produisant des produits à haute valeur ajoutée, notamment du graphène et de l'hydrogène.</p>
+        <p>Les déchets industriels sont traités par des programmes comme EPAP III, qui soutient la production plus propre et la réduction des émissions.</p>`,
+        policy: `<ul>
+            <li><strong>Loi de Réglementation de la Gestion des Déchets (Loi n° 202 de 2020)</strong></li>
+            <li>Principe du Pollueur-Payeur</li>
+            <li>Responsabilité Élargie des Producteurs (REP) pour les plastiques et l'électronique</li>
+            <li>Restrictions sur les Plastiques à Usage Unique avec des incitations fiscales vertes</li>
+        </ul>
+        <p>Ce cadre juridique a mis fin à des décennies de réglementation fragmentée.</p>`,
+        challenges: [
+            "Perte économique annuelle d'environ 0,2 % du PIB due à une mauvaise gestion des déchets",
+            "L'Égypte contribue à 43 % des fuites de plastique dans la Méditerranée",
+            "Risques sanitaires dans le recyclage informel des déchets électroniques"
+        ],
+        opportunities: `<p>Le secteur des déchets de l'Égypte offre un fort potentiel grâce à :</p>
+        <ul>
+            <li>L'expansion du recyclage industriel</li>
+            <li>Les investissements dans la valorisation énergétique</li>
+            <li>La formalisation des recycleurs informels</li>
+            <li>Les chaînes de valeur de fabrication circulaire</li>
+            <li><strong>Technologies Avancées de Valorisation :</strong> L'usine ZCGP démontre l'engagement de l'Égypte à convertir les déchets en produits à haute valeur (graphène, hydrogène)</li>
+            <li><strong>Objectif de Taux de Recyclage :</strong> Atteindre 60 % de recyclage d'ici 2027 positionnerait l'Égypte comme leader régional en récupération de matériaux</li>
+        </ul>`,
+        primarySources: [
+            "Ministère de l'Environnement, Égypte – Rapports sur la Gestion des Déchets et l'Environnement",
+            "Loi n° 202 de 2020 (Loi de Réglementation de la Gestion des Déchets)",
+            "Banque Mondiale – Documentation du Programme de Gestion des Déchets Solides en Égypte",
+            "PNUE – Pollution Plastique Marine en Méditerranée",
+            "Programme National de Gestion des Déchets Solides (NSWMP), Égypte",
+            "Union Internationale des Télécommunications (UIT) – Moniteur Mondial des Déchets Électroniques",
+            "EPAP III – Projet de Réduction de la Pollution en Égypte"
+        ],
+        supportingInstitutions: [
+            "Agence Égyptienne des Affaires Environnementales (EEAA)",
+            "Banque Européenne pour la Reconstruction et le Développement (BERD)"
+        ]
+    },
+    "kenya": {
+        overviewText: "Le Kenya connaît un virage radical vers une économie circulaire, porté par une gouvernance décentralisée, une législation progressiste et des investissements d'infrastructure de pointe. Le pays génère environ 8 millions de tonnes de déchets par an avec un taux de collecte national de seulement 30 % — un écart qui a suscité des initiatives de transformation ambitieuses. La gestion des déchets relève de la responsabilité des comtés dans le cadre de la structure de gouvernance décentralisée du Kenya (47 comtés), soutenue par la supervision nationale à travers la Loi sur la Gestion Durable des Déchets (2022), les Règlements REP (2024) et le cadre des « Cinq R » (Refuser, Réduire, Réutiliser, Réaffecter, Recycler). Des avancées majeures en infrastructure en 2025-2026 positionnent le Kenya comme leader de l'innovation en Afrique de l'Est : Konza Technopolis a lancé le premier système pneumatique de collecte des déchets en Afrique avec un investissement de 9 millions de dollars, comprenant 15 kilomètres de conduites souterraines à vide, 50 points d'entrée et une capacité de 40 tonnes/jour. Le Président William Ruto a officiellement inauguré une usine de valorisation énergétique de 45 MW sur le site de la décharge de Dandora le 8 février 2026, transformant la plus grande et la plus dangereuse décharge d'Afrique de l'Est en un centre de production d'énergie propre.",
+        snapshot: [
+            { label: "Production Annuelle de Déchets", value: "~8 millions de tonnes" },
+            { label: "Production Quotidienne de Déchets", value: "~5 000 tonnes" },
+            { label: "Système de Ville Intelligente de Konza", value: "Capacité de 40 tonnes/jour, 15 km de conduites pneumatiques" },
+            { label: "Modèle de Gouvernance", value: "Décentralisé (Gouvernements de Comté)" },
+            { label: "Vision Nationale", value: "Vision 2030 et Programme Économique Ascendant" }
+        ],
+        wasteGeneration: `<ul>
+            <li><strong>Déchets urbains (projetés 2030) :</strong> 5,5 millions de tonnes/an</li>
+        </ul>
+        <p><strong>Composition des Déchets :</strong></p>
+        <ul>
+            <li>Organique : 60 %</li>
+            <li>Plastiques et métaux</li>
+            <li>Déchets électroniques (parmi les plus élevés en Afrique de l'Est)</li>
+            <li>Déchets de construction et de démolition (C&D)</li>
+        </ul>
+        <p>La croissance urbaine est le principal moteur de l'augmentation des volumes de déchets.</p>`,
+        wasteCollection: `<ul>
+            <li>Taux de collecte national : <strong>~30 %</strong></li>
+            <li>Collecte à Nairobi (2021) : <strong>~77 %</strong></li>
+            <li>Taux de recyclage : <strong>inférieur à 10 %</strong></li>
+        </ul>
+        <p>La <strong>décharge de Dandora</strong>, la plus grande d'Afrique de l'Est, reste non réglementée et dangereuse. Cependant, une transformation majeure est en cours : une <strong>usine de valorisation énergétique de 45 MW</strong> a été officiellement inaugurée par le Président William Ruto le 8 février 2026.</p>
+        <p>Le secteur informel, composé principalement de femmes, joue un rôle majeur dans la récupération du plastique et du métal, gagnant souvent moins de 2 dollars US/jour.</p>
+        <p><strong>Ville Intelligente de Konza Technopolis (Opérationnel 2025) :</strong> Un <strong>système pneumatique de collecte des déchets de 9 millions de dollars</strong> comprenant <strong>15 km de conduites souterraines et 50 points d'entrée</strong> avec une <strong>capacité de 40 tonnes/jour</strong>, éliminant le besoin de véhicules de collecte traditionnels.</p>`,
+        treatment: `<p>Le Kenya passe de la mise en décharge à des systèmes de récupération :</p>
+        <ul>
+            <li>Centres de Récupération de Matériaux (CRM) visant une <strong>récupération de 95 % des déchets</strong></li>
+            <li>Projets pilotes de tri à la source</li>
+            <li>Stratégie de traitement des déchets de C&D (2025-2030)</li>
+            <li>Réutilisation des sous-produits agricoles (bagasse, mélasse)</li>
+        </ul>`,
+        policy: `<ul>
+            <li>Loi sur la Gestion Durable des Déchets (2022)</li>
+            <li>Règlements REP (2024)</li>
+            <li>Règlements sur la Gestion des Déchets (2024)</li>
+            <li>Politique Nationale de Gestion de l'Assainissement (2024)</li>
+        </ul>`,
+        challenges: [
+            "Déficits d'infrastructure",
+            "Faible sensibilisation du public",
+            "Faible capacité d'application",
+            "Risques sanitaires à proximité des décharges"
+        ],
+        opportunities: `<p>La transition vers l'économie circulaire au Kenya présente des opportunités dans :</p>
+        <ul>
+            <li>Le compostage et le biogaz</li>
+            <li>Les systèmes de récupération du plastique</li>
+            <li>Les emplois verts et les entreprises de recyclage dirigées par des femmes</li>
+            <li><strong>Infrastructure de Ville Intelligente (2025-2026) :</strong> Konza Technopolis démontre une collecte pneumatique des déchets de classe mondiale</li>
+            <li><strong>Valorisation Énergétique à Grande Échelle :</strong> L'usine de 45 MW de Dandora inaugurée en février 2026 représente un changement majeur des décharges vers la récupération d'énergie</li>
+            <li><strong>Leadership Présidentiel :</strong> L'implication directe du Président Ruto signale un engagement politique de haut niveau</li>
+        </ul>`,
+        primarySources: [
+            "Autorité Nationale de Gestion de l'Environnement (NEMA), Kenya",
+            "Loi sur la Gestion Durable des Déchets (2022)",
+            "Bureau National des Statistiques du Kenya (KNBS)",
+            "Banque Mondiale – Études sur le Développement Urbain et les Déchets au Kenya",
+            "PNUE – Rapports sur les Déchets et l'Économie Circulaire en Afrique de l'Est",
+            "Stratégie Nationale de Gestion des Déchets Solides (2024)",
+            "Autorité Nationale de la Construction (NCA) – Stratégie des Déchets de Construction (2025-2030)"
+        ],
+        supportingInstitutions: [
+            "Gouvernements de Comté de Nairobi, Mombasa, Kisumu",
+            "Ministère de l'Environnement, du Changement Climatique et de la Foresterie"
+        ]
+    },
+    "rwanda": {
+        overviewText: "Le Rwanda est largement considéré comme le modèle africain en matière d'interdiction des déchets et de discipline environnementale, porté par une gouvernance forte, la conformité publique et des objectifs ambitieux d'économie circulaire qui vont bien au-delà de son interdiction pionnière des sacs plastiques de 2008. Avec Kigali générant environ 292 000 tonnes de déchets par an (75 % organiques), le Rwanda a développé des systèmes complets que d'autres nations africaines étudient et reproduisent. Les réalisations récentes du pays en matière de gestion des déchets incluent le Modèle SHINE local — un cadre de gestion des déchets solides développé localement, rentable, créé en 2024-2025 par la GIZ en partenariat avec le Ministère de l'Environnement du Rwanda, testé avec succès dans les districts de Bugesera, Rwamagana et Muhanga. Le Rwanda exploite Enviroserve Rwanda Green Park, la deuxième installation de démantèlement de déchets électroniques de pointe en Afrique, qui a formé 70 jeunes Rwandais et créé 413 emplois verts. Le Fonds de Gestion des Déchets Plastiques (créé en 2021) a collecté près de 1 500 tonnes provenant de 24 points de dépôt tout en créant 1 300 emplois verts.",
+        snapshot: [
+            { label: "Production de Déchets de la Capitale (Kigali)", value: "~292 000 tonnes/an" },
+            { label: "Déchets Quotidiens (Kigali)", value: "~800 tonnes" },
+            { label: "Production par Habitant", value: "0,51-0,57 kg/jour" },
+            { label: "Autorité Environnementale", value: "Autorité de Gestion de l'Environnement du Rwanda (REMA)" }
+        ],
+        wasteGeneration: `<ul>
+            <li>Déchets organiques : 78 %</li>
+            <li>Papier et carton : 6,6 %</li>
+            <li>Plastiques : 3,7 % (impact post-interdiction)</li>
+            <li>Flux croissant : Déchets industriels</li>
+        </ul>
+        <p>Les interdictions de plastique ont fondamentalement remodelé la composition des déchets du Rwanda.</p>`,
+        wasteCollection: `<ul>
+            <li>Système de collecte privatisé et agréé</li>
+            <li>Déchets transportés vers la <strong>décharge de Nduba</strong></li>
+        </ul>
+        <p>Nduba fonctionne comme une décharge à ciel ouvert en attendant sa mise à niveau vers un Centre de Récupération des Ressources.</p>
+        <p>Le déversement illégal persiste dans les zones à faibles revenus, surtout pendant les saisons des pluies.</p>`,
+        treatment: `<ul>
+            <li>Stratégie Intégrée de Gestion des Déchets Solides (2022)</li>
+            <li>Principes d'Économie Circulaire des 10-R</li>
+            <li>Objectif de recyclage urbain : <strong>80 %</strong></li>
+            <li>Taux de compostage : <strong>35,5 %</strong></li>
+            <li>Objectif de recyclage des déchets électroniques : <strong>50 %</strong></li>
+        </ul>
+        <p>La faisabilité de la valorisation énergétique est en cours d'évaluation, en particulier pour le biogaz dans les projets de logement.</p>`,
+        policy: `<ul>
+            <li>Stratégie Intégrée de Gestion des Déchets Solides (2022)</li>
+            <li>Principes d'Économie Circulaire des 10-R</li>
+            <li>Objectif de recyclage urbain : 80 %</li>
+            <li>Taux de compostage : 35,5 %</li>
+            <li>Objectif de recyclage des déchets électroniques : 50 %</li>
+        </ul>`,
+        challenges: [
+            "Limitations de la décharge de Nduba",
+            "Déversement illégal",
+            "Le secteur des déchets contribue à environ 12 % des émissions nationales de GES"
+        ],
+        opportunities: `<p>Le Rwanda démontre comment :</p>
+        <ul>
+            <li>Une réglementation forte</li>
+            <li>La conformité publique</li>
+            <li>Des interdictions claires peuvent rapidement remodeler les systèmes nationaux de déchets et attirer des investissements verts</li>
+        </ul>`,
+        primarySources: [
+            "Autorité de Gestion de l'Environnement du Rwanda (REMA)",
+            "Stratégie Intégrée de Gestion des Déchets Solides (2022)",
+            "Stratégie Nationale de Transformation (NST2, 2024-2029)",
+            "Banque Mondiale – Rapports sur la Performance Urbaine et Environnementale du Rwanda",
+            "PNUE – Études de Cas sur l'Interdiction du Plastique et l'Économie Circulaire",
+            "Conseil Municipal de Kigali – Données sur la Production et la Collecte des Déchets"
+        ],
+        supportingInstitutions: [
+            "Autorité de Régulation des Services Publics du Rwanda (RURA)",
+            "Ministère de l'Environnement, Rwanda"
+        ]
+    },
+    "south-africa": {
+        overviewText: "L'Afrique du Sud possède l'économie des déchets la plus industrialisée d'Afrique, générant environ 54 millions de tonnes de déchets par an, soutenue par une législation avancée comprenant la Loi Nationale sur la Gestion de l'Environnement : Déchets, les cadres de Responsabilité Élargie des Producteurs (REP) et des régimes complets de conformité des producteurs. Le pays dispose des systèmes REP les plus sophistiqués d'Afrique — en particulier pour les déchets électroniques et les polymères — avec des programmes de récupération de polymères détournant plus de 430 000 tonnes de plastique des décharges chaque année. Pourtant, malgré ces atouts, l'Afrique du Sud fait face à de profondes inégalités : 37 % des ménages (environ 9,8 millions de personnes) n'ont pas accès à des services d'enlèvement des ordures, en particulier dans les zones rurales et les établissements informels. En tant que membre fondateur de l'Alliance Africaine pour l'Économie Circulaire (ACEA) créée en 2022 aux côtés de l'Union Africaine, du Forum Économique Mondial, de la Banque Africaine de Développement et de la Banque Mondiale, l'Afrique du Sud détient un leadership continental dans l'élaboration des politiques et des cadres d'investissement de l'économie circulaire.",
+        snapshot: [
+            { label: "Population", value: "~60 millions" },
+            { label: "Production Annuelle de Déchets", value: "~54 millions de tonnes" },
+            { label: "Taux de Recyclage", value: "~10-12 %" },
+            { label: "Ménages Sans Service d'Ordures", value: "37 % (9,8 millions de personnes)" },
+            { label: "Statut Économique", value: "Revenu intermédiaire supérieur" },
+            { label: "Leadership Régional", value: "Membre Fondateur de l'ACEA (2022)" }
+        ],
+        wasteGeneration: `<ul>
+            <li>Déchets solides municipaux : <strong>~34 %</strong></li>
+            <li>Déchets industriels et miniers : Part majeure</li>
+            <li>Déchets organiques : <strong>~40 %</strong></li>
+            <li>Plastiques, papier, métaux : Filières de recyclage bien développées</li>
+        </ul>`,
+        wasteCollection: `<p>La collecte municipale formelle domine les zones urbaines, mais de profondes inégalités persistent.</p>
+        <ul>
+            <li><strong>37 % des ménages sud-africains</strong> (environ <strong>9,8 millions de personnes</strong>) n'ont pas accès à des services d'enlèvement des ordures, révélant des écarts significatifs dans la prestation de services, en particulier dans les zones rurales et les établissements informels</li>
+            <li>Forte dépendance aux décharges</li>
+            <li>Marchés privés de recyclage avancés pour le papier, le verre, les métaux</li>
+            <li>Les récupérateurs informels restent essentiels à la récupération des matériaux</li>
+        </ul>`,
+        treatment: `<ul>
+            <li>Forte dépendance aux décharges</li>
+            <li>Marchés privés de recyclage avancés pour le papier, le verre, les métaux</li>
+            <li>Les récupérateurs informels restent essentiels à la récupération des matériaux</li>
+        </ul>`,
+        policy: `<ul>
+            <li>Loi Nationale sur la Gestion de l'Environnement : Déchets</li>
+            <li>Règlements sur la Responsabilité Élargie des Producteurs (REP)</li>
+            <li><strong>Projet de Stratégie Nationale de Gestion des Déchets (NWMS) 2026 :</strong> Publié pour commentaires publics, décrivant des objectifs de nouvelle génération pour le détournement des déchets, l'économie circulaire et la prestation équitable de services</li>
+            <li>Régimes obligatoires de conformité des producteurs</li>
+            <li><strong>Membre Fondateur de l'Alliance Africaine pour l'Économie Circulaire (ACEA) (2022) :</strong> L'Afrique du Sud co-dirige les initiatives régionales d'économie circulaire</li>
+        </ul>`,
+        challenges: [
+            "Dépendance aux décharges",
+            "Prestation de services inégale",
+            "Augmentation des déchets dangereux et électroniques",
+            "Exclusion sociale des récupérateurs informels"
+        ],
+        opportunities: `<p>La force de l'Afrique du Sud réside dans :</p>
+        <ul>
+            <li>Des industries de recyclage extensibles</li>
+            <li>Des investissements portés par la REP</li>
+            <li>L'expansion de la valorisation énergétique</li>
+            <li><strong>Leadership Régional :</strong> En tant que membre fondateur de l'ACEA (2022), l'Afrique du Sud est positionnée pour façonner les politiques et investissements continentaux en infrastructure d'économie circulaire</li>
+            <li><strong>Évolution des Politiques :</strong> Le Projet NWMS 2026 vise à combler l'écart de service de 37 % tout en renforçant les objectifs de détournement des déchets et d'économie circulaire</li>
+            <li><strong>Capacité Industrielle :</strong> Les marchés de recyclage avancés et les systèmes de responsabilité des producteurs fournissent une base pour des chaînes de valeur circulaires élargies</li>
+        </ul>`,
+        primarySources: [
+            "Département de la Foresterie, de la Pêche et de l'Environnement (DFFE), Afrique du Sud",
+            "Loi Nationale sur la Gestion de l'Environnement : Déchets",
+            "Stratégie Nationale de Gestion des Déchets (NWMS)",
+            "Système d'Information sur les Déchets d'Afrique du Sud (SAWIS)",
+            "Banque Mondiale – Études sur les Déchets et l'Économie Circulaire en Afrique du Sud",
+            "OCDE – Examens de la Responsabilité Élargie des Producteurs (REP)",
+            "PNUE – Rapports de l'Alliance Africaine pour l'Économie Circulaire"
+        ],
+        supportingInstitutions: [
+            "Conseil pour la Recherche Scientifique et Industrielle (CSIR)",
+            "Organisations de Responsabilité des Producteurs (ORP)"
+        ]
+    }
+};
+
 // Language switching functionality
 function setLanguage(lang) {
     const elements = document.querySelectorAll('[data-i18n]');
@@ -450,7 +810,7 @@ function setLanguage(lang) {
         let translation = translations[lang];
         
         keys.forEach(key => {
-            translation = translation[key];
+            if (translation) translation = translation[key];
         });
         
         if (translation) {
@@ -460,6 +820,12 @@ function setLanguage(lang) {
     
     // Save language preference
     localStorage.setItem('selectedLanguage', lang);
+    
+    // Reload country data in the selected language
+    const countrySelector = document.getElementById('country-selector');
+    if (countrySelector) {
+        updateCountryData(countrySelector.value);
+    }
 }
 
 // Initialize language functionality
@@ -482,7 +848,9 @@ function initializeLanguage() {
 
 // Country switching functionality
 function updateCountryData(countryKey) {
-    const data = countryData[countryKey];
+    const lang = localStorage.getItem('selectedLanguage') || 'en';
+    const dataSource = (lang === 'fr' && countryDataFr && countryDataFr[countryKey]) ? countryDataFr : countryData;
+    const data = dataSource[countryKey];
     if (!data) return;
 
     // Update simple text fields
