@@ -143,12 +143,12 @@ const countryData = {
         </ul>
         <p>These policies aim to reduce environmental damage while unlocking economic value from waste streams. Data-driven decision-making has strengthened political will for enforcement.</p>`,
         challenges: [
-            "Weak enforcement capacity",
-            "Limited waste processing infrastructure",
-            "Corruption and resource constraints",
-            "Low recycling rates",
-            "Health and safety risks for informal workers",
-            "Despite well-designed policies, implementation remains Nigeria's greatest obstacle"
+            { title: "Weak enforcement capacity", detail: "Regulatory agencies such as NESREA lack adequate funding, personnel, and political backing to enforce existing waste management laws consistently across states, leading to widespread non-compliance and illegal dumping." },
+            { title: "Limited waste processing infrastructure", detail: "Nigeria has very few Material Recovery Facilities (MRFs), transfer stations, or engineered sanitary landfills. Most waste ends up in open dumps, with only 20–30% of generated waste formally collected nationwide." },
+            { title: "Corruption and resource constraints", detail: "Misallocation of public funds, procurement irregularities, and under-investment in the waste sector have undermined the development of modern collection, treatment, and disposal systems at all levels of government." },
+            { title: "Low recycling rates", detail: "Formal recycling captures a negligible share of Nigeria's 32 million tons of annual waste. Limited sorting infrastructure, low public awareness of separation, and weak market linkages for recyclables keep recovery rates extremely low." },
+            { title: "Health and safety risks for informal workers", detail: "Millions of informal waste workers (Baban Bola, Omo Gbonla) handle hazardous materials without protective equipment, training, or social protections, exposing them to respiratory diseases, injuries, and toxic contamination." },
+            { title: "Implementation gap between policy and practice", detail: "Despite well-designed policies and national roadmaps, implementation remains Nigeria's greatest obstacle. Fragmented governance across federal, state, and local levels, combined with limited data systems, prevents coordinated action and accountability." }
         ],
         opportunities: `<p>Nigeria's waste sector holds strong potential for transformation through:</p>
         <ul>
@@ -219,9 +219,9 @@ const countryData = {
         </ul>
         <p>This legal framework ended decades of fragmented regulation.</p>`,
         challenges: [
-            "Annual economic loss of ~0.2% of GDP from poor waste management",
-            "Egypt contributes 43% of plastic leakage into the Mediterranean",
-            "Health risks in informal e-waste recycling"
+            { title: "Annual economic loss of ~0.2% of GDP from poor waste management", detail: "Inefficient waste collection, uncontrolled dumping, and missed recycling opportunities cost Egypt roughly 0.2% of GDP annually through environmental degradation, public health impacts, and lost material value that could otherwise fuel economic growth." },
+            { title: "Egypt contributes 43% of plastic leakage into the Mediterranean", detail: "Inadequate coastal waste management infrastructure and poor collection coverage allow vast quantities of plastic waste to enter waterways and reach the Mediterranean Sea, making Egypt the single largest contributor of plastic pollution to the basin." },
+            { title: "Health risks in informal e-waste recycling", detail: "Informal recyclers in areas like Manshiyat Naser process electronic waste using crude methods such as open burning and acid baths, releasing toxic heavy metals and fumes that cause severe respiratory, neurological, and reproductive health problems." }
         ],
         opportunities: `<p>Egypt's waste sector offers strong potential through:</p>
         <ul>
@@ -288,10 +288,10 @@ const countryData = {
             <li>National Sanitation Management Policy (2024)</li>
         </ul>`,
         challenges: [
-            "Infrastructure deficits",
-            "Low public awareness",
-            "Weak enforcement capacity",
-            "Health risks near dumpsites"
+            { title: "Infrastructure deficits", detail: "Kenya's 47 counties lack sufficient collection vehicles, transfer stations, and engineered disposal facilities. Most counties rely on open dumpsites, and only a fraction of urban waste is collected through formal municipal systems." },
+            { title: "Low public awareness", detail: "Many households and businesses have limited understanding of waste segregation, recycling, and responsible disposal practices, resulting in widespread mixed-waste dumping and low participation in source-separation programs." },
+            { title: "Weak enforcement capacity", detail: "Despite progressive legislation like the Sustainable Waste Management Act (2022), county governments often lack the resources, technical expertise, and institutional capacity to monitor compliance and enforce regulations effectively." },
+            { title: "Health risks near dumpsites", detail: "Communities living near sites like the former Dandora dumpsite face severe health hazards including respiratory illness, waterborne diseases, and exposure to toxic leachate that contaminates groundwater and soil." }
         ],
         opportunities: `<p>Kenya's circular economy transition presents opportunities in:</p>
         <ul>
@@ -353,9 +353,9 @@ const countryData = {
             <li>E-waste recycling target: 50%</li>
         </ul>`,
         challenges: [
-            "Nduba landfill limitations",
-            "Illegal dumping",
-            "Waste sector contributes ~12% of national GHG emissions"
+            { title: "Nduba landfill limitations", detail: "Kigali's primary Nduba landfill is nearing capacity and faces operational challenges including leachate management, limited methane capture, and encroachment by surrounding urban development, threatening the city's waste disposal continuity." },
+            { title: "Illegal dumping", detail: "Despite Rwanda's strong governance culture, illegal waste dumping persists in peri-urban and rural areas where collection services are less frequent and enforcement resources are stretched thin, undermining public health and environmental gains." },
+            { title: "Waste sector contributes ~12% of national GHG emissions", detail: "Organic waste decomposing in landfills produces significant methane emissions. With 75% of Kigali's waste being organic, the waste sector is a major contributor to Rwanda's greenhouse gas profile, complicating the country's climate commitments." }
         ],
         opportunities: `<p>Rwanda demonstrates how:</p>
         <ul>
@@ -412,10 +412,10 @@ const countryData = {
             <li><strong>Africa Circular Economy Alliance (ACEA) Founding Member (2022):</strong> South Africa co-leads regional circular economy initiatives alongside African Union, World Economic Forum, and World Bank</li>
         </ul>`,
         challenges: [
-            "Landfill dependence",
-            "Unequal service delivery",
-            "Rising hazardous & e-waste",
-            "Social exclusion of informal reclaimers"
+            { title: "Landfill dependence", detail: "Over 90% of South Africa's waste still ends up in landfills. Many municipal landfill sites are at or near capacity, with limited investment in alternative treatment technologies such as composting, anaerobic digestion, or material recovery." },
+            { title: "Unequal service delivery", detail: "Approximately 37% of South African households (~9.8 million people) lack access to formal waste removal services, particularly in rural areas and informal settlements, creating significant environmental justice and public health disparities." },
+            { title: "Rising hazardous & e-waste", detail: "Rapid industrialization and growing consumer electronics adoption are driving sharp increases in hazardous and electronic waste streams, outpacing the development of specialized treatment infrastructure and regulatory oversight." },
+            { title: "Social exclusion of informal reclaimers", detail: "An estimated 60,000–90,000 informal waste pickers recover valuable recyclables yet remain largely excluded from formal waste management systems, EPR schemes, and social protection, despite their critical contribution to recycling rates." }
         ],
         opportunities: `<p>South Africa's strength lies in:</p>
         <ul>
@@ -503,12 +503,12 @@ const countryDataFr = {
         </ul>
         <p>Ces politiques visent à réduire les dommages environnementaux tout en libérant la valeur économique des flux de déchets. La prise de décision basée sur les données a renforcé la volonté politique d'application.</p>`,
         challenges: [
-            "Faible capacité d'application",
-            "Infrastructure limitée de traitement des déchets",
-            "Corruption et contraintes de ressources",
-            "Faibles taux de recyclage",
-            "Risques de santé et de sécurité pour les travailleurs informels",
-            "Malgré des politiques bien conçues, la mise en œuvre reste le plus grand obstacle du Nigéria"
+            { title: "Faible capacité d'application", detail: "Les agences de réglementation comme la NESREA manquent de financement, de personnel et de soutien politique adéquats pour appliquer de manière cohérente les lois existantes sur la gestion des déchets dans tous les États, entraînant un non-respect généralisé et des décharges illégales." },
+            { title: "Infrastructure limitée de traitement des déchets", detail: "Le Nigéria dispose de très peu de centres de récupération de matériaux, de stations de transfert ou de décharges sanitaires aménagées. La plupart des déchets finissent dans des décharges à ciel ouvert, avec seulement 20 à 30 % des déchets collectés formellement." },
+            { title: "Corruption et contraintes de ressources", detail: "La mauvaise allocation des fonds publics, les irrégularités dans les marchés publics et le sous-investissement dans le secteur des déchets ont compromis le développement de systèmes modernes de collecte, de traitement et d'élimination." },
+            { title: "Faibles taux de recyclage", detail: "Le recyclage formel ne capture qu'une part négligeable des 32 millions de tonnes de déchets annuels du Nigéria. L'infrastructure de tri limitée, la faible sensibilisation du public et les liens de marché faibles maintiennent les taux de récupération extrêmement bas." },
+            { title: "Risques de santé et de sécurité pour les travailleurs informels", detail: "Des millions de travailleurs informels des déchets manipulent des matières dangereuses sans équipement de protection, formation ou protections sociales, les exposant à des maladies respiratoires, des blessures et une contamination toxique." },
+            { title: "Écart de mise en œuvre entre politique et pratique", detail: "Malgré des politiques bien conçues, la mise en œuvre reste le plus grand obstacle du Nigéria. La gouvernance fragmentée entre les niveaux fédéral, étatique et local empêche une action coordonnée et la responsabilisation." }
         ],
         opportunities: `<p>Le secteur des déchets du Nigéria présente un fort potentiel de transformation grâce à :</p>
         <ul>
@@ -579,9 +579,9 @@ const countryDataFr = {
         </ul>
         <p>Ce cadre juridique a mis fin à des décennies de réglementation fragmentée.</p>`,
         challenges: [
-            "Perte économique annuelle d'environ 0,2 % du PIB due à une mauvaise gestion des déchets",
-            "L'Égypte contribue à 43 % des fuites de plastique dans la Méditerranée",
-            "Risques sanitaires dans le recyclage informel des déchets électroniques"
+            { title: "Perte économique annuelle d'environ 0,2 % du PIB due à une mauvaise gestion des déchets", detail: "La collecte inefficace des déchets, les décharges incontrôlées et les opportunités de recyclage manquées coûtent à l'Égypte environ 0,2 % du PIB annuellement par la dégradation environnementale, les impacts sur la santé publique et la perte de valeur matérielle." },
+            { title: "L'Égypte contribue à 43 % des fuites de plastique dans la Méditerranée", detail: "L'infrastructure inadéquate de gestion des déchets côtiers et la faible couverture de collecte permettent à de grandes quantités de plastique d'atteindre la mer Méditerranée, faisant de l'Égypte le plus grand contributeur de pollution plastique dans le bassin." },
+            { title: "Risques sanitaires dans le recyclage informel des déchets électroniques", detail: "Les recycleurs informels traitent les déchets électroniques par des méthodes rudimentaires comme le brûlage à ciel ouvert et les bains d'acide, libérant des métaux lourds toxiques causant de graves problèmes de santé respiratoire, neurologique et reproductive." }
         ],
         opportunities: `<p>Le secteur des déchets de l'Égypte offre un fort potentiel grâce à :</p>
         <ul>
@@ -648,10 +648,10 @@ const countryDataFr = {
             <li>Politique Nationale de Gestion de l'Assainissement (2024)</li>
         </ul>`,
         challenges: [
-            "Déficits d'infrastructure",
-            "Faible sensibilisation du public",
-            "Faible capacité d'application",
-            "Risques sanitaires à proximité des décharges"
+            { title: "Déficits d'infrastructure", detail: "Les 47 comtés du Kenya manquent de véhicules de collecte, de stations de transfert et d'installations d'élimination suffisants. La plupart des comtés dépendent de décharges à ciel ouvert, et seule une fraction des déchets urbains est collectée par les systèmes municipaux formels." },
+            { title: "Faible sensibilisation du public", detail: "De nombreux ménages et entreprises ont une compréhension limitée de la ségrégation des déchets, du recyclage et des pratiques d'élimination responsable, entraînant un déversement généralisé de déchets mélangés et une faible participation aux programmes de tri à la source." },
+            { title: "Faible capacité d'application", detail: "Malgré une législation progressiste comme la Loi sur la Gestion Durable des Déchets (2022), les gouvernements de comté manquent souvent de ressources, d'expertise technique et de capacité institutionnelle pour surveiller la conformité et appliquer efficacement les réglementations." },
+            { title: "Risques sanitaires à proximité des décharges", detail: "Les communautés vivant près de sites comme l'ancienne décharge de Dandora font face à de graves risques sanitaires, notamment des maladies respiratoires, des maladies hydriques et une exposition au lixiviat toxique contaminant les eaux souterraines et le sol." }
         ],
         opportunities: `<p>La transition vers l'économie circulaire au Kenya présente des opportunités dans :</p>
         <ul>
@@ -713,9 +713,9 @@ const countryDataFr = {
             <li>Objectif de recyclage des déchets électroniques : 50 %</li>
         </ul>`,
         challenges: [
-            "Limitations de la décharge de Nduba",
-            "Déversement illégal",
-            "Le secteur des déchets contribue à environ 12 % des émissions nationales de GES"
+            { title: "Limitations de la décharge de Nduba", detail: "La principale décharge de Nduba à Kigali approche de sa capacité maximale et fait face à des défis opérationnels incluant la gestion du lixiviat, la capture limitée du méthane et l'empiétement du développement urbain environnant." },
+            { title: "Déversement illégal", detail: "Malgré la culture de gouvernance forte du Rwanda, le déversement illégal de déchets persiste dans les zones périurbaines et rurales où les services de collecte sont moins fréquents et les ressources d'application sont limitées." },
+            { title: "Le secteur des déchets contribue à environ 12 % des émissions nationales de GES", detail: "Les déchets organiques se décomposant dans les décharges produisent des émissions significatives de méthane. Avec 75 % des déchets de Kigali étant organiques, le secteur des déchets est un contributeur majeur au profil de gaz à effet de serre du Rwanda." }
         ],
         opportunities: `<p>Le Rwanda démontre comment :</p>
         <ul>
@@ -772,10 +772,10 @@ const countryDataFr = {
             <li><strong>Membre Fondateur de l'Alliance Africaine pour l'Économie Circulaire (ACEA) (2022) :</strong> L'Afrique du Sud co-dirige les initiatives régionales d'économie circulaire</li>
         </ul>`,
         challenges: [
-            "Dépendance aux décharges",
-            "Prestation de services inégale",
-            "Augmentation des déchets dangereux et électroniques",
-            "Exclusion sociale des récupérateurs informels"
+            { title: "Dépendance aux décharges", detail: "Plus de 90 % des déchets de l'Afrique du Sud finissent encore dans des décharges. De nombreux sites municipaux sont à capacité ou proche de leur capacité, avec un investissement limité dans les technologies de traitement alternatives." },
+            { title: "Prestation de services inégale", detail: "Environ 37 % des ménages sud-africains (~9,8 millions de personnes) n'ont pas accès à des services formels d'enlèvement des déchets, en particulier dans les zones rurales et les établissements informels, créant d'importantes disparités de justice environnementale." },
+            { title: "Augmentation des déchets dangereux et électroniques", detail: "L'industrialisation rapide et l'adoption croissante de l'électronique grand public entraînent de fortes augmentations des flux de déchets dangereux et électroniques, dépassant le développement des infrastructures de traitement spécialisées." },
+            { title: "Exclusion sociale des récupérateurs informels", detail: "On estime que 60 000 à 90 000 récupérateurs informels de déchets récupèrent des matériaux recyclables de valeur mais restent largement exclus des systèmes formels de gestion des déchets et des protections sociales, malgré leur contribution critique aux taux de recyclage." }
         ],
         opportunities: `<p>La force de l'Afrique du Sud réside dans :</p>
         <ul>
@@ -878,13 +878,42 @@ function updateCountryData(countryKey) {
                 element.innerHTML = data[field];
             }
         }
-        // Handle challenges list
+        // Handle challenges accordion
         else if (field === 'challenges' && data.challenges) {
             element.innerHTML = '';
-            data.challenges.forEach(challenge => {
-                const li = document.createElement('li');
-                li.textContent = challenge;
-                element.appendChild(li);
+            data.challenges.forEach((challenge, index) => {
+                const item = document.createElement('div');
+                item.className = 'challenge-accordion-item';
+                item.innerHTML = `
+                    <button class="challenge-accordion-header" aria-expanded="false" aria-controls="challenge-detail-${index}">
+                        <span class="challenge-icon"></span>
+                        <span class="challenge-title">${challenge.title}</span>
+                        <span class="challenge-chevron">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </span>
+                    </button>
+                    <div class="challenge-accordion-body" id="challenge-detail-${index}" role="region">
+                        <p>${challenge.detail}</p>
+                    </div>
+                `;
+                element.appendChild(item);
+            });
+
+            // Attach accordion toggle listeners
+            element.querySelectorAll('.challenge-accordion-header').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const expanded = this.getAttribute('aria-expanded') === 'true';
+                    // Close all siblings
+                    this.closest('.challenges-accordion').querySelectorAll('.challenge-accordion-header').forEach(other => {
+                        other.setAttribute('aria-expanded', 'false');
+                        other.closest('.challenge-accordion-item').classList.remove('active');
+                    });
+                    // Toggle clicked item
+                    if (!expanded) {
+                        this.setAttribute('aria-expanded', 'true');
+                        this.closest('.challenge-accordion-item').classList.add('active');
+                    }
+                });
             });
         }
         // Handle primary sources list
