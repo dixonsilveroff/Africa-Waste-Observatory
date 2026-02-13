@@ -893,7 +893,7 @@ function renderDetailedInsights(streamType) {
                         <div class="challenges-accordion">
                             ${data.challenges.map(challenge => `
                                 <div class="challenge-accordion-item">
-                                    <button type="button" class="challenge-accordion-header" onclick="this.parentElement.classList.toggle('active')">
+                                    <button type="button" class="challenge-accordion-header">
                                         <span class="challenge-icon"></span>
                                         <span class="challenge-title">${challenge.title}</span>
                                         <span class="challenge-chevron">
@@ -929,6 +929,21 @@ function renderDetailedInsights(streamType) {
             </div>
         </section>
     `;
+
+    // Attach accordion toggle listeners
+    container.querySelectorAll('.challenge-accordion-header').forEach(btn => {
+        btn.addEventListener('click', function() {
+            const expanded = this.closest('.challenge-accordion-item').classList.contains('active');
+            // Close all siblings
+            this.closest('.challenges-accordion').querySelectorAll('.challenge-accordion-item').forEach(item => {
+                item.classList.remove('active');
+            });
+            // Toggle clicked item
+            if (!expanded) {
+                this.closest('.challenge-accordion-item').classList.add('active');
+            }
+        });
+    });
 
     // Track current stream type
     currentStreamType = streamType;
