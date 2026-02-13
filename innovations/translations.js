@@ -89,17 +89,17 @@ const countryData = {
         recycling: [
             {
                 title: "Regenize",
-                description: "A digital platform that incentivizes recycling by rewarding households and informal waste pickers through mobile technology. Users earn points for recyclable materials, which can be exchanged for goods or services. This innovation bridges the formal-informal divide and increases diversion rates."
+                description: "A digital platform that incentivizes recycling by rewarding households and informal waste pickers through mobile technology. Users earn points for recyclable materials, which can be exchanged for goods or services. This innovation bridges the formal-informal divide and increases diversion rates. <a href='https://regenize.africa/' target='_blank' rel='noopener noreferrer' class='innovation-link'>regenize.africa</a>"
             },
             {
                 title: "Boomba.mobi",
-                description: "A mobile-based platform linking waste collection to food and essentials exchange. It includes small-scale organic processing systems such as worm farms for vermicomposting, reducing organic waste sent to landfills while producing nutrient-rich soil amendments."
+                description: "A mobile-based platform linking waste collection to food and essentials exchange. It includes small-scale organic processing systems such as worm farms for vermicomposting, reducing organic waste sent to landfills while producing nutrient-rich soil amendments. <a href='https://boomba.mobi' target='_blank' rel='noopener noreferrer' class='innovation-link'>boomba.mobi</a>"
             }
         ],
         wasteToEnergy: [
             {
                 title: "Kibo Gauteng Thermal Power Station",
-                description: "This planned facility aims to convert plastic waste into energy through pyrolysis technology, producing syngas and electricity. It represents a significant step toward diverting non-recyclable plastics from landfills while contributing to renewable energy generation. The project aligns with South Africa's 2025 climate targets for methane reduction and landfill gas capture."
+                description: "This planned facility aims to convert plastic waste into energy through pyrolysis technology, producing syngas and electricity. It represents a significant step toward diverting non-recyclable plastics from landfills while contributing to renewable energy generation. The project aligns with South Africa's 2025 climate targets for methane reduction and landfill gas capture. <a href='https://kibo.energy/' target='_blank' rel='noopener noreferrer' class='innovation-link'>kibo.energy</a>"
             }
         ],
         community: [
@@ -147,15 +147,15 @@ const countryData = {
         recycling: [
             {
                 title: "HyaPak",
-                description: "Converts invasive water hyacinth—a persistent ecological problem in Lake Victoria—into biodegradable packaging materials. This innovation addresses both environmental pollution and plastic waste by providing a sustainable alternative to conventional packaging while creating employment opportunities in rural communities."
+                description: "Converts invasive water hyacinth—a persistent ecological problem in Lake Victoria—into biodegradable packaging materials. This innovation addresses both environmental pollution and plastic waste by providing a sustainable alternative to conventional packaging while creating employment opportunities in rural communities. <a href='https://hyapak.com/' target='_blank' rel='noopener noreferrer' class='innovation-link'>hyapak.com</a>"
             },
             {
                 title: "EcoPost",
-                description: "Processes mixed plastic waste into durable building products, including eco-fencing and construction materials. EcoPost diverts thousands of tons of plastics from landfills annually while supplying affordable, weather-resistant infrastructure materials for agriculture and real estate sectors."
+                description: "Processes mixed plastic waste into durable building products, including eco-fencing and construction materials. EcoPost diverts thousands of tons of plastics from landfills annually while supplying affordable, weather-resistant infrastructure materials for agriculture and real estate sectors. <a href='https://ecopost.co.ke/' target='_blank' rel='noopener noreferrer' class='innovation-link'>ecopost.co.ke</a>"
             },
             {
                 title: "Mr. Green Africa",
-                description: "A tech-enabled plastics recycling platform that formalizes informal waste recovery supply chains. The platform connects waste pickers, aggregators, and recycling facilities through digital tracking, fair pricing, and consistent off-take agreements, improving livelihoods and recycling efficiency."
+                description: "A tech-enabled plastics recycling platform that formalizes informal waste recovery supply chains. The platform connects waste pickers, aggregators, and recycling facilities through digital tracking, fair pricing, and consistent off-take agreements, improving livelihoods and recycling efficiency. <a href='https://www.mrgreenafrica.com/' target='_blank' rel='noopener noreferrer' class='innovation-link'>mrgreenafrica.com</a>"
             }
         ],
         wasteToEnergy: [
@@ -267,15 +267,15 @@ const countryData = {
         recycling: [
             {
                 title: "Wecyclers",
-                description: "A pioneering social enterprise using low-cost cargo bikes (Wecycles) to collect recyclable waste from households in low-income neighborhoods. Participants earn points through an SMS-based system, which can be exchanged for household goods, food, or cash. Wecyclers has diverted thousands of tons of waste from landfills and provided economic opportunities for waste collectors."
+                description: "A pioneering social enterprise using low-cost cargo bikes (Wecycles) to collect recyclable waste from households in low-income neighborhoods. Participants earn points through an SMS-based system, which can be exchanged for household goods, food, or cash. Wecyclers has diverted thousands of tons of waste from landfills and provided economic opportunities for waste collectors. <a href='https://wecyclers.com/' target='_blank' rel='noopener noreferrer' class='innovation-link'>wecyclers.com</a>"
             },
             {
                 title: "Vicfold Recyclers",
-                description: "Converts plastic waste into resins used in manufacturing. The company processes post-consumer plastics into raw material feedstock for industries, reducing dependence on virgin plastic imports while addressing Nigeria's plastic waste crisis."
+                description: "Converts plastic waste into resins used in manufacturing. The company processes post-consumer plastics into raw material feedstock for industries, reducing dependence on virgin plastic imports while addressing Nigeria's plastic waste crisis. <a href='https://www.vicfoldrecyclers.com/' target='_blank' rel='noopener noreferrer' class='innovation-link'>vicfoldrecyclers.com</a>"
             },
             {
                 title: "Salubata",
-                description: "Transforms discarded plastic waste into modular, fashionable footwear. This upcycling venture addresses plastic pollution while creating affordable, durable shoes for local markets, demonstrating the potential of circular design in consumer goods."
+                description: "Transforms discarded plastic waste into modular, fashionable footwear. This upcycling venture addresses plastic pollution while creating affordable, durable shoes for local markets, demonstrating the potential of circular design in consumer goods. <a href='https://www.salubataofficial.com/' target='_blank' rel='noopener noreferrer' class='innovation-link'>salubataofficial.com</a>"
             }
         ],
         wasteToEnergy: [
@@ -330,7 +330,7 @@ const countryData = {
         recycling: [
             {
                 title: "Enviroserve Rwanda Green Park",
-                description: "Rwanda's state-of-the-art e-waste dismantling and recycling facility—the second of its kind in Africa—has trained 70 young Rwandans in electronics repair, maintenance, and recycling. <a class='cite-link' href='../references/#ref-the-contribution-of-e-waste-recycling-in-promoting-green-growth-a-case-of-enviro' title='Source: Iraguha & Uwimpuhwe – E-Waste Recycling in Rwanda'>↗</a> The facility has created 413 green jobs with expansion expected as nationwide collection points become fully operational. Enviroserve provides e-waste collection services not only in Rwanda but also in Uganda, the Democratic Republic of Congo, and Burundi. The facility offers data-wiping services, refurbishment, and responsible dismantling, ensuring hazardous materials like heavy metals are safely processed."
+                description: "Rwanda's state-of-the-art e-waste dismantling and recycling facility—the second of its kind in Africa—has trained 70 young Rwandans in electronics repair, maintenance, and recycling. <a class='cite-link' href='../references/#ref-the-contribution-of-e-waste-recycling-in-promoting-green-growth-a-case-of-enviro' title='Source: Iraguha & Uwimpuhwe – E-Waste Recycling in Rwanda'>↗</a> The facility has created 413 green jobs with expansion expected as nationwide collection points become fully operational. Enviroserve provides e-waste collection services not only in Rwanda but also in Uganda, the Democratic Republic of Congo, and Burundi. The facility offers data-wiping services, refurbishment, and responsible dismantling, ensuring hazardous materials like heavy metals are safely processed. <a href='https://enviroserve.rw/' target='_blank' rel='noopener noreferrer' class='innovation-link'>enviroserve.rw</a>"
             },
             {
                 title: "Plastic Roads Infrastructure",
@@ -342,7 +342,7 @@ const countryData = {
             },
             {
                 title: "Rwanda BioSolutions",
-                description: "This social enterprise transforms waste into affordable, high-quality compost using a blend of rabbit manure, household waste, and local dumpsite materials. By accelerating decomposition with microorganisms, they produce compost in a fraction of the usual time. This provides farmers with an affordable alternative to inorganic fertilizers, improving yields while supporting soil health. The initiative includes 2 permanent staff, 4 part-time staff, and 30 casual workers."
+                description: "This social enterprise transforms waste into affordable, high-quality compost using a blend of rabbit manure, household waste, and local dumpsite materials. By accelerating decomposition with microorganisms, they produce compost in a fraction of the usual time. This provides farmers with an affordable alternative to inorganic fertilizers, improving yields while supporting soil health. The initiative includes 2 permanent staff, 4 part-time staff, and 30 casual workers. <a href='https://www.rwandabiosolution.org/' target='_blank' rel='noopener noreferrer' class='innovation-link'>rwandabiosolution.org</a>"
             }
         ],
         wasteToEnergy: [
@@ -416,17 +416,17 @@ const countryDataFr = {
         recycling: [
             {
                 title: "Regenize",
-                description: "Une plateforme numérique qui encourage le recyclage en récompensant les ménages et les ramasseurs informels de déchets grâce à la technologie mobile. Les utilisateurs gagnent des points pour les matériaux recyclables, échangeables contre des biens ou des services. Cette innovation comble le fossé formel-informel et augmente les taux de détournement."
+                description: "Une plateforme numérique qui encourage le recyclage en récompensant les ménages et les ramasseurs informels de déchets grâce à la technologie mobile. Les utilisateurs gagnent des points pour les matériaux recyclables, échangeables contre des biens ou des services. Cette innovation comble le fossé formel-informel et augmente les taux de détournement. <a href='https://regenize.africa/' target='_blank' rel='noopener noreferrer' class='innovation-link'>regenize.africa</a>"
             },
             {
                 title: "Boomba.mobi",
-                description: "Une plateforme mobile reliant la collecte des déchets à l'échange de nourriture et de produits essentiels. Elle comprend des systèmes de traitement organique à petite échelle tels que des fermes de vers pour le vermicompostage, réduisant les déchets organiques envoyés aux décharges tout en produisant des amendements de sol riches en nutriments."
+                description: "Une plateforme mobile reliant la collecte des déchets à l'échange de nourriture et de produits essentiels. Elle comprend des systèmes de traitement organique à petite échelle tels que des fermes de vers pour le vermicompostage, réduisant les déchets organiques envoyés aux décharges tout en produisant des amendements de sol riches en nutriments. <a href='https://boomba.mobi' target='_blank' rel='noopener noreferrer' class='innovation-link'>boomba.mobi</a>"
             }
         ],
         wasteToEnergy: [
             {
                 title: "Centrale Thermique Kibo Gauteng",
-                description: "Cette installation prévue vise à convertir les déchets plastiques en énergie par technologie de pyrolyse, produisant du gaz de synthèse et de l'électricité. Elle représente une étape significative vers le détournement des plastiques non recyclables des décharges tout en contribuant à la production d'énergie renouvelable. Le projet s'aligne sur les objectifs climatiques 2025 de l'Afrique du Sud pour la réduction du méthane."
+                description: "Cette installation prévue vise à convertir les déchets plastiques en énergie par technologie de pyrolyse, produisant du gaz de synthèse et de l'électricité. Elle représente une étape significative vers le détournement des plastiques non recyclables des décharges tout en contribuant à la production d'énergie renouvelable. Le projet s'aligne sur les objectifs climatiques 2025 de l'Afrique du Sud pour la réduction du méthane. <a href='https://kibo.energy/' target='_blank' rel='noopener noreferrer' class='innovation-link'>kibo.energy</a>"
             }
         ],
         community: [
@@ -474,15 +474,15 @@ const countryDataFr = {
         recycling: [
             {
                 title: "HyaPak",
-                description: "Convertit la jacinthe d'eau invasive — un problème écologique persistant dans le lac Victoria — en matériaux d'emballage biodégradables. Cette innovation aborde à la fois la pollution environnementale et les déchets plastiques en fournissant une alternative durable aux emballages conventionnels tout en créant des emplois dans les communautés rurales."
+                description: "Convertit la jacinthe d'eau invasive — un problème écologique persistant dans le lac Victoria — en matériaux d'emballage biodégradables. Cette innovation aborde à la fois la pollution environnementale et les déchets plastiques en fournissant une alternative durable aux emballages conventionnels tout en créant des emplois dans les communautés rurales. <a href='https://hyapak.com/' target='_blank' rel='noopener noreferrer' class='innovation-link'>hyapak.com</a>"
             },
             {
                 title: "EcoPost",
-                description: "Traite les déchets plastiques mixtes en produits de construction durables, notamment des clôtures écologiques et des matériaux de construction. EcoPost détourne des milliers de tonnes de plastiques des décharges chaque année tout en fournissant des matériaux d'infrastructure abordables et résistants aux intempéries."
+                description: "Traite les déchets plastiques mixtes en produits de construction durables, notamment des clôtures écologiques et des matériaux de construction. EcoPost détourne des milliers de tonnes de plastiques des décharges chaque année tout en fournissant des matériaux d'infrastructure abordables et résistants aux intempéries. <a href='https://ecopost.co.ke/' target='_blank' rel='noopener noreferrer' class='innovation-link'>ecopost.co.ke</a>"
             },
             {
                 title: "Mr. Green Africa",
-                description: "Une plateforme de recyclage de plastiques assistée par la technologie qui formalise les chaînes d'approvisionnement informelles de récupération des déchets. La plateforme connecte les ramasseurs de déchets, les agrégateurs et les installations de recyclage grâce au suivi numérique, à des prix équitables et à des accords d'achat constants."
+                description: "Une plateforme de recyclage de plastiques assistée par la technologie qui formalise les chaînes d'approvisionnement informelles de récupération des déchets. La plateforme connecte les ramasseurs de déchets, les agrégateurs et les installations de recyclage grâce au suivi numérique, à des prix équitables et à des accords d'achat constants. <a href='https://www.mrgreenafrica.com/' target='_blank' rel='noopener noreferrer' class='innovation-link'>mrgreenafrica.com</a>"
             }
         ],
         wasteToEnergy: [
@@ -594,15 +594,15 @@ const countryDataFr = {
         recycling: [
             {
                 title: "Wecyclers",
-                description: "Une entreprise sociale pionnière utilisant des vélos-cargos à faible coût (Wecycles) pour collecter les déchets recyclables des ménages dans les quartiers à faibles revenus. Les participants gagnent des points via un système SMS, échangeables contre des articles ménagers, de la nourriture ou de l'argent. Wecyclers a détourné des milliers de tonnes de déchets des décharges et fourni des opportunités économiques aux collecteurs de déchets."
+                description: "Une entreprise sociale pionnière utilisant des vélos-cargos à faible coût (Wecycles) pour collecter les déchets recyclables des ménages dans les quartiers à faibles revenus. Les participants gagnent des points via un système SMS, échangeables contre des articles ménagers, de la nourriture ou de l'argent. Wecyclers a détourné des milliers de tonnes de déchets des décharges et fourni des opportunités économiques aux collecteurs de déchets. <a href='https://wecyclers.com/' target='_blank' rel='noopener noreferrer' class='innovation-link'>wecyclers.com</a>"
             },
             {
                 title: "Vicfold Recyclers",
-                description: "Convertit les déchets plastiques en résines utilisées dans l'industrie manufacturière. L'entreprise traite les plastiques post-consommation en matières premières pour les industries, réduisant la dépendance aux importations de plastique vierge tout en répondant à la crise des déchets plastiques du Nigéria."
+                description: "Convertit les déchets plastiques en résines utilisées dans l'industrie manufacturière. L'entreprise traite les plastiques post-consommation en matières premières pour les industries, réduisant la dépendance aux importations de plastique vierge tout en répondant à la crise des déchets plastiques du Nigéria. <a href='https://www.vicfoldrecyclers.com/' target='_blank' rel='noopener noreferrer' class='innovation-link'>vicfoldrecyclers.com</a>"
             },
             {
                 title: "Salubata",
-                description: "Transforme les déchets plastiques en chaussures modulaires et à la mode. Cette entreprise d'upcycling aborde la pollution plastique tout en créant des chaussures abordables et durables pour les marchés locaux, démontrant le potentiel du design circulaire dans les biens de consommation."
+                description: "Transforme les déchets plastiques en chaussures modulaires et à la mode. Cette entreprise d'upcycling aborde la pollution plastique tout en créant des chaussures abordables et durables pour les marchés locaux, démontrant le potentiel du design circulaire dans les biens de consommation. <a href='https://www.salubataofficial.com/' target='_blank' rel='noopener noreferrer' class='innovation-link'>salubataofficial.com</a>"
             }
         ],
         wasteToEnergy: [
@@ -657,7 +657,7 @@ const countryDataFr = {
         recycling: [
             {
                 title: "Enviroserve Rwanda Green Park",
-                description: "L'installation de démantèlement et de recyclage de déchets électroniques de pointe du Rwanda — la deuxième de ce type en Afrique — a formé 70 jeunes Rwandais en réparation, maintenance et recyclage d'électronique. <a class='cite-link' href='../references/#ref-the-contribution-of-e-waste-recycling-in-promoting-green-growth-a-case-of-enviro' title='Source: Iraguha & Uwimpuhwe – E-Waste Recycling in Rwanda'>↗</a> L'installation a créé 413 emplois verts avec une expansion prévue. Enviroserve fournit des services de collecte de déchets électroniques non seulement au Rwanda mais aussi en Ouganda, en République Démocratique du Congo et au Burundi."
+                description: "L'installation de démantèlement et de recyclage de déchets électroniques de pointe du Rwanda — la deuxième de ce type en Afrique — a formé 70 jeunes Rwandais en réparation, maintenance et recyclage d'électronique. <a class='cite-link' href='../references/#ref-the-contribution-of-e-waste-recycling-in-promoting-green-growth-a-case-of-enviro' title='Source: Iraguha & Uwimpuhwe – E-Waste Recycling in Rwanda'>↗</a> L'installation a créé 413 emplois verts avec une expansion prévue. Enviroserve fournit des services de collecte de déchets électroniques non seulement au Rwanda mais aussi en Ouganda, en République Démocratique du Congo et au Burundi. <a href='https://enviroserve.rw/' target='_blank' rel='noopener noreferrer' class='innovation-link'>enviroserve.rw</a>"
             },
             {
                 title: "Routes en Plastique",
@@ -669,7 +669,7 @@ const countryDataFr = {
             },
             {
                 title: "Rwanda BioSolutions",
-                description: "Cette entreprise sociale transforme les déchets en compost abordable et de haute qualité en utilisant un mélange de fumier de lapin, de déchets ménagers et de matériaux de décharge locaux. En accélérant la décomposition avec des micro-organismes, ils produisent du compost en une fraction du temps habituel, fournissant aux agriculteurs une alternative abordable aux engrais inorganiques."
+                description: "Cette entreprise sociale transforme les déchets en compost abordable et de haute qualité en utilisant un mélange de fumier de lapin, de déchets ménagers et de matériaux de décharge locaux. En accélérant la décomposition avec des micro-organismes, ils produisent du compost en une fraction du temps habituel, fournissant aux agriculteurs une alternative abordable aux engrais inorganiques. <a href='https://www.rwandabiosolution.org/' target='_blank' rel='noopener noreferrer' class='innovation-link'>rwandabiosolution.org</a>"
             }
         ],
         wasteToEnergy: [
