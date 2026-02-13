@@ -873,7 +873,7 @@ function updateCountryData(countryKey) {
         }
         // Handle HTML content sections
         else if (field === 'wasteGeneration' || field === 'wasteCollection' || 
-                 field === 'treatment' || field === 'policy' || field === 'opportunities') {
+                 field === 'treatment' || field === 'policy' || field === 'opportunities' || field === 'overviewText') {
             if (data[field]) {
                 element.innerHTML = data[field];
             }
