@@ -935,6 +935,202 @@ footer {
     }
 }
 
+/* ===========================
+   Privacy Policy Page Styles
+   =========================== */
+.privacy-hero {
+    padding: 4rem 2rem 3rem;
+    background: linear-gradient(135deg, var(--primary-green) 0%, #1a5e3a 100%);
+    color: var(--white);
+    text-align: center;
+}
+
+.privacy-hero h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.privacy-subtitle {
+    font-size: 1.15rem;
+    max-width: 680px;
+    margin: 0 auto 1rem;
+    opacity: 0.92;
+    line-height: 1.7;
+}
+
+.privacy-effective {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+.privacy-content-section {
+    padding: 3rem 2rem 5rem;
+    background-color: var(--neutral-light, #f8f9fa);
+}
+
+.privacy-container {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.privacy-block {
+    background: var(--white);
+    border-radius: 10px;
+    padding: 2rem 2.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.privacy-block h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--text-primary, #1a1a2e);
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--primary-green);
+}
+
+.privacy-block h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary, #1a1a2e);
+    margin-bottom: 0.5rem;
+    margin-top: 0.25rem;
+}
+
+.privacy-block p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--text-secondary, #555);
+    margin-bottom: 0.75rem;
+}
+
+.privacy-block ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0 1rem;
+}
+
+.privacy-block ul li {
+    position: relative;
+    padding: 0.4rem 0 0.4rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text-secondary, #555);
+}
+
+.privacy-block ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.7rem;
+    width: 8px;
+    height: 8px;
+    background-color: var(--primary-green);
+    border-radius: 50%;
+}
+
+.privacy-block a {
+    color: var(--secondary-blue, #1a5276);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px dashed currentColor;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.privacy-block a:hover {
+    color: var(--primary-green, #2e8b57);
+    border-bottom-color: var(--primary-green, #2e8b57);
+}
+
+.privacy-block code {
+    background-color: rgba(0, 0, 0, 0.06);
+    padding: 0.15em 0.4em;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-family: 'Courier New', monospace;
+}
+
+.privacy-sub-block {
+    margin-bottom: 1.25rem;
+    padding-left: 0.5rem;
+    border-left: 3px solid rgba(46, 139, 87, 0.2);
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-right: 0;
+    margin-left: 0.25rem;
+}
+
+.privacy-sub-block h3 {
+    padding-left: 0.75rem;
+}
+
+.privacy-sub-block p,
+.privacy-sub-block ul {
+    padding-left: 0.75rem;
+}
+
+.privacy-table-wrapper {
+    overflow-x: auto;
+    margin: 1rem 0;
+}
+
+.privacy-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+.privacy-table th,
+.privacy-table td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--neutral-light, #e8e8e8);
+    color: var(--text-secondary, #555);
+}
+
+.privacy-table th {
+    font-weight: 600;
+    color: var(--text-primary, #1a1a2e);
+    background-color: rgba(46, 139, 87, 0.06);
+}
+
+.privacy-table tr:last-child td {
+    border-bottom: none;
+}
+
+.privacy-contact-card {
+    background: linear-gradient(135deg, rgba(46, 139, 87, 0.05) 0%, rgba(26, 82, 118, 0.05) 100%);
+    border: 1px solid rgba(46, 139, 87, 0.15);
+    border-radius: 8px;
+    padding: 1.5rem 2rem;
+    margin-top: 0.75rem;
+}
+
+.privacy-contact-card p {
+    margin-bottom: 0.35rem;
+}
+
+@media (max-width: 768px) {
+    .privacy-hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .privacy-subtitle {
+        font-size: 1rem;
+    }
+
+    .privacy-block {
+        padding: 1.5rem 1.25rem;
+    }
+
+    .privacy-content-section {
+        padding: 2rem 1rem 3rem;
+    }
+}
+
 /* About Page Styles */
 .about-hero {
     padding: 4rem 2rem;
