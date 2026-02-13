@@ -155,11 +155,11 @@ const wasteStreamData = {
         growth due to urbanization and changing consumption patterns. <a class='cite-link' href='../references/#ref-africa-waste-management-outlook-2021-towards-a-circular-economy' title='Source: UNEP – Africa Waste Management Outlook'>↗</a> Despite bans in countries like Kenya, plastic waste 
         continues to rise, while Egypt and Nigeria struggle with enforcement.`,
         challenges: [
-            "Non-biodegradability - plastics persist in the environment for hundreds of years",
-            "Low market value of some plastic types reduces recycling viability",
-            "Mixed and contaminated plastics make sorting and processing difficult",
-            "Weak enforcement of plastic bans and regulations",
-            "Limited recycling infrastructure and facilities"
+            { title: "Non-biodegradability - plastics persist in the environment for hundreds of years", detail: "Unlike organic materials, most plastics take 400–1,000 years to decompose in the environment. They fragment into microplastics that contaminate soil, waterways, and oceans, entering the food chain and posing long-term ecological and human health risks across the continent." },
+            { title: "Low market value of some plastic types reduces recycling viability", detail: "While PET and HDPE fetch reasonable prices, plastics like polystyrene and multi-layer films have minimal resale value. This makes collection and recycling economically unviable for informal waste pickers and formal recyclers alike, leading to these materials being landfilled or littered." },
+            { title: "Mixed and contaminated plastics make sorting and processing difficult", detail: "In the absence of source-separation programs, plastics are often collected mixed with food waste, metals, and other materials. Contaminated plastics require costly washing and sorting before they can be recycled, significantly reducing throughput and profitability for recycling operations." },
+            { title: "Weak enforcement of plastic bans and regulations", detail: "Although many African nations have enacted plastic bag bans or single-use plastic restrictions, enforcement remains inconsistent. Smuggling across borders, lack of inspectors, and limited penalties mean that banned plastic items continue to circulate widely in many markets." },
+            { title: "Limited recycling infrastructure and facilities", detail: "Most African countries have very few formal plastic recycling plants relative to the volumes generated. Collection networks are fragmented, and many regions lack the Material Recovery Facilities needed to sort, clean, and process plastics into usable secondary raw materials." }
         ],
         solutions: [
             "Extended Producer Responsibility (EPR) schemes",
@@ -215,12 +215,12 @@ const wasteStreamData = {
         content makes incineration inefficient, and organic waste is often mixed with plastics and metals, complicating 
         management efforts.`,
         challenges: [
-            "High moisture content reduces energy recovery efficiency",
-            "Lack of composting and anaerobic digestion facilities",
-            "Mixed waste collection contaminates organic materials",
-            "Limited market for compost products",
-            "Seasonal variations in generation volumes",
-            "Methane emissions from improper disposal"
+            { title: "High moisture content reduces energy recovery efficiency", detail: "Organic waste in Africa typically contains 60–80% moisture, making incineration and waste-to-energy processes highly inefficient. The energy required to evaporate the water often exceeds the energy recovered, making thermal treatment impractical without pre-drying infrastructure." },
+            { title: "Lack of composting and anaerobic digestion facilities", detail: "Despite organic waste comprising over half of Africa's waste stream, fewer than 5% of municipalities have access to formal composting or anaerobic digestion facilities. Most organic waste ends up in open dumps where it decomposes uncontrollably, producing greenhouse gases and leachate." },
+            { title: "Mixed waste collection contaminates organic materials", detail: "Without source-separation programs, organic waste is collected alongside plastics, glass, and hazardous items. This contamination makes the organics unsuitable for composting or digestion, as the resulting product contains harmful impurities that limit its use as a soil amendment." },
+            { title: "Limited market for compost products", detail: "Even where composting is practiced, farmers and agricultural operations often lack awareness of compost benefits or prefer synthetic fertilizers. Inconsistent compost quality, lack of certification standards, and limited distribution networks further restrict demand and commercial viability." },
+            { title: "Seasonal variations in generation volumes", detail: "Agricultural harvest seasons, religious festivals, and market cycles create significant fluctuations in organic waste volumes. Composting and digestion facilities designed for average throughput struggle to handle peak loads, leading to overflow and operational inefficiencies." },
+            { title: "Methane emissions from improper disposal", detail: "When organic waste decomposes anaerobically in open dumps and poorly managed landfills, it produces methane—a greenhouse gas 80 times more potent than CO₂ over a 20-year period. Africa's uncaptured landfill methane represents both a major climate threat and a missed energy opportunity." }
         ],
         solutions: [
             "Composting programs at household and community levels",
@@ -275,12 +275,12 @@ const wasteStreamData = {
         tonnes in 2022, growing five times faster than formal recycling capacity. <a class='cite-link' href='../references/#ref-global-e-waste-monitor' title='Source: ITU – Global E-Waste Monitor'>↗</a> Africa faces significant challenges with 
         informal dismantling exposing workers to toxic fumes and environmental contamination.`,
         challenges: [
-            "Lack of formal recycling facilities and infrastructure",
-            "Informal processing using unsafe methods and burning",
-            "Weak enforcement of import controls on used electronics",
-            "Complex material composition requiring specialized equipment",
-            "Health risks from exposure to toxic substances",
-            "Limited awareness of proper disposal methods"
+            { title: "Lack of formal recycling facilities and infrastructure", detail: "Africa has very few certified e-waste recycling plants capable of safely extracting valuable materials like gold, copper, and rare earth elements. Most countries lack the specialized shredders, smelters, and chemical processing equipment required, forcing reliance on export or informal methods." },
+            { title: "Informal processing using unsafe methods and burning", detail: "In informal e-waste hubs like Agbogbloshie (Ghana) and Alaba (Nigeria), workers strip electronics using open burning, acid baths, and manual dismantling without protective equipment. These practices release toxic fumes including dioxins, furans, and heavy metals into surrounding communities." },
+            { title: "Weak enforcement of import controls on used electronics", detail: "Despite Basel Convention regulations, large volumes of non-functional electronics are imported into Africa labeled as 'second-hand goods.' Weak port inspections and corruption enable this dumping, adding to the e-waste burden without any accompanying recycling infrastructure or funding." },
+            { title: "Complex material composition requiring specialized equipment", detail: "A single smartphone contains over 60 different elements including precious metals, rare earths, and hazardous substances. Recovering these materials safely requires sophisticated hydrometallurgical and pyrometallurgical processes that are capital-intensive and technically demanding." },
+            { title: "Health risks from exposure to toxic substances", detail: "E-waste contains lead, mercury, cadmium, brominated flame retardants, and other toxins. Workers and nearby residents face elevated risks of respiratory disease, neurological damage, kidney failure, and cancer. Children in informal recycling communities are especially vulnerable to developmental harm." },
+            { title: "Limited awareness of proper disposal methods", detail: "Many consumers store obsolete electronics at home or discard them with regular waste, unaware of the hazards or the existence of collection programs. This reduces the volume available for formal recycling and increases the likelihood of toxic materials entering general waste streams." }
         ],
         solutions: [
             "Formal take-back schemes and collection centers",
@@ -336,12 +336,12 @@ const wasteStreamData = {
         hazardous waste is often mixed with municipal waste, treatment facilities are inadequate, and illegal dumping is 
         common. Limited monitoring systems and weak enforcement exacerbate the challenges.`,
         challenges: [
-            "Inadequate monitoring and disposal systems",
-            "Illegal dumping and improper storage",
-            "Limited specialized treatment infrastructure",
-            "Mixing of hazardous waste with municipal waste",
-            "High cost of proper treatment and disposal",
-            "Limited technical capacity and expertise"
+            { title: "Inadequate monitoring and disposal systems", detail: "Most African countries lack comprehensive hazardous waste tracking systems. Without manifest systems or digital registries, hazardous materials move through the waste chain unmonitored, making it impossible to ensure proper handling from generation to final disposal." },
+            { title: "Illegal dumping and improper storage", detail: "High disposal costs incentivize illegal dumping of hazardous waste in unauthorized sites, waterways, and vacant land. Improper storage in leaking drums and uncovered areas leads to soil and groundwater contamination that can persist for decades and affect surrounding communities." },
+            { title: "Limited specialized treatment infrastructure", detail: "Safe treatment of hazardous waste requires facilities like high-temperature incinerators, chemical neutralization plants, and engineered secure landfills. Very few African countries have sufficient capacity, forcing long-distance transport or, more commonly, inadequate local disposal." },
+            { title: "Mixing of hazardous waste with municipal waste", detail: "In the absence of segregation protocols, hazardous materials from households (batteries, pesticides, paints) and small businesses end up in regular waste bins. This contaminates the entire waste stream, exposes waste workers to health risks, and compromises recycling efforts." },
+            { title: "High cost of proper treatment and disposal", detail: "The specialized equipment, trained personnel, protective infrastructure, and regulatory compliance required for hazardous waste management make it significantly more expensive than municipal waste handling. Many generators, especially small enterprises, cannot afford proper disposal fees." },
+            { title: "Limited technical capacity and expertise", detail: "Managing hazardous waste safely requires specialized knowledge in chemistry, toxicology, and environmental engineering. Africa faces a shortage of trained hazardous waste professionals, laboratory capacity for waste characterization, and institutional knowledge for regulatory enforcement." }
         ],
         solutions: [
             "Dedicated hazardous waste landfills with proper lining",
@@ -398,12 +398,12 @@ const wasteStreamData = {
         waste but have high recycling value. Africa's informal sector actively collects and recycles metals due to good market 
         prices, achieving recovery rates of 45-60% in some areas.`,
         challenges: [
-            "Price volatility affects collection economics",
-            "Contamination with other materials",
-            "Safety concerns in informal recycling",
-            "Theft of infrastructure for scrap value",
-            "Limited formal processing capacity",
-            "Export of valuable materials without local value addition"
+            { title: "Price volatility affects collection economics", detail: "Global commodity prices for metals like aluminum, copper, and steel fluctuate significantly. When prices drop, informal collectors abandon metal recovery as it becomes unprofitable, leading to increased landfilling and loss of valuable resources from the recycling chain." },
+            { title: "Contamination with other materials", detail: "Scrap metal collected from mixed waste streams often contains plastics, rubber, paint, and other contaminants. These impurities reduce the quality and value of the metal, requiring additional processing steps like magnetic separation and manual sorting before smelting." },
+            { title: "Safety concerns in informal recycling", detail: "Informal metal recyclers work without protective equipment, operating cutting torches, handling sharp edges, and sometimes burning coatings to access metals. This leads to high rates of cuts, burns, respiratory illness, and heavy metal poisoning among workers, including children." },
+            { title: "Theft of infrastructure for scrap value", detail: "The high market value of metals has driven widespread theft of public infrastructure including railway lines, electrical cables, manhole covers, and water pipes. This causes service disruptions, safety hazards, and enormous replacement costs for governments and utilities." },
+            { title: "Limited formal processing capacity", detail: "While informal collectors achieve impressive recovery rates, the lack of formal smelting and refining facilities means most scrap is exported as raw material. This limits local value addition and the development of a domestic secondary metals manufacturing industry." },
+            { title: "Export of valuable materials without local value addition", detail: "Significant volumes of scrap metal leave Africa as raw feedstock for smelters in Asia and Europe. This represents a lost economic opportunity—processing metals domestically would create manufacturing jobs, build technical skills, and retain more economic value on the continent." }
         ],
         solutions: [
             "Formalization of scrap metal sector",
@@ -459,12 +459,12 @@ const wasteStreamData = {
         to collection challenges, contamination, and limited processing infrastructure. Glass represents 2-4% of municipal 
         waste by weight but occupies significant landfill space.`,
         challenges: [
-            "Weight and transportation costs",
-            "Contamination with other materials",
-            "Color separation requirements",
-            "Limited glass manufacturing capacity to use recycled glass",
-            "Competition from plastic alternatives",
-            "Breakage during collection and handling"
+            { title: "Weight and transportation costs", detail: "Glass is significantly heavier than alternative packaging materials, making collection and transport to recycling facilities expensive—especially in rural areas with poor road networks. The high cost-per-tonne of transport often exceeds the value of the recovered glass." },
+            { title: "Contamination with other materials", detail: "Glass collected from mixed waste streams is frequently contaminated with ceramics, stones, metals, and organic residues. Even small amounts of heat-resistant glass (like Pyrex) or ceramics can compromise an entire batch of recycled glass, causing defects in new products." },
+            { title: "Color separation requirements", detail: "Glass recycling requires separation by color (clear, green, amber) because mixed-color cullet produces low-quality output. Manual sorting is labor-intensive, and optical sorting equipment is expensive, creating a bottleneck in the recycling process that many African facilities cannot overcome." },
+            { title: "Limited glass manufacturing capacity to use recycled glass", detail: "Recycled glass (cullet) is most efficiently used by glass manufacturers as furnace feedstock. However, Africa has relatively few glass manufacturing plants, limiting local demand for cullet and forcing recyclers to seek export markets or alternative uses with lower economic returns." },
+            { title: "Competition from plastic alternatives", detail: "The beverage and food industries are increasingly switching from glass to plastic packaging due to lower weight, reduced breakage, and cheaper transport. This shift reduces the volume of glass entering the waste stream while also undermining the economics of glass recycling programs." },
+            { title: "Breakage during collection and handling", detail: "Glass containers frequently shatter during collection, transport, and sorting—especially in informal collection systems. Broken glass creates safety hazards for waste workers, contaminates other recyclables, and reduces the recoverable value of the material." }
         ],
         solutions: [
             "Deposit-refund systems for beverage containers",
@@ -513,11 +513,11 @@ const wasteStreamDataFr = {
         },
         overview: `Les déchets plastiques représentent l'un des défis environnementaux les plus pressants en Afrique. Provenant principalement des emballages, bouteilles, sacs d'achat et plastiques à usage unique, ce flux de déchets a atteint des niveaux critiques. Les déchets plastiques mondiaux ont atteint environ 220 millions de tonnes en 2024, l'Afrique connaîssant une croissance rapide en raison de l'urbanisation et des changements dans les modes de consommation. <a class='cite-link' href='../references/#ref-africa-waste-management-outlook-2021-towards-a-circular-economy' title='Source: UNEP – Africa Waste Management Outlook'>↗</a> Malgré les interdictions dans des pays comme le Kenya, les déchets plastiques continuent d'augmenter, tandis que l'Égypte et le Nigeria luttent avec l'application des lois.`,
         challenges: [
-            "Non-biodégradabilité - les plastiques persistent dans l'environnement pendant des centaines d'années",
-            "Faible valeur marchande de certains types de plastiques réduit la viabilité du recyclage",
-            "Les plastiques mélangés et contaminés rendent le tri et le traitement difficiles",
-            "Application faible des interdictions et réglementations sur le plastique",
-            "Infrastructure et installations de recyclage limitées"
+            { title: "Non-biodégradabilité - les plastiques persistent dans l'environnement pendant des centaines d'années", detail: "Contrairement aux matériaux organiques, la plupart des plastiques mettent 400 à 1 000 ans à se décomposer dans l'environnement. Ils se fragmentent en microplastiques qui contaminent les sols, les cours d'eau et les océans, entrant dans la chaîne alimentaire et posant des risques écologiques et sanitaires à long terme sur tout le continent." },
+            { title: "Faible valeur marchande de certains types de plastiques réduit la viabilité du recyclage", detail: "Alors que le PET et le PEHD obtiennent des prix raisonnables, les plastiques comme le polystyrène et les films multicouches ont une valeur de revente minimale. Cela rend la collecte et le recyclage économiquement non viables pour les récupérateurs informels et les recycleurs formels, conduisant ces matériaux à être mis en décharge ou abandonnés." },
+            { title: "Les plastiques mélangés et contaminés rendent le tri et le traitement difficiles", detail: "En l'absence de programmes de tri à la source, les plastiques sont souvent collectés mélangés avec des déchets alimentaires, des métaux et d'autres matériaux. Les plastiques contaminés nécessitent un lavage et un tri coûteux avant de pouvoir être recyclés, réduisant considérablement le débit et la rentabilité des opérations de recyclage." },
+            { title: "Application faible des interdictions et réglementations sur le plastique", detail: "Bien que de nombreuses nations africaines aient promulgué des interdictions de sacs plastiques ou des restrictions sur les plastiques à usage unique, l'application reste incohérente. La contrebande transfrontalière, le manque d'inspecteurs et les sanctions limitées signifient que les articles en plastique interdits continuent de circuler largement sur de nombreux marchés." },
+            { title: "Infrastructure et installations de recyclage limitées", detail: "La plupart des pays africains disposent de très peu d'usines de recyclage de plastique formelles par rapport aux volumes générés. Les réseaux de collecte sont fragmentés et de nombreuses régions manquent des centres de tri nécessaires pour trier, nettoyer et transformer les plastiques en matières premières secondaires utilisables." }
         ],
         solutions: [
             "Programmes de Responsabilité Élargie des Producteurs (REP)",
@@ -562,12 +562,12 @@ const wasteStreamDataFr = {
         },
         overview: `Les déchets organiques, y compris les restes alimentaires, résidus agricoles, déchets de jardin et matériaux biodégradables, représentent environ 58% du flux total de déchets d'Afrique. <a class='cite-link' href='../references/#ref-what-a-waste-2-0-a-global-snapshot-of-solid-waste-management-to-2050' title='Source: World Bank – What a Waste 2.0'>↗</a> Cela représente l'opportunité de plus grande valeur pour l'amélioration de la gestion des déchets. Une mauvaise gestion conduit à des émissions de méthane, des odeurs et des vecteurs de maladies. La teneur élevée en humidité rend l'incinération inefficace, et les déchets organiques sont souvent mélangés avec du plastique et des métaux, compliquant les efforts de gestion.`,
         challenges: [
-            "Teneur élevée en humidité réduit l'efficacité de la récupération d'énergie",
-            "Manque d'installations de compostage et de digestion anaérobie",
-            "La collecte mixte contamine les matières organiques",
-            "Marché limité pour les produits de compost",
-            "Variations saisonnières des volumes de génération",
-            "Émissions de méthane provenant de l'élimination inappropriée"
+            { title: "Teneur élevée en humidité réduit l'efficacité de la récupération d'énergie", detail: "Les déchets organiques en Afrique contiennent généralement 60 à 80% d'humidité, rendant l'incinération et les processus de valorisation énergétique très inefficaces. L'énergie nécessaire pour évaporer l'eau dépasse souvent l'énergie récupérée, rendant le traitement thermique impraticable sans infrastructure de pré-séchage." },
+            { title: "Manque d'installations de compostage et de digestion anaérobie", detail: "Bien que les déchets organiques représentent plus de la moitié du flux de déchets africain, moins de 5% des municipalités ont accès à des installations formelles de compostage ou de digestion anaérobie. La plupart des déchets organiques finissent dans des décharges à ciel ouvert où ils se décomposent de manière incontrôlée." },
+            { title: "La collecte mixte contamine les matières organiques", detail: "Sans programmes de tri à la source, les déchets organiques sont collectés aux côtés des plastiques, du verre et des déchets dangereux. Cette contamination rend les matières organiques impropres au compostage ou à la digestion, car le produit résultant contient des impuretés nocives limitant son utilisation comme amendement du sol." },
+            { title: "Marché limité pour les produits de compost", detail: "Même là où le compostage est pratiqué, les agriculteurs manquent souvent de connaissance des avantages du compost ou préfèrent les engrais synthétiques. La qualité inconstante du compost, l'absence de normes de certification et les réseaux de distribution limités restreignent davantage la demande et la viabilité commerciale." },
+            { title: "Variations saisonnières des volumes de génération", detail: "Les saisons de récolte agricole, les fêtes religieuses et les cycles des marchés créent des fluctuations importantes dans les volumes de déchets organiques. Les installations de compostage et de digestion conçues pour un débit moyen peinent à gérer les charges de pointe, entraînant des débordements et des inefficacités opérationnelles." },
+            { title: "Émissions de méthane provenant de l'élimination inappropriée", detail: "Lorsque les déchets organiques se décomposent de manière anaérobie dans les décharges à ciel ouvert et mal gérées, ils produisent du méthane — un gaz à effet de serre 80 fois plus puissant que le CO₂ sur une période de 20 ans. Le méthane non capturé des décharges africaines représente à la fois une menace climatique majeure et une opportunité énergétique manquée." }
         ],
         solutions: [
             "Programmes de compostage au niveau des ménages et des communautés",
@@ -612,12 +612,12 @@ const wasteStreamDataFr = {
         },
         overview: `Les déchets électroniques comprennent les appareils électroniques mis au rebut tels que les téléphones, ordinateurs, téléviseurs et batteries, contenant souvent des substances dangereuses comme le plomb, le mercure et des produits chimiques toxiques. Les déchets électroniques mondiaux ont atteint 62 millions de tonnes en 2022, croissant cinq fois plus vite que la capacité de recyclage formel. <a class='cite-link' href='../references/#ref-global-e-waste-monitor' title='Source: ITU – Global E-Waste Monitor'>↗</a> L'Afrique fait face à des défis importants avec le démantèlement informel exposant les travailleurs à des fumées toxiques et à la contamination environnementale.`,
         challenges: [
-            "Manque d'installations et d'infrastructure de recyclage formelles",
-            "Traitement informel utilisant des méthodes dangereuses et la combustion",
-            "Application faible des contrôles à l'importation sur l'électronique usagée",
-            "Composition matérielle complexe nécessitant un équipement spécialisé",
-            "Risques sanitaires liés à l'exposition aux substances toxiques",
-            "Conscience limitée des méthodes d'élimination appropriées"
+            { title: "Manque d'installations et d'infrastructure de recyclage formelles", detail: "L'Afrique dispose de très peu d'usines de recyclage de déchets électroniques certifiées capables d'extraire en toute sécurité des matériaux précieux comme l'or, le cuivre et les terres rares. La plupart des pays n'ont pas les broyeurs, fonderies et équipements de traitement chimique spécialisés nécessaires." },
+            { title: "Traitement informel utilisant des méthodes dangereuses et la combustion", detail: "Dans les centres informels de déchets électroniques comme Agbogbloshie (Ghana) et Alaba (Nigeria), les travailleurs dépouillent l'électronique par combustion à ciel ouvert, bains d'acide et démantèlement manuel sans équipement de protection. Ces pratiques libèrent des fumées toxiques dans les communautés environnantes." },
+            { title: "Application faible des contrôles à l'importation sur l'électronique usagée", detail: "Malgré les réglementations de la Convention de Bâle, de grands volumes d'électronique non fonctionnelle sont importés en Afrique sous l'étiquette de 'biens d'occasion'. Les inspections portuaires faibles permettent ce dumping, ajoutant au fardeau des déchets électroniques sans infrastructure de recyclage." },
+            { title: "Composition matérielle complexe nécessitant un équipement spécialisé", detail: "Un seul smartphone contient plus de 60 éléments différents, y compris des métaux précieux, des terres rares et des substances dangereuses. Récupérer ces matériaux en toute sécurité nécessite des processus hydrométallurgiques et pyrométallurgiques sophistiqués, intensifs en capital et techniquement exigeants." },
+            { title: "Risques sanitaires liés à l'exposition aux substances toxiques", detail: "Les déchets électroniques contiennent du plomb, du mercure, du cadmium et des retardateurs de flamme bromés. Les travailleurs et les résidents voisins font face à des risques élevés de maladies respiratoires, de dommages neurologiques et de cancer. Les enfants dans les communautés de recyclage informel sont particulièrement vulnérables." },
+            { title: "Conscience limitée des méthodes d'élimination appropriées", detail: "De nombreux consommateurs conservent l'électronique obsolète chez eux ou la jettent avec les déchets ordinaires, ignorant les dangers ou l'existence de programmes de collecte. Cela réduit le volume disponible pour le recyclage formel et augmente le risque que des matériaux toxiques entrent dans les flux de déchets généraux." }
         ],
         solutions: [
             "Programmes formels de reprise et centres de collecte",
@@ -662,12 +662,12 @@ const wasteStreamDataFr = {
         },
         overview: `Les déchets dangereux et industriels comprennent les produits chimiques industriels, les déchets médicaux, les résidus miniers et les sous-produits toxiques. Ces flux de déchets posent des risques environnementaux et sanitaires graves lorsqu'ils sont mal gérés. À travers l'Afrique, les déchets dangereux sont souvent mélangés avec les déchets municipaux, les installations de traitement sont inadéquates et le dumping illégal est courant. Les systèmes de surveillance limités et l'application faible exacerbent les défis.`,
         challenges: [
-            "Systèmes de surveillance et d'élimination inadéquats",
-            "Dumping illégal et stockage inapproprié",
-            "Infrastructure de traitement spécialisée limitée",
-            "Mélange de déchets dangereux avec les déchets municipaux",
-            "Coût élevé du traitement et de l'élimination appropriés",
-            "Capacité technique et expertise limitées"
+            { title: "Systèmes de surveillance et d'élimination inadéquats", detail: "La plupart des pays africains manquent de systèmes complets de suivi des déchets dangereux. Sans systèmes de manifestes ou de registres numériques, les matières dangereuses circulent dans la chaîne des déchets sans surveillance, rendant impossible d'assurer une manipulation appropriée de la génération à l'élimination finale." },
+            { title: "Dumping illégal et stockage inapproprié", detail: "Les coûts élevés d'élimination incitent au dumping illégal de déchets dangereux dans des sites non autorisés, les cours d'eau et les terrains vagues. Le stockage inapproprié dans des fûts qui fuient et des zones non couvertes entraîne une contamination des sols et des eaux souterraines pouvant persister pendant des décennies." },
+            { title: "Infrastructure de traitement spécialisée limitée", detail: "Le traitement sûr des déchets dangereux nécessite des installations comme des incinérateurs à haute température, des usines de neutralisation chimique et des décharges sécurisées. Très peu de pays africains disposent d'une capacité suffisante, forçant le transport sur de longues distances ou une élimination locale inadéquate." },
+            { title: "Mélange de déchets dangereux avec les déchets municipaux", detail: "En l'absence de protocoles de ségrégation, les matières dangereuses des ménages (piles, pesticides, peintures) et des petites entreprises se retrouvent dans les poubelles ordinaires. Cela contamine l'ensemble du flux de déchets, expose les travailleurs à des risques sanitaires et compromet les efforts de recyclage." },
+            { title: "Coût élevé du traitement et de l'élimination appropriés", detail: "L'équipement spécialisé, le personnel formé, l'infrastructure de protection et la conformité réglementaire nécessaires à la gestion des déchets dangereux la rendent nettement plus coûteuse que la gestion des déchets municipaux. De nombreux générateurs, surtout les petites entreprises, ne peuvent pas se permettre les frais d'élimination appropriés." },
+            { title: "Capacité technique et expertise limitées", detail: "La gestion sûre des déchets dangereux nécessite des connaissances spécialisées en chimie, toxicologie et génie environnemental. L'Afrique fait face à une pénurie de professionnels formés en déchets dangereux, de capacité de laboratoire et de connaissances institutionnelles pour l'application réglementaire." }
         ],
         solutions: [
             "Décharges de déchets dangereux dédiées avec revêtement approprié",
@@ -712,12 +712,12 @@ const wasteStreamDataFr = {
         },
         overview: `Les déchets métalliques comprennent les métaux ferreux (fer et acier) et non ferreux (aluminium, cuivre, laiton) provenant de diverses sources, notamment les emballages (canettes), les débris de construction, les véhicules et les appareils électroménagers. Les métaux représentent 3 à 5% des déchets municipaux mais ont une valeur de recyclage élevée. Le secteur informel africain collecte et recycle activement les métaux en raison des bons prix du marché, atteignant des taux de récupération de 45 à 60% dans certaines régions.`,
         challenges: [
-            "Volatilité des prix affecte l'économie de la collecte",
-            "Contamination avec d'autres matériaux",
-            "Préoccupations de sécurité dans le recyclage informel",
-            "Vol d'infrastructure pour la valeur de la ferraille",
-            "Capacité de traitement formel limitée",
-            "Exportation de matériaux précieux sans valeur ajoutée locale"
+            { title: "Volatilité des prix affecte l'économie de la collecte", detail: "Les prix mondiaux des matières premières pour les métaux comme l'aluminium, le cuivre et l'acier fluctuent considérablement. Lorsque les prix baissent, les collecteurs informels abandonnent la récupération des métaux car elle devient non rentable, entraînant une mise en décharge accrue et une perte de ressources précieuses." },
+            { title: "Contamination avec d'autres matériaux", detail: "La ferraille collectée dans les flux de déchets mixtes contient souvent des plastiques, du caoutchouc, de la peinture et d'autres contaminants. Ces impuretés réduisent la qualité et la valeur du métal, nécessitant des étapes de traitement supplémentaires comme la séparation magnétique et le tri manuel avant la fusion." },
+            { title: "Préoccupations de sécurité dans le recyclage informel", detail: "Les recycleurs informels de métaux travaillent sans équipement de protection, utilisant des chalumeaux, manipulant des bords tranchants et brûlant parfois les revêtements pour accéder aux métaux. Cela entraîne des taux élevés de coupures, brûlures, maladies respiratoires et empoisonnement aux métaux lourds." },
+            { title: "Vol d'infrastructure pour la valeur de la ferraille", detail: "La valeur marchande élevée des métaux a entraîné un vol généralisé d'infrastructures publiques, notamment les lignes ferroviaires, les câbles électriques, les plaques d'égout et les conduites d'eau. Cela cause des perturbations de service, des dangers pour la sécurité et des coûts de remplacement énormes." },
+            { title: "Capacité de traitement formel limitée", detail: "Bien que les collecteurs informels atteignent des taux de récupération impressionnants, le manque de fonderies et d'installations de raffinage formelles signifie que la plupart de la ferraille est exportée comme matière première. Cela limite la valeur ajoutée locale et le développement d'une industrie métallurgique secondaire nationale." },
+            { title: "Exportation de matériaux précieux sans valeur ajoutée locale", detail: "Des volumes importants de ferraille quittent l'Afrique comme matière première pour les fonderies d'Asie et d'Europe. Cela représente une opportunité économique perdue — le traitement des métaux localement créerait des emplois dans la fabrication et conserverait plus de valeur économique sur le continent." }
         ],
         solutions: [
             "Formalisation du secteur de la ferraille",
@@ -762,12 +762,12 @@ const wasteStreamDataFr = {
         },
         overview: `Les déchets de verre se composent principalement de bouteilles de boissons, de contenants alimentaires et d'autres matériaux d'emballage. Bien que le verre soit recyclable à 100% sans perte de qualité, les taux de recyclage en Afrique restent relativement faibles (15-25%) en raison des défis de collecte, de la contamination et de l'infrastructure de traitement limitée. Le verre représente 2 à 4% des déchets municipaux en poids mais occupe un espace important dans les décharges.`,
         challenges: [
-            "Poids et coûts de transport",
-            "Contamination avec d'autres matériaux",
-            "Exigences de séparation des couleurs",
-            "Capacité de fabrication de verre limitée pour utiliser le verre recyclé",
-            "Concurrence des alternatives plastiques",
-            "Bris pendant la collecte et la manipulation"
+            { title: "Poids et coûts de transport", detail: "Le verre est nettement plus lourd que les matériaux d'emballage alternatifs, rendant la collecte et le transport vers les installations de recyclage coûteux — surtout dans les zones rurales avec de mauvais réseaux routiers. Le coût élevé par tonne de transport dépasse souvent la valeur du verre récupéré." },
+            { title: "Contamination avec d'autres matériaux", detail: "Le verre collecté dans les flux de déchets mixtes est fréquemment contaminé par des céramiques, des pierres, des métaux et des résidus organiques. Même de petites quantités de verre résistant à la chaleur ou de céramiques peuvent compromettre un lot entier de verre recyclé, causant des défauts dans les nouveaux produits." },
+            { title: "Exigences de séparation des couleurs", detail: "Le recyclage du verre nécessite une séparation par couleur (transparent, vert, ambré) car le calcin de couleurs mélangées produit un résultat de faible qualité. Le tri manuel est laborieux et l'équipement de tri optique est coûteux, créant un goulot d'étranglement que de nombreuses installations africaines ne peuvent surmonter." },
+            { title: "Capacité de fabrication de verre limitée pour utiliser le verre recyclé", detail: "Le verre recyclé (calcin) est utilisé le plus efficacement par les fabricants de verre comme matière première. Cependant, l'Afrique compte relativement peu d'usines de fabrication de verre, limitant la demande locale de calcin et forçant les recycleurs à chercher des marchés d'exportation avec des rendements économiques moindres." },
+            { title: "Concurrence des alternatives plastiques", detail: "Les industries des boissons et de l'alimentation passent de plus en plus du verre au plastique en raison du poids inférieur, de la réduction des bris et du transport moins cher. Ce changement réduit le volume de verre entrant dans le flux de déchets tout en compromettant l'économie des programmes de recyclage du verre." },
+            { title: "Bris pendant la collecte et la manipulation", detail: "Les contenants en verre se brisent fréquemment pendant la collecte, le transport et le tri — surtout dans les systèmes de collecte informels. Le verre brisé crée des dangers pour la sécurité des travailleurs, contamine d'autres matériaux recyclables et réduit la valeur récupérable du matériau." }
         ],
         solutions: [
             "Systèmes de consigne pour les contenants de boissons",
@@ -890,9 +890,22 @@ function renderDetailedInsights(streamType) {
                 <div class="challenges-solutions-grid">
                     <div class="challenges-card">
                         <h3>${challengesTitle}</h3>
-                        <ul class="challenges-list">
-                            ${data.challenges.map(challenge => `<li>${challenge}</li>`).join('')}
-                        </ul>
+                        <div class="challenges-accordion">
+                            ${data.challenges.map(challenge => `
+                                <div class="challenge-accordion-item">
+                                    <button type="button" class="challenge-accordion-header" onclick="this.parentElement.classList.toggle('active')">
+                                        <span class="challenge-icon"></span>
+                                        <span class="challenge-title">${challenge.title}</span>
+                                        <span class="challenge-chevron">
+                                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                                        </span>
+                                    </button>
+                                    <div class="challenge-accordion-body">
+                                        <p>${challenge.detail}</p>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
                     </div>
                     <div class="solutions-card">
                         <h3>${solutionsTitle}</h3>
