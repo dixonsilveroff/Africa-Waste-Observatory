@@ -784,7 +784,7 @@ function loadCountryData(countryCode) {
     // Update overview text
     const overviewText = document.querySelector('.overview-text');
     if (overviewText) {
-        overviewText.textContent = data.overviewText;
+        overviewText.innerHTML = data.overviewText;
     }
 
     // Load Smart Technology section
