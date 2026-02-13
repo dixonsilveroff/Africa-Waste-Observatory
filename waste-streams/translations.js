@@ -135,8 +135,8 @@ const wasteStreamData = {
         policySection: {
             title: "Policy & Regulatory Landscape",
             content: `African nations are increasingly adopting stringent policies to combat plastic waste, including bans on 
-            single-use plastics and Extended Producer Responsibility (EPR) schemes. Countries like Rwanda and Kenya lead with 
-            comprehensive plastic bag bans, while South Africa and Egypt are working to harmonize waste management standards and 
+            single-use plastics and Extended Producer Responsibility (EPR) schemes. <a class='cite-link' href='../references/#ref-extended-producer-responsibility-epr-reviews' title='Source: OECD – EPR Reviews'>↗</a> Countries like Rwanda and Kenya lead with 
+            comprehensive plastic bag bans <a class='cite-link' href='../references/#ref-plastic-ban-circular-economy-case-studies' title='Source: UNEP – Plastic Ban & Circular Economy Case Studies'>↗</a>, while South Africa and Egypt are working to harmonize waste management standards and 
             facilitate cross-border recycling initiatives. However, implementation and enforcement remain key challenges. 
             Investments in circular economy models and public awareness campaigns are crucial for driving behavioral change and 
             fostering a sustainable plastics economy.`
@@ -144,7 +144,7 @@ const wasteStreamData = {
         caseStudy: {
             title: "Case Study: Rwanda's Plastic Ban",
             content: `Rwanda has been a pioneer in Africa with its comprehensive ban on plastic bags and single-use plastics, 
-            implemented over a decade ago. This bold policy has led to significantly cleaner cities and reduced plastic pollution 
+            implemented over a decade ago. <a class='cite-link' href='../references/#ref-plastic-ban-circular-economy-case-studies' title='Source: UNEP – Plastic Ban & Circular Economy Case Studies'>↗</a> This bold policy has led to significantly cleaner cities and reduced plastic pollution 
             in the country's waterways and ecosystems, demonstrating the positive impact of strong political will and community engagement. 
             While challenges persist in managing other forms of plastic waste, Rwanda's success serves as a powerful model for other 
             nations striving for environmental sustainability.`
@@ -152,7 +152,7 @@ const wasteStreamData = {
         overview: `Plastic waste represents one of the most pressing environmental challenges across Africa. 
         Originating mainly from packaging, bottles, shopping bags, and single-use plastics, this waste stream has reached 
         critical levels. Global plastic waste reached approximately 220 million tonnes in 2024, with Africa experiencing rapid 
-        growth due to urbanization and changing consumption patterns. Despite bans in countries like Kenya, plastic waste 
+        growth due to urbanization and changing consumption patterns. <a class='cite-link' href='../references/#ref-africa-waste-management-outlook-2021-towards-a-circular-economy' title='Source: UNEP – Africa Waste Management Outlook'>↗</a> Despite bans in countries like Kenya, plastic waste 
         continues to rise, while Egypt and Nigeria struggle with enforcement.`,
         challenges: [
             "Non-biodegradability - plastics persist in the environment for hundreds of years",
@@ -198,7 +198,7 @@ const wasteStreamData = {
             title: "Policy & Regulatory Landscape",
             content: `Organic waste management policies across Africa are evolving, with increasing focus on composting, 
             anaerobic digestion, and biogas production. South Africa's National Waste Management Strategy prioritizes organic 
-            waste diversion from landfills, while Kenya's Sustainable Waste Management Act mandates separation at source. 
+            waste diversion from landfills <a class='cite-link' href='../references/#ref-national-waste-management-strategy-nwms' title='Source: DFFE – National Waste Management Strategy (NWMS)'>↗</a>, while Kenya's Sustainable Waste Management Act mandates separation at source. <a class='cite-link' href='../references/#ref-sustainable-waste-management-act' title='Source: Government of Kenya – Sustainable Waste Management Act'>↗</a> 
             However, implementation remains limited due to infrastructure gaps and lack of public awareness. Egypt and Nigeria 
             are exploring public-private partnerships to develop composting facilities and biogas plants.`
         },
@@ -210,7 +210,7 @@ const wasteStreamData = {
             emissions, improving soil quality, and providing economic opportunities for local communities.`
         },
         overview: `Organic waste, including food scraps, agricultural residues, yard waste, and biodegradable materials, 
-        accounts for approximately 58% of Africa's total waste stream. This represents the highest-value opportunity for 
+        accounts for approximately 58% of Africa's total waste stream. <a class='cite-link' href='../references/#ref-what-a-waste-2-0-a-global-snapshot-of-solid-waste-management-to-2050' title='Source: World Bank – What a Waste 2.0'>↗</a> This represents the highest-value opportunity for 
         waste management improvement. Poor management leads to methane emissions, odors, and disease vectors. High moisture 
         content makes incineration inefficient, and organic waste is often mixed with plastics and metals, complicating 
         management efforts.`,
@@ -260,7 +260,7 @@ const wasteStreamData = {
             content: `E-waste management policies in Africa are rapidly developing in response to growing volumes and health 
             concerns. Several countries have implemented or are developing Extended Producer Responsibility (EPR) schemes for 
             electronics. South Africa leads with its National E-Waste Management Plan, while Rwanda and Kenya are establishing 
-            formal collection and recycling systems. However, enforcement of import controls and informal sector regulation 
+            formal collection and recycling systems. <a class='cite-link' href='../references/#ref-actively-engaging-rwanda-s-private-sector-in-e-waste-management' title='Source: ITU – Rwanda E-Waste Management'>↗</a> However, enforcement of import controls and informal sector regulation 
             remains challenging across the continent.`
         },
         caseStudy: {
@@ -272,7 +272,7 @@ const wasteStreamData = {
         },
         overview: `Electronic waste includes discarded electronic devices such as phones, computers, TVs, and batteries, 
         often containing hazardous substances like lead, mercury, and toxic chemicals. Global e-waste reached 62 million 
-        tonnes in 2022, growing five times faster than formal recycling capacity. Africa faces significant challenges with 
+        tonnes in 2022, growing five times faster than formal recycling capacity. <a class='cite-link' href='../references/#ref-global-e-waste-monitor' title='Source: ITU – Global E-Waste Monitor'>↗</a> Africa faces significant challenges with 
         informal dismantling exposing workers to toxic fumes and environmental contamination.`,
         challenges: [
             "Lack of formal recycling facilities and infrastructure",
@@ -318,9 +318,9 @@ const wasteStreamData = {
         policySection: {
             title: "Policy & Regulatory Landscape",
             content: `Hazardous waste management in Africa faces significant regulatory challenges. While most countries have 
-            enacted hazardous waste legislation aligned with the Basel Convention, enforcement and monitoring capacity remain 
+            enacted hazardous waste legislation aligned with the Basel Convention <a class='cite-link' href='../references/#ref-basel-convention-on-the-control-of-transboundary-movements-of-hazardous-wastes-a' title='Source: UNEP – Basel Convention'>↗</a>, enforcement and monitoring capacity remain 
             limited. South Africa has the most developed framework with dedicated hazardous waste landfills and treatment 
-            facilities. Egypt, Nigeria, and Kenya are strengthening their regulatory frameworks, but infrastructure gaps and 
+            facilities. <a class='cite-link' href='../references/#ref-national-environmental-management-waste-act' title='Source: DFFE – National Environmental Management: Waste Act'>↗</a> Egypt, Nigeria, and Kenya are strengthening their regulatory frameworks, but infrastructure gaps and 
             illegal dumping persist. Regional cooperation on transboundary movement and capacity building is increasing.`
         },
         caseStudy: {
@@ -380,7 +380,7 @@ const wasteStreamData = {
             title: "Policy & Regulatory Landscape",
             content: `Metal recycling in Africa is primarily driven by economic incentives rather than policy mandates. 
             Ferrous and non-ferrous metals command good market prices, leading to relatively high informal recovery rates. 
-            South Africa has the most developed scrap metal industry with formal recycling infrastructure and export markets. 
+            South Africa has the most developed scrap metal industry with formal recycling infrastructure and export markets. <a class='cite-link' href='../references/#ref-national-environmental-management-waste-act' title='Source: DFFE – National Environmental Management: Waste Act'>↗</a> 
             Other countries are developing policies to formalize the sector, improve worker safety, and prevent illegal 
             exports. The informal sector plays a crucial role but faces challenges with price volatility and lack of 
             regulatory protection.`
@@ -441,7 +441,7 @@ const wasteStreamData = {
         policySection: {
             title: "Policy & Regulatory Landscape",
             content: `Glass waste management policies in Africa are less developed compared to plastics and metals. South Africa 
-            has deposit-refund schemes for beverage bottles that encourage returns and recycling. Kenya and Rwanda are exploring 
+            has deposit-refund schemes for beverage bottles that encourage returns and recycling. <a class='cite-link' href='../references/#ref-trade-and-the-circular-economy-plastics-action-in-south-africa' title='Source: WEF – Circular Economy: Plastics Action in South Africa'>↗</a> Kenya and Rwanda are exploring 
             similar systems. The main policy focus is on integrating glass into broader Extended Producer Responsibility (EPR) 
             schemes and promoting reusable glass containers over single-use alternatives. Challenges include collection logistics, 
             contamination issues, and limited glass manufacturing capacity for recycled glass use.`
@@ -505,13 +505,13 @@ const wasteStreamDataFr = {
         },
         policySection: {
             title: "Paysage Politique et Réglementaire",
-            content: `Les nations africaines adoptent de plus en plus des politiques strictes pour lutter contre les déchets plastiques, notamment des interdictions de plastiques à usage unique et des programmes de Responsabilité Élargie des Producteurs (REP). Des pays comme le Rwanda et le Kenya sont leaders avec des interdictions complètes des sacs plastiques, tandis que l'Afrique du Sud et l'Égypte s'efforcent d'harmoniser les normes de gestion des déchets et de faciliter les initiatives de recyclage transfrontalières. Cependant, la mise en œuvre et l'application restent des défis majeurs. Les investissements dans les modèles d'économie circulaire et les campagnes de sensibilisation du public sont cruciaux pour favoriser le changement de comportement et promouvoir une économie plastique durable.`
+            content: `Les nations africaines adoptent de plus en plus des politiques strictes pour lutter contre les déchets plastiques, notamment des interdictions de plastiques à usage unique et des programmes de Responsabilité Élargie des Producteurs (REP). <a class='cite-link' href='../references/#ref-extended-producer-responsibility-epr-reviews' title='Source: OECD – EPR Reviews'>↗</a> Des pays comme le Rwanda et le Kenya sont leaders avec des interdictions complètes des sacs plastiques <a class='cite-link' href='../references/#ref-plastic-ban-circular-economy-case-studies' title='Source: UNEP – Plastic Ban & Circular Economy Case Studies'>↗</a>, tandis que l'Afrique du Sud et l'Égypte s'efforcent d'harmoniser les normes de gestion des déchets et de faciliter les initiatives de recyclage transfrontalières. Cependant, la mise en œuvre et l'application restent des défis majeurs. Les investissements dans les modèles d'économie circulaire et les campagnes de sensibilisation du public sont cruciaux pour favoriser le changement de comportement et promouvoir une économie plastique durable.`
         },
         caseStudy: {
             title: "Étude de Cas : L'interdiction du Plastique au Rwanda",
             content: `Le Rwanda a été un pionnier en Afrique avec son interdiction complète des sacs plastiques et des plastiques à usage unique, mise en œuvre il y a plus d'une décennie. Cette politique audacieuse a conduit à des villes nettement plus propres et à une réduction de la pollution plastique dans les cours d'eau et les écosystèmes du pays, démontrant l'impact positif d'une forte volonté politique et de l'engagement communautaire. Bien que des défis persistent dans la gestion d'autres formes de déchets plastiques, le succès du Rwanda sert de modèle puissant pour d'autres nations aspirant à la durabilité environnementale.`
         },
-        overview: `Les déchets plastiques représentent l'un des défis environnementaux les plus pressants en Afrique. Provenant principalement des emballages, bouteilles, sacs d'achat et plastiques à usage unique, ce flux de déchets a atteint des niveaux critiques. Les déchets plastiques mondiaux ont atteint environ 220 millions de tonnes en 2024, l'Afrique connaissant une croissance rapide en raison de l'urbanisation et des changements dans les modes de consommation. Malgré les interdictions dans des pays comme le Kenya, les déchets plastiques continuent d'augmenter, tandis que l'Égypte et le Nigeria luttent avec l'application des lois.`,
+        overview: `Les déchets plastiques représentent l'un des défis environnementaux les plus pressants en Afrique. Provenant principalement des emballages, bouteilles, sacs d'achat et plastiques à usage unique, ce flux de déchets a atteint des niveaux critiques. Les déchets plastiques mondiaux ont atteint environ 220 millions de tonnes en 2024, l'Afrique connaîssant une croissance rapide en raison de l'urbanisation et des changements dans les modes de consommation. <a class='cite-link' href='../references/#ref-africa-waste-management-outlook-2021-towards-a-circular-economy' title='Source: UNEP – Africa Waste Management Outlook'>↗</a> Malgré les interdictions dans des pays comme le Kenya, les déchets plastiques continuent d'augmenter, tandis que l'Égypte et le Nigeria luttent avec l'application des lois.`,
         challenges: [
             "Non-biodégradabilité - les plastiques persistent dans l'environnement pendant des centaines d'années",
             "Faible valeur marchande de certains types de plastiques réduit la viabilité du recyclage",
@@ -554,13 +554,13 @@ const wasteStreamDataFr = {
         },
         policySection: {
             title: "Paysage Politique et Réglementaire",
-            content: `Les politiques de gestion des déchets organiques en Afrique évoluent, avec un accent croissant sur le compostage, la digestion anaérobie et la production de biogaz. La Stratégie Nationale de Gestion des Déchets de l'Afrique du Sud priorise la diversion des déchets organiques des décharges, tandis que la Loi sur la Gestion Durable des Déchets du Kenya impose la séparation à la source. Cependant, la mise en œuvre reste limitée en raison des lacunes en infrastructure et du manque de sensibilisation du public. L'Égypte et le Nigeria explorent des partenariats public-privé pour développer des installations de compostage et des usines de biogaz.`
+            content: `Les politiques de gestion des déchets organiques en Afrique évoluent, avec un accent croissant sur le compostage, la digestion anaérobie et la production de biogaz. La Stratégie Nationale de Gestion des Déchets de l'Afrique du Sud priorise la diversion des déchets organiques des décharges <a class='cite-link' href='../references/#ref-national-waste-management-strategy-nwms' title='Source: DFFE – National Waste Management Strategy (NWMS)'>↗</a>, tandis que la Loi sur la Gestion Durable des Déchets du Kenya impose la séparation à la source. <a class='cite-link' href='../references/#ref-sustainable-waste-management-act' title='Source: Government of Kenya – Sustainable Waste Management Act'>↗</a> Cependant, la mise en œuvre reste limitée en raison des lacunes en infrastructure et du manque de sensibilisation du public. L'Égypte et le Nigeria explorent des partenariats public-privé pour développer des installations de compostage et des usines de biogaz.`
         },
         caseStudy: {
             title: "Étude de Cas : Compostage Communautaire en Afrique du Sud",
             content: `Plusieurs municipalités sud-africaines ont mis en œuvre avec succès des programmes de compostage communautaire qui détournent les déchets organiques des décharges tout en créant des emplois et en produisant des amendements de sol précieux. Ces programmes démontrent comment la gestion décentralisée des déchets peut relever plusieurs défis simultanément - réduire les émissions de méthane, améliorer la qualité du sol et offrir des opportunités économiques aux communautés locales.`
         },
-        overview: `Les déchets organiques, y compris les restes alimentaires, résidus agricoles, déchets de jardin et matériaux biodégradables, représentent environ 58% du flux total de déchets d'Afrique. Cela représente l'opportunité de plus grande valeur pour l'amélioration de la gestion des déchets. Une mauvaise gestion conduit à des émissions de méthane, des odeurs et des vecteurs de maladies. La teneur élevée en humidité rend l'incinération inefficace, et les déchets organiques sont souvent mélangés avec du plastique et des métaux, compliquant les efforts de gestion.`,
+        overview: `Les déchets organiques, y compris les restes alimentaires, résidus agricoles, déchets de jardin et matériaux biodégradables, représentent environ 58% du flux total de déchets d'Afrique. <a class='cite-link' href='../references/#ref-what-a-waste-2-0-a-global-snapshot-of-solid-waste-management-to-2050' title='Source: World Bank – What a Waste 2.0'>↗</a> Cela représente l'opportunité de plus grande valeur pour l'amélioration de la gestion des déchets. Une mauvaise gestion conduit à des émissions de méthane, des odeurs et des vecteurs de maladies. La teneur élevée en humidité rend l'incinération inefficace, et les déchets organiques sont souvent mélangés avec du plastique et des métaux, compliquant les efforts de gestion.`,
         challenges: [
             "Teneur élevée en humidité réduit l'efficacité de la récupération d'énergie",
             "Manque d'installations de compostage et de digestion anaérobie",
@@ -610,7 +610,7 @@ const wasteStreamDataFr = {
             title: "Étude de Cas : Le Hub des Déchets Électroniques du Nigeria",
             content: `Le Nigeria, en particulier Lagos, est devenu un hub majeur de traitement des déchets électroniques en Afrique de l'Ouest. Bien que le recyclage informel fournisse des moyens de subsistance à des milliers de personnes, il expose également les travailleurs à des substances toxiques par des pratiques de démantèlement dangereuses. Les initiatives récentes du gouvernement et des ONG visent à formaliser le secteur, fournir des équipements de protection et établir des installations de recyclage certifiées qui peuvent récupérer en toute sécurité les matériaux précieux tout en protégeant la santé des travailleurs.`
         },
-        overview: `Les déchets électroniques comprennent les appareils électroniques mis au rebut tels que les téléphones, ordinateurs, téléviseurs et batteries, contenant souvent des substances dangereuses comme le plomb, le mercure et des produits chimiques toxiques. Les déchets électroniques mondiaux ont atteint 62 millions de tonnes en 2022, croissant cinq fois plus vite que la capacité de recyclage formel. L'Afrique fait face à des défis importants avec le démantèlement informel exposant les travailleurs à des fumées toxiques et à la contamination environnementale.`,
+        overview: `Les déchets électroniques comprennent les appareils électroniques mis au rebut tels que les téléphones, ordinateurs, téléviseurs et batteries, contenant souvent des substances dangereuses comme le plomb, le mercure et des produits chimiques toxiques. Les déchets électroniques mondiaux ont atteint 62 millions de tonnes en 2022, croissant cinq fois plus vite que la capacité de recyclage formel. <a class='cite-link' href='../references/#ref-global-e-waste-monitor' title='Source: ITU – Global E-Waste Monitor'>↗</a> L'Afrique fait face à des défis importants avec le démantèlement informel exposant les travailleurs à des fumées toxiques et à la contamination environnementale.`,
         challenges: [
             "Manque d'installations et d'infrastructure de recyclage formelles",
             "Traitement informel utilisant des méthodes dangereuses et la combustion",
@@ -654,7 +654,7 @@ const wasteStreamDataFr = {
         },
         policySection: {
             title: "Paysage Politique et Réglementaire",
-            content: `La gestion des déchets dangereux en Afrique fait face à des défis réglementaires importants. Bien que la plupart des pays aient adopté une législation sur les déchets dangereux alignée sur la Convention de Bâle, la capacité d'application et de surveillance reste limitée. L'Afrique du Sud possède le cadre le plus développé avec des décharges et des installations de traitement de déchets dangereux dédiées. L'Égypte, le Nigeria et le Kenya renforcent leurs cadres réglementaires, mais les lacunes en infrastructure et le dumping illégal persistent. La coopération régionale sur les mouvements transfrontaliers et le renforcement des capacités s'intensifie.`
+            content: `La gestion des déchets dangereux en Afrique fait face à des défis réglementaires importants. Bien que la plupart des pays aient adopté une législation sur les déchets dangereux alignée sur la Convention de Bâle <a class='cite-link' href='../references/#ref-basel-convention-on-the-control-of-transboundary-movements-of-hazardous-wastes-a' title='Source: UNEP – Basel Convention'>↗</a>, la capacité d'application et de surveillance reste limitée. L'Afrique du Sud possède le cadre le plus développé avec des décharges et des installations de traitement de déchets dangereux dédiées. <a class='cite-link' href='../references/#ref-national-environmental-management-waste-act' title='Source: DFFE – National Environmental Management: Waste Act'>↗</a> L'Égypte, le Nigeria et le Kenya renforcent leurs cadres réglementaires, mais les lacunes en infrastructure et le dumping illégal persistent. La coopération régionale sur les mouvements transfrontaliers et le renforcement des capacités s'intensifie.`
         },
         caseStudy: {
             title: "Étude de Cas : Gestion des Déchets Médicaux au Rwanda",

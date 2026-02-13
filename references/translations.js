@@ -871,6 +871,11 @@ function renderReferenceCategory(containerId, references) {
         refCard.dataset.category = ref.category;
         refCard.dataset.searchText = `${ref.title} ${ref.author || ref.provider || ''} ${ref.countries.join(' ')}`.toLowerCase();
 
+        // Add anchor ID for cross-page citation links
+        if (typeof slugifyRef === 'function') {
+            refCard.id = slugifyRef(ref.title);
+        }
+
         if (type === 'datasets') {
             refCard.innerHTML = `
                 <div class="reference-header">
@@ -941,15 +946,31 @@ function filterReferences(searchTerm) {
     });
 }
 
+// Scroll to and highlight a reference card when navigating via hash
+function handleReferenceHash() {
+    const hash = window.location.hash;
+    if (!hash) return;
+    const target = document.querySelector(hash);
+    if (target && target.classList.contains('reference-card')) {
+        setTimeout(() => {
+            target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            target.classList.add('ref-highlight');
+            setTimeout(() => target.classList.remove('ref-highlight'), 3000);
+        }, 400);
+    }
+}
+
 // Initialize when DOM is ready
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
         initializeLanguage();
         renderReferences();
         initializeSearch();
+        handleReferenceHash();
     });
 } else {
     initializeLanguage();
     renderReferences();
     initializeSearch();
+    handleReferenceHash();
 }

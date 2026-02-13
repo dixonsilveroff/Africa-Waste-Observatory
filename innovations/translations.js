@@ -79,7 +79,7 @@ const translations = {
 // Country-specific innovation data
 const countryData = {
     "south-africa": {
-        overviewText: "South Africa leads the continent in waste management innovation with a strong focus on smart technologies, Extended Producer Responsibility (EPR) frameworks, and circular economy transitions. The country is advancing IoT-enabled waste systems, recycling startups, and waste-to-energy solutions—all underpinned by a commitment to inclusive, 'Just Transition' policies that formally integrate informal waste pickers.",
+        overviewText: "South Africa leads the continent in waste management innovation with a strong focus on smart technologies, Extended Producer Responsibility (EPR) frameworks, and circular economy transitions. <a class='cite-link' href='../references/#ref-national-environmental-management-waste-act' title='Source: DFFE – National Environmental Management: Waste Act'>↗</a> The country is advancing IoT-enabled waste systems, recycling startups, and waste-to-energy solutions—all underpinned by a commitment to inclusive, 'Just Transition' policies that formally integrate informal waste pickers.",
         smartTech: [
             {
                 title: "Smart Waste Monitoring & IoT Technology",
@@ -115,7 +115,7 @@ const countryData = {
             },
             {
                 title: "Africa Circular Economy Alliance (ACEA) Founding Member",
-                description: "South Africa co-founded the Africa Circular Economy Alliance (ACEA) in 2022 alongside the African Union, World Economic Forum, African Development Bank, and World Bank. As a founding member, South Africa shapes continental circular economy policy, investment frameworks, and knowledge sharing. This leadership position enables the country to influence regional waste management transitions and attract green economy investments."
+                description: "South Africa co-founded the Africa Circular Economy Alliance (ACEA) in 2022 alongside the African Union, World Economic Forum, African Development Bank, and World Bank. <a class='cite-link' href='../references/#ref-africa-circular-economy-alliance-acea-framework' title='Source: ACEA Framework'>↗</a> As a founding member, South Africa shapes continental circular economy policy, investment frameworks, and knowledge sharing. This leadership position enables the country to influence regional waste management transitions and attract green economy investments."
             },
             {
                 title: "Draft National Waste Management Strategy (NWMS) 2026",
@@ -141,7 +141,7 @@ const countryData = {
         smartTech: [
             {
                 title: "Pneumatic Waste Collection – Konza Technopolis",
-                description: "Africa's first underground pneumatic waste collection network, operational since 2025 with a $9 million investment. The system features 15 kilometers of underground pipes and 50 intake points with 40 tons/day processing capacity. Users deposit waste into intake points, and it's automatically transported via vacuum tubes to central sorting facilities. This innovative system eliminates the need for waste trucks, reduces traffic congestion, lowers emissions, and ensures hygienic, odor-free waste management in urban areas. The system showcases Kenya's vision for smart city development and positions the country as a regional leader in advanced urban infrastructure."
+                description: "Africa's first underground pneumatic waste collection network, operational since 2025 with a $9 million investment. <a class='cite-link' href='../references/#ref-konza-technopolis-pneumatic-waste-collection-system-project' title='Source: Envac Group – Konza Technopolis'>↗</a> The system features 15 kilometers of underground pipes and 50 intake points with 40 tons/day processing capacity. Users deposit waste into intake points, and it's automatically transported via vacuum tubes to central sorting facilities. This innovative system eliminates the need for waste trucks, reduces traffic congestion, lowers emissions, and ensures hygienic, odor-free waste management in urban areas. The system showcases Kenya's vision for smart city development and positions the country as a regional leader in advanced urban infrastructure."
             }
         ],
         recycling: [
@@ -161,7 +161,7 @@ const countryData = {
         wasteToEnergy: [
             {
                 title: "Dandora 45 MW Waste-to-Energy Plant",
-                description: "A landmark 45 MW Waste-to-Energy facility officially commissioned by President William Ruto on February 8, 2026. This plant aims to transform the notorious Dandora dumpsite, East Africa's largest and most hazardous landfill, into a clean energy generation hub. The facility will process thousands of tons of waste daily while generating clean electricity for Nairobi's grid, representing a major shift in Kenya's waste management paradigm from dumping to energy recovery."
+                description: "A landmark 45 MW Waste-to-Energy facility officially commissioned by President William Ruto on February 8, 2026. <a class='cite-link' href='../references/#ref-nairobi-waste-to-energy-power-plant-initiative-review' title='Source: ENVACO – Nairobi WtE Review'>↗</a> This plant aims to transform the notorious Dandora dumpsite, East Africa's largest and most hazardous landfill, into a clean energy generation hub. The facility will process thousands of tons of waste daily while generating clean electricity for Nairobi's grid, representing a major shift in Kenya's waste management paradigm from dumping to energy recovery."
             },
             {
                 title: "Kakamega Waste-to-Energy Plant",
@@ -301,7 +301,7 @@ const countryData = {
             },
             {
                 title: "Lagos State Single-Use Plastic Ban (July 2025)",
-                description: "The July 1, 2025 ban on styrofoam, single-use plastic straws, cutlery, and plates marks a turning point for Nigeria's plastic reduction strategy. This landmark policy addresses Lagos's contribution as one of the world's most plastics-polluted urban areas, where 13,000 tons/day of waste is generated with 60% uncollected. Offenders risk business shutdown. Enforcement is being backed by awareness campaigns, alternative product promotion, and strict penalties for non-compliance."
+                description: "The July 1, 2025 ban on styrofoam, single-use plastic straws, cutlery, and plates marks a turning point for Nigeria's plastic reduction strategy. <a class='cite-link' href='../references/#ref-lagos-state-single-use-plastic-ban-policy' title='Source: Lagos State Government – Single-Use Plastic Ban Policy'>↗</a> This landmark policy addresses Lagos's contribution as one of the world's most plastics-polluted urban areas, where 13,000 tons/day of waste is generated with 60% uncollected. Offenders risk business shutdown. Enforcement is being backed by awareness campaigns, alternative product promotion, and strict penalties for non-compliance."
             }
         ],
         impact: [
@@ -320,7 +320,7 @@ const countryData = {
         smartTech: [
             {
                 title: "SHINE Model for Sustainable Waste Management",
-                description: "Developed in 2024-2025 by GIZ in partnership with Rwanda's Ministry of Environment, the SHINE Model is a locally-developed, cost-efficient solid waste management framework grounded in life-cycle thinking and full-cost accounting. Successfully piloted in Bugesera, Rwamagana, and Muhanga, the model emphasizes household-level source separation (organics, recyclables, residuals), integrated logistics solutions tailored to local terrain and infrastructure, and behavior change communication. The SHINE Model fully aligns with Rwanda's Integrated Solid Waste Management Strategy and National Circular Economy Action Plan, positioning Rwanda as a regional leader in circular waste systems."
+                description: "Developed in 2024-2025 by GIZ in partnership with Rwanda's Ministry of Environment, the SHINE Model is a locally-developed, cost-efficient solid waste management framework grounded in life-cycle thinking and full-cost accounting. <a class='cite-link' href='../references/#ref-the-shine-model-sustainable-cost-efficient-waste-management' title='Source: GIZ – The SHINE Model'>↗</a> Successfully piloted in Bugesera, Rwamagana, and Muhanga, the model emphasizes household-level source separation (organics, recyclables, residuals), integrated logistics solutions tailored to local terrain and infrastructure, and behavior change communication. The SHINE Model fully aligns with Rwanda's Integrated Solid Waste Management Strategy and National Circular Economy Action Plan, positioning Rwanda as a regional leader in circular waste systems."
             },
             {
                 title: "Digital E-Waste Tracking and Management Systems",
@@ -330,7 +330,7 @@ const countryData = {
         recycling: [
             {
                 title: "Enviroserve Rwanda Green Park",
-                description: "Rwanda's state-of-the-art e-waste dismantling and recycling facility—the second of its kind in Africa—has trained 70 young Rwandans in electronics repair, maintenance, and recycling. The facility has created 413 green jobs with expansion expected as nationwide collection points become fully operational. Enviroserve provides e-waste collection services not only in Rwanda but also in Uganda, the Democratic Republic of Congo, and Burundi. The facility offers data-wiping services, refurbishment, and responsible dismantling, ensuring hazardous materials like heavy metals are safely processed."
+                description: "Rwanda's state-of-the-art e-waste dismantling and recycling facility—the second of its kind in Africa—has trained 70 young Rwandans in electronics repair, maintenance, and recycling. <a class='cite-link' href='../references/#ref-the-contribution-of-e-waste-recycling-in-promoting-green-growth-a-case-of-enviro' title='Source: Iraguha & Uwimpuhwe – E-Waste Recycling in Rwanda'>↗</a> The facility has created 413 green jobs with expansion expected as nationwide collection points become fully operational. Enviroserve provides e-waste collection services not only in Rwanda but also in Uganda, the Democratic Republic of Congo, and Burundi. The facility offers data-wiping services, refurbishment, and responsible dismantling, ensuring hazardous materials like heavy metals are safely processed."
             },
             {
                 title: "Plastic Roads Infrastructure",
@@ -406,7 +406,7 @@ const countryData = {
 // French country-specific innovation data
 const countryDataFr = {
     "south-africa": {
-        overviewText: "L'Afrique du Sud est à la pointe de l'innovation en gestion des déchets sur le continent, avec un accent particulier sur les technologies intelligentes, les cadres de Responsabilité Élargie des Producteurs (REP) et les transitions vers l'économie circulaire. Le pays développe des systèmes de déchets connectés par l'IoT, des startups de recyclage et des solutions de valorisation énergétique — le tout soutenu par un engagement en faveur de politiques inclusives de « Transition Juste » intégrant formellement les ramasseurs informels de déchets.",
+        overviewText: "L'Afrique du Sud est à la pointe de l'innovation en gestion des déchets sur le continent, avec un accent particulier sur les technologies intelligentes, les cadres de Responsabilité Élargie des Producteurs (REP) et les transitions vers l'économie circulaire. <a class='cite-link' href='../references/#ref-national-environmental-management-waste-act' title='Source: DFFE – National Environmental Management: Waste Act'>↗</a> Le pays développe des systèmes de déchets connectés par l'IoT, des startups de recyclage et des solutions de valorisation énergétique — le tout soutenu par un engagement en faveur de politiques inclusives de « Transition Juste » intégrant formellement les ramasseurs informels de déchets.",
         smartTech: [
             {
                 title: "Surveillance Intelligente des Déchets et Technologie IoT",
@@ -442,7 +442,7 @@ const countryDataFr = {
             },
             {
                 title: "Membre Fondateur de l'Alliance Africaine pour l'Économie Circulaire (ACEA)",
-                description: "L'Afrique du Sud a cofondé l'Alliance Africaine pour l'Économie Circulaire (ACEA) en 2022 aux côtés de l'Union Africaine, du Forum Économique Mondial, de la Banque Africaine de Développement et de la Banque Mondiale. En tant que membre fondateur, l'Afrique du Sud façonne les politiques, cadres d'investissement et partage de connaissances en économie circulaire continentale."
+                description: "L'Afrique du Sud a cofondé l'Alliance Africaine pour l'Économie Circulaire (ACEA) en 2022 aux côtés de l'Union Africaine, du Forum Économique Mondial, de la Banque Africaine de Développement et de la Banque Mondiale. <a class='cite-link' href='../references/#ref-africa-circular-economy-alliance-acea-framework' title='Source: ACEA Framework'>↗</a> En tant que membre fondateur, l'Afrique du Sud façonne les politiques, cadres d'investissement et partage de connaissances en économie circulaire continentale."
             },
             {
                 title: "Projet de Stratégie Nationale de Gestion des Déchets (NWMS) 2026",
@@ -468,7 +468,7 @@ const countryDataFr = {
         smartTech: [
             {
                 title: "Collecte Pneumatique des Déchets – Konza Technopolis",
-                description: "Le premier réseau souterrain de collecte pneumatique des déchets en Afrique, opérationnel depuis 2025 avec un investissement de 9 millions de dollars. Le système comprend 15 kilomètres de conduites souterraines et 50 points d'entrée avec une capacité de traitement de 40 tonnes/jour. Les utilisateurs déposent les déchets dans des points d'entrée, et ils sont automatiquement transportés par tubes à vide vers des installations de tri centrales. Ce système innovant élimine le besoin de camions de déchets, réduit la congestion routière, diminue les émissions et assure une gestion hygiénique et sans odeur des déchets."
+                description: "Le premier réseau souterrain de collecte pneumatique des déchets en Afrique, opérationnel depuis 2025 avec un investissement de 9 millions de dollars. <a class='cite-link' href='../references/#ref-konza-technopolis-pneumatic-waste-collection-system-project' title='Source: Envac Group – Konza Technopolis'>↗</a> Le système comprend 15 kilomètres de conduites souterraines et 50 points d'entrée avec une capacité de traitement de 40 tonnes/jour. Les utilisateurs déposent les déchets dans des points d'entrée, et ils sont automatiquement transportés par tubes à vide vers des installations de tri centrales. Ce système innovant élimine le besoin de camions de déchets, réduit la congestion routière, diminue les émissions et assure une gestion hygiénique et sans odeur des déchets."
             }
         ],
         recycling: [
@@ -647,7 +647,7 @@ const countryDataFr = {
         smartTech: [
             {
                 title: "Modèle SHINE pour la Gestion Durable des Déchets",
-                description: "Développé en 2024-2025 par la GIZ en partenariat avec le Ministère de l'Environnement du Rwanda, le Modèle SHINE est un cadre de gestion des déchets solides développé localement, rentable, fondé sur la pensée du cycle de vie et la comptabilité des coûts complets. Testé avec succès à Bugesera, Rwamagana et Muhanga, le modèle met l'accent sur le tri à la source au niveau des ménages (organiques, recyclables, résidus), les solutions logistiques intégrées adaptées au terrain local et le changement de comportement."
+                description: "Développé en 2024-2025 par la GIZ en partenariat avec le Ministère de l'Environnement du Rwanda, le Modèle SHINE est un cadre de gestion des déchets solides développé localement, rentable, fondé sur la pensée du cycle de vie et la comptabilité des coûts complets. <a class='cite-link' href='../references/#ref-the-shine-model-sustainable-cost-efficient-waste-management' title='Source: GIZ – The SHINE Model'>↗</a> Testé avec succès à Bugesera, Rwamagana et Muhanga, le modèle met l'accent sur le tri à la source au niveau des ménages (organiques, recyclables, résidus), les solutions logistiques intégrées adaptées au terrain local et le changement de comportement."
             },
             {
                 title: "Systèmes Numériques de Suivi et de Gestion des Déchets Électroniques",
@@ -657,7 +657,7 @@ const countryDataFr = {
         recycling: [
             {
                 title: "Enviroserve Rwanda Green Park",
-                description: "L'installation de démantèlement et de recyclage de déchets électroniques de pointe du Rwanda — la deuxième de ce type en Afrique — a formé 70 jeunes Rwandais en réparation, maintenance et recyclage d'électronique. L'installation a créé 413 emplois verts avec une expansion prévue. Enviroserve fournit des services de collecte de déchets électroniques non seulement au Rwanda mais aussi en Ouganda, en République Démocratique du Congo et au Burundi."
+                description: "L'installation de démantèlement et de recyclage de déchets électroniques de pointe du Rwanda — la deuxième de ce type en Afrique — a formé 70 jeunes Rwandais en réparation, maintenance et recyclage d'électronique. <a class='cite-link' href='../references/#ref-the-contribution-of-e-waste-recycling-in-promoting-green-growth-a-case-of-enviro' title='Source: Iraguha & Uwimpuhwe – E-Waste Recycling in Rwanda'>↗</a> L'installation a créé 413 emplois verts avec une expansion prévue. Enviroserve fournit des services de collecte de déchets électroniques non seulement au Rwanda mais aussi en Ouganda, en République Démocratique du Congo et au Burundi."
             },
             {
                 title: "Routes en Plastique",

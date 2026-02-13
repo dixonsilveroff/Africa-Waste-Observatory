@@ -2979,3 +2979,68 @@ footer {
         padding: 0.75rem 0.5rem;
     }
 }
+
+/* ==========================================
+   Citation Links & Reference Highlighting
+   ========================================== */
+
+/* Highlight animation when navigating to a reference via citation link */
+@keyframes refHighlight {
+    0% { box-shadow: 0 0 0 0 rgba(46, 139, 87, 0.5); }
+    30% { box-shadow: 0 0 0 8px rgba(46, 139, 87, 0.25); }
+    100% { box-shadow: 0 0 0 0 rgba(46, 139, 87, 0); }
+}
+
+.reference-card.ref-highlight {
+    animation: refHighlight 1.5s ease-out 2;
+    border-left-color: var(--primary-green, #2e8b57);
+    background-color: rgba(46, 139, 87, 0.04);
+}
+
+/* Inline citation link styling */
+.cite-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2em;
+    color: var(--secondary-blue, #1a5276);
+    text-decoration: none;
+    font-size: 0.8em;
+    vertical-align: super;
+    line-height: 1;
+    padding: 0.1em 0.35em;
+    background-color: rgba(26, 82, 118, 0.08);
+    border-radius: 3px;
+    font-weight: 600;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.cite-link:hover {
+    background-color: rgba(26, 82, 118, 0.16);
+    color: var(--primary-green, #2e8b57);
+}
+
+.cite-link svg {
+    width: 0.75em;
+    height: 0.75em;
+}
+
+/* Block-level source attribution */
+.source-attribution {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--secondary-blue, #1a5276);
+}
+
+.source-attribution a {
+    color: var(--secondary-blue, #1a5276);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px dashed currentColor;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.source-attribution a:hover {
+    color: var(--primary-green, #2e8b57);
+    border-bottom-color: var(--primary-green, #2e8b57);
+}
