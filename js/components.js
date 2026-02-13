@@ -1,4 +1,15 @@
 const year = new Date().getFullYear();
+
+// Shared reference slug utility - generates a consistent ID from a reference title
+// Used on the references page to create anchor IDs, and on other pages to create links
+function slugifyRef(title) {
+    return 'ref-' + title.toLowerCase()
+        .replace(/['']/g, '')
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '')
+        .substring(0, 80);
+}
+
 // Detect if we're in a subdirectory
 const isSubdirectory = window.location.pathname.includes('/about/') || 
                        window.location.pathname.includes('/country-profiles/') || 

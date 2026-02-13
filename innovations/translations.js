@@ -79,7 +79,7 @@ const translations = {
 // Country-specific innovation data
 const countryData = {
     "south-africa": {
-        overviewText: "South Africa leads the continent in waste management innovation with a strong focus on smart technologies, Extended Producer Responsibility (EPR) frameworks, and circular economy transitions. The country is advancing IoT-enabled waste systems, recycling startups, and waste-to-energy solutions—all underpinned by a commitment to inclusive, 'Just Transition' policies that formally integrate informal waste pickers.",
+        overviewText: "South Africa leads the continent in waste management innovation with a strong focus on smart technologies, Extended Producer Responsibility (EPR) frameworks, and circular economy transitions. <a class='cite-link' href='../references/#ref-national-environmental-management-waste-act' title='Source: DFFE – National Environmental Management: Waste Act'>↗</a> The country is advancing IoT-enabled waste systems, recycling startups, and waste-to-energy solutions—all underpinned by a commitment to inclusive, 'Just Transition' policies that formally integrate informal waste pickers.",
         smartTech: [
             {
                 title: "Smart Waste Monitoring & IoT Technology",
@@ -89,17 +89,17 @@ const countryData = {
         recycling: [
             {
                 title: "Regenize",
-                description: "A digital platform that incentivizes recycling by rewarding households and informal waste pickers through mobile technology. Users earn points for recyclable materials, which can be exchanged for goods or services. This innovation bridges the formal-informal divide and increases diversion rates."
+                description: "A digital platform that incentivizes recycling by rewarding households and informal waste pickers through mobile technology. Users earn points for recyclable materials, which can be exchanged for goods or services. This innovation bridges the formal-informal divide and increases diversion rates. <a href='https://regenize.africa/' target='_blank' rel='noopener noreferrer' class='innovation-link'>regenize.africa</a>"
             },
             {
                 title: "Boomba.mobi",
-                description: "A mobile-based platform linking waste collection to food and essentials exchange. It includes small-scale organic processing systems such as worm farms for vermicomposting, reducing organic waste sent to landfills while producing nutrient-rich soil amendments."
+                description: "A mobile-based platform linking waste collection to food and essentials exchange. It includes small-scale organic processing systems such as worm farms for vermicomposting, reducing organic waste sent to landfills while producing nutrient-rich soil amendments. <a href='https://boomba.mobi' target='_blank' rel='noopener noreferrer' class='innovation-link'>boomba.mobi</a>"
             }
         ],
         wasteToEnergy: [
             {
                 title: "Kibo Gauteng Thermal Power Station",
-                description: "This planned facility aims to convert plastic waste into energy through pyrolysis technology, producing syngas and electricity. It represents a significant step toward diverting non-recyclable plastics from landfills while contributing to renewable energy generation. The project aligns with South Africa's 2025 climate targets for methane reduction and landfill gas capture."
+                description: "This planned facility aims to convert plastic waste into energy through pyrolysis technology, producing syngas and electricity. It represents a significant step toward diverting non-recyclable plastics from landfills while contributing to renewable energy generation. The project aligns with South Africa's 2025 climate targets for methane reduction and landfill gas capture. <a href='https://kibo.energy/' target='_blank' rel='noopener noreferrer' class='innovation-link'>kibo.energy</a>"
             }
         ],
         community: [
@@ -115,7 +115,7 @@ const countryData = {
             },
             {
                 title: "Africa Circular Economy Alliance (ACEA) Founding Member",
-                description: "South Africa co-founded the Africa Circular Economy Alliance (ACEA) in 2022 alongside the African Union, World Economic Forum, African Development Bank, and World Bank. As a founding member, South Africa shapes continental circular economy policy, investment frameworks, and knowledge sharing. This leadership position enables the country to influence regional waste management transitions and attract green economy investments."
+                description: "South Africa co-founded the Africa Circular Economy Alliance (ACEA) in 2022 alongside the African Union, World Economic Forum, African Development Bank, and World Bank. <a class='cite-link' href='../references/#ref-africa-circular-economy-alliance-acea-framework' title='Source: ACEA Framework'>↗</a> As a founding member, South Africa shapes continental circular economy policy, investment frameworks, and knowledge sharing. This leadership position enables the country to influence regional waste management transitions and attract green economy investments."
             },
             {
                 title: "Draft National Waste Management Strategy (NWMS) 2026",
@@ -141,27 +141,27 @@ const countryData = {
         smartTech: [
             {
                 title: "Pneumatic Waste Collection – Konza Technopolis",
-                description: "Africa's first underground pneumatic waste collection network, operational since 2025 with a $9 million investment. The system features 15 kilometers of underground pipes and 50 intake points with 40 tons/day processing capacity. Users deposit waste into intake points, and it's automatically transported via vacuum tubes to central sorting facilities. This innovative system eliminates the need for waste trucks, reduces traffic congestion, lowers emissions, and ensures hygienic, odor-free waste management in urban areas. The system showcases Kenya's vision for smart city development and positions the country as a regional leader in advanced urban infrastructure."
+                description: "Africa's first underground pneumatic waste collection network, operational since 2025 with a $9 million investment. <a class='cite-link' href='../references/#ref-konza-technopolis-pneumatic-waste-collection-system-project' title='Source: Envac Group – Konza Technopolis'>↗</a> The system features 15 kilometers of underground pipes and 50 intake points with 40 tons/day processing capacity. Users deposit waste into intake points, and it's automatically transported via vacuum tubes to central sorting facilities. This innovative system eliminates the need for waste trucks, reduces traffic congestion, lowers emissions, and ensures hygienic, odor-free waste management in urban areas. The system showcases Kenya's vision for smart city development and positions the country as a regional leader in advanced urban infrastructure."
             }
         ],
         recycling: [
             {
                 title: "HyaPak",
-                description: "Converts invasive water hyacinth—a persistent ecological problem in Lake Victoria—into biodegradable packaging materials. This innovation addresses both environmental pollution and plastic waste by providing a sustainable alternative to conventional packaging while creating employment opportunities in rural communities."
+                description: "Converts invasive water hyacinth—a persistent ecological problem in Lake Victoria—into biodegradable packaging materials. This innovation addresses both environmental pollution and plastic waste by providing a sustainable alternative to conventional packaging while creating employment opportunities in rural communities. <a href='https://hyapak.com/' target='_blank' rel='noopener noreferrer' class='innovation-link'>hyapak.com</a>"
             },
             {
                 title: "EcoPost",
-                description: "Processes mixed plastic waste into durable building products, including eco-fencing and construction materials. EcoPost diverts thousands of tons of plastics from landfills annually while supplying affordable, weather-resistant infrastructure materials for agriculture and real estate sectors."
+                description: "Processes mixed plastic waste into durable building products, including eco-fencing and construction materials. EcoPost diverts thousands of tons of plastics from landfills annually while supplying affordable, weather-resistant infrastructure materials for agriculture and real estate sectors. <a href='https://ecopost.co.ke/' target='_blank' rel='noopener noreferrer' class='innovation-link'>ecopost.co.ke</a>"
             },
             {
                 title: "Mr. Green Africa",
-                description: "A tech-enabled plastics recycling platform that formalizes informal waste recovery supply chains. The platform connects waste pickers, aggregators, and recycling facilities through digital tracking, fair pricing, and consistent off-take agreements, improving livelihoods and recycling efficiency."
+                description: "A tech-enabled plastics recycling platform that formalizes informal waste recovery supply chains. The platform connects waste pickers, aggregators, and recycling facilities through digital tracking, fair pricing, and consistent off-take agreements, improving livelihoods and recycling efficiency. <a href='https://www.mrgreenafrica.com/' target='_blank' rel='noopener noreferrer' class='innovation-link'>mrgreenafrica.com</a>"
             }
         ],
         wasteToEnergy: [
             {
                 title: "Dandora 45 MW Waste-to-Energy Plant",
-                description: "A landmark 45 MW Waste-to-Energy facility officially commissioned by President William Ruto on February 8, 2026. This plant aims to transform the notorious Dandora dumpsite, East Africa's largest and most hazardous landfill, into a clean energy generation hub. The facility will process thousands of tons of waste daily while generating clean electricity for Nairobi's grid, representing a major shift in Kenya's waste management paradigm from dumping to energy recovery."
+                description: "A landmark 45 MW Waste-to-Energy facility officially commissioned by President William Ruto on February 8, 2026. <a class='cite-link' href='../references/#ref-nairobi-waste-to-energy-power-plant-initiative-review' title='Source: ENVACO – Nairobi WtE Review'>↗</a> This plant aims to transform the notorious Dandora dumpsite, East Africa's largest and most hazardous landfill, into a clean energy generation hub. The facility will process thousands of tons of waste daily while generating clean electricity for Nairobi's grid, representing a major shift in Kenya's waste management paradigm from dumping to energy recovery."
             },
             {
                 title: "Kakamega Waste-to-Energy Plant",
@@ -267,15 +267,15 @@ const countryData = {
         recycling: [
             {
                 title: "Wecyclers",
-                description: "A pioneering social enterprise using low-cost cargo bikes (Wecycles) to collect recyclable waste from households in low-income neighborhoods. Participants earn points through an SMS-based system, which can be exchanged for household goods, food, or cash. Wecyclers has diverted thousands of tons of waste from landfills and provided economic opportunities for waste collectors."
+                description: "A pioneering social enterprise using low-cost cargo bikes (Wecycles) to collect recyclable waste from households in low-income neighborhoods. Participants earn points through an SMS-based system, which can be exchanged for household goods, food, or cash. Wecyclers has diverted thousands of tons of waste from landfills and provided economic opportunities for waste collectors. <a href='https://wecyclers.com/' target='_blank' rel='noopener noreferrer' class='innovation-link'>wecyclers.com</a>"
             },
             {
                 title: "Vicfold Recyclers",
-                description: "Converts plastic waste into resins used in manufacturing. The company processes post-consumer plastics into raw material feedstock for industries, reducing dependence on virgin plastic imports while addressing Nigeria's plastic waste crisis."
+                description: "Converts plastic waste into resins used in manufacturing. The company processes post-consumer plastics into raw material feedstock for industries, reducing dependence on virgin plastic imports while addressing Nigeria's plastic waste crisis. <a href='https://www.vicfoldrecyclers.com/' target='_blank' rel='noopener noreferrer' class='innovation-link'>vicfoldrecyclers.com</a>"
             },
             {
                 title: "Salubata",
-                description: "Transforms discarded plastic waste into modular, fashionable footwear. This upcycling venture addresses plastic pollution while creating affordable, durable shoes for local markets, demonstrating the potential of circular design in consumer goods."
+                description: "Transforms discarded plastic waste into modular, fashionable footwear. This upcycling venture addresses plastic pollution while creating affordable, durable shoes for local markets, demonstrating the potential of circular design in consumer goods. <a href='https://www.salubataofficial.com/' target='_blank' rel='noopener noreferrer' class='innovation-link'>salubataofficial.com</a>"
             }
         ],
         wasteToEnergy: [
@@ -301,7 +301,7 @@ const countryData = {
             },
             {
                 title: "Lagos State Single-Use Plastic Ban (July 2025)",
-                description: "The July 1, 2025 ban on styrofoam, single-use plastic straws, cutlery, and plates marks a turning point for Nigeria's plastic reduction strategy. This landmark policy addresses Lagos's contribution as one of the world's most plastics-polluted urban areas, where 13,000 tons/day of waste is generated with 60% uncollected. Offenders risk business shutdown. Enforcement is being backed by awareness campaigns, alternative product promotion, and strict penalties for non-compliance."
+                description: "The July 1, 2025 ban on styrofoam, single-use plastic straws, cutlery, and plates marks a turning point for Nigeria's plastic reduction strategy. <a class='cite-link' href='../references/#ref-lagos-state-single-use-plastic-ban-policy' title='Source: Lagos State Government – Single-Use Plastic Ban Policy'>↗</a> This landmark policy addresses Lagos's contribution as one of the world's most plastics-polluted urban areas, where 13,000 tons/day of waste is generated with 60% uncollected. Offenders risk business shutdown. Enforcement is being backed by awareness campaigns, alternative product promotion, and strict penalties for non-compliance."
             }
         ],
         impact: [
@@ -320,7 +320,7 @@ const countryData = {
         smartTech: [
             {
                 title: "SHINE Model for Sustainable Waste Management",
-                description: "Developed in 2024-2025 by GIZ in partnership with Rwanda's Ministry of Environment, the SHINE Model is a locally-developed, cost-efficient solid waste management framework grounded in life-cycle thinking and full-cost accounting. Successfully piloted in Bugesera, Rwamagana, and Muhanga, the model emphasizes household-level source separation (organics, recyclables, residuals), integrated logistics solutions tailored to local terrain and infrastructure, and behavior change communication. The SHINE Model fully aligns with Rwanda's Integrated Solid Waste Management Strategy and National Circular Economy Action Plan, positioning Rwanda as a regional leader in circular waste systems."
+                description: "Developed in 2024-2025 by GIZ in partnership with Rwanda's Ministry of Environment, the SHINE Model is a locally-developed, cost-efficient solid waste management framework grounded in life-cycle thinking and full-cost accounting. <a class='cite-link' href='../references/#ref-the-shine-model-sustainable-cost-efficient-waste-management' title='Source: GIZ – The SHINE Model'>↗</a> Successfully piloted in Bugesera, Rwamagana, and Muhanga, the model emphasizes household-level source separation (organics, recyclables, residuals), integrated logistics solutions tailored to local terrain and infrastructure, and behavior change communication. The SHINE Model fully aligns with Rwanda's Integrated Solid Waste Management Strategy and National Circular Economy Action Plan, positioning Rwanda as a regional leader in circular waste systems."
             },
             {
                 title: "Digital E-Waste Tracking and Management Systems",
@@ -330,7 +330,7 @@ const countryData = {
         recycling: [
             {
                 title: "Enviroserve Rwanda Green Park",
-                description: "Rwanda's state-of-the-art e-waste dismantling and recycling facility—the second of its kind in Africa—has trained 70 young Rwandans in electronics repair, maintenance, and recycling. The facility has created 413 green jobs with expansion expected as nationwide collection points become fully operational. Enviroserve provides e-waste collection services not only in Rwanda but also in Uganda, the Democratic Republic of Congo, and Burundi. The facility offers data-wiping services, refurbishment, and responsible dismantling, ensuring hazardous materials like heavy metals are safely processed."
+                description: "Rwanda's state-of-the-art e-waste dismantling and recycling facility—the second of its kind in Africa—has trained 70 young Rwandans in electronics repair, maintenance, and recycling. <a class='cite-link' href='../references/#ref-the-contribution-of-e-waste-recycling-in-promoting-green-growth-a-case-of-enviro' title='Source: Iraguha & Uwimpuhwe – E-Waste Recycling in Rwanda'>↗</a> The facility has created 413 green jobs with expansion expected as nationwide collection points become fully operational. Enviroserve provides e-waste collection services not only in Rwanda but also in Uganda, the Democratic Republic of Congo, and Burundi. The facility offers data-wiping services, refurbishment, and responsible dismantling, ensuring hazardous materials like heavy metals are safely processed. <a href='https://enviroserve.rw/' target='_blank' rel='noopener noreferrer' class='innovation-link'>enviroserve.rw</a>"
             },
             {
                 title: "Plastic Roads Infrastructure",
@@ -342,7 +342,7 @@ const countryData = {
             },
             {
                 title: "Rwanda BioSolutions",
-                description: "This social enterprise transforms waste into affordable, high-quality compost using a blend of rabbit manure, household waste, and local dumpsite materials. By accelerating decomposition with microorganisms, they produce compost in a fraction of the usual time. This provides farmers with an affordable alternative to inorganic fertilizers, improving yields while supporting soil health. The initiative includes 2 permanent staff, 4 part-time staff, and 30 casual workers."
+                description: "This social enterprise transforms waste into affordable, high-quality compost using a blend of rabbit manure, household waste, and local dumpsite materials. By accelerating decomposition with microorganisms, they produce compost in a fraction of the usual time. This provides farmers with an affordable alternative to inorganic fertilizers, improving yields while supporting soil health. The initiative includes 2 permanent staff, 4 part-time staff, and 30 casual workers. <a href='https://www.rwandabiosolution.org/' target='_blank' rel='noopener noreferrer' class='innovation-link'>rwandabiosolution.org</a>"
             }
         ],
         wasteToEnergy: [
@@ -406,7 +406,7 @@ const countryData = {
 // French country-specific innovation data
 const countryDataFr = {
     "south-africa": {
-        overviewText: "L'Afrique du Sud est à la pointe de l'innovation en gestion des déchets sur le continent, avec un accent particulier sur les technologies intelligentes, les cadres de Responsabilité Élargie des Producteurs (REP) et les transitions vers l'économie circulaire. Le pays développe des systèmes de déchets connectés par l'IoT, des startups de recyclage et des solutions de valorisation énergétique — le tout soutenu par un engagement en faveur de politiques inclusives de « Transition Juste » intégrant formellement les ramasseurs informels de déchets.",
+        overviewText: "L'Afrique du Sud est à la pointe de l'innovation en gestion des déchets sur le continent, avec un accent particulier sur les technologies intelligentes, les cadres de Responsabilité Élargie des Producteurs (REP) et les transitions vers l'économie circulaire. <a class='cite-link' href='../references/#ref-national-environmental-management-waste-act' title='Source: DFFE – National Environmental Management: Waste Act'>↗</a> Le pays développe des systèmes de déchets connectés par l'IoT, des startups de recyclage et des solutions de valorisation énergétique — le tout soutenu par un engagement en faveur de politiques inclusives de « Transition Juste » intégrant formellement les ramasseurs informels de déchets.",
         smartTech: [
             {
                 title: "Surveillance Intelligente des Déchets et Technologie IoT",
@@ -416,17 +416,17 @@ const countryDataFr = {
         recycling: [
             {
                 title: "Regenize",
-                description: "Une plateforme numérique qui encourage le recyclage en récompensant les ménages et les ramasseurs informels de déchets grâce à la technologie mobile. Les utilisateurs gagnent des points pour les matériaux recyclables, échangeables contre des biens ou des services. Cette innovation comble le fossé formel-informel et augmente les taux de détournement."
+                description: "Une plateforme numérique qui encourage le recyclage en récompensant les ménages et les ramasseurs informels de déchets grâce à la technologie mobile. Les utilisateurs gagnent des points pour les matériaux recyclables, échangeables contre des biens ou des services. Cette innovation comble le fossé formel-informel et augmente les taux de détournement. <a href='https://regenize.africa/' target='_blank' rel='noopener noreferrer' class='innovation-link'>regenize.africa</a>"
             },
             {
                 title: "Boomba.mobi",
-                description: "Une plateforme mobile reliant la collecte des déchets à l'échange de nourriture et de produits essentiels. Elle comprend des systèmes de traitement organique à petite échelle tels que des fermes de vers pour le vermicompostage, réduisant les déchets organiques envoyés aux décharges tout en produisant des amendements de sol riches en nutriments."
+                description: "Une plateforme mobile reliant la collecte des déchets à l'échange de nourriture et de produits essentiels. Elle comprend des systèmes de traitement organique à petite échelle tels que des fermes de vers pour le vermicompostage, réduisant les déchets organiques envoyés aux décharges tout en produisant des amendements de sol riches en nutriments. <a href='https://boomba.mobi' target='_blank' rel='noopener noreferrer' class='innovation-link'>boomba.mobi</a>"
             }
         ],
         wasteToEnergy: [
             {
                 title: "Centrale Thermique Kibo Gauteng",
-                description: "Cette installation prévue vise à convertir les déchets plastiques en énergie par technologie de pyrolyse, produisant du gaz de synthèse et de l'électricité. Elle représente une étape significative vers le détournement des plastiques non recyclables des décharges tout en contribuant à la production d'énergie renouvelable. Le projet s'aligne sur les objectifs climatiques 2025 de l'Afrique du Sud pour la réduction du méthane."
+                description: "Cette installation prévue vise à convertir les déchets plastiques en énergie par technologie de pyrolyse, produisant du gaz de synthèse et de l'électricité. Elle représente une étape significative vers le détournement des plastiques non recyclables des décharges tout en contribuant à la production d'énergie renouvelable. Le projet s'aligne sur les objectifs climatiques 2025 de l'Afrique du Sud pour la réduction du méthane. <a href='https://kibo.energy/' target='_blank' rel='noopener noreferrer' class='innovation-link'>kibo.energy</a>"
             }
         ],
         community: [
@@ -442,7 +442,7 @@ const countryDataFr = {
             },
             {
                 title: "Membre Fondateur de l'Alliance Africaine pour l'Économie Circulaire (ACEA)",
-                description: "L'Afrique du Sud a cofondé l'Alliance Africaine pour l'Économie Circulaire (ACEA) en 2022 aux côtés de l'Union Africaine, du Forum Économique Mondial, de la Banque Africaine de Développement et de la Banque Mondiale. En tant que membre fondateur, l'Afrique du Sud façonne les politiques, cadres d'investissement et partage de connaissances en économie circulaire continentale."
+                description: "L'Afrique du Sud a cofondé l'Alliance Africaine pour l'Économie Circulaire (ACEA) en 2022 aux côtés de l'Union Africaine, du Forum Économique Mondial, de la Banque Africaine de Développement et de la Banque Mondiale. <a class='cite-link' href='../references/#ref-africa-circular-economy-alliance-acea-framework' title='Source: ACEA Framework'>↗</a> En tant que membre fondateur, l'Afrique du Sud façonne les politiques, cadres d'investissement et partage de connaissances en économie circulaire continentale."
             },
             {
                 title: "Projet de Stratégie Nationale de Gestion des Déchets (NWMS) 2026",
@@ -468,21 +468,21 @@ const countryDataFr = {
         smartTech: [
             {
                 title: "Collecte Pneumatique des Déchets – Konza Technopolis",
-                description: "Le premier réseau souterrain de collecte pneumatique des déchets en Afrique, opérationnel depuis 2025 avec un investissement de 9 millions de dollars. Le système comprend 15 kilomètres de conduites souterraines et 50 points d'entrée avec une capacité de traitement de 40 tonnes/jour. Les utilisateurs déposent les déchets dans des points d'entrée, et ils sont automatiquement transportés par tubes à vide vers des installations de tri centrales. Ce système innovant élimine le besoin de camions de déchets, réduit la congestion routière, diminue les émissions et assure une gestion hygiénique et sans odeur des déchets."
+                description: "Le premier réseau souterrain de collecte pneumatique des déchets en Afrique, opérationnel depuis 2025 avec un investissement de 9 millions de dollars. <a class='cite-link' href='../references/#ref-konza-technopolis-pneumatic-waste-collection-system-project' title='Source: Envac Group – Konza Technopolis'>↗</a> Le système comprend 15 kilomètres de conduites souterraines et 50 points d'entrée avec une capacité de traitement de 40 tonnes/jour. Les utilisateurs déposent les déchets dans des points d'entrée, et ils sont automatiquement transportés par tubes à vide vers des installations de tri centrales. Ce système innovant élimine le besoin de camions de déchets, réduit la congestion routière, diminue les émissions et assure une gestion hygiénique et sans odeur des déchets."
             }
         ],
         recycling: [
             {
                 title: "HyaPak",
-                description: "Convertit la jacinthe d'eau invasive — un problème écologique persistant dans le lac Victoria — en matériaux d'emballage biodégradables. Cette innovation aborde à la fois la pollution environnementale et les déchets plastiques en fournissant une alternative durable aux emballages conventionnels tout en créant des emplois dans les communautés rurales."
+                description: "Convertit la jacinthe d'eau invasive — un problème écologique persistant dans le lac Victoria — en matériaux d'emballage biodégradables. Cette innovation aborde à la fois la pollution environnementale et les déchets plastiques en fournissant une alternative durable aux emballages conventionnels tout en créant des emplois dans les communautés rurales. <a href='https://hyapak.com/' target='_blank' rel='noopener noreferrer' class='innovation-link'>hyapak.com</a>"
             },
             {
                 title: "EcoPost",
-                description: "Traite les déchets plastiques mixtes en produits de construction durables, notamment des clôtures écologiques et des matériaux de construction. EcoPost détourne des milliers de tonnes de plastiques des décharges chaque année tout en fournissant des matériaux d'infrastructure abordables et résistants aux intempéries."
+                description: "Traite les déchets plastiques mixtes en produits de construction durables, notamment des clôtures écologiques et des matériaux de construction. EcoPost détourne des milliers de tonnes de plastiques des décharges chaque année tout en fournissant des matériaux d'infrastructure abordables et résistants aux intempéries. <a href='https://ecopost.co.ke/' target='_blank' rel='noopener noreferrer' class='innovation-link'>ecopost.co.ke</a>"
             },
             {
                 title: "Mr. Green Africa",
-                description: "Une plateforme de recyclage de plastiques assistée par la technologie qui formalise les chaînes d'approvisionnement informelles de récupération des déchets. La plateforme connecte les ramasseurs de déchets, les agrégateurs et les installations de recyclage grâce au suivi numérique, à des prix équitables et à des accords d'achat constants."
+                description: "Une plateforme de recyclage de plastiques assistée par la technologie qui formalise les chaînes d'approvisionnement informelles de récupération des déchets. La plateforme connecte les ramasseurs de déchets, les agrégateurs et les installations de recyclage grâce au suivi numérique, à des prix équitables et à des accords d'achat constants. <a href='https://www.mrgreenafrica.com/' target='_blank' rel='noopener noreferrer' class='innovation-link'>mrgreenafrica.com</a>"
             }
         ],
         wasteToEnergy: [
@@ -594,15 +594,15 @@ const countryDataFr = {
         recycling: [
             {
                 title: "Wecyclers",
-                description: "Une entreprise sociale pionnière utilisant des vélos-cargos à faible coût (Wecycles) pour collecter les déchets recyclables des ménages dans les quartiers à faibles revenus. Les participants gagnent des points via un système SMS, échangeables contre des articles ménagers, de la nourriture ou de l'argent. Wecyclers a détourné des milliers de tonnes de déchets des décharges et fourni des opportunités économiques aux collecteurs de déchets."
+                description: "Une entreprise sociale pionnière utilisant des vélos-cargos à faible coût (Wecycles) pour collecter les déchets recyclables des ménages dans les quartiers à faibles revenus. Les participants gagnent des points via un système SMS, échangeables contre des articles ménagers, de la nourriture ou de l'argent. Wecyclers a détourné des milliers de tonnes de déchets des décharges et fourni des opportunités économiques aux collecteurs de déchets. <a href='https://wecyclers.com/' target='_blank' rel='noopener noreferrer' class='innovation-link'>wecyclers.com</a>"
             },
             {
                 title: "Vicfold Recyclers",
-                description: "Convertit les déchets plastiques en résines utilisées dans l'industrie manufacturière. L'entreprise traite les plastiques post-consommation en matières premières pour les industries, réduisant la dépendance aux importations de plastique vierge tout en répondant à la crise des déchets plastiques du Nigéria."
+                description: "Convertit les déchets plastiques en résines utilisées dans l'industrie manufacturière. L'entreprise traite les plastiques post-consommation en matières premières pour les industries, réduisant la dépendance aux importations de plastique vierge tout en répondant à la crise des déchets plastiques du Nigéria. <a href='https://www.vicfoldrecyclers.com/' target='_blank' rel='noopener noreferrer' class='innovation-link'>vicfoldrecyclers.com</a>"
             },
             {
                 title: "Salubata",
-                description: "Transforme les déchets plastiques en chaussures modulaires et à la mode. Cette entreprise d'upcycling aborde la pollution plastique tout en créant des chaussures abordables et durables pour les marchés locaux, démontrant le potentiel du design circulaire dans les biens de consommation."
+                description: "Transforme les déchets plastiques en chaussures modulaires et à la mode. Cette entreprise d'upcycling aborde la pollution plastique tout en créant des chaussures abordables et durables pour les marchés locaux, démontrant le potentiel du design circulaire dans les biens de consommation. <a href='https://www.salubataofficial.com/' target='_blank' rel='noopener noreferrer' class='innovation-link'>salubataofficial.com</a>"
             }
         ],
         wasteToEnergy: [
@@ -647,7 +647,7 @@ const countryDataFr = {
         smartTech: [
             {
                 title: "Modèle SHINE pour la Gestion Durable des Déchets",
-                description: "Développé en 2024-2025 par la GIZ en partenariat avec le Ministère de l'Environnement du Rwanda, le Modèle SHINE est un cadre de gestion des déchets solides développé localement, rentable, fondé sur la pensée du cycle de vie et la comptabilité des coûts complets. Testé avec succès à Bugesera, Rwamagana et Muhanga, le modèle met l'accent sur le tri à la source au niveau des ménages (organiques, recyclables, résidus), les solutions logistiques intégrées adaptées au terrain local et le changement de comportement."
+                description: "Développé en 2024-2025 par la GIZ en partenariat avec le Ministère de l'Environnement du Rwanda, le Modèle SHINE est un cadre de gestion des déchets solides développé localement, rentable, fondé sur la pensée du cycle de vie et la comptabilité des coûts complets. <a class='cite-link' href='../references/#ref-the-shine-model-sustainable-cost-efficient-waste-management' title='Source: GIZ – The SHINE Model'>↗</a> Testé avec succès à Bugesera, Rwamagana et Muhanga, le modèle met l'accent sur le tri à la source au niveau des ménages (organiques, recyclables, résidus), les solutions logistiques intégrées adaptées au terrain local et le changement de comportement."
             },
             {
                 title: "Systèmes Numériques de Suivi et de Gestion des Déchets Électroniques",
@@ -657,7 +657,7 @@ const countryDataFr = {
         recycling: [
             {
                 title: "Enviroserve Rwanda Green Park",
-                description: "L'installation de démantèlement et de recyclage de déchets électroniques de pointe du Rwanda — la deuxième de ce type en Afrique — a formé 70 jeunes Rwandais en réparation, maintenance et recyclage d'électronique. L'installation a créé 413 emplois verts avec une expansion prévue. Enviroserve fournit des services de collecte de déchets électroniques non seulement au Rwanda mais aussi en Ouganda, en République Démocratique du Congo et au Burundi."
+                description: "L'installation de démantèlement et de recyclage de déchets électroniques de pointe du Rwanda — la deuxième de ce type en Afrique — a formé 70 jeunes Rwandais en réparation, maintenance et recyclage d'électronique. <a class='cite-link' href='../references/#ref-the-contribution-of-e-waste-recycling-in-promoting-green-growth-a-case-of-enviro' title='Source: Iraguha & Uwimpuhwe – E-Waste Recycling in Rwanda'>↗</a> L'installation a créé 413 emplois verts avec une expansion prévue. Enviroserve fournit des services de collecte de déchets électroniques non seulement au Rwanda mais aussi en Ouganda, en République Démocratique du Congo et au Burundi. <a href='https://enviroserve.rw/' target='_blank' rel='noopener noreferrer' class='innovation-link'>enviroserve.rw</a>"
             },
             {
                 title: "Routes en Plastique",
@@ -669,7 +669,7 @@ const countryDataFr = {
             },
             {
                 title: "Rwanda BioSolutions",
-                description: "Cette entreprise sociale transforme les déchets en compost abordable et de haute qualité en utilisant un mélange de fumier de lapin, de déchets ménagers et de matériaux de décharge locaux. En accélérant la décomposition avec des micro-organismes, ils produisent du compost en une fraction du temps habituel, fournissant aux agriculteurs une alternative abordable aux engrais inorganiques."
+                description: "Cette entreprise sociale transforme les déchets en compost abordable et de haute qualité en utilisant un mélange de fumier de lapin, de déchets ménagers et de matériaux de décharge locaux. En accélérant la décomposition avec des micro-organismes, ils produisent du compost en une fraction du temps habituel, fournissant aux agriculteurs une alternative abordable aux engrais inorganiques. <a href='https://www.rwandabiosolution.org/' target='_blank' rel='noopener noreferrer' class='innovation-link'>rwandabiosolution.org</a>"
             }
         ],
         wasteToEnergy: [
@@ -784,7 +784,7 @@ function loadCountryData(countryCode) {
     // Update overview text
     const overviewText = document.querySelector('.overview-text');
     if (overviewText) {
-        overviewText.textContent = data.overviewText;
+        overviewText.innerHTML = data.overviewText;
     }
 
     // Load Smart Technology section

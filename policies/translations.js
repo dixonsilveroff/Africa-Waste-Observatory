@@ -48,12 +48,12 @@ const translations = {
             basel: {
                 title: "Basel Convention on the Control of Transboundary Movements of Hazardous Wastes",
                 coverage: "GLOBAL COVERAGE",
-                description: "Addresses the transboundary movements of hazardous wastes and their disposal, including plastic waste amendments adopted in 2019."
+                description: "Addresses the transboundary movements of hazardous wastes and their disposal, including plastic waste amendments adopted in 2019. <a class='cite-link' href='../references/#ref-basel-convention-on-the-control-of-transboundary-movements-of-hazardous-wastes-a' title='Source: UNEP – Basel Convention'>↗</a>"
             },
             bamako: {
                 title: "Bamako Convention on Hazardous Wastes within Africa",
                 coverage: "REGIONAL (AFRICA FOCUSED)",
-                description: "Prohibits the import of hazardous waste into Africa and regulates the transboundary movement and management of hazardous wastes produced within the continent."
+                description: "Prohibits the import of hazardous waste into Africa and regulates the transboundary movement and management of hazardous wastes produced within the continent. <a class='cite-link' href='../references/#ref-bamako-convention-on-the-ban-of-the-import-into-africa-and-the-control-of-transb' title='Source: African Union – Bamako Convention'>↗</a>"
             },
             stockholm: {
                 title: "Stockholm Convention on Persistent Organic Pollutants",
@@ -63,22 +63,22 @@ const translations = {
             acea: {
                 title: "Africa Circular Economy Alliance (ACEA)",
                 coverage: "CONTINENTAL ALLIANCE",
-                description: "Multi-stakeholder platform advancing circular economy principles across Africa. Founding members include the African Union, World Economic Forum, African Development Bank, World Bank, and South Africa (2022)."
+                description: "Multi-stakeholder platform advancing circular economy principles across Africa. Founding members include the African Union, World Economic Forum, African Development Bank, World Bank, and South Africa (2022). <a class='cite-link' href='../references/#ref-africa-circular-economy-alliance-acea-framework' title='Source: ACEA Framework'>↗</a>"
             },
             agenda2063: {
                 title: "African Union Agenda 2063",
                 coverage: "CONTINENTAL FRAMEWORK",
-                description: "Africa's strategic framework for socio-economic transformation, including environmental sustainability goals and waste management as part of Aspiration 1 (Prosperous Africa based on inclusive growth and sustainable development)."
+                description: "Africa's strategic framework for socio-economic transformation, including environmental sustainability goals and waste management as part of Aspiration 1 (Prosperous Africa based on inclusive growth and sustainable development). <a class='cite-link' href='../references/#ref-african-union-agenda-2063-environmental-sustainability-goals' title='Source: AU Commission – Agenda 2063'>↗</a>"
             },
             eac: {
                 title: "East African Community (EAC) Protocol on Environment and Natural Resources",
                 coverage: "REGIONAL (EAST AFRICA)",
-                description: "Harmonizes environmental management policies among EAC partner states (Kenya, Tanzania, Uganda, Rwanda, Burundi, South Sudan, DRC), including waste management standards and transboundary waste movement."
+                description: "Harmonizes environmental management policies among EAC partner states (Kenya, Tanzania, Uganda, Rwanda, Burundi, South Sudan, DRC), including waste management standards and transboundary waste movement. <a class='cite-link' href='../references/#ref-east-african-community-protocol-on-environment-and-natural-resources-management' title='Source: EAC – Environment Protocol'>↗</a>"
             },
             ecowas: {
                 title: "ECOWAS Policy on Environment",
                 coverage: "REGIONAL (WEST AFRICA)",
-                description: "Economic Community of West African States environmental policy framework addressing waste management, pollution control, and environmental protection across 15 West African nations including Nigeria."
+                description: "Economic Community of West African States environmental policy framework addressing waste management, pollution control, and environmental protection across 15 West African nations including Nigeria. <a class='cite-link' href='../references/#ref-ecowas-policy-on-environment' title='Source: ECOWAS – Environment Policy'>↗</a>"
             }
         },
         meta: {
@@ -166,12 +166,12 @@ const translations = {
             basel: {
                 title: "Convention de Bâle sur le Contrôle des Mouvements Transfrontaliers de Déchets Dangereux",
                 coverage: "COUVERTURE MONDIALE",
-                description: "Traite des mouvements transfrontaliers de déchets dangereux et de leur élimination, y compris les amendements sur les déchets plastiques adoptés en 2019."
+                description: "Traite des mouvements transfrontaliers de déchets dangereux et de leur élimination, y compris les amendements sur les déchets plastiques adoptés en 2019. <a class='cite-link' href='../references/#ref-basel-convention-on-the-control-of-transboundary-movements-of-hazardous-wastes-a' title='Source: UNEP – Basel Convention'>↗</a>"
             },
             bamako: {
                 title: "Convention de Bamako sur les Déchets Dangereux en Afrique",
                 coverage: "RÉGIONAL (AXÉE SUR L'AFRIQUE)",
-                description: "Interdit l'importation de déchets dangereux en Afrique et réglemente le mouvement transfrontalier et la gestion des déchets dangereux produits sur le continent."
+                description: "Interdit l'importation de déchets dangereux en Afrique et réglemente le mouvement transfrontalier et la gestion des déchets dangereux produits sur le continent. <a class='cite-link' href='../references/#ref-bamako-convention-on-the-ban-of-the-import-into-africa-and-the-control-of-transb' title='Source: African Union – Bamako Convention'>↗</a>"
             },
             stockholm: {
                 title: "Convention de Stockholm sur les Polluants Organiques Persistants",
@@ -181,22 +181,22 @@ const translations = {
             acea: {
                 title: "Alliance Africaine pour l'Économie Circulaire (ACEA)",
                 coverage: "ALLIANCE CONTINENTALE",
-                description: "Plateforme multi-acteurs promouvant les principes de l'économie circulaire en Afrique. Les membres fondateurs incluent l'Union Africaine, le Forum Économique Mondial, la Banque Africaine de Développement, la Banque Mondiale et l'Afrique du Sud (2022)."
+                description: "Plateforme multi-acteurs promouvant les principes de l'économie circulaire en Afrique. Les membres fondateurs incluent l'Union Africaine, le Forum Économique Mondial, la Banque Africaine de Développement, la Banque Mondiale et l'Afrique du Sud (2022). <a class='cite-link' href='../references/#ref-africa-circular-economy-alliance-acea-framework' title='Source: ACEA Framework'>↗</a>"
             },
             agenda2063: {
                 title: "Agenda 2063 de l'Union Africaine",
                 coverage: "CADRE CONTINENTAL",
-                description: "Cadre stratégique de l'Afrique pour la transformation socio-économique, incluant les objectifs de durabilité environnementale et la gestion des déchets dans le cadre de l'Aspiration 1 (Afrique prospère basée sur la croissance inclusive et le développement durable)."
+                description: "Cadre stratégique de l'Afrique pour la transformation socio-économique, incluant les objectifs de durabilité environnementale et la gestion des déchets dans le cadre de l'Aspiration 1 (Afrique prospère basée sur la croissance inclusive et le développement durable). <a class='cite-link' href='../references/#ref-african-union-agenda-2063-environmental-sustainability-goals' title='Source: AU Commission – Agenda 2063'>↗</a>"
             },
             eac: {
                 title: "Protocole de la Communauté d'Afrique de l'Est (CAE) sur l'Environnement et les Ressources Naturelles",
                 coverage: "RÉGIONAL (AFRIQUE DE L'EST)",
-                description: "Harmonise les politiques de gestion environnementale entre les États partenaires de la CAE (Kenya, Tanzanie, Ouganda, Rwanda, Burundi, Soudan du Sud, RDC), y compris les normes de gestion des déchets et le mouvement transfrontalier des déchets."
+                description: "Harmonise les politiques de gestion environnementale entre les États partenaires de la CAE (Kenya, Tanzanie, Ouganda, Rwanda, Burundi, Soudan du Sud, RDC), y compris les normes de gestion des déchets et le mouvement transfrontalier des déchets. <a class='cite-link' href='../references/#ref-east-african-community-protocol-on-environment-and-natural-resources-management' title='Source: EAC – Environment Protocol'>↗</a>"
             },
             ecowas: {
                 title: "Politique Environnementale de la CEDEAO",
                 coverage: "RÉGIONAL (AFRIQUE DE L'OUEST)",
-                description: "Cadre de politique environnementale de la Communauté Économique des États de l'Afrique de l'Ouest traitant de la gestion des déchets, du contrôle de la pollution et de la protection de l'environnement dans 15 nations ouest-africaines dont le Nigeria."
+                description: "Cadre de politique environnementale de la Communauté Économique des États de l'Afrique de l'Ouest traitant de la gestion des déchets, du contrôle de la pollution et de la protection de l'environnement dans 15 nations ouest-africaines dont le Nigeria. <a class='cite-link' href='../references/#ref-ecowas-policy-on-environment' title='Source: ECOWAS – Environment Policy'>↗</a>"
             }
         },
         meta: {
