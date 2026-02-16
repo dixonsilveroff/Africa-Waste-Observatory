@@ -3115,6 +3115,11 @@ footer {
 
 /* Responsive Design for Policies Page */
 @media (max-width: 768px) {
+    .policies-page .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
     .policies-page .hero-section {
         padding: 2rem 0;
     }
