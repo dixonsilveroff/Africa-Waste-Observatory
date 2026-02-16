@@ -1871,7 +1871,7 @@ footer {
     text-transform: uppercase;
     letter-spacing: 0.5px;
     white-space: nowrap;
-    opacity: 45%;
+    opacity: 0.45;
 }
 
 .reference-author,
