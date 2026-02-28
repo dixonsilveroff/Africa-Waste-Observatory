@@ -3,22 +3,27 @@ const year = new Date().getFullYear();
 // Shared reference slug utility - generates a consistent ID from a reference title
 // Used on the references page to create anchor IDs, and on other pages to create links
 function slugifyRef(title) {
-    return 'ref-' + title.toLowerCase()
-        .replace(/['']/g, '')
-        .replace(/[^a-z0-9]+/g, '-')
-        .replace(/^-+|-+$/g, '')
-        .substring(0, 80);
+  return (
+    "ref-" +
+    title
+      .toLowerCase()
+      .replace(/['']/g, "")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "")
+      .substring(0, 80)
+  );
 }
 
 // Detect if we're in a subdirectory
-const isSubdirectory = window.location.pathname.includes('/about/') || 
-                       window.location.pathname.includes('/country-profiles/') || 
-                       window.location.pathname.includes('/waste-streams/') || 
-                       window.location.pathname.includes('/innovations/') || 
-                       window.location.pathname.includes('/policies/') || 
-                       window.location.pathname.includes('/references/');
+const isSubdirectory =
+  window.location.pathname.includes("/about/") ||
+  window.location.pathname.includes("/country-profiles/") ||
+  window.location.pathname.includes("/waste-streams/") ||
+  window.location.pathname.includes("/innovations/") ||
+  window.location.pathname.includes("/policies/") ||
+  window.location.pathname.includes("/references/");
 
-const pathPrefix = isSubdirectory ? '../' : './';
+const pathPrefix = isSubdirectory ? "../" : "./";
 
 // Header Component Template
 const headerTemplate = `
@@ -61,7 +66,7 @@ const footerTemplate = `
             <h4 data-i18n="footer.contact">Contact</h4>
             <ul>
                 <li><a href="mailto:africawasteobservatory@gmail.com">Email: africawasteobservatory@gmail.com</a></li>
-                <li><a href="https://funai.edu.ng/sp/faculty/s/faculty-of-engineering-and-technology" target=_blank>Faculty of Engineering and Technology,<br>Alex Ekwueme Federal University, Ndufu-Alike, Ikwo, Nigeria</a></li>
+                <li>The Africa Waste Observatory,<br>7 Paddock View, Dunstall Park, Wolverhampton WV60UU,<br>United Kingdom</li>
             </ul>
         </div>
     </div>
@@ -73,48 +78,48 @@ const footerTemplate = `
 
 // Render components immediately
 function renderComponents() {
-    // Render header
-    const headerPlaceholder = document.getElementById('header-placeholder');
-    if (headerPlaceholder) {
-        headerPlaceholder.innerHTML = headerTemplate;
-    }
+  // Render header
+  const headerPlaceholder = document.getElementById("header-placeholder");
+  if (headerPlaceholder) {
+    headerPlaceholder.innerHTML = headerTemplate;
+  }
 
-    // Render footer
-    const footerPlaceholder = document.getElementById('footer-placeholder');
-    if (footerPlaceholder) {
-        footerPlaceholder.innerHTML = footerTemplate;
-    }
+  // Render footer
+  const footerPlaceholder = document.getElementById("footer-placeholder");
+  if (footerPlaceholder) {
+    footerPlaceholder.innerHTML = footerTemplate;
+  }
 
-    // Initialize header functionality
-    initializeHeader();
+  // Initialize header functionality
+  initializeHeader();
 }
 
 // Initialize header interactions
 function initializeHeader() {
-    const hamburger = document.getElementById('hamburger');
-    const navMenu = document.getElementById('nav-menu');
+  const hamburger = document.getElementById("hamburger");
+  const navMenu = document.getElementById("nav-menu");
 
-    if (hamburger && navMenu) {
-        hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
-            navMenu.classList.toggle('active');
-        });
+  if (hamburger && navMenu) {
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      navMenu.classList.toggle("active");
+    });
 
-        // Close menu when a link is clicked
-        const navLinks = navMenu.querySelectorAll('a');
-        navLinks.forEach(link => {
-            link.addEventListener('click', () => {
-                hamburger.classList.remove('active');
-                navMenu.classList.remove('active');
-            });
-        });
-    }
+    // Close menu when a link is clicked
+    const navLinks = navMenu.querySelectorAll("a");
+    navLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+      });
+    });
+  }
 }
 
 // Run immediately when script loads
 renderComponents();
 
 // Initialize Lucide icons (replaces <i data-lucide="..."> with inline SVGs)
-if (typeof lucide !== 'undefined') {
-    lucide.createIcons();
+if (typeof lucide !== "undefined") {
+  lucide.createIcons();
 }
