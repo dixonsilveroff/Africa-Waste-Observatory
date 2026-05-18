@@ -65,7 +65,7 @@ const footerTemplate = `
         <div class="footer-section">
             <h4 data-i18n="footer.contact">Contact</h4>
             <ul>
-                <li><a href="mailto:africawasteobservatory@gmail.com">Email: africawasteobservatory@gmail.com</a></li>
+                <li><a href="mailto:info@africawasteobservatory.org">Email: info@africawasteobservatory.org</a></li>
                 <li>The Africa Waste Observatory,<br>7 Paddock View, Dunstall Park, Wolverhampton WV60UU,<br>United Kingdom</li>
             </ul>
         </div>
