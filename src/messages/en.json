@@ -1,0 +1,187 @@
+{
+  "common": {
+    "nav": {
+      "about": "About",
+      "countries": "Country Profiles",
+      "streams": "Waste Streams",
+      "innovations": "Innovations",
+      "policies": "Policies",
+      "references": "References"
+    },
+    "footer": {
+      "references": "References",
+      "dataSources": "Data Sources",
+      "privacy": "Privacy Policy",
+      "contact": "Contact",
+      "copyright": "© {year} Africa Waste Observatory. All rights reserved."
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "The Africa Waste Observatory",
+      "subtitle": "Advancing Sustainable Waste Management in Africa",
+      "description": "Africa faces a rapidly escalating waste challenge driven by urbanization, population growth, economic development, and changing consumption patterns. Waste types now span solid, liquid, and gaseous streams, each posing complex environmental, public health, and socioeconomic risks. Without accurate, harmonized data, governments, investors, researchers, and communities are unable to plan, finance, and implement effective waste and pollution management systems. The Africa Waste Observatory (AWO) serves as a central hub for consolidated continental waste data, performance indicators, and transformative strategies to drive a cleaner, healthier, and circular Africa."
+    },
+    "challenge": {
+      "title": "The Waste Challenge in Africa",
+      "coverage": "Low waste collection and treatment coverage, especially in informal, peri-urban, and rural areas.",
+      "enforcement": "Weak enforcement of waste, water, and emissions regulations.",
+      "recycling": "Limited recycling, wastewater treatment, and gaseous emissions controls.",
+      "data": "Severe lack of accurate, comparable waste and emissions data continent-wide."
+    },
+    "solution": {
+      "title": "Our Solution",
+      "subtitle": "The Africa Waste Observatory provides:",
+      "item1": "Standardized continental data on solid, liquid, gaseous and other kinds of waste.",
+      "item2": "Interactive dashboards for policy formulation, investment planning, and monitoring.",
+      "item3": "Country profiles detailing generation, treatment, recycling, and emissions.",
+      "item4": "Policy-relevant analysis and practical, scalable solutions."
+    },
+    "objectives": {
+      "title": "Our Core Objectives",
+      "data": {
+        "title": "Data Collection & Harmonization",
+        "desc": "Standardize waste data across Africa for coherent analysis."
+      },
+      "policy": {
+        "title": "Policy Development Support",
+        "desc": "Provide evidence based insights to inform waste policy formulation."
+      },
+      "innovation": {
+        "title": "Innovation & Best Practices",
+        "desc": "Showcase and promote cutting-edge waste management solutions."
+      },
+      "capacity": {
+        "title": "Capacity Building & Training",
+        "desc": "Empower local communities with tools for sustainable practices."
+      }
+    },
+    "deliver": {
+      "title": "What We Deliver",
+      "item1": {
+        "title": "Country-Level Waste Profiles",
+        "desc": "Covering all waste streams"
+      },
+      "item2": {
+        "title": "Waste Generation Data",
+        "desc": "Comprehensive treatment and generation statistics"
+      },
+      "item3": {
+        "title": "Performance Indicators",
+        "desc": "Collection coverage and efficiency metrics"
+      },
+      "item4": {
+        "title": "Policy Briefs",
+        "desc": "Benchmarking and best-practice sharing"
+      }
+    },
+    "explore": {
+      "title": "Explore the Observatory",
+      "countries": {
+        "title": "Country Profiles",
+        "desc": "Access country-specific waste profiles and statistics."
+      },
+      "streams": {
+        "title": "Waste Streams",
+        "desc": "Analyze detailed data on various types of waste materials."
+      },
+      "tech": {
+        "title": "Technologies",
+        "desc": "Discover innovative waste processing and recycling technologies."
+      },
+      "policies": {
+        "title": "Policies",
+        "desc": "Review existing waste management policies and regulations."
+      }
+    },
+    "insights": {
+      "title": "Featured Insights & Highlights",
+      "plastic": {
+        "title": "Significant reduction in plastic waste in coastal regions due to new initiatives.",
+        "stat": "15%",
+        "label": "Plastic Waste Reduced",
+        "source": "Source: Environmental Agency Report"
+      },
+      "investment": {
+        "title": "Increase in recycling infrastructure investments across West Africa.",
+        "stat": "21%",
+        "label": "Investment Growth",
+        "source": "Source: African Development Bank"
+      },
+      "policy": {
+        "title": "New policy framework adopted by 10 nations for circular economy principles.",
+        "stat": "10",
+        "label": "Policy Adoption",
+        "source": "Source: UN Environment Programme"
+      },
+      "composting": {
+        "title": "Successful implementation of organic composting programs in urban centers.",
+        "stat": "15%",
+        "label": "Organic Waste Diverted",
+        "source": "Source: Local Municipality Data"
+      }
+    },
+    "impact": {
+      "title": "Impact Goals",
+      "cities": "Cleaner Cities & Communities",
+      "health": "Improved Public Health Outcomes",
+      "recycling": "Increased Recycling & Resource Recovery",
+      "pollution": "Reduced Environmental Pollution",
+      "circular": "Accelerated Circular Economy Transition"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About the Africa Waste Observatory"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "intro": "Our mission is to collect, analyze, and disseminate critical information on waste generation, composition, treatment, and disposal practices across Africa. By providing accessible and reliable data, we aim to:",
+      "item1": "Support informed decision-making by equipping governments and organizations with evidence-based insights to develop effective waste management policies and strategies.",
+      "item2": "Promote Best Practices by highlighting sustainable waste reduction, recycling, and recovery initiatives that can be replicated and scaled across the continent.",
+      "item3": "Foster Collaboration by creating a network of stakeholders, including researchers, policymakers, industry leaders, and local communities, to drive collective action towards sustainable waste management.",
+      "item4": "Raise Awareness by educating the public on the environmental, social, and economic impacts of waste, encouraging responsible consumption and disposal behaviors.",
+      "closing": "We believe that a well-informed continent is a powerful continent, capable of tackling its most pressing environmental challenges."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "intro": "We envision an Africa where waste is viewed as a resource, not a burden. A continent where innovative waste management solutions drive economic growth, protect public health, and preserve natural ecosystems. Our long-term vision includes:",
+      "item1": "Zero Waste Communities by supporting the development of urban and rural areas that minimize waste generation and maximize resource recovery.",
+      "item2": "Circular Economy Hub by positioning Africa as a leader in circular economy principles, creating value from waste materials and reducing reliance on virgin resources.",
+      "item3": "Data-Driven Innovation by becoming the go-to source for data that fuels research, technology development, and entrepreneurial solutions in waste management.",
+      "item4": "Environmental Resilience by contributing to climate change mitigation and adaptation efforts by reducing landfill emissions and promoting greener waste management practices.",
+      "closing": "Through continuous research, stakeholder engagement, and strategic partnerships, we are committed to making this vision a reality for every African nation."
+    },
+    "why": {
+      "title": "Why We Exist",
+      "text": "Effective waste management depends on accurate data and informed decision-making. Across Africa, data is often fragmented, outdated, or inconsistent, making it difficult to allocate resources, design effective policies, or measure progress. AWO was created to fill this critical gap."
+    },
+    "objectives": {
+      "title": "Core Objectives",
+      "item1": "Improve waste management systems (solid, liquid, gaseous).",
+      "item2": "Promote integrated waste management based on the hierarchy: reduce, reuse, recycle, treat, dispose.",
+      "item3": "Support evidence-based policies and investment plans.",
+      "item4": "Guide financial institutions on sustainable infrastructure.",
+      "item5": "Strengthen regional capacity and collaboration."
+    },
+    "how": {
+      "title": "How AWO Works",
+      "data": {
+        "title": "Data Collection",
+        "desc": "From national environment agencies, utilities, municipalities, researchers, and partners."
+      },
+      "harmonization": {
+        "title": "Harmonization",
+        "desc": "Standardized indicators and definitions."
+      },
+      "analysis": {
+        "title": "Analysis & Reporting",
+        "desc": "Translate raw data into actionable insights."
+      },
+      "knowledge": {
+        "title": "Knowledge Sharing",
+        "desc": "Disseminate best practices, case studies, and tools."
+      }
+    }
+  }
+}
