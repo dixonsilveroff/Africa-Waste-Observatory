@@ -22,11 +22,11 @@ export default function LanguageSwitcher() {
     <select
       value={locale}
       onChange={handleChange}
-      className="rounded-md border border-gray-300 bg-white px-2 py-1 text-xs font-medium text-[#1E293B] focus:border-[#047E37] focus:outline-none focus:ring-1 focus:ring-[#047E37]"
+      className="rounded-moderate bg-surface-container-low px-3 py-1.5 text-xs font-medium text-on-surface border-0 focus:outline-none focus:border-l-2 focus:border-l-primary transition-all cursor-pointer"
       aria-label="Select language"
     >
       {locales.map(({ code, label }) => (
-        <option key={code} value={code}>
+        <option key={code} value={code} className="bg-surface text-on-surface">
           {label}
         </option>
       ))}

@@ -5,26 +5,28 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#1E293B] text-white">
-      <div className="mx-auto max-w-7xl px-6 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <footer className="bg-on-surface text-surface">
+      <div className="mx-auto max-w-7xl px-6 py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div>
-            <h2 className="text-lg font-bold">Africa Waste Observatory</h2>
-            <p className="mt-3 text-sm text-gray-300 max-w-md">
+            <h2 className="font-display text-xl font-bold tracking-tight text-surface">
+              Africa Waste Observatory
+            </h2>
+            <p className="mt-4 text-sm text-surface/70 max-w-md leading-relaxed">
               Tracking, managing, and transforming waste across Africa through
               data-driven intelligence and collaborative research.
             </p>
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wide text-gray-400">
+            <h3 className="font-display text-sm font-semibold uppercase tracking-wider text-surface/50">
               {t('footer.contact')}
             </h3>
-            <ul className="mt-3 space-y-2 text-sm text-gray-300">
+            <ul className="mt-4 space-y-2 text-sm text-surface/80">
               <li>
                 <a
                   href="mailto:info@africawasteobservatory.org"
-                  className="hover:text-white transition-colors"
+                  className="hover:text-surface transition-colors"
                 >
                   info@africawasteobservatory.org
                 </a>
@@ -33,12 +35,10 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-      </div>
 
-      <div className="border-t border-gray-700">
-        <div className="mx-auto max-w-7xl px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-gray-400">
+        <div className="mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-surface/50">
           <span>&copy; {currentYear} Africa Waste Observatory. All rights reserved.</span>
-          <span>{t('footer.privacy')}</span>
+          <span className="hover:text-surface/80 transition-colors cursor-pointer">{t('footer.privacy')}</span>
         </div>
       </div>
     </footer>

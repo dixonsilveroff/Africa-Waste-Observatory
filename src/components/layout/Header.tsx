@@ -8,7 +8,7 @@ export default function Header() {
   const t = useTranslations('common');
 
   return (
-    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
+    <header className="sticky top-0 z-50 bg-surface/80 backdrop-blur-md shadow-ambient transition-all">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link href="/" className="flex-shrink-0">
           <Image
@@ -23,7 +23,7 @@ export default function Header() {
         <nav className="hidden md:flex items-center gap-8">
           <Link
             href="/about"
-            className="text-sm font-medium text-[#1E293B] hover:text-[#047E37] transition-colors"
+            className="text-sm font-medium text-on-surface hover:text-primary transition-colors"
           >
             {t('nav.about')}
           </Link>
