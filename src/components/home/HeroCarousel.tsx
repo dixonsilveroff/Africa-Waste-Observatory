@@ -21,20 +21,20 @@ export default function HeroCarousel() {
   }, []);
 
   useEffect(() => {
-    const interval = setInterval(nextSlide, 5000);
+    const interval = setInterval(nextSlide, 6000);
     return () => clearInterval(interval);
   }, [nextSlide]);
 
   return (
-    <section className="relative h-[80vh] min-h-[600px] overflow-hidden">
+    <section className="relative h-[85vh] min-h-[640px] overflow-hidden bg-on-surface">
       {/* Background slides */}
       <AnimatePresence mode="wait">
         <motion.div
           key={currentSlide}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          initial={{ opacity: 0, scale: 1.05 }}
+          animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 1.2, ease: 'easeOut' }}
           className="absolute inset-0"
         >
           <Image
@@ -48,31 +48,35 @@ export default function HeroCarousel() {
         </motion.div>
       </AnimatePresence>
 
-      {/* Dark overlay */}
-      <div className="absolute inset-0 bg-black/50" />
+      {/* Editorial Gradient Scrim */}
+      <div className="absolute inset-0 bg-gradient-to-t from-on-surface via-on-surface/60 to-on-surface/30" />
 
       {/* Content */}
       <div className="relative z-10 flex h-full items-center justify-center">
-        <div className="max-w-4xl px-6 text-center text-white">
-          <h1 className="text-3xl font-bold md:text-5xl">{t('hero.title')}</h1>
-          <h2 className="mt-4 text-xl font-light md:text-2xl">
+        <div className="max-w-5xl px-6 text-center text-white">
+          <span className="inline-block mb-4 text-xs font-semibold uppercase tracking-widest text-primary-fixed-dim bg-primary-container/80 px-4 py-1.5 rounded-full">
             {t('hero.subtitle')}
-          </h2>
-          <p className="mt-6 text-base leading-relaxed text-white/80 md:text-lg">
+          </span>
+          <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-tight">
+            {t('hero.title')}
+          </h1>
+          <p className="mt-6 mx-auto max-w-3xl text-base sm:text-lg font-normal leading-relaxed text-white/85">
             {t('hero.description')}
           </p>
         </div>
       </div>
 
-      {/* Dot controls */}
-      <div className="absolute bottom-8 left-1/2 z-10 flex -translate-x-1/2 gap-3">
+      {/* Editorial slide indicators */}
+      <div className="absolute bottom-10 left-1/2 z-10 flex -translate-x-1/2 gap-2">
         {slides.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrentSlide(index)}
             aria-label={`Go to slide ${index + 1}`}
-            className={`h-3 w-3 rounded-full transition-colors ${
-              index === currentSlide ? 'bg-white' : 'bg-white/40'
+            className={`h-1.5 rounded-full transition-all duration-300 cursor-pointer ${
+              index === currentSlide
+                ? 'w-8 bg-white'
+                : 'w-2.5 bg-white/40 hover:bg-white/70'
             }`}
           />
         ))}

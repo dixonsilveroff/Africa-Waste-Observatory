@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import { DataPod } from '@/components/ui/DataPod';
 
 const items = ['plastic', 'investment', 'policy', 'composting'] as const;
 
@@ -6,30 +7,27 @@ export default function FeaturedInsights() {
   const t = useTranslations('home');
 
   return (
-    <section className="bg-background py-20 px-6">
+    <section className="bg-surface-container-low py-24 px-6">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-12 text-center text-3xl font-bold">
-          {t('insights.title')}
-        </h2>
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <span className="text-xs font-semibold uppercase tracking-widest text-primary mb-3 block">
+            Verified Intelligence
+          </span>
+          <h2 className="font-display text-3xl sm:text-4xl font-bold tracking-tight text-on-surface">
+            {t('insights.title')}
+          </h2>
+        </div>
+
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
           {items.map((key) => (
-            <div
+            <DataPod
               key={key}
-              className="rounded-lg bg-white p-6 shadow-sm"
-            >
-              <h4 className="mb-3 text-sm font-medium text-muted">
-                {t(`insights.${key}.title`)}
-              </h4>
-              <p className="text-4xl font-bold text-primary">
-                {t(`insights.${key}.stat`)}
-              </p>
-              <p className="mt-2 text-sm">
-                {t(`insights.${key}.label`)}
-              </p>
-              <p className="mt-3 text-xs text-muted">
-                {t(`insights.${key}.source`)}
-              </p>
-            </div>
+              trend="positive"
+              label={t(`insights.${key}.label`)}
+              stat={t(`insights.${key}.stat`)}
+              sublabel={t(`insights.${key}.title`)}
+              className="bg-surface-container-lowest shadow-ambient hover:shadow-ambient-lg"
+            />
           ))}
         </div>
       </div>
