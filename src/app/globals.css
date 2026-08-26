@@ -3,22 +3,15 @@
 
 @layer base {
   body {
-    @apply font-sans text-text antialiased;
+    background-color: #F9F9FF;
+    color: #141B2B;
+    font-family: var(--font-inter), sans-serif;
+    -webkit-font-smoothing: antialiased;
   }
 
-  h1 {
-    @apply text-4xl font-extrabold leading-tight md:text-5xl lg:text-6xl;
-  }
-
-  h2 {
-    @apply text-3xl font-bold leading-snug md:text-4xl;
-  }
-
-  h3 {
-    @apply text-xl font-semibold leading-snug md:text-2xl;
-  }
-
-  h4 {
-    @apply text-lg font-medium leading-snug md:text-xl;
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-public-sans), sans-serif;
+    color: #141B2B;
+    letter-spacing: -0.02em;
   }
 }
