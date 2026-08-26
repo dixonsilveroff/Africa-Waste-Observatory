@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@config "../../tailwind.config.ts";
+
+@layer base {
+  body {
+    background-color: #F9F9FF;
+    color: #141B2B;
+    font-family: var(--font-inter), sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-public-sans), sans-serif;
+    color: #141B2B;
+    letter-spacing: -0.02em;
+  }
+}
