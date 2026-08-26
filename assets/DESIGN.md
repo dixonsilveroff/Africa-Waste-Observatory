@@ -7,6 +7,7 @@ We break the "template" look through:
 *   **Intentional Asymmetry:** Using generous, uneven white space to guide the eye.
 *   **Tonal Depth:** Replacing harsh lines with sophisticated surface layering.
 *   **Authoritative Scale:** High-contrast typography that makes a statement before a single word is read.
+*   **Brutalist Design:** Using raw, unpolished elements to create a sense of authenticity and rawness.
 
 ## 2. Colors & Surface Architecture
 The color palette is grounded in the deep greens of dense foliage (#154212) and the dark, slate tones of professional governance.
@@ -21,8 +22,8 @@ Treat the UI as a series of physical layers, like stacked sheets of fine, heavy-
 *   **Standard Cards/Modules:** `surface-container` (#e9edff)
 *   **Floating/High Importance:** `surface-container-highest` (#dce2f7)
 
-### The "Glass & Gradient" Rule
-To elevate the experience beyond "standard flat UI," use semi-transparent `surface` colors with a `backdrop-filter: blur(12px)` for floating navigation or overlays. Main CTAs should utilize a subtle linear gradient from `primary` (#154212) to `primary_container` (#2D5A27) at a 135-degree angle to provide "visual soul."
+### The "Glass" Rule
+To elevate the experience beyond "standard flat UI," use semi-transparent `surface` colors with a `backdrop-filter: blur(12px)` for floating navigation or overlays.
 
 ## 3. Typography
 The system utilizes a dual-typeface approach to balance authority with readability.
@@ -62,7 +63,6 @@ Depth is achieved through **Tonal Layering**, not structural lines.
 ## 6. Do's and Don'ts
 
 ### Do
-*   **Do** use asymmetrical layouts (e.g., a large headline on the left with body text shifted to the right column).
 *   **Do** prioritize "negative space" through spacious padding (level 3).
 *   **Do** use `primary_fixed_dim` for subtle background accents in data-heavy areas.
 

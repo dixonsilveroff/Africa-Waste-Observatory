@@ -1,0 +1,187 @@
+{
+  "common": {
+    "nav": {
+      "about": "À propos",
+      "countries": "Profils des Pays",
+      "streams": "Flux de Déchets",
+      "innovations": "Innovations",
+      "policies": "Politiques",
+      "references": "Références"
+    },
+    "footer": {
+      "references": "Références",
+      "dataSources": "Sources de Données",
+      "privacy": "Politique de Confidentialité",
+      "contact": "Contact",
+      "copyright": "© {year} Observatoire Africain des Déchets. Tous droits réservés."
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "L'Observatoire Africain des Déchets",
+      "subtitle": "Promouvoir la Gestion Durable des Déchets en Afrique",
+      "description": "L'Afrique est confrontée à un défi croissant en matière de déchets, alimenté par l'urbanisation, la croissance démographique, le développement économique et l'évolution des modes de consommation. Les types de déchets englobent désormais les flux solides, liquides et gazeux, chacun posant des risques environnementaux, de santé publique et socio-économiques complexes. Sans données précises et harmonisées, les gouvernements, les investisseurs, les chercheurs et les communautés ne peuvent planifier, financer et mettre en œuvre des systèmes efficaces de gestion des déchets et de la pollution. L'Observatoire Africain des Déchets (OAD) sert de pôle central pour les données continentales consolidées sur les déchets, les indicateurs de performance et les stratégies transformatrices visant à promouvoir une Afrique plus propre, plus saine et circulaire."
+    },
+    "challenge": {
+      "title": "Le Défi des Déchets en Afrique",
+      "coverage": "Faible couverture de collecte et de traitement des déchets, en particulier dans les zones informelles, périurbaines et rurales.",
+      "enforcement": "Faible application des réglementations sur les déchets, l'eau et les émissions.",
+      "recycling": "Recyclage limité, traitement des eaux usées et contrôle des émissions gazeuses.",
+      "data": "Manque sévère de données précises et comparables sur les déchets et les émissions à l'échelle continentale."
+    },
+    "solution": {
+      "title": "Notre Solution",
+      "subtitle": "L'Observatoire Africain des Déchets fournit :",
+      "item1": "Des données continentales standardisées sur les déchets solides, liquides, gazeux et autres types de déchets.",
+      "item2": "Des tableaux de bord interactifs pour la formulation de politiques, la planification des investissements et le suivi.",
+      "item3": "Des profils pays détaillant la génération, le traitement, le recyclage et les émissions.",
+      "item4": "Des analyses pertinentes pour les politiques et des solutions pratiques et évolutives."
+    },
+    "objectives": {
+      "title": "Nos Objectifs Principaux",
+      "data": {
+        "title": "Collecte et Harmonisation des Données",
+        "desc": "Standardiser les données sur les déchets en Afrique pour une analyse cohérente."
+      },
+      "policy": {
+        "title": "Soutien au Développement des Politiques",
+        "desc": "Fournir des informations fondées sur des preuves pour éclairer la formulation des politiques de gestion des déchets."
+      },
+      "innovation": {
+        "title": "Innovation et Meilleures Pratiques",
+        "desc": "Présenter et promouvoir des solutions de pointe en gestion des déchets."
+      },
+      "capacity": {
+        "title": "Renforcement des Capacités et Formation",
+        "desc": "Donner aux communautés locales les outils pour des pratiques durables."
+      }
+    },
+    "deliver": {
+      "title": "Ce Que Nous Offrons",
+      "item1": {
+        "title": "Profils des Déchets au Niveau des Pays",
+        "desc": "Couvrant tous les flux de déchets"
+      },
+      "item2": {
+        "title": "Données sur la Génération de Déchets",
+        "desc": "Statistiques complètes sur le traitement et la génération"
+      },
+      "item3": {
+        "title": "Indicateurs de Performance",
+        "desc": "Couverture de collecte et mesures d'efficacité"
+      },
+      "item4": {
+        "title": "Notes de Politique",
+        "desc": "Benchmarking et partage des meilleures pratiques"
+      }
+    },
+    "explore": {
+      "title": "Explorer l'Observatoire",
+      "countries": {
+        "title": "Profils des Pays",
+        "desc": "Accéder aux profils et statistiques des déchets spécifiques à chaque pays."
+      },
+      "streams": {
+        "title": "Flux de Déchets",
+        "desc": "Analyser des données détaillées sur divers types de matériaux de déchets."
+      },
+      "tech": {
+        "title": "Technologies",
+        "desc": "Découvrir des technologies innovantes de traitement et de recyclage des déchets."
+      },
+      "policies": {
+        "title": "Politiques",
+        "desc": "Examiner les politiques et réglementations existantes en matière de gestion des déchets."
+      }
+    },
+    "insights": {
+      "title": "Informations et Faits Saillants",
+      "plastic": {
+        "title": "Réduction significative des déchets plastiques dans les régions côtières grâce à de nouvelles initiatives.",
+        "stat": "15%",
+        "label": "Déchets Plastiques Réduits",
+        "source": "Source: Rapport de l'Agence Environnementale"
+      },
+      "investment": {
+        "title": "Augmentation des investissements dans les infrastructures de recyclage en Afrique de l'Ouest.",
+        "stat": "21%",
+        "label": "Croissance des Investissements",
+        "source": "Source: Banque Africaine de Développement"
+      },
+      "policy": {
+        "title": "Nouveau cadre politique adopté par 10 nations pour les principes de l'économie circulaire.",
+        "stat": "10",
+        "label": "Adoption de Politiques",
+        "source": "Source: Programme des Nations Unies pour l'Environnement"
+      },
+      "composting": {
+        "title": "Mise en œuvre réussie de programmes de compostage organique dans les centres urbains.",
+        "stat": "15%",
+        "label": "Déchets Organiques Détournés",
+        "source": "Source: Données Municipales Locales"
+      }
+    },
+    "impact": {
+      "title": "Objectifs d'Impact",
+      "cities": "Villes et Communautés Plus Propres",
+      "health": "Amélioration des Résultats de Santé Publique",
+      "recycling": "Augmentation du Recyclage et de la Récupération des Ressources",
+      "pollution": "Réduction de la Pollution Environnementale",
+      "circular": "Accélération de la Transition vers l'Économie Circulaire"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "À Propos de l'Observatoire Africain des Déchets"
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "intro": "Notre mission est de collecter, analyser et diffuser des informations critiques sur la génération, la composition, le traitement et l'élimination des déchets en Afrique. En fournissant des données accessibles et fiables, nous visons à:",
+      "item1": "Soutenir la prise de décision éclairée en fournissant aux gouvernements et aux organisations des informations fondées sur des preuves pour développer des politiques et stratégies efficaces de gestion des déchets.",
+      "item2": "Promouvoir les Meilleures Pratiques en mettant en évidence des initiatives durables de réduction, de recyclage et de récupération des déchets qui peuvent être reproduites et étendues à travers le continent.",
+      "item3": "Favoriser la Collaboration en créant un réseau de parties prenantes, y compris des chercheurs, des décideurs politiques, des leaders de l'industrie et des communautés locales, pour conduire une action collective vers une gestion durable des déchets.",
+      "item4": "Sensibiliser en éduquant le public sur les impacts environnementaux, sociaux et économiques des déchets, encourageant une consommation et des comportements d'élimination responsables.",
+      "closing": "Nous croyons qu'un continent bien informé est un continent puissant, capable de relever ses défis environnementaux les plus pressants."
+    },
+    "vision": {
+      "title": "Notre Vision",
+      "intro": "Nous envisageons une Afrique où les déchets sont considérés comme une ressource, et non comme un fardeau. Un continent où des solutions innovantes de gestion des déchets stimulent la croissance économique, protègent la santé publique et préservent les écosystèmes naturels. Notre vision à long terme comprend:",
+      "item1": "Des Communautés Zéro Déchet en soutenant le développement de zones urbaines et rurales qui minimisent la génération de déchets et maximisent la récupération des ressources.",
+      "item2": "Pôle d'Économie Circulaire en positionnant l'Afrique comme leader dans les principes de l'économie circulaire, créant de la valeur à partir des matériaux de déchets et réduisant la dépendance aux ressources vierges.",
+      "item3": "Innovation Axée sur les Données en devenant la source incontournable de données qui alimente la recherche, le développement technologique et les solutions entrepreneuriales en gestion des déchets.",
+      "item4": "Résilience Environnementale en contribuant aux efforts d'atténuation et d'adaptation au changement climatique en réduisant les émissions des décharges et en promouvant des pratiques de gestion des déchets plus vertes.",
+      "closing": "Grâce à une recherche continue, à l'engagement des parties prenantes et à des partenariats stratégiques, nous nous engageons à faire de cette vision une réalité pour chaque nation africaine."
+    },
+    "why": {
+      "title": "Pourquoi Nous Existons",
+      "text": "Une gestion efficace des déchets dépend de données précises et d'une prise de décision éclairée. En Afrique, les données sont souvent fragmentées, obsolètes ou incohérentes, ce qui rend difficile l'allocation des ressources, la conception de politiques efficaces ou la mesure des progrès. AWO a été créé pour combler ce fossé critique."
+    },
+    "objectives": {
+      "title": "Objectifs Principaux",
+      "item1": "Améliorer les systèmes de gestion des déchets (solides, liquides, gazeux).",
+      "item2": "Promouvoir une gestion intégrée des déchets basée sur la hiérarchie: réduire, réutiliser, recycler, traiter, éliminer.",
+      "item3": "Soutenir les politiques et les plans d'investissement fondés sur des preuves.",
+      "item4": "Guider les institutions financières sur les infrastructures durables.",
+      "item5": "Renforcer la capacité et la collaboration régionales."
+    },
+    "how": {
+      "title": "Comment Fonctionne AWO",
+      "data": {
+        "title": "Collecte de Données",
+        "desc": "Auprès des agences nationales de l'environnement, des services publics, des municipalités, des chercheurs et des partenaires."
+      },
+      "harmonization": {
+        "title": "Harmonisation",
+        "desc": "Indicateurs et définitions standardisés."
+      },
+      "analysis": {
+        "title": "Analyse et Rapports",
+        "desc": "Traduire les données brutes en informations exploitables."
+      },
+      "knowledge": {
+        "title": "Partage des Connaissances",
+        "desc": "Diffuser les meilleures pratiques, les études de cas et les outils."
+      }
+    }
+  }
+}
