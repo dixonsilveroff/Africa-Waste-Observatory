@@ -1,10 +1,10 @@
 import nextConfig from 'eslint-config-next';
 
 const eslintConfig = [
-  ...nextConfig,
   {
-    ignores: ['.next/**', 'node_modules/**', 'legacy/**'],
+    ignores: ['.next/**', 'node_modules/**', 'legacy/**', 'scripts/**', 'public/**'],
   },
+  ...nextConfig,
 ];
 
 export default eslintConfig;
