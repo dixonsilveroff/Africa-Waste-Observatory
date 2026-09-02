@@ -261,13 +261,13 @@ nav a:hover {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 1;
+    opacity: 0;
     transition: opacity 0.8s ease-in-out;
     z-index: 1;
 }
 
 .carousel-slide.carousel-active {
-    /* opacity: 0.4; */
+    opacity: 1;
     z-index: 2;
 }
 
