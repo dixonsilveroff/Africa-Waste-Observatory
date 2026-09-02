@@ -12,9 +12,9 @@ export default function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link href="/" className="shrink-0">
           <Image
-            src="/images/logo.png"
+            src="/images/logo1.png"
             alt="Africa Waste Observatory"
-            width={100}
+            width={130}
             height={40}
             priority
           />

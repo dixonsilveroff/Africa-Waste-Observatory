@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 
 export default function Footer() {
   const t = useTranslations('common');
@@ -44,7 +45,9 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-surface/50">
           <span>&copy; {currentYear} Africa Waste Observatory. All rights reserved.</span>
-          <span className="hover:text-surface/80 transition-colors cursor-pointer">{t('footer.privacy')}</span>
+          <Link href="/privacy" className="hover:text-surface/80 transition-colors">
+            {t('footer.privacy')}
+          </Link>
         </div>
       </div>
     </footer>
