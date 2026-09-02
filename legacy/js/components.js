@@ -29,7 +29,7 @@ const pathPrefix = isSubdirectory ? "../" : "./";
 const headerTemplate = `
 <header>
     <div class="header-container">
-        <a href="${pathPrefix}index.html" class="logo"><img src="${pathPrefix}assets/images/logo.png" alt="Africa Waste Observatory" width="100px"></a>
+        <a href="${pathPrefix}" class="logo"><img src="${pathPrefix}assets/images/logo.png" alt="Africa Waste Observatory" width="150px"></a>
         <button class="hamburger" id="hamburger">
             <span></span>
             <span></span>
@@ -65,7 +65,7 @@ const footerTemplate = `
         <div class="footer-section">
             <h4 data-i18n="footer.contact">Contact</h4>
             <ul>
-                <li><a href="mailto:info@africawasteobservatory.org">Email: info@africawasteobservatory.org</a></li>
+                <li><a href="mailto:hello@africawasteobservatory.org">Email: hello@africawasteobservatory.org</a></li>
                 <li>The Africa Waste Observatory,<br>7 Paddock View, Dunstall Park, Wolverhampton WV60UU,<br>United Kingdom</li>
             </ul>
         </div>

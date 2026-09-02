@@ -183,5 +183,149 @@
         "desc": "Diffuser les meilleures pratiques, les études de cas et les outils."
       }
     }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Politique de Confidentialité - Observatoire Africain des Déchets",
+      "description": "Découvrez comment l'Observatoire Africain des Déchets recueille, utilise et protège les informations lorsque vous visitez notre plateforme."
+    },
+    "hero": {
+      "tag": "Transparence & Confiance",
+      "title": "Politique de Confidentialité",
+      "subtitle": "Votre vie privée est essentielle pour nous. Cette politique explique comment nous traitons les informations lors de votre visite sur l'Observatoire Africain des Déchets.",
+      "effectiveDate": "Date d'entrée en vigueur : 13 février 2026"
+    },
+    "intro": {
+      "title": "1. Introduction",
+      "p1": "L'Observatoire Africain des Déchets est une startup technologique enregistrée au Royaume-Uni dédiée au suivi, à la gestion et à la valorisation des données sur les déchets à travers le continent africain.",
+      "p2": "Cette Politique de Confidentialité décrit la manière dont nous recueillons, utilisons et protégeons les informations lorsque vous accédez à notre site web et interagissez avec lui. Nous nous engageons à faire preuve de transparence et à respecter votre vie privée."
+    },
+    "collection": {
+      "title": "2. Informations que nous recueillons",
+      "analytics": {
+        "title": "2.1 Données d'analyse (Google Analytics)",
+        "desc": "Nous utilisons Google Analytics (identifiant de mesure : G-QVHZ3Q6F0J) pour comprendre comment les visiteurs interagissent avec notre site. Google Analytics peut collecter :",
+        "items": [
+          "Les pages visitées et le temps passé sur chaque page",
+          "Le site référent ou la source ayant mené à notre site",
+          "La localisation géographique approximative (au niveau du pays/de la ville, dérivée de l'adresse IP)",
+          "Le type de navigateur, le modèle d'appareil et le système d'exploitation",
+          "La résolution d'écran et les préférences linguistiques"
+        ],
+        "footer": "Ces données sont agrégées et anonymisées. Nous n'utilisons pas Google Analytics pour identifier les visiteurs individuels. L'utilisation de ces données par Google est régie par la Politique de Confidentialité de Google."
+      },
+      "localStorage": {
+        "title": "2.2 Stockage Local (Local Storage)",
+        "desc": "Nous utilisons le localStorage de votre navigateur pour enregistrer votre préférence linguistique (anglais ou français) afin qu'elle persiste entre vos visites. Ces données :",
+        "items": [
+          "Sont stockées uniquement sur votre appareil",
+          "Ne sont jamais transmises à nos serveurs ni à des tiers",
+          "Peuvent être effacées à tout moment dans les paramètres de votre navigateur"
+        ]
+      },
+      "notCollected": {
+        "title": "2.3 Informations que nous ne collectons pas",
+        "desc": "Ce site web ne procède pas à :",
+        "items": [
+          "L'obligation d'inscription ou de création d'un compte utilisateur",
+          "La collecte d'informations personnelles telles que votre nom, adresse email ou numéro de téléphone sans consentement explicite",
+          "L'utilisation de scripts de traçage invasifs ou de réseaux publicitaires",
+          "Le traitement de paiements ou de transactions financières",
+          "Le suivi de votre navigation sur d'autres sites web"
+        ]
+      }
+    },
+    "cookies": {
+      "title": "3. Cookies",
+      "p1": "Ce site web ne dépose aucun cookie par lui-même. Cependant, Google Analytics peut enregistrer des cookies (comme _ga et _gid) dans votre navigateur afin de distinguer les visiteurs uniques et réguler les requêtes. Il s'agit de cookies internes gérés par le script d'analyse de Google.",
+      "p2": "Vous pouvez contrôler ou bloquer les cookies dans les paramètres de votre navigateur. Le blocage de ces cookies n'affectera pas le fonctionnement essentiel du site — l'ensemble des contenus restera pleinement accessible."
+    },
+    "use": {
+      "title": "4. Comment nous utilisons les informations",
+      "desc": "Les données analytiques agrégées que nous recevons sont utilisées exclusivement pour :",
+      "items": [
+        "Comprendre quels contenus et recherches sont les plus utiles aux visiteurs",
+        "Identifier les opportunités d'amélioration de l'ergonomie et de la navigation",
+        "Suivre les tendances générales de fréquentation et la portée géographique continentale",
+        "Nourrir l'intelligence de données et les rapports sur la gestion des déchets en Afrique"
+      ],
+      "closing": "Nous ne vendons, ne louons et ne partageons aucune donnée avec des tiers à des fins commerciales."
+    },
+    "thirdParty": {
+      "title": "5. Services Tiers",
+      "desc": "Notre site web s'appuie sur les services tiers de confiance suivants :",
+      "table": {
+        "service": "Service",
+        "purpose": "Finalité",
+        "policy": "Politique de Confidentialité",
+        "viewPolicy": "Consulter"
+      },
+      "services": [
+        {
+          "name": "Google Analytics",
+          "purpose": "Mesure d'audience et analyse de navigation",
+          "url": "https://policies.google.com/privacy"
+        },
+        {
+          "name": "Google Fonts",
+          "purpose": "Typographie (police Inter)",
+          "url": "https://developers.google.com/fonts/faq/privacy"
+        },
+        {
+          "name": "Infrastructure d'Hébergement",
+          "purpose": "Hébergement et distribution du site web",
+          "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+        }
+      ]
+    },
+    "retention": {
+      "title": "6. Conservation des Données",
+      "p": "La conservation des données Google Analytics est configurée selon les standards de Google (généralement 26 mois). Passé ce délai, les données agrégées sont automatiquement supprimées. Votre préférence de langue stockée dans le localStorage est conservée jusqu'à suppression des données de navigation."
+    },
+    "children": {
+      "title": "7. Protection de la Vie Privée des Enfants",
+      "p": "L'Observatoire Africain des Déchets est une ressource éducative et d'information publique accessible à tous. Nous ne collectons sciemment aucune donnée personnelle auprès des enfants ou d'autres visiteurs. Aucune donnée personnelle n'étant recueillie, aucune modalité spécifique n'est requise."
+    },
+    "rights": {
+      "title": "8. Vos Droits",
+      "desc": "En tant que visiteur de ce site, vous avez le droit de :",
+      "items": [
+        {
+          "title": "Désactiver Google Analytics",
+          "desc": "Installer le module complémentaire de désactivation de Google Analytics pour navigateur."
+        },
+        {
+          "title": "Bloquer les cookies",
+          "desc": "Configurer votre navigateur pour bloquer les cookies tiers ou l'ensemble des cookies."
+        },
+        {
+          "title": "Effacer le stockage local",
+          "desc": "Supprimer vos préférences linguistiques enregistrées via les paramètres de votre navigateur."
+        },
+        {
+          "title": "Demander des informations",
+          "desc": "Nous contacter pour toute question relative à nos pratiques de protection des données."
+        }
+      ],
+      "optOutLink": "https://tools.google.com/dlpage/gaoptout",
+      "optOutText": "Module de désactivation Google Analytics"
+    },
+    "links": {
+      "title": "9. Liens Externes",
+      "p": "Notre site web inclut des liens vers des ressources externes, des références et des initiatives d'innovation. Ces liens s'ouvrent dans de nouveaux onglets et sont fournis à titre indicatif. Nous déclinons toute responsabilité quant aux pratiques de confidentialité ou au contenu des sites externes. Nous vous invitons à consulter leurs politiques respectives."
+    },
+    "changes": {
+      "title": "10. Modifications de cette Politique",
+      "p": "Nous pouvons modifier cette Politique de Confidentialité périodiquement pour refléter l'évolution de nos pratiques ou pour des motifs opérationnels, légaux ou réglementaires. Toute mise à jour sera publiée sur cette page avec sa nouvelle date d'entrée en vigueur."
+    },
+    "contact": {
+      "title": "11. Nous Contacter",
+      "desc": "Si vous avez des questions concernant cette Politique de Confidentialité ou nos pratiques en matière de données, veuillez nous contacter :",
+      "org": "The Africa Waste Observatory",
+      "line1": "7 Paddock View, Dunstall Park, Wolverhampton WV60UU",
+      "country": "Royaume-Uni",
+      "emailLabel": "Email :",
+      "email": "hello@africawasteobservatory.org"
+    }
   }
 }
