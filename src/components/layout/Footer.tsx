@@ -25,13 +25,19 @@ export default function Footer() {
             <ul className="mt-4 space-y-2 text-sm text-surface/80">
               <li>
                 <a
-                  href="mailto:info@africawasteobservatory.org"
+                  href="mailto:hello@africawasteobservatory.org"
                   className="hover:text-surface transition-colors"
                 >
-                  info@africawasteobservatory.org
+                  hello@africawasteobservatory.org
                 </a>
               </li>
-              <li>Alex Ekwueme Federal University, Ndufu-Alike, Nigeria</li>
+              <li>
+                The Africa Waste Observatory,
+                <br />
+                7 Paddock View, Dunstall Park, Wolverhampton WV60UU,
+                <br />
+                United Kingdom
+              </li>
             </ul>
           </div>
         </div>
