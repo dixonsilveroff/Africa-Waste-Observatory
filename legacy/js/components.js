@@ -29,7 +29,7 @@ const pathPrefix = isSubdirectory ? "../" : "./";
 const headerTemplate = `
 <header>
     <div class="header-container">
-        <a href="${pathPrefix}index.html" class="logo"><img src="${pathPrefix}assets/images/logo.png" alt="Africa Waste Observatory" width="150px"></a>
+        <a href="${pathPrefix}" class="logo"><img src="${pathPrefix}assets/images/logo.png" alt="Africa Waste Observatory" width="150px"></a>
         <button class="hamburger" id="hamburger">
             <span></span>
             <span></span>
